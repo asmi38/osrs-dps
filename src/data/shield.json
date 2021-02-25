@@ -1,0 +1,1018 @@
+{
+    "0": {
+        "id": 0,
+        "name": "None",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "22322": {
+        "id": 22322,
+        "name": "Avernic defender",
+        "short_name": "Avernic defender",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABrklEQVR4Xu3UTWvCQBAGYPcneChIQRApIiISRA+WHgSpSBDBa8BiU1tR0+JX/cCKWOjvnnZ2mWyz5tjd7KEvDGKI5HFnJqnUf6wKA1mJRiBy2WxYCaEEpFwqRTAEcnI5nSj1HwsIlWGQaEcUxaBaqcSCCKMJJDGXDxEoLKOY+BYw6LsudFqti3u0Ym7yeV5X6fSvljHottsw9X1+OteZjG4MRoKKhQL/FCAG88kEnh8GHENQ7Rh8EIIQg0UDHIxG8Oh5/IQuMeom/lnk7NQdB47HNQchDK/dN5sRDJ0czpMmlNys7fYNTqdNCMJ5kfMkIYTR0DoWDinWajmD83nHZ4gwWI1aLYRoxFAE5n0d8CJMo1GDet3h84NlCIMRrRqPh9DvuxxCSMJQGcEcDkuYTn2OwRNRMfTdCAY3KghG0Ot1IhicGRWhGYP5eenNJxxTdSrKCUQh6i81RGxU123HYEQMQTBioxavHpTLpViMwTDY7+ewWQzswOBGHXdPUCwWksZgGHx+vNiD+TrP4O5WrHbimMPG5xArMLvVMAKxCqPeYTCMr7YlGIpVGJGkMd+UbKTLJTSGrgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Avernic_defender#Normal",
+        "stats": {
+            "attack_stab": 30,
+            "attack_slash": 29,
+            "attack_crush": 28,
+            "attack_magic": -5,
+            "attack_ranged": -4,
+            "defence_stab": 30,
+            "defence_slash": 29,
+            "defence_crush": 28,
+            "defence_magic": -5,
+            "defence_ranged": -4,
+            "melee_strength": 8,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "attack": 70,
+                "defence": 70
+            }
+        }
+    },
+    "11283": {
+        "id": 11283,
+        "name": "Dragonfire shield",
+        "short_name": "Dragonfire shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADOElEQVR4Xu2XW0tUYRSGnR/gRXcRCIOIiISIjEiSKEpiMopK6uAJMw+YJqLjAc+HNEVjxMBMMc20k0HkRVf9gCAi+kUrnrVb41aki/hGI1rwMszem72fedf7rW9PUtL/SlgF5OyRS6yA9La3y18CFZCHY2MyGY1KV2vrLyi/LrQCMjs6KgsT4xJbWJCVuVnp6+yUuw0N0lxfL421tRcNFlCIR1OT8mRpSV160ZShTnW0NCtYXVWVVN4uuwgwD4aHoY3VFRns6VGY7Ui6bNZ7wqXq8nK9pqykJJHtDMRhEA8dHxiQ/u5udedmXp7kZGXJVFlQNVKSIoPFKXpduLRUMtLTXUIFJFJTo6Il6E5Fhep+W5sC3QiF5FZR0alr7jU1qoDiHPfJDgZdQAW0FSaWPDJ3OIZrQE1cS5bN4BWFJVML4VR1yGCcAtkvZmUdv3ktB8821SEeDFBudrZEryYrAK7QQo5ZlpzBMHdwAhg+Deb93p4c7e7K2+c7CgRAcUGB5gVdz8xUOXdnbXExDsOq+nh4KK+2t7RtODQ9PCzLM9OaHxwBDJC01NR4mJ3B4A5D0GAA+HBwIJ+O3ul3nOEcgxEBSYD9YE6B+PUA/RjNVQHD/CFHZMXyYkORoDMCDMhhu072LCbzl4GcuKxVhBUBhTusLDIEECvOD3T27n9Q3r7FdPbD2N613Noshfn52h5gyA9AHDMg5BQIGMIKyNdoSAUQAZ9viEh/RVhhaFmsOk1lQLafOWvX4/n5OBAg34ZCsrO+ru0ixOO1NQrUVVYqq1WpcTEIAXQ4e7wgn4X5PhKS7bW1eH4A6ij18mMwS5UekOPJfBrIYFhhW7GYwsxE6hSopbjoXCDn+xZhpmUGpMt9f1+HIeHtC5dLU2GB5mWuPKgw5Acgvjt0hzoZhrgEGECfj491QrNN4CDjwEYCIAYEsEN3rE5mEGBsHbSKljGhXz7dUFAyhSMGxAbMcEwAEOW95Vn7hh706nLHAR5sOzyZoWV2jlmUIKCkJO+mHhhQ/ndn2y78ryUAcTxhQFZ+MFppr6600d4C+LR/HQ4D/fvyg5lsLgF1oTD+soeeBbwUmPPqNOA/Vj8Bg3VlIOQ5wLQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonfire_shield#Charged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -10,
+            "attack_ranged": -5,
+            "defence_stab": 70,
+            "defence_slash": 75,
+            "defence_crush": 72,
+            "defence_magic": 10,
+            "defence_ranged": 72,
+            "melee_strength": 7,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 75
+            }
+        }
+    },
+    "12954": {
+        "id": 12954,
+        "name": "Dragon defender",
+        "short_name": "Dragon defender",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACtUlEQVR4Xu2X30tTYRzG91YiHvbDszldy+lKk+giuhsMxeES5mCiY3OyFWguV7p0tRiFW2yyWYFgN9KviyQCi/DGuwiCuuiuf6B/5ul9z9kZZ+esLfIc3UUPPBd733G+n/O83/d9N4PhvwhEn7hEkKS9C3N810lCiSAPHCbctZuwQGEYFBu76nZrDdXqLQnKThPy1BkKdIeCMCgJRmMgglGPp0X0BIloFA8dIhBLiUHpls6419vk4eJSzc3MIBIKoVhNSad0mJoBEQFiNhjEjVgMy8trApiu6TBPjI01KEAwPRXAfDgsOJlMIxSKVJdWl3TEt2dFJ32+WiHJbE5yIrGEYHC2DkRzmL31NN5l1vD+/jr2s/eEZZHMICWHw/MIBKb1SoWJYGdpATf9E3WJ/LrixK6bxxPatGw3sT5hqfh8k3rCMBEUYlFFEYKvlRJ+XnbAzvOCGZDHM6o/zG7qVoMiBJ+LhRqMBORyibA6wUhSw7wYsOAw/0gFdGlk5DiADAY5zEsKs+2y0KvBIjT569WU0GOV63HZCd7Imotg/zyPt+5uPB/oRumsGbk+E25bpRtcNNvykuPxxZo1hiL4cMFWgyn3m5Hu5eDsOCVbIoIfz7aEw1Da9nJr2OgEMSsnwOxQmKLTiBUbh94zykIE3yqb8PsDdeNyK5/8DyIo0V6RYAoUJkVhLnaeVsEws52ncRpy0d80/RbsDYowuT4jFnmuwRIQfN8q48vmY2HnSXPKpx1RBE8pzMGQDdvnLMhQmClzp2op2OdPuWwNUtd0Dod7BJgNei1cU8AovyuHVM8fWQR5uqXfDPLIOjiMGzuawIj607gGEmFeUZiVHg5erjWMjiLYoDAHw1b6d6VR8x67CD4OWRGpwujYE38jehJTmDZIhYlg1W5sh1TkOvFU1GormHbQb/jTAGd9Sl1IAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_defender#Normal",
+        "stats": {
+            "attack_stab": 25,
+            "attack_slash": 24,
+            "attack_crush": 23,
+            "attack_magic": -3,
+            "attack_ranged": -2,
+            "defence_stab": 25,
+            "defence_slash": 24,
+            "defence_crush": 23,
+            "defence_magic": -3,
+            "defence_ranged": -2,
+            "melee_strength": 6,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "23991": {
+        "id": 23991,
+        "name": "Crystal shield",
+        "short_name": "Crystal shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADUklEQVR4Xt2W3W/SUBjG7X+yxAsvvFmiRjc32VdgC6wrK3SF0lG+yvjagBXGRAjqsmiyLCbzwqhXJl4s3hj/wUfeA4eUdhg3hC2+yXPT9ON3nvc57+m9e/9/CejpTpQANX0AJVG8C1ACwkZhADM7M8PkvGtKJUDezd0dmGDMZO5Euu3iQM67plQCIroBPZlBKpvHXvEApYrVz8+tZGgYqFSyoOcs1GpNGJncbUD1gJLJHLLZfUQzFQYUz9fx5es3h1NTgROg62kGRBmiLR81qwOo4+M2Op0TBlUsHk7aMQGKoiMWS7FQh+J57CRLA5dIRqGOZrODy8uf2NubeOB7QAHFgBRNQ9azA5e07OHAJcs6Rqv1Gicn73B2dj4plwRIkoL1bQ3+cBxixO2SHapeb6LdfoPT0/eTcknAaiAMrxTBhjzsEg1HmkeUJQ5FrWs0WixPBD0BlwSs+GV4RfWPLvGAcygKuX2aO986RgkMxO6SqCYhaZnBEcJccrQuUTzquzMBoLklH3NklEsUbmfrLi4+Q9/NIJcr37RtfLC5RR+odM7ZxzUtCX/I7RKbS/3Wlct1thHsDl3TJQGFgyr2qxaqtQZqjSYazRaa7Q4KVgtm+SXLBa2eMkMQ3CU+Aug6QX3/8csFcm0YWiG9kOzlyucrMPPda6UyO0TLVh3p/QbLBzlBzxhGdsglekfr7SmCYRV6In3zVtEq6aXUkkymBNN0i84vrnSuwE57yg25w11KmvyQHaNVNFdYHrqzhVZLQaXzyq5UKu9SOl0YEi1EiyfHaRVVb0vTVqagUi44IO0QUjxuukStsotA6E/ghq7w6k3gtU2FbWeaMb5gdAgwGjXYrrKLDlguVYvDrL6CvBNlueFAzi/9ZQlY9Irw+LbgWQ+yaXwVIB2qdqlqnElWIpBkBYlUkd0/tjvPPF428OZXNrCw6sfiWmAkoCxH+opiSw5DFEM4OuqMG2B7CdjwbyKwuYVNMQhR2oa0HYIcUhDurlxRNUS0bstiu9Dot7WbkUT31zVndbC87MX8vMcV3jFgeLkn8v0HDzH7eA6Pni7gydwLpg8fP+H5kheeNT98osJC/w8cubrcK3RD0rxxXpsIzKi6CtJ5bWowo+rWAaZVvwGEyFxXkQ3n7gAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Crystal_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -10,
+            "attack_ranged": -10,
+            "defence_stab": 51,
+            "defence_slash": 54,
+            "defence_crush": 53,
+            "defence_magic": 0,
+            "defence_ranged": 80,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 70,
+                "agility": 50
+            }
+        }
+    },
+    "1187": {
+        "id": 1187,
+        "name": "Dragon sq shield",
+        "short_name": "Dragon sq shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACCElEQVR4Xt2XsUvDQBTGL2OGDA4FEQrFQRxEunQQLEiFUksrbbGtNAqKLoIFBwUHBwfBP/t5X+JrXl/SUuulER98CB2SH7/77i4a8z/Go3QKG49GJz697QT0uh3Qk820FBQJ59G7hQHQ8zfQQ8mne5ubLZ/KJbNJMI/6dT8Cgh0AwY4ECm1GNn2bDUB59GFhFgFJmE4QJ0dbiR3dnyw7DNSy2SvnsoyJnUX90UCAQRqBiZL069fjUefITwHBzkW3S/12ew5I2mEghqlWKlH0G344sZ2s/pyftSKoUa9Hl4MBhcNhFAbSdhzAYOaXCy/m/gAEARTbQvDbRuxcj8eRAUChP2xHAi1bLv30NSYBup1MZuFCsyH0R+8uDeMAyKPwNC4zGwLM3VU4O39gipO1u5zb+RQwCF7MBcbfZdvduR1cotIOCs1LJHuzynLpp68xiR19/ugDEXZgLEc7mPRyyQMRQLxcnWYzBcTXhXMYCaTvr0a9Ti/Tx5QhwOQOJC9UuVxZu0vCOACKYbKAdH+ydldudlbtj75MndvBQajtcH8YSH5u5G4HQDh/EHyQcXShebtrIId2MDGQhJJg+CZq1ezuqppUfwBzuOvUDo/+fyuJBDo+MLP+wI6EcQxkDD9UR0IBqLZvIiDA5GRnlYltsSUNUwBQbJDBYKlAO/MjwQqzkzV/Csb1fAE+x8YaG5n4iAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_sq_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 50,
+            "defence_slash": 52,
+            "defence_crush": 48,
+            "defence_magic": 0,
+            "defence_ranged": 50,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "10352": {
+        "id": 10352,
+        "name": "3rd age kiteshield",
+        "short_name": "3rd age kiteshield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABNElEQVR4Xt3WvQqDMBQFYH2AjoKL4FA6OHUpghS6OXVy6mO592Etx3jNzTVKi+aHHjhDHfTzmoQmyf8kHewNknQ45SdrA8A05t33RgPANKaqbgamLC9jPU4sHbIimzEShN+EWocdGgUiDPXZtnNtUA66luVRKIWRoHtdD6+uMwrYGuZwEH9zYPDwX0DyrjuyBD2axvhcvI5B+nPZJiSL615AHLM2JWD4ovYKwoMBAoKXFrzc8k5BfKfZoPwc8rLDtkDyUDx4OsgShId+A3IwHcQOokoQKkHyjjuzBHGUvC4xzkFZVsyVIMdrh6IPRo6hbmGcgfJzbgUFwFCmKcWBQeygQBjEBI2Lu1D/HgNgEDGhsBiEgaYdFxCDKBAQEWAQfRZFgEE0KAIMog7HSDCUqDAqPjAfjFKbrAGtrdsAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_kiteshield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -10,
+            "attack_ranged": -4,
+            "defence_stab": 63,
+            "defence_slash": 65,
+            "defence_crush": 61,
+            "defence_magic": -3,
+            "defence_ranged": 63,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 65
+            }
+        }
+    },
+    "1201": {
+        "id": 1201,
+        "name": "Rune kiteshield",
+        "short_name": "Rune kiteshield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB3UlEQVR4Xu3W30sCQRAH8LvH/oAeBekhfJA4AolC4eheDtEwH0QwIgoJCiKI/v7tZvdmdxx37+d6FjQwTyZ++s7caBD8l9cKhepfUaEYDwNxGwU56qgwhRkv1rIBlY5OjgkzoMnyQXa8epSo2XXnsFCMBiYdCoKGtAC1ijuD2dORmPWz7GSzlaj7iWoD844LxcVZQTo5CHcKR4iw3dS84Nzp2ECz7aeYv37J5jAPuOJ0NChSp4CDoBdv37I5bJMgrlbtp+MCIcYFog0g3LOo36+KsqezB2LplIE4phaIHkIK2lnqHDR9+SgF0SWvjYF05O0BlGNsNJ0yUCvMeU9hsDUqayvo6d0K4qPCi14DA5Wnk96Jq+lS3MxXamwEha1vTwmIHstG6Vwmsz2QToU95rRtoBajgsreFKfFIAcGLzQ0gjAZeK3RqCCdKiCNyEalx5VjaAOG7k0jEOyPC2TD0P2BVCim4d5ghaJ3GmhUUxBdZPj7BqOiZVLioCIMB3lIh5ZBWUEWjA0EZ6FlOrTMpZagYXE6fIc8poNFRjfYPYAuDAV5TgfLpAQg/kjbuuVjXqXynyDkq4IuNwdBwz9wgHRoKRSmRb9sbcADpkOL/g4u7g4wqvCDqjR/75+vHw+3mN9ec/2cAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_kiteshield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 44,
+            "defence_slash": 48,
+            "defence_crush": 46,
+            "defence_magic": -1,
+            "defence_ranged": 46,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 40
+            }
+        }
+    },
+    "21895": {
+        "id": 21895,
+        "name": "Dragon kiteshield",
+        "short_name": "Dragon kiteshield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACtElEQVR4Xu2XwWsTQRTGO8cecsghEAILoYQQigQPvQiCQqDEkkpabCuNlYha8aB48ODB/32c30y+7WNcS7fdrYo++Ggy2d33m+/Nm51ubf294XzSHxHOz4aFf1IUG6jfDub8YrRTQj0aDAxYrtYjufN4MvFPH+z62XTql+ORn+8MIxzid74zfg9QLib91Ov4r/2O/z7oRDAJUCvgWoZysUQfe9sl1BcjxvhN4vtVSRuPtHb2gtbdlDCHECBjXPNuMz7t9SrWV5VqRVo/q5CIZIISkGBeHh/70+XSvzg8LK8FjHXF/Ti21+9HSDTpdkvVgEru8DCbRM58CyDo4uzMr05OSqCjgwP//Nncn4bruW86HFZr4+DD8Bnl2SsiucPMeLCFYWFbIDkkmMX+vp/PZn7R2fZH3SQ7KSYpd24MI3eYjYAolWCqygWQYICYByBBCUiTvLU7mhUw6MN67d+/vogCSDBI7lAuQCwQYzyLLcSWK8/8i0itPgpAtrOQYHAICYhkuEBiAKqA+J1J1iwX4eKNu8UgwsiVt69WUSoXi5mS4WAOBAy6DqYWELYqsboKsM+Xl+U47lgYAckZ606+kGvAEAlIpSIpELgjp96cn0egHEbrR93FdzbWO8AQqWRqc4AAoMURnymXFrOFymHo0lt0VR7phQqIpH1HJbQwKhuyZQKGUhX1uyoPF7d9zZpE6ip1Gy0OmICQuqvBUinSxqg1ISD7lmdMHYZTtt35q9cDW8cd3SFcPGxRe7WsNketKXZlwbK4BSQY7WMNuEO4dDoMuzUPVQlILiA+a1ww7FtaxA3CKFw8AbK4LZTd/DQGCLLHjIZhFAlK9tuWtjA5SEswivBeG49jUqRDvf77EExeopZgFAmKNtYBS2USSMuuVEV+Fr7SPbnyc9jEufJr/8c/Ez8AQQUVK3VRtScAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_kiteshield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 56,
+            "defence_slash": 60,
+            "defence_crush": 58,
+            "defence_magic": -1,
+            "defence_ranged": 58,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "8850": {
+        "id": 8850,
+        "name": "Rune defender",
+        "short_name": "Rune defender",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABrklEQVR4XtWWUUtCQRCF3Z/gQy9BID1ISEhIIoYhKIZJhkQhlAVSERQEQQRB0FO/e+LsON69qzf26r3udmAfhNH59pydXQuF/ylFvIKQoqOLJ2qOHlJA5bYBpUEAhNUYTh0aKSrWz2mrPXGoXUm829bVi4aqD27/aMQwsvD5oFRKqF1D/KMMFnfKBJvB1E5jKxk+A5lgiDI6V4YzFgy+k4tLpkwwuLUMpljtzYHs7+ckRf3Hb2pfv7FDFowXoN70U8d22L/RzY/Hr3PnNhZXpFnT3lhPXrnenYNgIk2wxZW5FA2ef3TjvWaf9tsjDSauSGNMJFyTKwNuut1lqaTo5P5LN4rupMWITDCBkqnMMEo+NzjI2Gm1cxlrsKyJgEmMSXUriGG6dx/afkSEc7NdrjlGkCkMxEDYKaKqtM5op9JItWuXGkcp7YxEhUO8W22lgslYijqTd30oJSqvMHAHUeECxJh7hYEzGFuJyiMMFEVlj7hduQExDEZc3iqPMBDfsHIbe4fBiNtR2VUbFD+M5oPpEYjfnWCikhEPAAbiqIKByeEvwroKCoYVFEwI+gVbk4j67h6oqgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_defender#Normal",
+        "stats": {
+            "attack_stab": 20,
+            "attack_slash": 19,
+            "attack_crush": 18,
+            "attack_magic": -3,
+            "attack_ranged": -2,
+            "defence_stab": 20,
+            "defence_slash": 19,
+            "defence_crush": 18,
+            "defence_magic": -3,
+            "defence_ranged": -2,
+            "melee_strength": 5,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "attack": 40,
+                "defence": 40
+            }
+        }
+    },
+    "6524": {
+        "id": 6524,
+        "name": "Toktz-ket-xil",
+        "short_name": "Toktz-ket-xil",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACbUlEQVR4XrXXzU7cMBQF4Hg5CxbsUCWkEeIBuqmQEKgIVDRFpQLET8XPour7P4M7x+YkJze24yRwpaOZZsb2lxsnQ5tmtJyPseX8en8/JP35p5TzX/b2QjpYDDEdqCaLy/mTo6MWhXxbNf4E2R7/fnzs76+v/e3VVTiu0TH9k1pUaVBACagW83W9DrGrjFS/zVhYUS1oG4DwOobBeILsaiMVAbo/NhcXbRQFyPlOfC2BeEKLQIrKgYiqwRA0Y3O7eBlGUDUgHYMM78qqcv73z43/dXkZohOluqSgHEYhyITL5+LtvA1QhOVQOVAtZhLIopAUaCoG26GyO6g+SFGEYWICFUWQ7Si/r/NUgt6fOQZkYYoiSDE5iM5VAer/LoX2FlCIoiyG38HPiZ2jCoTryjze3PRiJ7MoxaS6YUP0yG3v/PnpacjLw0MInsCl2I4eHhwMFrexY7hNrOa94oebnVWbEgDdxCtOgu8Ri2Bs5/WqFFElBCGKwR2lx3IwzIeTvN1dSWdiCs+k4eZWhC6K9z/OzsIieOWxEgrfVYDGSpoURiE5DEHolo5JwdCl0Tusqw705+4uJDU5/h0ulew126XUOKIqQUMMQWMY7o1Ul1KwSSDFICmMXioFYXOzS4rCw3EGCNXf+XiuaHKYFmS6RBRAipoAappux/dBb09PA0wJhHAsQURNAnXVgfDU/vv8nMVgET0OFP4XwvHsOFGLQMCgO/9eX5IgXoYUCIsTxK7z/QwQqr+nbLDp+TOAS6SfpUG6JWYWJ7AhiI8GPXPtxoQ/xj6iIordsYsStrgr9eXCHhtbNHf8k6qMmVv/AbaqTf01QmllAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Toktz-ket-xil",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -12,
+            "attack_ranged": -8,
+            "defence_stab": 40,
+            "defence_slash": 42,
+            "defence_crush": 38,
+            "defence_magic": 0,
+            "defence_ranged": 65,
+            "melee_strength": 5,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "3842": {
+        "id": 3842,
+        "name": "Unholy book",
+        "short_name": "Unholy book",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC3klEQVR4XtXWz0uUQRgH8HeO72EO7+GFJXhhkegoXbyEh+gQHjy4h7wEISTKoqubbrqhoYUhEUlBhhhRRIUQFEL/39N8Z97nndm3d/f9sa9pA1/2tPjxO8/OjOf930uQyZVYgnZ3JPU2ZYy6VJigg+cyAXVWJS0+9B3YP8cJ2t+T1N+W1F2X1F72aTG0WQjSuAsFCjp8IQdAnVChFITjwpD7mcB0Kq/B7QKo2zAozigYMo/c86nV8ml21qeZuwwuvQS9ehkkIDTUa5jsbGz8lVEwFzQ15WnQzWazDErQ2zfBIKhhk8YMC8PQEkBoJ4oqgo5eB8n8ILvXbIrguK2kJZXJSYspARJ0/C5IQGjoQCH2nWTh0lvJ8wUUQNO+l8xVyRmy24Ucqj+KAMXJwrkwBMPPoJZCRJ6n27pzu9SWCTp5H2gQGtKoyIRhw3AujEFoiduZn5vTQ11ihgR9+hgkII2KbBg2DOfCGOW2U2GGBH04NSDM0HFToSKbPJwLA8htB1uFz1KYL58DDWLUSdOgOHk4RgGU1Q4+C24VlgFhyzSqaQIUJwuXhgGFLRu7nW9fQw3SqAkbhg3DpVtDQ7W0c/Y91CgNUxBOHs6FoaEa2sGKG3IgWcnCMQygmtrBMj933FfddpvWlpbobEK1FScPBhC3g9cAHm/Tt+JDUJZuB8sMNK6Jp71ecvQ/edSl7fU1nR/XQ50sKI4IHKC47/BEwQMOh1/FdrDMlunD0BlQ/GIAA3Jva4ue9fv681zBkJ9x8KvEd3Hn4Ymy8MBcqDPS3Fkl28ESdP4r1ION/xjbkP6JY0swI2gLzTEUwffQEr8McH+N0Q4v+7z8fcP859geBvKsuO3hANxcWaHHndUEivsL7WCoK7Zjl/3y4Ps3DeRhRnsuTg91/CsrcYEWW4zLA2K40RwfirjDMNRjt5O3RgFxZLjPXbyfa22nyMoC8lBfeDtFlgu7dIy7rhSmjvUH7WwULnpmoJcAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Unholy_book",
+        "stats": {
+            "attack_stab": 8,
+            "attack_slash": 8,
+            "attack_crush": 8,
+            "attack_magic": 8,
+            "attack_ranged": 8,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "3844": {
+        "id": 3844,
+        "name": "Book of balance",
+        "short_name": "Book of balance",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACv0lEQVR4XtXWv0scQRQH8Jtyiimm2FLwL5A0NsEiXBEsLLwi1wSCEDEcenrRjV7QoAkGCRJJIJGQEBKChnTBv/C539mZ2bfj3o9Zz2gefFlRFj6+eTszjcb/XYLy3IkStLerKN1SFnWrMEGHb5QHddcULT+VDPbPcYIO9hX1dxT1NhR1nkmSLZuFPGXcjQIFHb1VJZBs2zgUg5nMVwHD1K7ychnQY4YaATO4pqT2I0mt7O8L2e/nHzpwdAk6fqc9CB0ymCy7m5tXMgzGQbOzDQO6Nz0dgxL08YMugeRSkRAzKH4JmzkI3Zmaqgk6ea/9/CBy2YbBhuF8pywImZkpMBEgQZ8/aQ9Ch2SHgXg4LlhKP18OlWH8XMXNULFciMFUZQjMD74FmQ5lS4Wfmw+ilkzQl1NtQOgQQKqrfK6gBsE4yHanvbhohjpihgT9+K49CFE9G4YaCOQoB2LdqTFDgr59zUGYIY+pyiAYRwHkZgewWMyvn9qAHEqlQUJUgCuh0KGgO+Y53lKhchCWDCDVZwlhVUCOCrtjn1HdOT9LDAhRezYcNQpoUQY0ie78+Z0YFOJBYUJYCAQo7E787KDyDqkDXZ0QVgVM7X51/e6g8s8d51Wv06H1lRVShxFAgGx3cBvA5W3uvu0OO0ijQJgdHBOv0tRv/S+f92hnY91EHSV5AA2w2CKwgeK8wxUFFzhsfmbZ4ruDypestBHaIQUMyP3tbXrd75unPklIHxfBV4l3cebhirL0xB4Xc7JOd1CCLv4mZrDNf131JdkvCN1C5xwUwXvokrsZ+KGu1x1XxfXSdcAvDR9g/olnG+DW6iq96K55aGmo63WnqOLl8v3XAzFDfKgB5PuP26FbUQfoeOVwI4HoooW5XRpDfe3ujKphQGwZ/LqL+/NEuzNOVQHdUN94d8YpDrt1DK87hZlEXQIjlNwmf91PIAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Book_of_balance",
+        "stats": {
+            "attack_stab": 4,
+            "attack_slash": 4,
+            "attack_crush": 4,
+            "attack_magic": 4,
+            "attack_ranged": 4,
+            "defence_stab": 4,
+            "defence_slash": 4,
+            "defence_crush": 4,
+            "defence_magic": 4,
+            "defence_ranged": 4,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "13117": {
+        "id": 13117,
+        "name": "Falador shield 1",
+        "short_name": "Falador shield 1",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAExElEQVR4Xu2W7UubZxSHfT7uwz70Q2EIBRkiIkGCKBJZaDAoqZiRSqbFqsTURbTO91qrE1e7vlk7xU7X1na1nW46Xd1EdFqns66tU0rnJupsFV9m3Rhlf8KZvxPO0ycq26O1hcFuuLjzJOi5/J37PtHP7/+160uhf+aVLW/BXye66Y+nT2ltZYV+W1qipfkntDA3R09mZmjy+5uvQsorMv9ogP5cW2MZsLq8TCuLiyw0PztLJake+ml8nB72N77MtBRanBqhqb4qlvh9dZWTwQ6h5YUFWnz8mIWKUjLo4f17NPHDKI2P3qWJ3vrdllJo+k61jwhaBCCDHUJoF9IpSHazyIPhYbo/NESjdwao/1rWbqWlcCoiIu2BAMBraReEkE5ekksVudvfT8O9vTTU00OD3d3U25T5IlLryQycVQWQhBRHewBey7Okk5OY6iPSf/sr6u34knra26i91sVCxoCA7UopNDtUqxaUorKfLC2lRIeDmf3lZ75Zkk628zANdHX5iHzT2qrSUpO6k5QUGm3N4zaIiFzpuelpslmtLIPE5OxAxm1/h9LiE6jjxg1VpKulhbpu3VL5uMK53ZQUetBewMVxawCKYocMzhKu/V/PnrEoZDITDlGGI4mFUg44qP3T69RYc4GO5+UyeNZSc9yhNyWFfuwopLmpKS/rAhATfJJa/3xmcpJbJEJIR4Sa6upYxmm3c2Jt15ro86arDISqcg/okVLou+ajVOrK2kS5O5t3JILzAhGtjLQrOdbOQp990sitjTAauW2dzc38PoTwWWWOTU/rFJ4Zj8bG+MYAFBfwjLMCia1kkA6EEmPiuDBu2UaZ6/X1dPmji3TCE6NPCLMCU3ZsZITnCa6xgMIQEDaKHLTEkN1sVUGbROZmQwO3ETKXzp2jYne0PqGeKx6esvcGB9V5gqGGwhAQKa2MViQuysLIMz4TGRz0ujNn6OKpU5SbatYn9HVDBk/ZkW/7OPK+zk6eJ5grEBBERGREJNZkZvDaGhGlIjIXqk7S6ffLKTMpSp/Q7Utuqj72NguIDGYK+o+Bh/ec0bZNqYgIimO3hEWqvGUMV4FMZUkJpSdE6hHCUuhsYTwXlmnb3fYFVRQX07H3cpitUtGmgcImg9GHiBCDD4ft4fqFTufHUYXHxMlISunJyRRjsfCzVkhkJI0Py8r4qwUgCVBeWEgnCvJ5LuEPclgNZDMHb0+o7IiJryzGv4jhsGPfKh2kcCghgfKzslQgAkSk6OhRskUFkNUUpMroEsIULUmPZHBttd9FWiHISHvQhmy3m0XiY2NZAm3GDhG8n+vx0P6IwO3IyFKoKC2CwWHWjv2WK5cZOawic/6DSoo2mxlDSAiDNkEGIjkZGbQ/bB+FhfjrbZV2KZSfEq6CGQKu1taqbBRCcUHbIsggOWvkPjIEvrGTdGQplJ1oZDzOUGqoPs9gygKtjLRFkPZAJNPlonfTUik0aO+LyMhS6MhBA7nsz8GUxXDTJoM0RELaIyKmUH8KDthD/ntf20mrtlref86TbMHkjAliMNwgIzdI2xqwlcgupPN8eX+J95fGm99kIOawBPJrXGW+zuvnBEBkz+t+m0R2RUa7tGJ6eGkiG5e20L+x8Wf/s+tv768GujI3K28AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Falador_shield_1",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 8,
+            "defence_slash": 10,
+            "defence_crush": 9,
+            "defence_magic": -1,
+            "defence_ranged": 9,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "13118": {
+        "id": 13118,
+        "name": "Falador shield 2",
+        "short_name": "Falador shield 2",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAEFElEQVR4Xt3X/U9TZxQHcJ8/wR9MFhOThhhCGtMQgiEsGI1khBBrtJFheDG8jgAddlUURAWGnZCuo0GLjK5aRmUgdc0MweEMZHNTI5GNuQR+2P6W7/yeu+fu3s5NAkUWT3Jy21LyfHLOuc9zu2PH2xcK6Z9sYyhMRsfwP0EpzH99F+ORCBqqq7YbpbAwO4vvv72P2PAwmk7VCCjX4dgOlMIP8/MCCkcjCI0Oo7W+Hrt27tyOKik8XliQyly/9TmGxq4jOBLGwLUQgh/34YTb/SZRCks/PsJPDx9iZOILqY7G9Axekbw2MICOD71/oXRuSSj8/PQpniwuIjo1LtVhqwYjQyZG58inQQQudsPX0oKq8vKtQCm8eP5cqnNrJmFW51UY5oUrl3H2Uid8XWfNuy+Dw66w9uJXLD95LCBrddIhfcGAZHegFzlFRfigvVWG/aTHk6kqKfy+uopfnj0TzO1vZuA8eMjMdNAn4aD5t905TtQ01UnbWKXS4uJMoJQN89W9JAqOezBUmG+DWdP1cuHmnL049r4H5VUVqGo4hTNtbZloncJvy8uCSaSmBXNnLoW78/cQP1SISNF+M0cPFCB2sFCyzZmNiiwHSo+WwXOyHJV11YLq+siH5trazVRJYWVpCV+mpszqxKYnZKj3u4+aAOJuHy6S6+l9BmbXnj0oO+4WEKtUUVMpMLZwg0eMMcjcbzSIw0wQM6/siCB0Thx+F35XDqr3Omwg94ljJoqg2uYG1Lc2SQsN1LphCqsrK4gnJ6VdY5NxAWkUq0TUVLGB6XA5UZudZQOxZQRZZ4nJKmnYOqul8MfaGh5990BAo4mbkhrFPYiYmfcOSHW6cp1ofDnEBOnUIFaJILZMt03Pk64Qh/w1g27cWaxCZDwqAI3ie8J0dYjhHUUQh1knQSVHSk0Q20YQMedPt9sgr8EwjJOcmx8BGqXf55aUCuhi3j5ZnCi2zJolu98RlJ4hjdGzs06IDoUHqRSGYzcEweRrnuo8RLnP9Oa75I5q9Daj/bwf2QWFtmTVCLIONDfIDWAYxlMgzyorhEcCN76svHxzKL0dPjmv0pPfcbhcJsbb2LhRDEPhfjJpg/Cw9HefQ9uZdqkKQXzNxVkha+rvEUwMz7JNYBgKczN30B+6ap7c53ouyGItPq8sxKsVwUoxieF7ojkz1sfaDWIYCotzczYQHyW4IE9vZjpEt45XYllB69m1CQxDyQ49Oz1lgqztskL4mW6dxvA7dZWVmcIwjAoRNH0zZmvXqzD8jFdWTt9JGcQwjNs+lUjID8BoOCwAjdEQDeTrbr//H5AMYXQoJONxTNwYwehnIQwFAgj198uvisHeHly9fEmemfs6O7caYg3rr4Z/zzcA+Tusi/1Xpv/fWxd/Aoq8ir3WPd0ZAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Falador_shield_2",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 13,
+            "defence_slash": 15,
+            "defence_crush": 14,
+            "defence_magic": -1,
+            "defence_ranged": 14,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "13119": {
+        "id": 13119,
+        "name": "Falador shield 3",
+        "short_name": "Falador shield 3",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADoElEQVR4Xt3W/UtTYRQHcO8f0S+BMPxhiAwZ4pCJoigOFSdT0sQ3fE2ysXyZL3ONIWYmIkqpiBKamWlaQxHNFxS1FPynTvue27neXSus7ko6cPBugufj93nuc29Cwv9VCql9K0qhvPJ7lFlU/A31T2EKFVRWkquqmpwuF6Xl5JLN6dTBftRxqSvM1tY7ikSWKfJxiTY2FsmRn884e1YWt1wDm5LuiAdKYUhRTS1tb6/S5uZbDbO29orW1xf4Gr2wMEXTU6Maxmq3M8husZiJUhizu7sRkw4ggsHP5eVZmpub4HQCgQ7GJNlsZoMUKqmvp71PH2LSQTKA6JPSL53P94AxFqvVTJBC7sYmOjjYjEkHwwHRt2zyjIZGxrS21jHGRJCKwUbe34vQzs57TkdLBssWbaQGTLbXxxivt4Wam2uovb3JTJBCnuYWxhwf75DdVchDpXEG6TvncSdjsGcEAxgwd5OSzAEJ5vR0j758PqS04hIqDwTJ3dlNHn8P5ft7qaAvEINpbKjWMFg29J3ExD8FXcdcXBzT5eUpg8p6+xniGnhCeV1+xqREsUhDMOjurkfU4/f+6V2m3t7AnJzs0tnZPp2fH/E1cEipIhiiwlCYExIMhgIjoI6Ohwzq6/Px7S8o47QblEJHR9saANfACVBQwDhq6xiTHN1fehCWSdIRUCjk1za3ceJPSqFst1tbqsPDLQYJCrc+NjeWSzC2Ug853KU8rK2tgTHGdHBa6++0Gy6d+gTHcNziGI4GCo3v5G4DxpKaSklp6ZRZUcmdEj1/vrdUv4lBqengNMZwPUq+S42ewoCgnw4N0OhomMbGBhmWdb/KXAzSwUmMBkAQ+IwDUTDBYBcNDvbTyEhIA42PDzEKbQIGpVCup4wH61FyMmM5gMHGDId7GaMHTUwM82dAATY+UH8Rg1J4b+ARAAQazyw8vYHBf45hAAlGQMAAhSXE703BYLkEhMaDcmVljjEYLMMEMjwcjEkI10jOBAxK4XMFewSp4MH5enGakqOvDxiG4UgHKMEISDD4nUkY1BUIL1fz85P08sVz3qhIAMNkE+tBggHERAxK3T+rq/P86jkzM0aTk89i0tFjAJSE9BCTMCiF03mzNMOvnngXxkaVdIzJyHeAGFMxAYNSQUhndnZcWy6BGDHoOKSiL4XvJuwd43LJqYyW5YlTKvpSQbir0NYMJ587QEgKxo4TRF/XhxpTMLbxL5hexoF/bfBtrq86KL3VF9ImywAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Falador_shield_3",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 18,
+            "defence_slash": 22,
+            "defence_crush": 20,
+            "defence_magic": -1,
+            "defence_ranged": 20,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 4,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "13120": {
+        "id": 13120,
+        "name": "Falador shield 4",
+        "short_name": "Falador shield 4",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACvUlEQVR4Xs2XXWsTURCGe35IIRdSpJSwSEpIMbQYGmKx0pbWSmOg1hipqTFEtKgXpZSU1iARRC/8syPPWSc5ObvV2O42GXjJ19nMs+/Mmd2dmUkkjPjfTDCMHL15L1MEZaTZfGeBgkxmGqCMHB62pwXISKfzWXZ2qpLP35902Yy02x+tO+Xyo4FDE3IphGk0WlKrvZS9vedXlOxWHBvCFIsPZGVlVfb3X0m1+uJPyYbS3koRbBRGVSpVLBROHRy8tmOgXj+S3d2arK1t2jUpQA1hlpaWBzC8V/EZCIXb2HhiYVPor3iYxSCwDlQqj21jkxyx4yhhSs1u5OTkMgKD1te3I0D0VC5XsM3O7/HNfu0wcnras/3gloVElARRIubQ1tZTWyKAWAMUv/mN7mf4jzBydvbVwlAChaEUcTDlubcWVN0LgkXrHpD6GgUcO4x0u/0RGBQHAwgiqe4oXY9LQLKOV0rrnsSYUEYuLr5HnAHiWbFrtV34JJv5DwOY1bmmTYYUZn5+YUQ45O66MZvdyOWXHyMw9ATOcGZAqHwYmlrlgmSz96w7ugFckH/C9Ho/Y2FwB5vjYJbv1AcgnP24MH52L4z0+7/srAGGEvHnbF11x21ehUGlhXDeJAhDhKViwqo7hVzuShgFKmcbFkjnT0IwhJHz828WgJ0BEH/mwjy824m4AxCKg9GBeQ0YIhyAADA/dMfEuQOImxB3KHGCMISRVuvYJgZIm9SH0TLoTImD4ZgbwhDhvQtzQoFIpjA6Q9y+YI2WKmEYwtjtrg7pVRv5MK47LgzHJgRDhI8ynCFAnLnKvbqrMrOzEZiEbzXC+x1tahdELwWMA5ULg3sJwxAhEBMZIBcEkdxXijBECMRkxiU/eZwASglGI3xGZ7fR4PokobMI4SD9cgswGv7d3d+VMkwYmmRc+cffNH4DRUnPwSo6N+UAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Falador_shield_4",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -8,
+            "attack_ranged": -2,
+            "defence_stab": 27,
+            "defence_slash": 31,
+            "defence_crush": 29,
+            "defence_magic": -1,
+            "defence_ranged": 29,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "12817": {
+        "id": 12817,
+        "name": "Elysian spirit shield",
+        "short_name": "Elysian spirit shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACpklEQVR4XsWW7UtUQRTGnW97Y/er0TeDEAlLezPFtTejwsh1d23ZXBUxW83WNrUiiigiQehlwdRMszWKUOx/PM1z5s69d68mZdOdAw/3Mlxmfvec88xMXV2kISg8YjEEteQnyBAUJgnqb0PC5IoeUGtDwz7m8ELQiUKJjmVHqelajg6f7/lDKP8HjvePsTTMPwOdLT6h0yPT/IenhsvU1JMPZWyn8AP4HiDIThAovMI+onaxjrvPeJEj3SlqvJJlwKO9gx7EyaEpOjM6S86lfnIu9FGs64ap7PihJ1MTCkqWX1Hb7UeUyN8PqEzb1Sptfl5zYdLknEvVAIXnNRiCs5DIlVg/NzYYZuvLOjndEuZihrPjdPWaBvqds1ygm/cYBECA2Ss7BoAENWdG6FBLe00PaQEonhpjGGQJMD/WVlV2XJhY8rrZ7MBdaNLWgUluXDzhurY7j1nfPi5TPDPOqi4u0vrCglcmwBgEEty02IO4YW9NU6IwQ4kh2ciFWfUux+oHZ+j7pxUWYJbfvtkVxjyQdJCCcmFcHRx+yKWCkKGV9+88mFin2kQNwCB8IDxRHpSqffypApNCmdDUzuWccpZs5tVKhT7MzzOMcSA0LSCwEXaWXlBy6iU/McZA6SJDsdUB5boLZavMzTGYUSAsDhgAaGclH7ymjsnnPAaHxbMTXsngMAiN/nVpyWT/6PAtHtylIUDBcQDA4uwubITS7nDZf4BRoSetnVhw+QDg7TtRwOwdQkEEdmWrMAeuDiigwJllCQbhZoelsmMVBvuSD9RnEwahrrS7AYW/jCDUYes5ynqp5PGhrxbWm5j7BscDmtgejH+ph5AdPWYFRp9ZkIbRIJHD6INVWTxtKysIdU7pawZcZRdGXi8AhOxY7Jdg7LxyRAnzC2VUmLcaI4c/AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elysian_spirit_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 63,
+            "defence_slash": 65,
+            "defence_crush": 75,
+            "defence_magic": 2,
+            "defence_ranged": 57,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "shield",
+            "requirements": {
+                "defence": 75,
+                "prayer": 75
+            }
+        }
+    },
+    "12825": {
+        "id": 12825,
+        "name": "Arcane spirit shield",
+        "short_name": "Arcane spirit shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACkUlEQVR4XsWW3UsUURjGPRexMAzzN3jTtXlhdKFGkpIYZSoqphIREYVUJNGH4B8ggRdSqOiKH+Vny65LsLrsRZo3/VFvPO/hnXNmNNzZPe688LAzO8s7v33e58yZpqaqSpGWi1L05J5HT3u9WnsqGu/2qO9WptYGVhmYZ30+97vR3Jy0p6KXD31WT1s9UBrGdgcwNQG9Hw1Yz+/71NUqUMk02aNhoDpgpEzjsbseN8e/7L2Z4VH2t2dooCNDw3c8Gu0y1/EHxF0c1+lMtEwTA/fqkX+hBOLFAy3AIDO2O/H+CUoATNlw1YDAmfi47H4JSvEIbrdcOwcl1y8DseVgXIobIROt1wUqqjjIRXI6rqkBfbOhTo/DixAjvLiBuIPrZ7tzdJzPU7lQYNmuOXIHpZf8u+GAXg/6/CnHABUguPDlTSc7Af0ulejk+IivOXQHpWh6JAhDCwgIN4MqxSJ/D6DDxVkq7myzAIRrpZ8HlN/aop3VFXdAcEjciAtQf09P6HB+kpY+dYdBBgTAfu3tUm59nc+dAX0Y02OCU7YACWfOKhX6Uy6HocZ4sDLxAMUeKOPCb/RCqKsUfR4PGOrj44CPZyb0OaDgBvKE8UiY4Uh2YSECI88sB6FGnV/qIowIwT3K5cJ8QXEYgXAAo0ua2sLN8HwqbP+gvWyWgyvC+f7aGuU2N12MqdpSnBs4hNB+X14KBSgAOQxzNaWBIHnWbHz7yrLH6ig3l5Xew2RlyfaClYUVZoM0AAZlgOwncYNdkdL72//2qVRgbHdScETKwFzBppm0ojAIMkKckjs6qPa7T6owb4fMliDbQqowkLz9pQqDVw7AYDfHmGR0qcJAyI4N0mAYqehrRoogpmxHGgnzDyTf8IcLwS00AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Arcane_spirit_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 20,
+            "attack_ranged": 0,
+            "defence_stab": 53,
+            "defence_slash": 55,
+            "defence_crush": 73,
+            "defence_magic": 2,
+            "defence_ranged": 52,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "shield",
+            "requirements": {
+                "defence": 75,
+                "prayer": 70,
+                "magic": 65
+            }
+        }
+    },
+    "12821": {
+        "id": 12821,
+        "name": "Spectral spirit shield",
+        "short_name": "Spectral spirit shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC50lEQVR4Xs2W22sTURDGsw8S8E18E2lDWtOQtmlCEi9tUSjFBxFFEZGKkiJeIiopvtRHX0rfGhAUWrSltmJtIKSE1Koo+o+N+83Z2d2cmNtuLn4whDY5c377zZwzGwi0lEEquiVf+QyaiN6msfBVK4nnRJYMisfuUmL8vtdcBiUnFzlBdOQaDZ2a9Qim1sSjCwyUnMjy34lQqMM85qLzqed0IfWCziZyDBeL3KTh0xddYK0DLk9G7zDQVOyeDeMJ6Fhw2opZMy5RMDhHmaknvEl4aI5GQ5cpEr7CDsbO3KDo6PWaGB+7VQPkA0ZU/8QMdnyenzYVf8DOoQwoLUqCjQEAEABJdAkmEJAkTjKDXUrHH9pADKOBoLz/AtJ3aVOG63TpMtgRARIYN4hEV4GQ5OSJSF3JEChXJv6IDotFhrFBzD7qGRA2RSI4NTI8z42LkuD/PysV+lWt0vdymcq7u7S+tqZgGgD57B/VI9gYZWkWgEKgXDaQBuUTBjK4HM2A8D0+fxwc0LdSiU9XHZQVPksFGbxZKyC4+PvrIZdNekm/i7rgDuQAuaMGyIT5c3TE7gCmuv+FKnufuUToNUSXYCAFhPtFAM4ln9p3D9zBKEHv4MijqUs7O1Tc2qKP797yIXAD6dk9SPUQRoYc85nMS5pJL9lzTfqHb2Yz9j68p08b67RRKFBhZcVe1zg6llrovp0lptN5Bi5tb6sJbgVgAAen9jc32a03q6v0enmZXi3lKZ/L0eNslhYX1EzTd2wpvf4CBpcAJLNLekyGZzsBWE9Q9XKAGMIapjLH8L08SLNw/07foQOp9yPAoOH1yd7pJu3+roFMmOQz+0IUd9zTXYD0lT2S88qBSe8Gkr7oxB2fUqWSu8gNpPeMvrIHUk2Mcsl7tZyuPrsCKWfEHX47tNwZDIzpCgOZn9I7A+gXyGBHBAjO6CB9hxEg/X7pIwikyiRAuiv6r3ss52jrIAOAEf03II4GDfIXdioc1kfeXwAAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Spectral_spirit_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 53,
+            "defence_slash": 55,
+            "defence_crush": 73,
+            "defence_magic": 30,
+            "defence_ranged": 52,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "shield",
+            "requirements": {
+                "defence": 75,
+                "prayer": 70,
+                "magic": 65
+            }
+        }
+    },
+    "9731": {
+        "id": 9731,
+        "name": "Mind shield",
+        "short_name": "Mind shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACR0lEQVR4Xu2Wz2sTQRTH8/4EDwUpBJYQgoSyLGEltFRaLIopMbSCRrSUllqCNdSAWrGG0h9ErYQGWyLBUtpL0Yu2eJCiiAdRFCmKIP45X50ZJruZYDPbbKiHfODd3sx+5r3dtxMItGnT5r+D4MSRIiTWpyOoZCMoT4WPSkqI7OS7XJURYRkGD3WFg+/ChNdzjogUcIe6woGQPtXhZxUJH1bO1ImoWQdDuNDjixTh89o5zbY0gpCKH3O12jOEr2W/ZCSEoZ7Ow7SQ8O1pwoOM7qmFkGxf4305f2VKNn48G9RcRNi43Y3BeKe2VLrf8PJOUY2MjtDb5QF+cr0DMAhjZ0M6+YT9JzZ+rid1kl3oziOGkBnp79CpEuH7mo3fm+c9CgUCejIMwrVEmAtpHEJU6NeGdyF9hJD80ho8QwixkFVSM5qDcCMVQSapLcRoZZUIN4cjGBs4rtMuSauqRLhzKVonpGb9AzGLvqzEql+cmqGPHJpC6HrCGQ8ehBiET8UYj/2KmEtqxsEIiaVxE/mrXbh3OcqFskkv86oOwsfHFg/5X9ON5UkLhQkL86Mm7qeDuHsxiFvDQeRSTQkxxAPeP7DwrmDyq8jew9PYXezDi3wvtma6UcnFUZ4+idWsjdKUjWImxoUWRwzMXTGqQnKvQ7SrFrGYsLdk8nizYPIL26v5PmzP9vJ/mVvq0XgIhdFQVUgVaUqmFrExk2FX2ZezUTyfiWIzd4Lfr1czYZQmwyhOhKpSLRJxkNXSjZaJqLhP3SjUtW384A+jEdlBdQggRAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Mind_shield",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 9,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "21633": {
+        "id": 21633,
+        "name": "Ancient wyvern shield",
+        "short_name": "Ancient wyvern shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACxElEQVR4Xu2WW0sbURSFnZ/gQ0EKQpAiRYqEYgmVSkUxxGBKDCYpSS1Go6KmNk1Tq3irgeiDtmlfpJeX/tNd1h535sxxJpnTMQqlGxZj5rLPl7XXnNjX9796VhY5utOyIeYqZ5TcbPLxjsDsRQEBzddalK5e8BGfF/P524Ryg2SPLlm5Tz9o5VWRhfO35JQDAwBV77e2aH1pieFUt3oI5Q2Tb/yiZ7EYnR0dMpScBxigeuiWDaTCFJu/WRjT19PT9mdI7hEoB+xGyoZBUx0GQoh/tlqucyqUgKFPNBIJC9UZBteL2Sx9//L5ygHLEwzPZ+rfru4JVTYQmnnBQC8zGbq8OKepiYn2ORUOOROokEF3YNAU0mHuDwxQLp2mw3qdgaDn4+NUKhTaQCoUeoWAcgNJc+jB0BDr6dgYA2wuL9PJ7i7NTE7yCFdfL14DgmR088mkKVRnd+DMw+FhiqcK9CQa5bEBCEcshqM6NhVqLh6nj2+3+ZpByP3dwTXAACSdK1MsVeJRHe/sUPNgn84bJ/RiNsGjVIEgOFjd2DAdXWd3IIzr0cgIQ8ERZAb7ETbHvXdVFhbGOYDhOsb64U2FN1H0NIAKBvR4dJRh9ms1HgHuR36wLyFDAKiUy7S9ttYGlX4qDMbWZXQWza43fIHu9fdTZHCQs4AxYQ/Ct0aephIL7Bpg5VdfnoWkH2CwRsAcdQdChpATACEzielpzhEygr/FSRVIdUeFCQSUWD32BcK4ZGGMAk7grVpIpVheYVaBAGPgDsoBwmamA8kbBiCACICXKyqICmTgDqqzQxDeIB1CB9FhxBlDd1AWxVcOPIFMJM9KZgTE0B1UOCDVFR1GQAxgUG4gyZGJ8KwfjL5agLJoprTnciioBAT7jCgkDMoBMpW64f1lXvzK+ac+iPxCe0MwUtdf627qAYS79G8aRHqPf6b+ALImxJxTYFeUAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ancient_wyvern_shield#Charged",
+        "stats": {
+            "attack_stab": -10,
+            "attack_slash": -10,
+            "attack_crush": -10,
+            "attack_magic": 15,
+            "attack_ranged": -10,
+            "defence_stab": 72,
+            "defence_slash": 80,
+            "defence_crush": 75,
+            "defence_magic": 15,
+            "defence_ranged": -5,
+            "melee_strength": -2,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "magic": 70,
+                "defence": 75
+            }
+        }
+    },
+    "1540": {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "short_name": "Anti-dragon shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADDUlEQVR4XuWXz0tUURiG5y5dzOIuLgyt/BPctGgxGxdioqGSGWMj/o5xbBzHITWTJIR2QUIQSCiD0kSlNAhRFEEQBBEEEfTffPGcy3fn3JubieNM0AcfXO/IPc+87/udcyeV+qvyJN4dLU9Wi0UpLSzI4syMzE/mE3BthfSkXCjIZqUiX+5k5GM1I+9WArk5NSWzNyYkPz4u10dH5drwcLugPNlYKcv3exn5upmRT7dDoNNSIMeLgdQXAqnN+LI36cuVy/3nDeXJ2nLJqPNj+4IBUoUAer0UyItCIEdzgQHan/aNWudooRfB0J/XQ6APqyEUlk3ncsY2YFAKOO41LXQGFsIoEJYBhGUKRbixzYbBQlSjAb06NOQKypOtajWCwS5CbUNhm2YoCWOr1NPdbTq5QgsVwqg637biQDr6qHMWDPfJ0mBfXwSUXKHFiqtjA6EMQOQHiCSMWjUyMOBOncFLXTKS7foDCKvYf5bm5owlCgOgQjF5WNWbzbpTB6D9NT8GhFUaZM3O091dA8e1AgGq+5EzdfaqvgH6eT8EwirUwSaAWPz0eT0GMzE2ZkAdBplqqqNAqAMM6vDtWfzt8StzrnH98uDAwBBkPrezk3x6i+VJ/8WmOr92mnsPQdYN8H2jEcGcHB4aGCbqzXKoDv/jFAiY2kaojk4V6rBQo/7MgJEVrhWGIDvedygvUgegJxVfHhZ9882xg8VZmOuTWs2AaOtkAeVcHe3HZd+ElFcP3QRRhcxEIEdHUXb0UHWmzt18Oga0M5s2QCiEXUyVWkR2dEfmc+4zgc7U6e1JyfZUEwjrNDuaGQXALvtvDbtTddZzaQOEKg/m0yY/yRcxGrvsI4LPgNFXWicwqINdANGoAxAZenTLNwsDotlROFXHDrITIDZCFNIGgunSthUBgonSJjecbY7U0Yr/crBhaBvAbuyyrXIIlErpA8OHxsHIEZOk79DawHDKO1bn7LLB+D3GtNlQ2GRbde5AWjYY5xenO6rQXLdFnbPKBgPEhukIkJYN1nEYu/4pmP+ifgOG08hRGcOsIAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Anti-dragon_shield#Regular",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 7,
+            "defence_slash": 9,
+            "defence_crush": 8,
+            "defence_magic": 2,
+            "defence_ranged": 8,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "21000": {
+        "id": 21000,
+        "name": "Twisted buckler",
+        "short_name": "Twisted buckler",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC3klEQVR4Xu2WXWsTQRSGs5e5yMVeLIRAIBQpUqQEqRSDoSWlIQlNIWIUGlrSYCk1aa1W+4GiIoJCoSCIKAqCIAiCf/HIO/HMnJ1sGjebzZUHHkJJd+bZd87ZTSLxvyKVQ8OZWplNG7UarVcrirVyWVNZWZmWoEO3Fhc1NxcWNDfyeU2pWFQsFQqaGKQclYTnuprLxFiKwfX5XG6SUoNCNlKOxVaXlxWDRxj5OPtC2NQWicoYUqaBcfdysUw6Te8+uT7efzfYmwcxxnEaIUyQXOxOvU4X31z68MOjr789+vzLo48/Pdptt2lna5O2Nzbo5cWgxESEeKRlSiyENFiIZVio1WxeKjWWED9rhgkBCJ09OqSThwd01O3Swesc7T7LqmvQ2Ji2s7epyQtheoKEWObpfk/JdF/kaOckS52jrH4uPX4VgxDullOC0PkXVwEZcGVmxsfWYYZavYx+LEiZ6/Pz4sH5z9Pm+F4LEOKUIMTThWSAlMlls4rm/TRt76eUUO/UpAQhTg/CoaQgI4WwuBRC3wApAvBoQMK1ex4120klAZlrc3M+IawX4vgc/dSVCT0/d9VmmCI08INOZ0CG0+DXSLWRVLAQ1hpDCOXoRfkuASYHyR2/Sal+ARBh+P+waf1uklbXJiaEMu8g3ggigGXRL422XwagRyCyVOkLXZ2dVVIQwnf4xN8h+qhf/TswQgDjDLg50S/l2x6V1l0qVs2LF+mwkOwjWyhkSii/EMD07D1J6R5jGZaEEGQAjg7XcEpSCEMROqUgIYDR3txL+iTUz5C/yRRKCZ8QpxSUUMiUgoWYRivpk8ER4ZORQkgpSMjecUQFC2FBif39MLi5Iwih7F9+5jc3GhWwGFKwJST4HkJjHpcpvtgs4qj+kc8rW2yYnBSy94lQfiEGkzdKLiYhVF+K4WPkqZNAQhKTEMr0FW/GCcmU7B6M1D+jSvbVMOwejE3GLnvTqQvEVX8AR9C/9R4aycQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Twisted_buckler",
+        "stats": {
+            "attack_stab": -7,
+            "attack_slash": -8,
+            "attack_crush": -7,
+            "attack_magic": -10,
+            "attack_ranged": 18,
+            "defence_stab": 22,
+            "defence_slash": 24,
+            "defence_crush": 22,
+            "defence_magic": 26,
+            "defence_ranged": 58,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 75,
+                "ranged": 75
+            }
+        }
+    },
+    "22002": {
+        "id": 22002,
+        "name": "Dragonfire ward",
+        "short_name": "Dragonfire ward",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADnUlEQVR4Xu2W20tUURTGPX+CDwMiCCIiIiIiyqAoipKoaEziDc3QJhUvDUNe0jHzOqaZWakhmnhBbUxtsMzSIILoqYfovZee+jO++tZpj6czBc6MqA8u+DjH2WfO/s1a31rbsLCLCCk0mD85w9DQ7mzFOYLS4HQ0C1BydPR5gNKw+3IdFeW285IlDd7tNWx5lpBuTf0D9T8dNwJ93i/0F+y/eoHDfS/6XB2wWMIRGRGB6Kgon/zhzMC6NlbmQ824hoK8PIF5/25XrpP3h2GvrxGw6sYk2J2pSElKQnxcnA+ut/sWbnc45Ae4h3sxMTaI6akxtLXcQG5OljwThC81ZGdkoDg/HxU2mwB9ONyDd2sNs4/HMXi3G7Utyai7mSKbKo0MutB/pws9XU65KrijjtVhAgTSYXKzsjA0k4exhQLs7Xrw6eMh9rwerC3P4dHDUckAr1MP3JI5ZqKn04mWputwtDWKGuy1fiABw9SUl8PR2AjXRA6cAxnodGfh7ettHLzZwSvvc2yszmNzYxFPpycwNfEbZnzYp/pr1VJSgiQmJIiCzApDzwx9QwhHX7oAUZlWq6xdyskRMO/WqgCxdMayVFWWIrsgGrnFMeItKkjPMI5K1T2W/RfQ4vwTzH2OwI+f32WdI2FudhLjo/2SBfqFgzQjLwop6ZECVVIZj7TkZDF8EJ2lw1AEYbl4VWKZlhZmpFu2N5flnh7iZkMeC/rXLQJKEGu2DlVYFof01FRcLiwIJkuadJP9ag2au6wC0T6cKfetLh2Kpl15NovYmBhpcc6jpoY66SiWLN8WK6VilgjGv201CeJJggWYJU2+RK/wylTXV1f74Aj17esXHOztwLO2IC1OQ48MuKQ0zAYBKAXDz+ghvtMSHh5clqiykhIxL8ungDgA6RWWhWv33H1wD/XKpsxChT0RZXWJck8RkiJQSJ2mf+HITwqIU5m/lCIw17gxIbhGVZWWCgBLSm/xnp8Zgcz7HTP8gTiVWUZOboprKisKluZlBo3nnPG8O1EglownP9uck5kgBCIMPUcQZsIMYoQJCYiGVqZWXcZByHOMXcWMEZJABDfCKC8qhQjDOMqQEqEIQzM3tKcJDA9WloowLKc5G0aZdwgw9BHAI4SlMIpwajRQnDH/gjG/8QRCh+JmbHPqSlGRD4ZgNDeNfAowKnQPEIpSh6U6xdna6pw6BRg99E38/x016tRgjGE2qVnm5y/iIs4qfgGVTVc6JJXkNgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonfire_ward#Charged",
+        "stats": {
+            "attack_stab": -10,
+            "attack_slash": -10,
+            "attack_crush": -10,
+            "attack_magic": -10,
+            "attack_ranged": 15,
+            "defence_stab": 25,
+            "defence_slash": 30,
+            "defence_crush": 28,
+            "defence_magic": 28,
+            "defence_ranged": 68,
+            "melee_strength": -2,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 70,
+                "defence": 75
+            }
+        }
+    },
+    "11926": {
+        "id": 11926,
+        "name": "Odium ward",
+        "short_name": "Odium ward",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACgklEQVR4XrWX4UrkMBSF25/zBiIIg/gA+08YFGVlBxVHRtFxcXZhRf/s+z9A9CSe6elt0qStXji0pk3ul5Ob1KmqbNQuyEbt5gcHXvHn3xK129/b82rAggjTAJVoctTu5Ph4BwWd3c3cz83Mt58tFu5htXJ319e+HVrcBGmf9qQmRRcIyZBYgUphfsznXjZLJto2I7FCEQguAchfMzDoTyCbLRMBQOvj8uJiJwu13IZrHxAnNAlIofqAcu5wLAKNKO7aL0MOqgRI+0DdXVkUtbu9unQ3y6WXDpRyKQejINCA5at9TUCAIlgKKgVUClMEhCWIQUF9QKUwKIdCdxABiFIogmFgAhJKgayjfF/HKQQK1c8tnAJTKAIpTAqErmO8AqD2dwmyYNYthbIwfAefE0JwN0JZIKwrtVmvW1KnIAulMDE3LAyhM9v+o3ZOT722j49eV/9mXhzcyjp6dHjYecdOxvZhmViazwgPV28zLwtkB4ObuGISvIcsFGWd11XphdLZWQiCKAx2lLZZMK1BTHT9P9SQqudM6ha3QmhS3P86P/dJcGWb9rNLBscVQGVJqhiMgqRgCAS3tE8MDC5ld1gTDdDv+3uv2OD4G8m11qxLsX6EKgTqwhCoD8YCWZdiYIOAFAaKwehScRfiHsVNlxQKh+MIIES78nGuqGIwCmRdIhSAFGoAUFU1Fd8G+vv0lISB7LJB7EsgQg0CaqIBwqn98vzcqRsCIQmBCIVfIexPxwk1CQgwcOf1zzYJQyB1ib/TCETXeT8CCNGuKSsU/e4D/LFE+iwOpCUxMjiAFYF4NOjM1Y0B/4x9RQQoumOTEmyyK+VR+xrLJU21f1P0w4yNdxUbkFtYTfUVAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Odium_ward",
+        "stats": {
+            "attack_stab": -12,
+            "attack_slash": -12,
+            "attack_crush": -12,
+            "attack_magic": -8,
+            "attack_ranged": 12,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 24,
+            "defence_ranged": 52,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "22269": {
+        "id": 22269,
+        "name": "Hard leather shield",
+        "short_name": "Hard leather shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACmUlEQVR4Xu3WUWsaQRAH8NwHyIMPhRAQRERERA4xHIqieChnOMUWMQER0iANbWghEAqBQCAQAv3SU/9znXNuPaUavfYhA0OSh7A//ju3u0dH73Xwsii+E6vowqN2iXvslmnar/JP18knhbJ40Zl/xv156ND8Y41uJw36cdmk+1mH/04IZYWL16qnkW7V0uS1M+T3Kvx7AigrTGHUz1Gj9IHsXIrcVn6BKNLFyKbh+RmDNOqiZx8CZTHkbtoit5mm8aC80pNRnSGeazMSDRS2dM8oiyGYDSww6pfC1iCkA4yAvE7hECiLfl653AD53WwEJKi4dADSKHwAb5wpix6uu9wAYaswKyYIbaajQfgfp5CKoLx6YReURY/zHoMEI60xko7bLlOrnlsBSWPAcVzgvDpJHTPIzmT+FmXR0xePQejgc16CNErSMUEapefIbxZDzNYgNDA6frMBEowJktbb1Shlt0/n+WufG+lgu8z4NUanE4eS80iulJ3Sebk9Z5CkY84EMJ8GTjg7DScbAWmUbJfMz5bpoAKQpBM3EzqddqPIoDgUt5ofp5jeFmTR63ef02HMovHJxmF0OrpNjMwPQDttF0DyZUnHgcx0VlB/MJgfE2SuuqGWCekzSA/2pnQiqAXmZlwP56eSP90N9OvbkJ6uvQhMTurggAyuiHXpCAYvA6QDkFsNrostt0sqeAWug+Gixfunap+sQJxKsE14GSAdfhO1d/rUoxX843qY3G+4cHk7F3OGt1Exc8xgpIMG6s0YXRr2euOHMDmn5HrRQICQENpzgkt0LxhdZmLP8z49zLobUdNudb/pxJWGoZHY41WP7i87EdR8UDs8RtdyoSXubrLYqnGTO1GMWXG4f4YxSyD/Bea9kqzfUetx08fwVFgAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Hard_leather_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 2,
+            "defence_stab": 8,
+            "defence_slash": 7,
+            "defence_crush": 7,
+            "defence_magic": 5,
+            "defence_ranged": 9,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 20,
+                "defence": 10
+            }
+        }
+    },
+    "22272": {
+        "id": 22272,
+        "name": "Snakeskin shield",
+        "short_name": "Snakeskin shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTklEQVR4Xu3WwUsCURAGcPfooUOHQIRAIiREZAkXURTFhRAxCSmJMimRAvEiUvjfv/iefLvja7XaXbcODgwqq86PmXm6qdQh9h6WCs7EYrNwIX/kpV081o/nuXRSKEsXRVZsP+vOic52LaNfJ4SyvOK97mVgzma3qtOxk0BZXgfu7+uqWaupYqGgPt6f1OixoXM+H6q314Fy3dK+UT4GXUDx8bilMavVs34NJLoznd6oycu1arUKGrYH1Cam33fUcjnSCDwCBszwrqYGg4q+LkcIVIyLbmkIkxgkEMjJpK1R6A6uE4QuIQGKCfUVw10hBsmRYXcIwv4QhBE6th0HygdJjInic7yHCIDG455+zjFjlwAC5jSb0iA7l/spylJXzYyX+EKeJoxHjoz7g8JEECT3yFxuYEKBgAFCpuwUjjr2h8U5MiSRclyxdYfLK0HoDHYHe0IQMQShYxwXQJG7g8TiAkIUTxqPuUx0hBi85rhMkFl1R1iq62Y3xoVu8EdQ7g73RJ4wOToee4JCjUtikPiLWCwedEe42HKR2Q3ZLY6Kv0EEhRqXCUKimNwfglic3ZCfQUqMBJlVd4QPQvLvgkUBQ7f4J8prPO6EmaMKOS6EpXpuWnUaaQ/GH0eOhhh5sgBCEoRr2zC/BCHWd4FBMN6EcTeCQLztYObPImHWsf7gdpiJw05Vy2V9fyQxyMgYGdtg5p5JoEzZHfO7I0UQrF1N7USVLmIY1XchYUjC6uU1jjCnlABGhl/IxwHFTBRjRhDuzzBmEPIvMIdIMj4B5lVduIHiTAkAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Snakeskin_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 3,
+            "defence_stab": 10,
+            "defence_slash": 9,
+            "defence_crush": 8,
+            "defence_magic": 7,
+            "defence_ranged": 10,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 30,
+                "defence": 30
+            }
+        }
+    },
+    "22275": {
+        "id": 22275,
+        "name": "Green d'hide shield",
+        "short_name": "Green d'hide shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACKklEQVR4Xu2WsWsCMRTGkzHDDR06FqSU0kHEoVJaLBS7ONzioIuLgwiFtnQSt9K/PL0vyUte0qjlPK8dfPCh53G+n9/3EiPEqY5eUufVWsWNB1fCaHgT1OuItqCkHnWF17ivjMpbq8mdvW4JSvrmYpSXWhRaDFuBkt4BVSr9tdno+XSq1Uuh1URZLav38wpoII4NFWCMC2g+K3TxZmWuS+sOgHCPoBBrw1DSgBCMASJX8DpjQOOfETYMZWFmD1YehscEIAjujAMUfQ4ggsJKPABKehAPQxBMPjJElQGCXpfLJqAC0DYYLxeXAcBQszkz78dhwAF0cW6B+p3Ob6Gknj8qL3yhdwJNeWSAKZkrDIjPUbriAFMLyPxyak4xcHew1LH3uObpYNMcUVzNucNmInLHLXUOEQFV9+AOAR3uDoA+zmIgWmk0O1xubnJxcaC0646SevHEgJwj0SbIIjQuJEueojPOsX2oVlwcBl/8uV57R6Jd2Q1yBMCgCIYD1YorcieJws+PA4ocwb3kGYorBUq77qgABNEeFDkBt9KVRbAuJnKHw9SIC1UN9HMFUkERmN8cnf0Ew1dWDohgoOuLWnFR2VNgDsz/yTq4HBCuOcyg3uzEZR/cDkZw5qAG16p5el+tzPmITpCkg2F47QJLXaMjLFfvstbc7K8c2IRBccdIw24DUe0rDgYRWHkfuzXqtwDDKzQKcIAitQqTVg7uz2DSIpB/AXOqNusbBGXZx9wvvaoAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Green_d'hide_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 4,
+            "defence_stab": 14,
+            "defence_slash": 12,
+            "defence_crush": 11,
+            "defence_magic": 9,
+            "defence_ranged": 11,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 40,
+                "defence": 40
+            }
+        }
+    },
+    "22278": {
+        "id": 22278,
+        "name": "Blue d'hide shield",
+        "short_name": "Blue d'hide shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACK0lEQVR4Xu3WT0sCURQFcGfpB2gjDIhIhIRINIhiFEphMIm5MBFpIUWbIKLvz4vzhjNzfM1Ijs7UwguHiv68H/feN02lcqzCyzPpKa02D243KnGCs+jjqV8pC+XZQ5HBeZJhJ8o4qNqvS0J58eF+fZSa6fTF+P51GSgv7kCzOTWj21fT6YzN0+LDdLszm9nszTxM1qZW6xWNSjDoQr8/t1kuP22ACYKJ7U4YPpv7+1WRqE1MvTE28/m7RaA7gBF0cRnarrXbozhAHXDRPQthiCEIGQwWNugOMAShS0irdXMo1E8MERqMDF3C7hAEBEEYIX7uAKgElIXRAKJduRsv7efoFr6HXQIIGP8kAnXq9d+iPBP2qnEA4r4gerOwOwgOJoIg3SN3uYHJBQKGEEY7w6vOwzkyhEgd10G6gz3h8iLaHWCwJ3qzNOgYxwXQ3t1BVquvGMORIbzmGh2VjssFuaduKc88XiUgItAlwHRcPFxvmI4O3VFQrnEpBhkO1/a5g47oU5mLzF3RLnFUwCgo17hcENJohhsLTZB2BAB3fIpRkHvqlkpAiP67YNAt92bxunNM7qhyjgsVLTQghPHhyNcLYvRmAYQQhO9lYXYEoaK3wDQYX8K4G2kg7BRf2pCcD8LNin4xG+bi8H6E/QJIMcjeGK0smLtnCtRod9y/vVelwXDgNlTOp/JupTCECIxGYTmfOfkrOSjBFbY3u1Ya7s8wbhHyLzDHKrO+AUozJ8n0+hR3AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Blue_d'hide_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 5,
+            "defence_stab": 16,
+            "defence_slash": 14,
+            "defence_crush": 12,
+            "defence_magic": 12,
+            "defence_ranged": 12,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 50,
+                "defence": 40
+            }
+        }
+    },
+    "22281": {
+        "id": 22281,
+        "name": "Red d'hide shield",
+        "short_name": "Red d'hide shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACiUlEQVR4Xu2WQWviUBSFfUsXXXTRzaykFBERCaIUJTKiGKzYYoukgyPSdjotdGCY/7+543nhxJvX2NaomVn0wkGjNffrOfflvULhsw5eRtKVWyUb9/yqDHp1GQ08mQQN+77dLOcFZWzTq3FLbi7PJZx2rL7NfFmEXSt8nhOUsY0fFn3pHxVS9b1WFb9YyAPK2P8eMJOjogTzkTR6TXlq1OX6uGh1V6/JbbUirRUQoRDjAaCMLOe92Bk0D1d6aXpWuAYk3AHQrFI+JJSxID+XgzgWuoJXgBFotJIbIaAwb3uCMhaEIoyOCUAQ3AEQoeASBCBC7ThTRp4fAivCEEKLkW0CgjrjjoXiI8FvV7JArYE2wVCMC80xQ/j7afnMXuM9vsMsAQjPrJOTYwvklUofhTLy63EUA+GGjAnx6MgAA9EVDZQ2RwAiTCYgwLA550W7g6WOuNjcHWzOEWeoVjnd3p3fT+MEEOaEMBpIL3UNoYXvGBeAMrlDIA6pC8SVxtnR4tzouPgs0kBu1zcqAqI7dAQAXFEUm7srjNHBHT0/5TOAbAVk5M/LJHYHNx6GQ/nh1RJAepA1gIYijAbKFBeA6I6Wnh8CaUfglvsbxoX50UBu1zcqAmJkerug4Ja7svgAZEx0BzBwB0CnpS/ZgJ7vb1Yb6SSODlDYy2g/YfTKSgPCGQkwkFePtost42JFp8A0MOz4OIIQLg0I14CBO5DfzjQ7yYp+GIE9LqevwOCYhsM8dS+79nyEAxxPkdDOMLo2gekHpwsIIKrVWG8T7r13qjSw+SzYCAUNvrb2605aaTAIYIvbCwmvhwmocbDnqN6rdaM13OyqHytXGLfS4P4ZjFsE+S9gPivP+guq9yoygkW3tAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Red_d'hide_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 6,
+            "defence_stab": 18,
+            "defence_slash": 16,
+            "defence_crush": 14,
+            "defence_magic": 13,
+            "defence_ranged": 13,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 60,
+                "defence": 40
+            }
+        }
+    },
+    "22284": {
+        "id": 22284,
+        "name": "Black d'hide shield",
+        "short_name": "Black d'hide shield",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACBklEQVR4Xu2WsWvCQBTGc6ODg4MgBSGIlCIiQRQR4tIuDg5th1JoB4cupRQ69P+/8t3xmefrJbZnTDv4wYfREN+P7727XJKcdXIZG3Zj2i98PUjsetiymytvXOdp0hSUcUXvRt4P45Z9yry3U2/81hCUccVQtNvpBD2dTNxnA1DGpfAy8zDr7Zud3mzscjazw8HAeZ5lO6ATQxmXCmEIkC8WzrhO+30HMx6NnAmFttYMtQ8DMxV+Aga+6PW+uWYo40BeF96EkW2ikY4EY1I1QpkdCGE0BNvGdoWA4Pz2sQ6oAqgMRrYLRnGA6YRwDwOO7QJ7Vr/tgbI0/SmUse/L9s5ybmB5rVORQKE5AhBhooCq0oG51FlcDzdXHIEmvYh0PvLydHS7ACOBtHGP7QJQVDoAgrnMudfQXGlMQ8+RBMLzISBdtUJFQrJdANBgLK5XGCG5a6NdALrsRrTrc7WfDl4RTETuynpWZEqE5H8QKKpdAGI60nJuQkBIS96D2S4NpKtWqEgIUNyDpJGUXlncc9gm+cY/ol1QkZCEku8xwhwCIgw8v4jaeyh/CiwDk2ehEBC+45gCIB4/joDx8g9Wg2m41f2zOx/x9Eioo2GkQmByxnRysATiS7QWGKkQGEDKoODIZf47STBYwshW1t6qQyoKFXAynUZhtEJwfwajRZB/AXNWk/oCPCvmB+GC1UkAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Black_d'hide_shield",
+        "stats": {
+            "attack_stab": -15,
+            "attack_slash": -15,
+            "attack_crush": -11,
+            "attack_magic": -10,
+            "attack_ranged": 7,
+            "defence_stab": 21,
+            "defence_slash": 18,
+            "defence_crush": 16,
+            "defence_magic": 15,
+            "defence_ranged": 14,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "ranged": 70,
+                "defence": 40
+            }
+        }
+    },
+    "6889": {
+        "id": 6889,
+        "name": "Mage's book",
+        "short_name": "Mage's book",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADXElEQVR4Xu2W30tTcRjGPZde7GIXwhAEiS5kyBgyGZOJ4lBUsotuvDDBUhLBQvMHrixWa2lmDQzRGMZgigtlykhTU0MRIySIIPpznny+h+88O9vUc0p3US+8HPbj7PvZ8zzvuxUU/K9/sxSkd15LweRwBUL9Toz2lGOo054PqHRFFqa9iIY9iEy48WLQiUCv46Kh0gFuFheho8SGLl3zOdlU7C9A6bOg9nWbFTdsRWgtVlsP1FNanAE19dAl7nWWlpqFUuDvtcN/xy4kry+youm4CZMLSEIRSA8lYUwCKZgddyM04swAklAEklC5gLJB6U86ZymIz3gxFXQhOORA8J5DhPM0oGy26aH+wDIFG/N1mHvlQTjgEkAcZS2Q1jbCHNltouXh8rEWiu8zqZKCg9UGJCI1YnQJRSCCZQPS2yZBeO3VKKXNkv7EM0pBbKIKW4s+xKaqBBSBph9XZlgmlWBrcyShCCSh+DzhTat0mGxEMloroBhyArW2t2dkiE0AbY70KkkoaZsplTYidfi8XI+lt9UqVMAt9okeSMJkC7aEkc3XeZ9plb5+aMR6rDYFNRfyZADpJ00//gTpu6Je020zDKVgf75BBJzWMeTRMY9YAacB6UdfArGlbfxS92+VmYP6ttksAk4oKkWoXHsoF5BWJb6Hv22cWv4jMAil4PunZmEdoWhfPOwV4c6mzllAbC5dDkjYr64TgyFXw02o/URDCooBNwu0MOkVa4V55OcQzrBKP7avCesItfPeh8SbGrTd7jwX0EilBc+qLHhdY8WszyqAJAxVYiYNq3QYbxRQtI4hJxQ/LBtQX4UFd52WFMhu4gk244+wNv8AK9FhLEUGsDjbn4KXMAaAWAp+7rakQfGbdnR3o8dRiK7yQnTYCwXI4dpz7K08xfZyAB8XR5GM+VOqafcTp5arxKA6shQcLTcJKObpaL1JQHFKDpIhfFkfF1eqoV2EMjeyB66WpCzjkjVhl7YU/NprEc0MRYLqf2YeLPNCBWgFLRx0qbYFPBaMeU8ypAb4pE3YJet4JyWasRP1YXVaXZLMUVuZaheto2VakJfVuQG0rT/JQCnYene8JGdqxehyZJkfgjDMo27LRQNkK0UAMQv6wy8JIFvlPvySADIrr4fnq34Db8HrzdQJRD4AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Mage's_book",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 15,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 15,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "magic": 60
+            }
+        }
+    },
+    "11924": {
+        "id": 11924,
+        "name": "Malediction ward",
+        "short_name": "Malediction ward",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAClElEQVR4XrWXQWvcMBSE18ce9pBbKASW0B/QWyA0NDQ0pKEpaWiSEreQ0lz2UOix/17tSJ7V6Fm2ZLt5MFiRLb1Po2d5s1oVo3FBNhq3OTjwyt9/lmjcy/19rwgWRJgIVKPF0bg3R0c7KOjFuv2nR9//9vjYfbm6cp8vL7t+6M5Lx6SLWhQ5ICRsE6BamNebjZfNUojUZiRWKALBJQDhWoLBeALZbIUIAFofF2dnO6VQANkWgbigRUAKNQwEiKcqGALNKO7Gb0MJqgZIx0D9t7IqGvfpw4X7eH7upRPlXcJ2jcMoCDRh+5puxU8eimBDUENAtTCVQEjQh4LyQGG7amFQDpXuIAhERSiCYWICBqgUyDrK53WeSqBQ/fGAy4MpFF1SmCEQuo75KoDS7xLUB0vdUigLw2fC5yRAxLOqLQNhX6m76+tEqVOPPSiFyblhRejCa9+4dycnXu3trVc4gVVMEmQdfXV42HvGyo5hmViaLsLN9d5vt17/8lIQOxncxBWLYBuyEJR1XndlFGoMgiAKgzdK+4bBtmGxe3/EmaCRM6lf3AqhSdF+f3rqk+DKvjEouK4AKkuyysEoyBAMkqANt3RMCsai3u6AbPZMRKCvNzdeucnxN5IH+7t6My7lxvHoqATqwxCoBMPayLmUA5sEpDBQDma3VQYIxU2XFAqH4wwgRFr5OFdUQzC+WLs+dYlQAFKoCUCrVaz4FOj7/X0PJgGSOuIBy7EEItQkoBgRCKf2j4eHCGPcQRICEQr/hXA8HSfUIiDAwJ2f39qsO9wG9ikQkhOIrrM9AwiR1pQVip6fAWyR3ssDaUnMDE5gRSAeDbpydWPCj7H/EQGK7tikBFvsSn00vsZKSYf6nynGYebGX14ycUErB9UrAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Malediction_ward",
+        "stats": {
+            "attack_stab": -8,
+            "attack_slash": -8,
+            "attack_crush": -8,
+            "attack_magic": 12,
+            "attack_ranged": -12,
+            "defence_stab": 50,
+            "defence_slash": 52,
+            "defence_crush": 48,
+            "defence_magic": 15,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "20714": {
+        "id": 20714,
+        "name": "Tome of fire",
+        "short_name": "Tome of fire",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADDUlEQVR4Xu2W30vbUBTHzWMf8nAfAqFQKKWUUkoJYikOxVFRurINGWP6UMeUqlTd3JzbFMoQ3JAxcPRBKPRhIAgFoVAQBEEKgrD/6izfG25+3FaX1KIw/MKXNCHp+fA9595kaOhBA5dCju9dChUjYZoO65Q3fc9wFowA2i+odFBk9G1Kpe0J9a7hFJqJhrkFUH2GUauk0fGsRo0XjA6fM/r5hNHu5J3AOUAwijfnNDrb8Lq9rtFJxYQsa1R7xniKXriBACr0MhaxDSCkIsPIPn2nUWvVgvu9wKheYlSbY4OAU2g2FuUG0NEr1lXcjwFVe2umtqTytjuLIpAcGGF3kR85o6twL6ONjdfmnL23gKrzViuNaJRbrnqNFCrFox7LMG6gm+COFhlvXX3THPwVRuFQyAaSq96g64EEjICQ4dwWc3RcNVPaYpTTGDFN4w7QMoX2RjL0JhGz3QtGthtEnDeXLajmV430cNgDE6BlCpWTcdvYb4IAiXNsAzCuYX5STOUwIdWZIblyD3lhzhb8wQgg9zmWPq6hXRGzeB/pKLRiQrjdnvcPJBvPtPY0vtzjaigoDOQAraUSnnSCQIl729/NFbbDKJFMdqUjV+4hhQ7HshwE7izpnnT8+vyDZfzGIB+sMXuYA6ezkU5wX1V0Ol/UPMPs1xcfdQ50stt7mfuGaYznaN18T8F/VnW6XNbpoqzztvlNCjCdLZ1O981XxRdrE4zF4/2lA5CK6YRh0OOpKZosFLiRFton4FBUBoGRyuVnCwjpYJDFMg8IAykcphzRbSB4PJ/3wE0Xn3I4tBOFRXsAhPOrbScdvLPEMAdolVvWJwGSEgDCgHo0McEtAAUcIJAMjp1fVjrYv/C+wt7TRzqOrIcUvso2M0naMVK8sBsOqQEsNzbWBVgdTvPnsG2k0unbpCPL+Yhyw6EgCsOipQAbGR21AXE0slk+zLdKR5bzR95PUGwLnzIOnLulAMsYwxwIe8+A0umWgJMB0RqRHr4OkBigADfQdP6lXnCy7wxGljs92fK9D/ov9Rfh6/6Dl8/TGgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Tome_of_fire#Charged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 8,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 8,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "shield",
+            "requirements": {
+                "magic": 50
+            }
+        }
+    },
+    "12610": {
+        "id": 12610,
+        "name": "Book of law",
+        "short_name": "Book of law",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADjUlEQVR4XtWW309ScRjGOZdcnItzwaWbf4HrxhuXy7nVmvNCL9RNZzM1HIFIiIgiI1L8kSPJxBiMYYZKZjGay1nOrbb6t972vPQ9HOAonJOlvdszrs724Xme7/v9Wiz/90hU0o0YiRaCMvmm5d9Q1wom0dIzWQWadMk0PmbVgP1zOImehmUKzMrkmZLJMWEl1+QMOZ3T5HB4yG53V8H9VUCJVqJyBZDHM8dyu2drwMbHXTQ6+lgHsFqmpzIuAPl8IZbXG6wLNjIywervs1Jvr5W6u610/56I2/BItL6mqEBwaH5+iQKBCAW93hpdBFYN1NpqYaBbzc1GoCR6GVcqgMLhNQqFVii4EK2BuUgAg1NDQ2MMBHeamkwCvYgpan+gxcUYRSLrDNYIHByDW3BpePgRDQ4+pJaWMowBIIkSW4oKBIeWl+OsaHSDwbRwAgxxaoHQMUSI6BBbe3un2imDHSrHxVrfprXnCdbq6qsaOD0wCMWHS4htYGCYFMXGbnV2GIpMouS2wkBwCEAbGymKxZIsPTg9MAD5/WE+hcKd/p4eLrWBDkmUzSgqELS1laXNzQzF42mWHpweGJwCEDok3DHRIYnSqRIQOrT9+i0rkXjDYBfBVYMBCi6hQ8Id9Ai/hmB2dxQGElCp1D4rmcxdClcNBqcQGbrT1zekuoPfBqPClIAQGYCy2feUybxjpdP5S+G0rgEKkYnutLXd4SIbdmcvZ2MgKJcr0O5ugXZ2jlj14AQYgODQlbiT37cxFHRw8In29ooM1gicAAOQcAeL0KQ7mJJDANFTPTiAAQilxj2HAgt3cGUYdAdTOu64rzwOB7ntdvrw8ZSOjk4onz9WoYSq4QCFYrM7U6XH2+02C7vT0XHXqDuYUqFxTYR8PnX1zz3x0OyUm3V8fE7F4lcqFL4w6OHhZxUUKwILFPcdnih4wGH5mXQHU4oMixAFFUXFvwYYIMN+P0UCAf49O/tBp6ff6eTkG4PiVOJb3Hl4oow8sHJsXV29ZtzBSFQs2LjYiAhRoBdCorA4QXALzglQCN/BJfEywP2FUpt0R0z5eXl+/pP/PSJCNOiLKDJOFfYO9g0W4LTTSTOTLhVUW2qT7pSn/HHl+7caEL0RLopoccJQanF/GbhAGxsBVw8QBYdzAEOkuO1R6j92p95cBoiVoX3u4v18pe40MnqAotR/3Z1GRgt27TDauVEwVzG/AMgASqZSWo13AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Book_of_law",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 10,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "12608": {
+        "id": 12608,
+        "name": "Book of war",
+        "short_name": "Book of war",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADMUlEQVR4XtWW3UtTYRzHdy53cS52MehGkC66iBCJRBKFoSAWS5zkkEwRXyZrvkzny2SJmplJb0ZZoVQSFd1Ff+GvPs/pOXt2mu6c00z7wZddHfjs+/0+z/OLRP7vscTRuRhL7pdsWSzYv6HOFMyShw9sF2hm2paJ8agB9s/hLNlYt6W4Ykt+zpbsVFTu9nbIYLJdKX2jzQN3qoCW7GzbFUAjqYQSUF4w1N/dWgXQq9BTGRdAY7c7lfyAod6uFkkPRCWVikoyGZWebh134LHkyW7MBcKhqcFumUx3SWlh4Q8dBweUCdTSElFAzY2NQaAsebkXqwDKDfW48sIcJ6C0SwDhTkNDSKDnz2Juf1B+NCmzwzeVNBiOeSG8juESQD0dzdLUVIYJAGTJ/uuYC4RDhbFbSkBp1YKjZxoIl65duej2KmCHynGhYiYlSxN9ShrMhKsGhjQQseHOhbit4DoTgSKz5N2bmALCIYBK2X4FpeWFqwamy09s2p10X58qdYAOWfLxfcwFQmu5AVeA+YHTUACZ7iQTV4N2yJLDAweIDm3NDcrGTNrVSXAmGFAAEZnrzq+o+A0E8+kopoA01Pb8HSXAjoOrBgYQkXnd4ddnVIwDRGQA7RSGXGkwP3AAERnd4ajrkxXYnS+f4woIPV0ZUdpdGlbyCwcUQHVx59vXuIJCL1ZHlTSYCWcCesFwyOtOiO4wjkMapJpqwQFUJ3cY57jzXuWzWZnNZOTV2rjSXmmsJhxA2h22AZa39raIcud686Wg7jBOoXkm1hYX3at/dT4vK3OzSm83M7K/PqnkBeWK4ALlvWNFYYHj8iO2EO4wTmRchGZBOcaAAbm+vCybxaL6/fAoJ4fb9+Rga0qJU8m3vHmsKKMjUeVOovVyGHcYS358j6ti84+JwTxNAOojjVs4p0ER3+GS3gx0qUO6o6e8XuIA/5x4iMbsCuXVx5sLsJDLydLMtAvKc4E7lDqkO+Upf1y5/x49nlYRaUDTRdwjWp4MSs1zwSkL8ID6Gw13EiBFp+DAAYZrvGGU+q/dqTUnAXJlmOsu+3Nd3fEz1QB1qU/dHT9jgp05jDnnCqYe8xP8+K1dfbxUxAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Book_of_war",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 2,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    },
+    "12612": {
+        "id": 12612,
+        "name": "Book of darkness",
+        "short_name": "Book of darkness",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACvUlEQVR4XtXWzWsTURQF8LzlLGYxi4AUBkKRUkoZSkkoFsVioVSIkIptF4IUKpHYpo1NbFOqVEUREUVBRRRRRMWd+BdeOW+8b+685mNmktp64ZBV4JfzbmZeLvd/j6Iwp2IU3TtwqdV0/6JOFKbo8SPXgOqbLt1cdwTsn+MUPTh0qb3nUmPbpdoth6b9eZPAv2jhjhWo6OkTNwYqFhZ1JIphnKNAO5knflwSlASGTIyco5Vlh5aWHCqXHVpc4ONOPYqeP/MMCA3NjJZ1DnZ2jqQXToJKpZwGTRUKaVCKXr/yYqDZsxUTG9MtjEJLAKEd388IevnCM/uDXBi7FkMh3dqSjTEICYIIkwKk6O0bz4DQEDB2+uEkCPG9cWvpE090XMjc+GosSWCI3KmxM0XynBGNuTSX6sgUvX/naRAaAmh+4rpOGphEcTsrlYpe6hQ7pOjzJ8+AkIXJNQOS6YWTKNlOhh1S9PFDCMIOAWMnKQwgtAME7w4+U2G+fvE0iFGXJ9dN0sAA6tQOPhMeFSYE4cgAKgdVHYnqBLNxAA2lne/f8hqEXJm6bUAy/XAMQjtADNTOzx95jUIAkkkKA2gI7WDChmyIHRsmcQDx7gzYDib8u+N91ajVaKtapavFBlWm6zo2zMYBxO3gNoDL2/nZXNZ2MOFC4zVxv9Uyj/79Ow3a297SWS41NbITFI8IPEDxvsMVBRc4PPwytoMJj4wfhHInAAPycHeXHrbb+nN1JgyQCP6V+C7eebiirN1wdDuj+SBLOxhFv3/l9WLzcdhLy/8gtIXmGIrge2iJbwa81Bnb4Ymul/zrcTzd9oUfgM2NDbpb3zRQudQZ24km+nL8/msDZYuyPfmETvECTTaM6wfEcgMHGD+lsdQDt9NvegHxyJDXXdyfh9pOkukE5KU+9naSjISdOEbOqcIMY/4AzhYprMWI6OQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Book_of_darkness",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 10,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "shield",
+            "requirements": null
+        }
+    }
+}

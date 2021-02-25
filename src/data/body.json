@@ -1,0 +1,1143 @@
+{
+    "0": {
+        "id": 0,
+        "name": "None",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": null
+        }
+    },
+    "24420": {
+        "id": 24420,
+        "name": "Inquisitor's hauberk",
+        "short_name": "Inquisitor's hauberk",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADmklEQVR4Xu2W7WvaUBTGmz+gH/pBECEQRCQECUGUoEQaGlZssdJKa0tfRrt17Yd2ZWPsw/76szzHPelNYlRW9mX0wCHi9Z787nNerltb7/Z/mSUL/1t7y96SWRKFoTTq9QoowlZBWzLo9SrWNrb8S0ygwHFya7WdnZznwSzpeJ50fb+wVgW/1CyZHx/L9GAsH+JYdodDPWE/CLKgoWNn3rUb0mnUpV2riZOu17e31fnSVrOpQHia4NWKl2yhyM35uZweHck4SWRvNFKgsedK4rZlt9WSKH0BnWCEMsGwl0Cm5xWvNEteHh4y/3x9JRezmaoFlRzbzkGZbkJlau1s64EAZDqhNgK6OjvLHKcjlNtuKxTk7rWaJfdSmKJDaaiMvUg/4PAZMDjcmrRZ8nx/L4+3twqBOgIUagiB4SjQIsgqIDhSDVWwFzBUiGArVLJyL6fjO6QE6Uj6voxHQeY9tylx6GU+6LT1u0GQPjtpWuy6pu1xNJSrfi+Dojr5zlxqlvx4etKCpjrHfkeBsDaJujJN+upR4C5enkIkQ1+fdEIVgRAL6Z/s7+thoRYVWqKSJT+/Psvd5aXWDmAYBEWM9emor1BQCkAEwGc6geAEetqN5Cbsy3kvkEnH09iAQjpXpgyFRxicCkFOA187C+uzOFSg2X6YA0L6ikBRzxXPaYhdr+ne++EgOyDicb4hfStTBn+JRxmQqdA8GapK84P0hHE3g6ETiDUFIMY004YSwFjgWkXKaK9AxZRRpYtJpHVEEMDxM+oJDiBzYiPm3SBUxTFMCbQGBmZpzrGZOedGPMfdQOL0OzprSjtwEOgI8NPfouWXASEeOnZjGPggbU0GbRUu1STtDKQOSiF9gEBNxV1PofBk6gjEvYiJeMX7rkjxxyztsJPDQ91Et2uLojSBPp3uZUCoJwAhbYTRmRSUgXhQQnEmrYTinEAXlC/BBdCXeSIfT2K5no5yQKghwviuUwJCB2P+4ArB05zUK1JnqUrYzL8MlJZ1A4UAVFQoG5YVQDgkLmo8MbU3gIFZ8uv7t+wirAICDAcla4hAaPcqIKjPS/p1rdIsvTZwsTJty4BYPwRCYReBdEovAYJCUB9QvDqKFIblgTC5zW4wFSIUgJA2dhi6y285uTlEoMh1s9iA4tpalYrOgARCUTNtKGwMSkJBJdQTBie76VWFctw1MAvjD01frJRhN3EzxvK4b7BiwE29GOfd3u1f229eUPHd471tUgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Inquisitor's_hauberk",
+        "stats": {
+            "attack_stab": -3,
+            "attack_slash": -3,
+            "attack_crush": 12,
+            "attack_magic": -11,
+            "attack_ranged": -10,
+            "defence_stab": 67,
+            "defence_slash": 55,
+            "defence_crush": 71,
+            "defence_magic": 0,
+            "defence_ranged": 35,
+            "melee_strength": 4,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 2,
+            "slot": "body",
+            "requirements": {
+                "strength": 70,
+                "defence": 30
+            }
+        }
+    },
+    "11832": {
+        "id": 11832,
+        "name": "Bandos chestplate",
+        "short_name": "Bandos chestplate",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAChElEQVR4Xu3W32ubUBQHcO+f0IdCGRSkDAkhBCmVYEhIUJQ0mKHBOujWsB/tAt3Yj5aVwloYg+1hsIc9dC9jf+uZ58g1ejUEU29gsANfEsTc+8m5XlVR/te9i0Exq6rKuZWKgaaq0NA0eLi3B+ruLmxvba2YiEGjoYGqxudurzq3cjFoxZD9dhtazWYKw+N6DBXPxuOmeQCGocO+3ibY8nPXLga9TgfMg3giXU9xxX/OCNLrdQjFIwWEXSoD5SdKujMYdFOUpA5hFVG4fIsuMXCcIVhWnzAYXDKOkQLSY0AWhV1aXOAMgmBMKN4diRheCxR+9nSFwkFGU0lBG8DwYnD38wo+XvgEsIwEhN/bmhLfIhSYn01lXTdlxeDzTQSv56O0M8nEyfcXMwtmJ55sUP4uffluQhMXl4URNDpyZIIYzKdTyszz4HjkQjAcgmuaOWQWe/zYLRwXR12zGJwfhYQ5DXwCPR0fEipyHJj0+4TDhLaVHrMNA8xWiy58zAJ/72LguS5lZNvgxBNb8YSYQbdLd2/xDp59xGCS3ajXtYRFEEch6Me39/D969ulIHzm8dQGenQ4SkHZLiGId2n2xFsKwrcDjqkFFIzHOVTZsp0+9+H8LIQ384iyDCSOvkaVg37ffYI/v25TEC7Z1YcTuL58Rp9Z0IOdnXpB4WRCqGXLdnv9kkDimwCCsDu1gyLfL+0SB2FXxJ2WBfGHb00grGTZRAwGlw07FPoWuLaZA2Gkgsq2PYJw64sd4qiNgLJbnufLzasUlO2SNBBeP+J2zybboY2AsDscUwWE214KCLuDA1cN/lYCCCsZuGokgrDE95vVSRC1PceKxQeuEv47cax/qv4C15/fxl/26dAAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Bandos_chestplate",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": -10,
+            "defence_stab": 98,
+            "defence_slash": 93,
+            "defence_crush": 105,
+            "defence_magic": -6,
+            "defence_ranged": 133,
+            "melee_strength": 4,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "body",
+            "requirements": {
+                "defence": 65
+            }
+        }
+    },
+    "10551": {
+        "id": 10551,
+        "name": "Fighter torso",
+        "short_name": "Fighter torso",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACaklEQVR4Xu2Vb0tUURCHPd/E1yEhYUiSJIliYZKhJi0LZmaky7KYmWmrWS4mEr7oA08+s/zW2bsZ9+Le3rQDw713zjkzz/2df0NDAxvYP7Nkxb3vdp189N5d95GROx3ne+z+qI0/GLOJh+P+jN5HsHaiyUcTNvV40qZnpuzJ/Kx/R1cbzrvi9MWBAvqWqiWbnZv2hPMLc7aw+NQWl57Z3ueGVaov/V0Fab/J6UceYIHshsttyRMtrTy3ldUXtlpZdgj86+mB1Rvvbau2YZtb67b+tmprbypWff2q652+jMPJQz4AgUNFn/7h4bxQyZOSHKfQxrs1B/jWOrSdjzWHqtU3PUYb/QTJN2PIoTyC5AeBKwxEYgpQlOKND9sOAhDTFqHoBwB9/qSe+sRYAaDUKb77qe7F9w933A+au3Z61vSnoOiLowr9FRMYcfqqLSqbcx0lL/jleM/96GTf1w3KAIMTExSFcAoIXHGKE2c8Y8gX23OqlDqqCCxCtc6P/SkoQaCGfkJxFEGN7u0ezrQrmBxAWO9gOQUjFN9aZ0DLaePHBKTiWc9WvtGyA9uDU486FEUd1IiK4UwLi1hA2Rp9sOR/f3Zx4ltYRwFAcccR08YoODVFrQ3EwqYY0yVApjG6dluJ6mDJp0uLm3emBaWklhTT1i8dSKoAJIjs4aktHxd0NlOfrH1GoQzTpqOBZzweBIlSpQNpq8dtD5S2O3GU07SVDoQygok7K3uQMnXESgc6//nd14+K6/ADUtcL7VprpQNd/vphF5etzkms+0pAEYzjoGQgrPc6+ZuXeCheW7xO8nh2/MAG9l/abxcSc0Wvjm3FAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Fighter_torso#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -40,
+            "attack_ranged": 0,
+            "defence_stab": 62,
+            "defence_slash": 85,
+            "defence_crush": 62,
+            "defence_magic": -10,
+            "defence_ranged": 67,
+            "melee_strength": 4,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 40
+            }
+        }
+    },
+    "8839": {
+        "id": 8839,
+        "name": "Void knight top",
+        "short_name": "Void knight top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABqklEQVR4Xu3XT0sCQRgGcOcjeAgkEBYJCQlZwpAkSZLEILp66hvUsU8gHvpjeXDDiFqC9RAdIvC8h4IOfak33llm2X3bXdvdmYGgBx4Ukdmf74wuFgr/URIG0VUeekGvK8ViZOn7JEMZGOWy39VSKVSKSaokVDIoTXEt0zDyoBisVSohUB6UMlBWmHJQWpg20G9h0kCyUFpA4+HQf34/mSSipIDWq9VY0M1oxB/t6dR/zbo4/wHRBgpOBVFaJ5SEoqUQiqJXSZkwKq7LUOLWgRPKOSWMh6J9sW14fnzgde5m8GRZ/rYFUZIxGAafrgtfH+/gLhbwNp/Dq+PAXrsNu60W706z6Xd2PYbbq0t+wM9OT+B4MJBxfoJhcNjrQb/bhf1OhxcxUaDtRoN3yzR5cZKSp4PJBtqs10MgumqOMI4RIIGJA4npaAcJjADR7VIKQkgcKGq7tIDSnh8s/kYpASEgCRQ1HeUggRLfuKgtpNPCH0gFIAyDo4M+bxqQsgkJzDIQ3cKNWk0NSHzypPOCRQA2eM8TU6Kr5gz9F5qukm8dXsSiWUvX+1P5BiOKJip7GCjWAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Void_knight_top#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 45,
+            "defence_slash": 45,
+            "defence_crush": 45,
+            "defence_magic": 45,
+            "defence_ranged": 45,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        }
+    },
+    "13072": {
+        "id": 13072,
+        "name": "Elite void top",
+        "short_name": "Elite void top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADX0lEQVR4Xu2V/UtTYRTHvX9CPwxkIIwRQ4aMIcpwTBwOZYmIBkoYhYkRpoGRiVlmRhlmpYiaaaaZlqY1FNF8QVHzBcU3EhPNMPpDvnnOeOb10ewqzl/aFw53Xu9z7ud+z3nOExQUUED/pxTsjaPcO3EpcERZERluRlioEUaDnl+mDw7m0J05w0H31M/odN57crZjavcr01LikJLoREK8Ha6YSIZLS07G9cxM3LmZh/IHJah7VuH7nxoqRK87CccUnDUaYQgJYQcupDiQlmTH+QQbktyRSIwLhzvW6gN5W1uLzjdNcEVb4LSbERVhQoTFCIvZcKCL8tv+IQVhZjNCTSYfFCVSgzhsofzCdy/r0NXcjJ72dgx+/uQDETBqIAFF+a0Gg1aonR6wWhFusTAUhXCJgAhmyONhAAJpe1WP7pYW9HZ8QF9nB99rqq5mELNJzyHWy1Dym/8iZecrIxhK7RAl+rawgMnhIY7Rvj52hEA8ra0MQ5DvGxvQWFWFqrIylBQU4FZOzr48FBpdUhBjt+9xRyT7tfUDK/PzmBkbw9zkBKZHRzExOIix/n4M9/QgNjoanrY2dLxuRHNNDQOVFhbi9o1czqHOpYaSCSQpvEgsVH/V9uYmlufmMP91Ekuzs3wlOLfLhTink+H6uz6yW9Tc9S+e4/G9u7wDRU7ZKY2lU3iBCJHg58YGO0Qwq4uLDLcwPYWpkRHMjo+za3Qd6O7m0lEfVTwsRXF+vs9tyiV2mrq5NZVOjq31dawtLzHMxuoq/yYgcofKl3TOjfEvA77eomYXZZNzidAI45V42LtAYYjvKysMRM1NMMKVkd5edoSamXqIGp2uNJ8eFRXtebkc8ns1agdobY1dIZjFmWnuIYKhHUcbgXbmk/vFqH1azmANlZX895Gd0C6F3aE+UrtD5aKyUcPmZmVxE1OZaILTbwEkZzsBKb5SkTsERoC/t7eRGB/PDUszJy87m8EormVk+BeISiWamUpFO4dmFgU5JI6Yq5cv4Up6Oi6mpvoXSD1PCIYAaRaJAUnNTdtePWc0zprjyHvgUpBL8gCVQx5+fnNJ7ZQMIId43k+7TMgL5LDZeKuLg1j0knBRfYD6EYbkPYApDoPyc6lk7T8GDopTcGdX6vF/WMjrAgrotPQHEllqd5tINWwAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elite_void_top#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 45,
+            "defence_slash": 45,
+            "defence_crush": 45,
+            "defence_magic": 45,
+            "defence_ranged": 45,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "body",
+            "requirements": {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        }
+    },
+    "4757": {
+        "id": 4757,
+        "name": "Verac's brassard",
+        "short_name": "Verac's brassard",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABXUlEQVR4XtXVT4uDMBAFcHPcQw97KIhQKFJEPIQeCkuhh0K//2fK8vIY45/WTUtGsw/mVLU/k5lYFMljHCuLGHc4FL4yQRFUljsPOh+PW6OyAoXtygy01wbFTs0qIOO6rnLXnyYCRdDpVPagv+/5KMZdLnUEKoBklRTH33jQa5RxTcOGxooCJA2+ESpMGEEBsxGKIGztEkihyRGirMXDBRVAU8gUNX5WsrDR0cD8k3iQ0iohhADFyZoDnpXiKhUF35YojLmM+lKtskroJ4w9ytq9r7b99iXXSAGjBCIkNLfg5iBBqGIwaWji8Vuj2cseVNdq37RhXmH42wqgcQ/cbm1/MM63IICAqaqvlCAC7vfOFyBSzzHhPlmdhCDjHg87WplhLWGkqRODkPl0DGt6NUOQTFhikBx874TbJVum1NTvJPSPwpZ9kgxBw4bOBiQNnQEIiT0iVkzcEfFP8gtS4JTsI3rX2AAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Verac's_brassard#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 81,
+            "defence_slash": 95,
+            "defence_crush": 85,
+            "defence_magic": 0,
+            "defence_ranged": 81,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "body",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "4720": {
+        "id": 4720,
+        "name": "Dharok's platebody",
+        "short_name": "Dharok's platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAChUlEQVR4Xu2WW2tTQRSFMz/ABx8CoVAIoQQJIQRpkUikwUMDllYqxChtDVq8oEVUhIqgCL4IXhBBxBulSPGCRUWKKOKD+OCzv2jbNcd1us/k0ByLHQO6YUGYmcx8e83smZPJ/I/fCiOh+iKM3Lg6IQtng36BMvLg1kG5fH5MZlrD/QBl5MndQ3Lz2n6Zn6tLMFr8BbWRtjyMPLrTlisXm1IoDEg2u91qcDCbqC0GNFKvV61uX5+ScrkgxWI+BgBIim253LZI3YBJSh1GGqM7I6iR4ZJUq0ULpUEg9EFDQzkrjoGbQTAS/R9JEZ5up4QysrJ4TF49PSovHndk+eERqdXK0cJ0C0K7lu7Hws1mzSaGPp2Q3uZqPt8Lysjq85PyfvmEvFmas3DIkgtiYiwK0UHKhRof393lknZ5/extGEa+rZ6TT69Py4eXpywct09Doc0VxxAai8IlQuk+upzCJSM/vl6S7x8vyJe38/J55Yyd0IVCmyuO0U7CJYjb5yaGMalc0mKWekK0udJOcEH2EUzPw/nhUA+XMhkOCgeGf9STcQEtF5pQboIuSE+YpNBgk5N7EsWtccFY4hpg0yDdYaTV2isHphoxEMLo7aNSb8vmYu3SbJTWst9hVdsVnhO4wWqrVPIxEcid6Q/FOhDcgQMsZ4gXKNpKpQErL0CA0ZW1dH8mgnLlBQhnCGJ14UbHN5QLg/fNC5B7sOkUS907ULs9FoNKAsJvL0BBULFAhAIQ3j2cI3xl8mB7BZo+3IwB4etg8d50dEOz0rwBzc7us1DctnfPjnfd0J6AEEY6nYmYS6w49+nwUPaM8F1zt47XAPsJ4wEo/uC6IoQ3GB3u4n8F4p+Mn1uh9VmftO2KAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dharok's_platebody#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 122,
+            "defence_slash": 120,
+            "defence_crush": 107,
+            "defence_magic": -6,
+            "defence_ranged": 132,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "4728": {
+        "id": 4728,
+        "name": "Guthan's platebody",
+        "short_name": "Guthan's platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB3UlEQVR4Xt3XTUrDUBAH8OYALlwUilAIpQQppQSxSKRisFhKoVChFKmuxI3eRtCtlG4t4lY8iGtPMnZeeOlkMiW1TCI68CdZvfyY95GkVPof5YCcQmv14Gq1bFKp7CRSECx6SLNZA9/34tTrlRjmeS7UantQLu+a5Ng1B9qHDZMgaMb3NIhDLEclcWrlQKfjQ3h6YEBSOAo7xkG+62qhHOj1AgNCmJQsVG6gdclCKYIcGAyOodttw/PDFD4W9+be5utzYa6Iep3dJFCzxyt4f7kzKHUQdghBb/Nbc89jUbRT86dr0ylc5OqgrKxD2elTBV2MQhgOTxKRQBbFYeqgyeQ8hdoEZINdsuuIj75FrUAWJUHWYbBL2CH7SlHokrN8SAvG4zMRlYXB0F2mBgrDxnLw/TjBkScu5lbLTUWxO1hpkO0QxfDdhS9dm1xACKHTxaeJYuh2V14/WBGIY/hU8Zds4SCKkbrzayCKKgiEtTqtpfVDYRyEV8Utj+XEZ5C0hjiMo2xwHD7ylpUG8UORd0xCKU5ZEiS9yzhMOgZyAdFkwThKHWQjoSQY7xRGdR31+z5ML3sbwSiI/p8p7jSs6DOERoIhiHYFP/RzwNiif6KbJydMVHbwn4aP8+fqG7ILZlf+3Y5aAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Guthan's_platebody#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 122,
+            "defence_slash": 120,
+            "defence_crush": 107,
+            "defence_magic": -6,
+            "defence_ranged": 132,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "4749": {
+        "id": 4749,
+        "name": "Torag's platebody",
+        "short_name": "Torag's platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACkklEQVR4Xu2WwWsTURDG844ecvAQCIVCCCVICGGRlJKwJcGlwYZGosRUIkIrQi8ilop4LK2WQiwlEIqlJQT1oCjSg3gR9ORJ/JtGZ8qY2bdv003Nxhw68JHS3f3e732zO7uRyEVNTCk41USUgvW1IqytFCYBqg+z2pwjICuRGCcUt+ZUEma5Zp0HyG0YLOL+ufl8BmZzabCsFGQySUilEpBMThFMbTEzLJDyGE1PxwxwbuByOQ+OMwul4lWwbcsDxT6x2OVhgBSZoUw7lIbp9BTMzMTpf/F4FCqVwkAo9hgCSJGRyQyhUGwmj+NCCIUwEoo3xufJlAIAuSPXodCMjeQxFO8ej1er875JyfN4YzqFKDXQCIH0BPXW4mLR6CVfKJlSgLYp+NC5Ab1WBQ62FqD1rORZDM1lgiy9JTdrJSPUkCkp+HxcdwlvWlQ2myBANtelJ1mvX6PNvdlbgqOd69DZdOj63adFeLExD9vrNmw+KpDOTMlPvFuTZEsY6l27Sml3dxfpF+Hw78PnZZcvwgwAikT4BCm8kFtgkn7PIZi+IRPEmTD+9edmLqVJtn0F8nMpUi6XJGFLUdxiFM4l0+L/ACHLDCSTYRAclKhA7Th/uYH0p0e2iic3A+lOI6o+kP44Sxg50ccChPNlUDpjBXKcLKUjhyNP6v8GhOlICPw1zaCxAL3cqkF75xYc7jX+gshpLV8N+HV4tL9MULrTiErBQes2LfKxu0oAPKX1Afn+eAW67Sa8fXUvzJQU9Dp34eT1A/h+8hB+fXtC95MuvOl/ft2AH18ew6fe/TCBsBQ075Sh0VjwQLAwMWyn/LQIFQhh8E3O0mH4acPPi5DT4fK+KP0Ucjr94oWCSL/2okZZvwFCIivO8i4s/QAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Torag's_platebody#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 122,
+            "defence_slash": 120,
+            "defence_crush": 107,
+            "defence_magic": -6,
+            "defence_ranged": 132,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "21301": {
+        "id": 21301,
+        "name": "Obsidian platebody",
+        "short_name": "Obsidian platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC6ElEQVR4Xu2VMWvbUBSFo7GDBw0GYTAYY4QRwgiTEGxibGwc3GAHJzhxSdrSpqX9C/0HHToXChkKnTp16lo6dSqd+oNu33nKka8Uk8hOOsUXDrIlvXu/d+57T1tbm9jEwwpHYi27t0zL3rmXiJPVfV9q1WqqaMnzkvsQfjcbDSm6bvJOGAT2Gd69BzBHWtvbsre7KztRZIshOQryNwpBlXLZCvdwxTv9Tse+R2jcX4CtHI4FgbrttgVDcswYifkbxSj9n0AYm4VC7qhSWRXKsQkpDQVIAuEeXcQVTqI4XSKQnsCi9bnDkfH+vgx7vUQaii1EAYhOEkivG97nM8Kt6JIjh49HFmo0GFgRDFAaiK3STukW4X2O0XAYk9MlR2aTiRWhNBikodgKXPFf3wOUdpgu02k8zwHlyK+6Jz+MvvtF+VZb6EvVlQ9lNwHljNkGDYkrHPp5ledrtSifzfjLiiufjD4avfMKcuo+ygc1D+ryptmQV1EoLxqhTP2adM1C9QomyXQqRwcHFgyO6VboFmFhv2635G2nLedhYHPO6n6SKwaJ19It6yle1LplsBsFsXP+hiU5PzmxYNlFC7FF5WJRnhwfW2j9nDuRZ9ItMAjHJkJBiEBciM/HY9vW34Enf4zoFFr1vlRIBCCMBzwnxo0BqJzuMBx5eXaWAOkkF4cTuRj0E7EQgHumNQMDFl0djpzcs/nc5iI8J5cTBrE4i3i48ZS1LvV7iVCADgII8k0h/U3TudC+Fd1BODaBPlfY89PhUCYG4Gk3Fo8CAu3V6xYILSMQQbh+VnSHEX8+kES7MzNt0kAEt6e2gYFCs+WrpVIyhgtdH4prAdEhbb8G4oKHSwBny7CG4BLHLIO5E9BiRmkggOgdhAVNILiUBVrjO5aN7OGVBgIEdg53D4oCaieIobSz13OtGekEMdCRAQEQTmwI3z66NGpG0gpDC6QBtNIV7hzpGd+k/wRwPbIzvknZsZvYxIONf2HCHscIjooGAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Obsidian_platebody",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 55,
+            "defence_slash": 78,
+            "defence_crush": 56,
+            "defence_magic": -15,
+            "defence_ranged": 60,
+            "melee_strength": 3,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "9674": {
+        "id": 9674,
+        "name": "Proselyte hauberk",
+        "short_name": "Proselyte hauberk",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAD/klEQVR4Xu2W20sVURSHnUcf5uE8HJBAkIgICZEookiKpKioMMkMrehiRWVmZmapaRftYqVdLMvKMi0rSxTRLFEMtF76m1Z8a1hz5gya50j15ILNzOyZvde3f2utvSclZcEW7L+YI7EWfp6t/5+YN3lxQYEcKiqSI/uK9fnG5Tq5cKZMjh7YL7u2bZM1K1dq/6rsbMlIT5doJPK3wbzJyk+ckLJjx/R67tQphbhe5MqNfa7UV1XpO2C35OZK+XZX73du3SLr166V5ZmZsmTx4hlUTNo8Ba5UV0tNRYUPcvFsuQ/z8ObNOJX25udLQ6Hr32/fvFnWrV6tyqHaiqwsbfOActTZ3WvX1CEqAAIY980HItJ+767/DX0AHz94UO4fiUhlnqth3b1jh0Kh3KYNG2RjTo4f1uyMjEShHHl8p1kbDpuvXpHG2hp1ilr3DkWk7Wg80K2Gen1//nSpnDx8WFXiur+wUPbk5SkYOQYcYYyFMCFzpKO1VRtQrU1NCnX90iVVCxjeGRDvWxob/fASPqCr811VDKUoBEIIFEpZ2BJQyZHOR4/kdVubXg0Kh6jQfjwinaUe0LOWFoXifdvtW354gbI8owhKS0o0pwzK8mpRWtpcKjny5slj6X7aro17wHCOQ6C6yiJ+P8AvHjzw4YI5Z6GtLXA1twyKEKISubRs6dK5VHKk93mHvH/5Qq+0tx3P1PHHymisdXbquyA03wRzipyrq6zUBKcaDYrwmUpUnZuaOrdKtK/1Ub+N1EVlqCaq/cMfP8hg7zvp7+6WvlevFB5o4FDLwmuVCQBqWE6d3upKSW6qFOcYiKfQH1TCHBkfGlKnrJyEtsH0fxsYkNHPn3w4wExJVAoWAUnNuJ+Tkzp2oKdHv0PBBGGweCBCYEBTY2PyfXRUJoaH5Wt/vwy975X+ri4NYTDfLGxBoLHBQZ0TaMJpQGHvM5ijDlkNToJAv6an5MfEhELhYKSvT78jr8JhoyrtzDMgvkNB9qt5AzG5AU2Pj6tKk19GNHSEjVWTSyR4EMjCYkAoCjSgJHhSQBZvgFiRTQwIsJZLYaDgvkXpx5x6BcF88wKyeJNDwUlZJc2SWnNoFqD4PHE0vHwDEH8HSQGxepKVBIwf6G2e4U0xuAfZxhjv1FOdsVQgO3jSQJQzqwlOOhOIHR12pjGGkuf4MCgaeUQOAZ00EGHBuZUtbaopbUYQGuoAw+pRyP4OqKb0aIo/B/sWQOzcSQExkBVzCAYV4ugYuOjt3gZiythvCDD8NbIzc8AGx1MQLCTJsse8FdmgYA5Z49TvKY9Kb4V3xvEnAAA/b4mMj+9PwGxAeFCsLzZ5uAXHzjY+3P9XLOz4nzpbsAVL0n4DGTIG5/LilEQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Proselyte_hauberk",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 65,
+            "defence_slash": 63,
+            "defence_crush": 55,
+            "defence_magic": -6,
+            "defence_ranged": 63,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 8,
+            "slot": "body",
+            "requirements": {
+                "defence": 30,
+                "prayer": 20
+            }
+        }
+    },
+    "22327": {
+        "id": 22327,
+        "name": "Justiciar chestguard",
+        "short_name": "Justiciar chestguard",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAEiklEQVR4Xu2W70tbdxTGe/8AX/hCCAMhiAQJIYQQCQmRBENCGqJEcVYaHU6rRW1damuddeKcplptta7qxGB1XVc7tr4pe7c/7mmecz03N1ETR6EvigcOubn3++Pzfc6Pe2/cuLavywyY/jn2ufMtM9DX1YPOjtglUApr92oz0J3KXPLsSlZePPftAAZ6+5GKJy/Y2EBLS+CcV48ZzQ0jEYvD2ew896x65wvMwOtfbuL9RhcKC8uYz8/i3p0JjPZ44Pf6kEu74XKF0NYWEee1OmH463R64XC0oqmpGS3fNODh1A8yPxruQCQYRigQRNTfDK+r6SpQBt4dnuDV+hY+bGXx8ulzbC4/xcLMHCZHxgWQUPnBANzuWAUYf3mvL+GSDdt9AXjcHsxNPxSo728PYbjLI+EnGPfyOZ3i1RRnVoZ5tlTAi5V1Adp61InNGXMjVWzoVk5C2Z/tkxzrSXeLM1foDBEVoRo/T4SxOB7Ck9GQQDH8BCJwHYUM/LvbJ4rsb+4I2HZhA/5AxlJq9ckSFh/Ni0+PT2FsaERyhBup8z89k7wpUJ2dIwiH+2UdHpKKcRyfBdyOWlAGTlbTOHjxCnvPtrHzOC4Ltbd34+jXA7lPQOYWgWbvPTDz6wyIqtFZCHQqRqWSybvoiA4iGOyFz5eSQ6nKdcJmoPhyXzbenY8jEhmwgLzeOH7fK1pQa4srWHq8IKelUqqKXSmGkyql09OikkJxLYaeY2q0AwMfTz8IEGH2FxKI+d2I+NoQ8rgQaGuREB7vHko4CcU8W/5xURZn6NQVjjnmcHhK1eZCJuJHKuSz1owHm+UgVFJVOgckm5VAqAJL3w7T6nCUTjht5RLH8JpQDEFxKYW7w3cqnDlCGK5dDZQKO0sJHxCVLgGimc2KoXm31iWTCeNtdQoQnzG37OoQhFW4no+icL8DK1MROTVDRZjGRrMZVgNlY61noaqZQzRD+g8TUZOR1dHcZDaxaOyBBUVFGeLD7T282RiUXsNkpTosa4WhZ7OzyGTyiCfGJI8UqA6MmrnIx9/GcLKWw/O5rDQ9vc9QaYLzmnBsnKw6TXD2H3ZrO9B/x5Mort7C/HiiQp3q3avMkJKW/lHqqCxbyl+ebFSow2vmkAJpOROIrw77PLYLViUV1IZqgtU0QzbgSfmqYFfV0tSFmdTsS4SiQswlAmnIWF3swg0NZt7pPMKw43McoSsPeqkZUt7aiVkFbHD2hQnDvGH5KxBLPz9xX8LF8cyhpkYz73Qe2wn7F+Gpkn7S1AVifnAThoB9hfKa0hoC8s/JqbzzqJDmEVXleG6knyv6uaFAHKdAhGdYrwT09uDYijfDVv44M/D38Z/46+gt/tg/EjiqyRBSUW5CIIaDYeab3g7EcXpQjtNndYHeF99UnERheJ8wqo52bI7VkCkQE9b+icFfwnNNpkJlGtQ1oxT/Rsvti6r7vV5pC6db3+F14TZ2FnqxNpPBT5NJa06lAoaA65r8XvofQLTy5nZZ7RvUch1XueHFY8rP69jFi5bN/vwirx5Pu8qYa7u2a/sS9gn5+H5TkxLUnAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Justiciar_chestguard",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -40,
+            "attack_ranged": -20,
+            "defence_stab": 132,
+            "defence_slash": 130,
+            "defence_crush": 117,
+            "defence_magic": -16,
+            "defence_ranged": 142,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 4,
+            "slot": "body",
+            "requirements": {
+                "defence": 75
+            }
+        }
+    },
+    "2513": {
+        "id": 2513,
+        "name": "Dragon chainbody",
+        "short_name": "Dragon chainbody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACwUlEQVR4Xu2W0UsbQRDG7x7zkId7CEihEIqIiIQQDCGSokQMUnypYCNooViJtKFFaimtGAiItKWl0hcffPIP8H8c99vLd072LslJOKHFgQ9zszOzv53b3dPzHu3fNV9cT7KNixs3RksTY4J6ve8SBrsajmvmvYSYUE89jg3naHU6HxNiYubLxcWVdLvHEgQFW5i6S/ZlI5+zQI1cqOpApYHmEnJ0/P7+e2m3X9vxcrE4DsqX6+sb26Xt7d2oOMSVbRoYCFAE0yIgcgl1UMjJqyCMx/jW1o60WpvpgI5m8jZZFyZQp1KyY1+Wa1ZHtSX7jL8vHT/y+yvL8mNtJQakYScCfSiEQEzWq31bXpRdM3bSqMtxvWoB8QwIAGk/ugWgs9VGBITOwo+aXOQYIF/6T/LyziRjEkygoVBgb7Yob4wf6i7M2WfEYjLEQ/C3nxWj1/epNG+BdE2M6S65JAPz5bN5XUjGhFyRhsLYwfysHBoxDhNpKOYgDnDIxSJZk1CoN+G1hfsHyXpFus0YoxBTCIJImIy/CcUuYRu4UPDHT+OQhR1ykzUQxiANQmEBro9AWCjydPdTdMmPFXwojQCCxW9drdPKYqwYldQhdAGnzq3jCjAjgDyPg66Q2F8qRe13J8er0M941d/KC1Z60lFyOVJYuMcA5MIkAREKXSKQW3FK8+XX+qoFSoLSQDxJuBShzIDwGSDQefO5PY0A0FcA/BpIvzK34pR2t4cgwGFCfS+hS/TzDsNByAzozABBAKPoS/Lzd2ZA2NSciJckntEh+vkZ4XOmmxpAPGk8/rzZ7XfO+Txkfsr+bqxZIJw26E+raYHwG1DaDyBscPwLkhnQ73ol6hAmvnyxHusS/Q+yqX/WynJeTS/uo8yAvprO8OSwU9zg9HMP4Te6k+EegsU/jGk0xfdqsukP4n3k1nm0/85uAXIaO997U+odAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_chainbody",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 0,
+            "defence_stab": 81,
+            "defence_slash": 93,
+            "defence_crush": 98,
+            "defence_magic": -3,
+            "defence_ranged": 82,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "10348": {
+        "id": 10348,
+        "name": "3rd age platebody",
+        "short_name": "3rd age platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADvUlEQVR4Xu2Vb0sVQRSH3Q/Qi14IEggSIiIhEoYkSZIkFhkWWaEZ9s+wzMzMTDMrszIzxdRKK42irCxBJNNE0CiiL3XqOZezzt283nvtVeTAgd2ZnTnP/H5nZhMS1tpa+7+aJ+ERa1vtvIgttNCOvDwpKiiQPYWFsm/37kCC5ZKGnrdkZcnmzEzZlJEh6WlpfwvmSUt9vVw6VyO1VVVyurJSKg4dknVJSX7wzcWzZ6Xm5Ek5dbRCx+mz8W05ObI1O1vD4IhVQHnSeb1NbjQ1KZSb1JL1dHQo7MGSEoU9caRcAyVdaNTdnpurcAaYunFjPFCeDPf2asI711qlrbFRrlyoUyg30bGyMjm8f78cKC5WIMBITkIssu8A3Jmfr2FwjCeuXx8LlCfjo6PyYmBABu51Snd7u3RcbZHWhga5fL7WT9J184aqByh2ohxK1lVX6zOg1Jt9v3dXkb4bHPalJCcrUFZKykpQnkyOvZHXw0My1NMjD+/e1eS3mpv9xR8/6Fb1ADU7UQhAoLEW9Sh+m4OKvBsY1lmRRwWaHh9XlUb6+zV57+3bap0tjp2AUmPYSR0BYe8GiEqJv1WweVhqYFhnxR0VaG5yUpJSUzVY0MIWxs6gSlhl72YjKgHgzg1GTEAb0jN8oCAUdr59/kye9fVpjVktYdXg/S7/HdXOHD/uXwPBTQWhghRO+xPIwtRzoVzrlrMSKDvikaBiUomYn5qSV08ea3GzOH2f3r/T+rJ+6stss1PJAbBiB8iON/MY58RSQ5YHmChANE9PGiqQlLqgb+rtmLwfGZGXjwb9OkKZmY8ftLYIu1CxkVqyxHzPGPXG8Y8DhuaFWcKO6TO7SAwUKjEOPHAoR6AWSpiyhPVxT7lAwczLNE+PPAuQjEWQn/6Fz9M+EDvGHgBQDVigUBRQCtw2QjDGWtjI6YsLyE4MxYn0ZtnizEwYEOMkQkneUZU64Zm7K2gZfajGlRAXkFuceG4KfZubU/UMiO9QBPsoWvrYCOoCy4VpQCgIuNsfM5D9VNmN/Q7o/z4/rzAoaEU99nRYVcM2oLDZjj72uECmIIpTS6GxqC1kmRWz/TDp/7Gw4J8wFiaAstpBAffC5BdiQJxQTiPzWTsOlTwtSpKhztJOPPn5ddG/gwzCfsQksj6z3J07OzGhd5tdDXEBIS27xLLy0lJn4lKBogZwbt2YJbxzYdo8m/v1y6wCURJmZ8xA7MKK2b3AXLBoEX7xhSxfBRAt0qJLzfqjRfislYCjtMiL/l1bGXit/cPtFwMwylO1O3b9AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_platebody",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -20,
+            "attack_ranged": 0,
+            "defence_stab": 96,
+            "defence_slash": 108,
+            "defence_crush": 113,
+            "defence_magic": -4,
+            "defence_ranged": 97,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 65
+            }
+        }
+    },
+    "1127": {
+        "id": 1127,
+        "name": "Rune platebody",
+        "short_name": "Rune platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACm0lEQVR4Xu2Wb2sTQRDGex/AF74IhIBwlBBCKKEEg7SkNDQosaQSQxsDVRGlFBT/UQoFEQQ/+Oizy3M3u7eb3IW0rzIwlNzuzvz22dnZ7uxsbWsPYonk7v+Ofb8Xs8HrzT1ptHvG8fvZ6Uz2h2Np9weSdrpSazwx3x/V6plvGMwG2+0NCj6cv5fBdCH98SvpHo1kt/tUGq1OAagItjZcIu3BWFoHI2n2jx0YjAHoaPbWUQlQSP64kRr3oVy4SpZI53higDQU/WTxMQPSKnUOh9LqHWRAMTDE30/TslCJ7J1MDRChAETHuA90eDY3UFAKUEhaS1sFMA1XQSULFIMaXV4VgHwoqAUg7SGgEiol0n1+bjwEhXENRCitFGqqN5rYW+dBEaykSv+JX74xroE01It31waIUD6YhoJaaBP0GNASlVygENTpp28y/vAlCgYoDYR68qH8Il+pEvzs+sYkRhIkwBHw++TqRxDMV4lAOLqLn79l+vnWrMNcjDMXFFqiEswmRjIkwW65+PXXOxPYB6NS/rEBCOvmN38yIMwDbEkYWGIWA4iNj0DY6ez7LwNGKCoVOjYNhDUAwjhuIoH87AHLgdj0CLS4/ZtBUallKqF7ayDMw3eClgbiYgRm/VChskBaWR4Z5mCD6OaVgLRCGgig9FVAuk7wF3NZP5WBsJi3oZ42MyB8J8iqwuZGNgKEROHb4F59wtw7EHsQ3iQdNASCo2U/4k1jDenjhrJrAyEBAqKpMSAKU4OEYPyrj+R5N7bv4FpACIxe4b43ViHWkYbR6rDPIDE7MtdzoxWA7GuPf8Lw9hQfQLtTBodKPEIAAQBAep6uv1BsN3/Q8mBuQGs6Qcw5x18bm5ePRywe0DV/3jpr/PGtbW1T9g8wc+9TwenlAwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_platebody",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 82,
+            "defence_slash": 80,
+            "defence_crush": 72,
+            "defence_magic": -6,
+            "defence_ranged": 80,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 40
+            }
+        }
+    },
+    "21892": {
+        "id": 21892,
+        "name": "Dragon platebody",
+        "short_name": "Dragon platebody",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACq0lEQVR4Xu2WvY/TQBBH7TJFihSRUKRIV1EiGgokJCQqChoaGhoKmiuQrqBAJwoKOv5o4+f1iyeTPTtGV6EbaeR4P2be/nZ3nKZ5sif7f63tcstk9M31R1saO9d3sra7v/89Brr0V5ume9H7crAy9tg49tJvb++uiNMPeLdtBv+w3XTvR7ftzZhkLpHO2Ofj2Oz0Acy4lzc3c1Bt93G36T71zhOoDBaT0GZw21GQ37SpKO86Y3iq9CLQ1/1mcKEymEFVTCAT+4ywGUzwK4Cwfn97oC89yOdRLeEIQjDe81ZmKBZAWw1aqCuACszds+2gklCCeVBVTFjVA46kJhYYF8i+1UDf9gUqghkEtbJ6NSjaUCerqNILQO0AAdD3HggofuMkJBljANjvdidXQcbYBoDgqpPP01VAKJHPjltC4AiiA84T8NyHq1I8P26ZUJlktLJdbpFuIG9gTsgYnlk5t+7t8XiKEW+eW7eoks72kSxu149eDbYTn1NIhS2kPw/lCFhOYh5gZoCapnS2Q9IcQKCoBOBZNZyFAMS8GpAgszCTFSBWzWoFInANKrrqRKBfhzKHeKp9JYjWXqwoA9HPOxAColYE8owAxDzicX5WApXD61V2RQa2NNQKZ6xH+HSLyoWh/5+ASBSvewRypblExG9eXIhn0kUabxVQVCcDuV1xeyKQ8zw/AsVFrgby42qih4Div4IIYw2KQLUykjM/YGWyEhvUwPn8CCSIhe/801Auibd2pUrTZJLmVWYgn0AJFKu7czl7qhRrUc5esakGCSRMBopg8ezkvxh4rEVR+Zy9Yu1ZoTNg3CI8K5XPT/6A/jmeF9AVQFjtW1PeXx8OgwsX6w7Oez3xFPM87pXmhDgpBs6fjAxRSxxjroJZstqKaxCPnnjJcuLHhPgLWiOLYuhEncwAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_platebody",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -30,
+            "attack_ranged": -10,
+            "defence_stab": 109,
+            "defence_slash": 107,
+            "defence_crush": 97,
+            "defence_magic": -6,
+            "defence_ranged": 106,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "11828": {
+        "id": 11828,
+        "name": "Armadyl chestplate",
+        "short_name": "Armadyl chestplate",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAD5ElEQVR4Xu2X20tUURTG3X9CD737LCEShiRJkiQiGSZeQjPUvOAlMzUzTURI00S8pGaaOk1qXiYvwzDmJUVl1JQyCqL/ZsW3DuvMmWkczpwRenHBwrntvX97fd/aZxsRcR6WQpE3/2toEAUFZZSbW0gZGXfDhDJuLOR5FHV09FFraxc1NrZRdfVTys8v4YliIiNDnSwC4yor63hTaWmZlJSUEiqcopGRKRoYGGcwQJWX11BOTr7ZCfxCcZWRWVl5lJ6eTYmJNyk6+jJduHDRzJyKbDYHjY3NUm/vKLW1dVNtbTMVFVVYqJImOzIv7wFvSiqVknKbPzM5p2Kg4TcfqOvVEDU/b6eqh0906UzsKkJ+V1pazZvBWKkSUr4HjAkghGIgSNfe3ktNTS+ovr6FwYqLq4KAaZ/jd/AO5MbvpUr+ICZhJLTBg4OT1NMzQp2dr1lCI5wXTEs0gREGFQKQbMIiiISiyckFNjmg4Knu7mE2O8BaWl6y6QEHn9XUPDsVCBUSIP9VQghF09Mrup8gH6DgK8gIKPgrOflWUBjxUBhA4g1FDscqV2l0dIaGht4zlMgHqNTUO9wxgAoGA0N7gQJ579RQ7BHxxMrKBldpfHxOl66vb4ylkxZ+25PNQDj0/GGMLS9zRkVdCgVKsQzwRkNDK62u7tD8vFs/myAdoORMmRrJJ9tgHg13ZzEUDj0jjLHdcSjiQBQgk/JpQKgSgOANqZJIhx1jkUVbEc29K2Coif5cGuzMZKj4+Ov/wMTEXOEETIhACE02AYI3UCW7fUlfaG2hnFwzpbRsLybHRCHZh+7RWG8O9XdkcJXi4q7pUgmMAAlMyECQTYDkgBMptperaMNRQe7ZMnJOlXClAAU/ASoh4QbFxl71gfEH8l81SHh9hFZG56DbZmddumH3XI98oFCpj6P32U/SeUhU6gyAEFqVAOR0btLS0jp9Wlzjv9LaHncN7Tir6ctSJcsHT6FC6DwkJMd4bEKALMgloQGtre2S273NUDC3y7XFEmKhr+u1OhQqBenQeegmHJoChIrCT3LRswAjoWhra1+HQuIYWN/YY2/hcXG8UUcHnx+zfPAROgoLC5A8jAEECcMG2tk51KGQm5sefg8YPMOQgIKPIBm6Co8WfyDjSR0W0NHRDx0Kub19QLu7R7S3d8xVgp/87zwAwhVYgPCdnNRhwCAU/fz1hxcHFBKvPZ5vPDlSoIx3pEBAZ1AdCUX7B991ELz2ndx7FzJ+JkCAtXb9PTUUnZz8ZpDDw5OAO5X3vgsq9heA5Mp6RkAIzUuBYIKH9i9Q6ONMhdVJrY4zEVYntTruPILFX7U8gsowbK9cAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Armadyl_chestplate",
+        "stats": {
+            "attack_stab": -7,
+            "attack_slash": -7,
+            "attack_crush": -7,
+            "attack_magic": -15,
+            "attack_ranged": 33,
+            "defence_stab": 56,
+            "defence_slash": 48,
+            "defence_crush": 61,
+            "defence_magic": 70,
+            "defence_ranged": 57,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "body",
+            "requirements": {
+                "defence": 70,
+                "ranged": 70
+            }
+        }
+    },
+    "23975": {
+        "id": 23975,
+        "name": "Crystal body",
+        "short_name": "Crystal body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAEBElEQVR4Xu2W/0+NcRTHPX+AH1kMi2HWD83CotXC3dIqUqN8bxURKeFSpKKQL5FUaESrbmmSLwm7ZmuYLz/7f45e5/rcnue5qfvMlx+ss53dep7POed93ufL55k1a0b+P7EkpNGK1/OexJJrnYNS1XTnZ5DpdVfJcckvKv9boCzpGXotlzoC4m9olcKj1ZK5vUCWJ66TFcnJEpe6XuJ9PlmZli4HjtdJUUWNFBypkqQNGQpoZWzsnwQ1kfXAi3dyvrVHKuuaNaAb0OGqy1J6ulFBrU3dJIuXxbmY+22xJCEjSwMS/NGTUbnb90Jqb3QpqOLKWgc7ZWeaVClVSlq2xMWv1udLElbL7JgYr6Ai+yAxJ1cdGkCdgZfS0jUkTXf6pb6lW8sHI5wpr7kqFbXXVemftOwdkpCYIsn5O8Kg5ixcGBHjlyCv3BuQs9c6NcN9pX4pOXlencMCGdMzsNPRMyytj4a0dDBFo3PuxIUWtcVu5/5jkpG7V8tG31XW31SfPFuVtEF7y5eZK+k5uyR7Z/HkoPpHP0hDW5/4L7apAq76yj3tBwJk5RfK5soTDq1pfqCAYAqGDvkbZM3mLVpCGI2Nj1fw+IJJk5gBsq2gVMHQ9JM0viXdz8Y0I0rCb2N7n/YKJcCBHUxGWXkYEM0MmKTteY4yU6auxyPh6YQ9JpQE8TkFGCPjoJ6PSfP9Qd07lBG2KJsdUFbFMUk/fEQ2FhZpOWDAAELtLMUsXar+YJuyGiZZDQaQG4VLLBkOfg03cN3Nh+qEjOzspJUc1CD0DY1LP3HOzhIrAX8AMpNJ6UgwCnbsYikLvuIDkrJ7TzgAIHgGMyYAz2GEc5SaZ6wKM1n4cvvxCAaxNLjbiSkV71AAwCBnmDp6CrZMycxYc3b93n3KngHpAQxiaWCc2AGhebX1klt9Vrae9EvOqSotLZNEvwEY9rCxA+K8YdzsIs+AMCZb6J9wEHIOGPqo9+mbsAKKtVF/u1cB0dBuQDBugHoAZGkwd6YGEKzg3DDT1v1US8Lf9BXjTcnYQXY7GKdk9h5yR/6FhIwBhAM3INjhTgMA0wN4Jo/nMMRO4uJl3O12gI5kPCpxAnJmZEn/s6BeITBjGpxfgLG72Et5hWUyd96iCECUDPbmrzBfAVGJJb0jH+VW7+vQp8Z4ALvjh4OvtFwAMIDoN5T/2U3cW8m+TIddYPSTtPS8knPjk1h6qtELS5YMvv0s7QNBudgeCBsax5Trfv+IYwWY3YSyBrgiFixa7AA0FPwmtwNvNUmWqSdAGHc8Dqqx0zD05WiuDzdLrAmUje1O5P2X79I1PKZJOlmPSia+VSacRr6bSqezi3w/jRiDyYzs76bS6ezc72dkRmbkX8oPsslIhVitGo8AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Crystal_body#Active",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -18,
+            "attack_ranged": 30,
+            "defence_stab": 34,
+            "defence_slash": 24,
+            "defence_crush": 32,
+            "defence_magic": 44,
+            "defence_ranged": 53,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "body",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "4736": {
+        "id": 4736,
+        "name": "Karil's leathertop",
+        "short_name": "Karil's leathertop",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACt0lEQVR4Xu2Wz2saURDH3T+ghx4EKQRkCSKLyCIrwbAhS5aIXWLQYKWU1EN/kFsoaSmFUsihhR5yKLS9pJfSU6GH/onT/Y7M7uzT6LpKTw58UVzevM/7zsxzS6VtbOO/hUVZmbHs+dqhk1rkOA9od7dCOztlqlTuGZtb/JtWun4jcBZ9//wys6Hn2dRsVhMoSAOaknV/frxe17FpojBoUuA71PFq5Pt1BgLAPAmgBnJqsaN2hX59u1QHWzksGg/26ay/R7c3F9QLXYYKAofd+XD1iC4m3QyMlFLAvn56zkCea7P+/nzLcFBhqMcjn8FOozZDdfZqScnevzrLwOA3fEK/b68YCGDsbKfOwnfkdatVlrnjkrDo6YsBnY8PEiiUTEMJgADNE1xid2Oh/AJk7pYjYocmJzQYH6dQpymUBpsnQMIhQLC7vktu21kPaHz+kPqjIzrqdjghgKCTqEW9nkth2OS+MiFFAOr1D3i9H7TWAZrCwJ1oGNBh2E4mRIPozcUVs1xYfxztM5DXaRQHGj3psjs4IZIJEGA0CCTO6EtTxl+AcCgA1Rt2kSmzEneQDOUSIJQHYy8wcEpLoL58fMZAcigBarjppJm73hFZGEmkgeCIlE1LnumbWwPhYIWAJInZjBA21n2kYcxrQQ4nuWTSyuX7q5TNyrijxxUaDoJcQI2kV6b59OGkj3K4NOsOyiVAgOnHz6IYVgNpGKjtOQwkTiCnnrSNAt1cT+jd5ZC68fNFQPjruH4zToAKNvZyILgDmDBOHhy2EvlxaUXaIUjnXLGxFwOl5UphNIgJhEnDOt3YZh+ZBEZkG9oEgsQdE2IekG1PXzX0NbJiHy0Gmi6Wl6z8wq1v3ms5y5YHqFSS95k8EiCZtAIX5OwJZWGOxXfEbL6VcpqnzL1wQZi5NpFzG9tYFP8A7kBoUrIRApkAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Karil's_leathertop#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 30,
+            "defence_stab": 47,
+            "defence_slash": 42,
+            "defence_crush": 50,
+            "defence_magic": 65,
+            "defence_ranged": 57,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 70,
+                "defence": 70
+            }
+        }
+    },
+    "10386": {
+        "id": 10386,
+        "name": "Saradomin d'hide body",
+        "short_name": "Saradomin d'hide body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACeklEQVR4Xu2WQWvbQBCFpeMedPBBYAQGY4QxpoRQUkqhUGihhNJDCiGBpoceAjmkUOh/6W/pz1P1ZvdJsyMpseS4zcEDD8mSdubT0+yuk+QYx/gvkVZe9vyfBYt65cWJCOez+UZkn7EZnih88kX5ripWb6os21YuK+VI4TdULC4aUMLabHuEB5nlr1vNTgVKC6BWGvKJ3GpBFusPVZ6/7QCxuHOfIxg8Q6D54syDuWIfsFQAoOX2XIo0QABUxZ07b57pAwK4hmrBdo4WBoI7knT+XmDkGgrX1yG4AyCX3fYCNeONU6fL5a5QXXc6QAbmz+/cA4XrAIIAoHPonhoFhOKrF74YkuHtLJC4AqDVNwHCkVAaSOch1Gig8uRCEtFuTF8NpGF6gULzo/j65WUXakofWWmgefFRgH58LToCFJsffZQks04uOjTCpSThAD8oBlqV36uyvI16iI0NpzgjpbFVE1vZmiMiFVdYBJ8AnxWKZlnoLdxvHZrgxuPhgfDmGmi9uRc590Vck56qgQgPEchm3DOGgH42QPiEdIhAE2bUrpFWRfHJ90Y9ewCEntpsfwmUy64ESFwiEKZ+2P0PBiSNTaC6aAt0U5XrO4E6IFA8TTUQnMLfjO2rm2pzdi3CesNG7weyU39UpNEeFAGFRQ+9QxBp7gCEcwLpHV4WRpPTVn0gPBBX1gYoNCvXIQBC4gqO9TV8uj4grvzIqZcDW3kgwhuF3ZtJOdNwj+sNfgOIRzgF5/SiCOEeXQLsNKCwe7eD238ChLGiW7ELqfQbF8zJQFQ82DbnsOIV2m8/3FZGAiGGEsf73GPSGR/KuVMMJ54eh8h5jGcRfwE4p9ZlkNuaKwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_d'hide_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 30,
+            "defence_stab": 55,
+            "defence_slash": 47,
+            "defence_crush": 60,
+            "defence_magic": 50,
+            "defence_ranged": 55,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "body",
+            "requirements": {
+                "ranged": 70,
+                "defence": 40
+            }
+        }
+    },
+    "2503": {
+        "id": 2503,
+        "name": "Black d'hide body",
+        "short_name": "Black d'hide body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABLklEQVR4Xu3XTQrCMBAF4HoEFy4LRaSIiBSpFMFFoSguvP91KhMZnL5OqtVMiuDAw+bH5CMRxST517/Ma9Z+l6A1axfzeS/bzcZlnecuq+XSBedRAqL8GA0lxxBUZFkIVB/ECN54v9t1+uSYOYg2H5NJQEP95iDcnNqHonDB/klAjJkUxCh6lSBG4dwoIA1DwTlRQMeydEEMJgqIMa9A2tXRWrj6B/UESQyF+vBEGIMfbj6hAKfkB+Ep0RyJkSiTK8Nrkf38rGHMQIhCDF5XdBDCEMTvydI0POjaNB2UDydRpqBzXXtB+CwxHFOQdjoIjQoagsh+U9DtcumBtDaORQFp39a+MQMQlf57xm0NJOcbgKi6qFNV9Tb19TMmMIgK//y9FyPMo3jxscF1fq7uLTu4mqAoUKYAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Black_d'hide_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 30,
+            "defence_stab": 55,
+            "defence_slash": 47,
+            "defence_crush": 60,
+            "defence_magic": 50,
+            "defence_ranged": 55,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 70,
+                "defence": 40
+            }
+        }
+    },
+    "2501": {
+        "id": 2501,
+        "name": "Red d'hide body",
+        "short_name": "Red d'hide body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABsElEQVR4Xu3XPUvDUBQG4JsxQwbXQCGEEkoJJRQ7VJSCXTp0UBAduhQEB8GfIDj6r695o29yckzA1nsjQg+8NF8kD+fefNSYU53KewX2d3Fagd1Eob2OjL0MjV2UwfrdJLM32dhux6ndpIldJ6MqI2O+xSEqsNvy4hJEjEYhwGJbViIYgookcYFqg4hg9LrMrMQhXkEP08lBAQhdcg4iSl8QwT69DcHwegHdnjUgjcL6fpZX0RjeAN5Bu3xahxhEbpcgdMkriCjZHYnCXJOPiEFAXRiEk39Q0NN8VkVjdAYBPRZ5HQ1A9DwiiBNbn/2IakASg+hhwzESJFHskIMu9YN0l7pAiATpsx9R/SA5ufnw7Ho4Ogfd98whjcHyn4LkUHFZYnjrL+PYPehtdVEPUdeElhkE9Hq17AXJDnEe8QHpbcgkqKs7RPGXxwEVh6Fb0E6BJERObA0kKI0i96D39ao1ZPq2J4L7JMj558f+C8SL8F2GyA4heh9Ajj9hUe332fN5UUV2iCDukx3yAEI139bIy2JeLxODYDuXCSLGMQil//z9LJ4wn8WTHxp9nn9XH+lp6j/fTADgAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Red_d'hide_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 25,
+            "defence_stab": 50,
+            "defence_slash": 42,
+            "defence_crush": 55,
+            "defence_magic": 40,
+            "defence_ranged": 50,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 60,
+                "defence": 40
+            }
+        }
+    },
+    "2499": {
+        "id": 2499,
+        "name": "Blue d'hide body",
+        "short_name": "Blue d'hide body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACDElEQVR4Xu2X0UoCQRSG9SGCEIJFQsQLWUKJRGlRDAsLE7GQpYsogjIjrEcIoqugBz7xj/zr2WGDrBkh6MDH7szGzsc5Z8cpl/uP//AeefkdTiMvYdiTarUjlUokpdKeGR/0JtLtjqXdHkkUnUqrdSyNxpEUChXZ3Nw2bGxsGRxK5aVeP5GdWj8Rogyuh4dxSqxcbppxEFSNGKBQGAQupJZCEKAEwbjfv0jNkWKxZsSQKW9CWHwVvAjt7g4TKXtB8NU8yocsoWzehMDxyWUCxsPhjUHPo9cghA8AWVqbEGXWKtRojFNCYDC4SmWHYJ5fI7cIlM27UJYM4H5FKfaRV6HxeGqwZWx02bwJQWQ0ujXYAgAlI1l9ZL/9B7EQQmNrGWCXDdKUYXPbGXKQpaWQlsnKEoT0l0a8lCxLSDc3ZGwhbI4smxchLG4LQQZXyOBey6xdiKXSvaRlsAVAaKcWuReazd6SEmU1tEYLYT8KQ8cZajbPZXr/+qWQvkfp+INLIedN3dqPjZDeHO2ssIf0FX8HoUKh6FYoii7k7u4lWUSLcEwRLUihICi5FWq3L2U+f08WyfrsKcFn6Qw5Pg91utfy9PyRLMLfMqAzBOxnEHJ8YkSkz0Rn5w8ymTyae90zgM+4TUDI8SGfsTxbgzieJ0IEEpjHVQtRxrEQwv7n73t4klkEX74q9nv+XHwCMPhpjiLnyXsAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Blue_d'hide_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 20,
+            "defence_stab": 45,
+            "defence_slash": 37,
+            "defence_crush": 50,
+            "defence_magic": 30,
+            "defence_ranged": 45,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 50,
+                "defence": 40
+            }
+        }
+    },
+    "1135": {
+        "id": 1135,
+        "name": "Green d'hide body",
+        "short_name": "Green d'hide body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABnklEQVR4Xu2XMU/DMBCFndGDhw6MSJ0YEQsbExNDly4sXTp0YUDiJzAw85dDnu2XnK8OouUchNSTnhLbkf3p3dlunbvEJZpH1/9OptH1/sn37nHQw6B7F9v+OfR+65M2PvXhu2t3LDuoblyMQCMMnwTbZNih7W7cpAx0t15bQJVABQShdqIt5G5dUlMgLH6CIhBcMgdijVQWjWO6DzCotyZAqmiLhdE+hCQNkzdAe6B9mEQYSPQXQHCpKRChpDsCKu5GcUQsA1SDgXLxLwv0EpI0jNIyQISZA9J1RKBc2Hr2M0IASRhIpw3fyIKXUNkhA5e+AdIuVYAilADSs58RAkinRxY3D8/a4WgOhLuJNaSBJAze/xRIporvEoZbH7IGCh9XZYrm4ARUW6D31TyQdIh1xAOyVcoKoJo7hOIzfxehzH8P7SoOUbKwNSCBzG/7AWj1qWqIB2MtdRhrCrTPQNxptdOaW1+NNUgZorzPwmuIKhzKQOOYdMgeCNFNDgHqTdQU3QEQ+tkmUIYxBkLoP38/UyOYFJz8VOl5/l18AX+rtrx9l66BAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Green_d'hide_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 15,
+            "defence_stab": 40,
+            "defence_slash": 32,
+            "defence_crush": 45,
+            "defence_magic": 20,
+            "defence_ranged": 40,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 40,
+                "defence": 40
+            }
+        }
+    },
+    "1133": {
+        "id": 1133,
+        "name": "Studded body",
+        "short_name": "Studded body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACg0lEQVR4XtWXwWsaQRTG3WMPOXgQRFhYRGQRWUQMYjBEIg2mmCJFTGmTHAr9H3LtLff+JTn3j3vtN8unb9+OxrpzyYPvMM5z58c3M+/t1mrvKyIp61DY3GP+c3REMhm1ZDRoStZrSDs5cyovtlOr+cGrAFCRLGaJzC9juZrEBbC0Uz8oC0OgQZJUgYoKINNJuleTUfdfTluyfiK9bks67abEcSM8EGBm015BFsZC+cCgIECL+UDms6wA9PPpsQSjQTGvoQhWESiS5ce2LG+GXigLg3nm+NyCKh7sSDarC/n86dwLZYEw78sBGOEquhTJ1/VUvtyNHdSv5+fSgviN7mAOY5uHMcGxdZWAHjaXziVCWaf0dmEOOczTuczXLtnVjohIfjxcvwlFdywM87QARIdOcCmS+1UqT99mDgrCFgKOgIR8C4TwrPAnwCByIEJZMFbwxXXqNL/quiJK6e2CUN0DFMcd1HrZldVtx5UCwCxveluYLdBFxwnF1IrtJAiQhlnd9h0M9PvlpQCGMTQdt2U8jF27oYIC+WC09O90ilDDrOW2K9iWwZ371UDWd1lhYR7qfQIUgfppQIceN+fyfT2SP6+vWyi7OLZJj3Hr4BSAWCy7nYZTMCC6pK+8TywDuGXYNjqkYSoDEUoXSZ8IQyDUHh+QXeU/YgcEHQLSMCyObC8ASuJ6GCB97S0Qzw5B8jKwq9YA4utugAONyG+ZrkM+h/a1j8BARZh9QNYZ3cv0B4F+r7YrHRlld9AyIOuMdqfY3f1AJ7qUA2l32FApnyu6f/mAKrgUFWAgfp/5ZJvpPqD6Wa2aS9Ydu+gh+YAIcyIQovypXEUVYfLgQ0LJPv9dxF/8dxzyoa4o2AAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Studded_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -4,
+            "attack_ranged": 8,
+            "defence_stab": 18,
+            "defence_slash": 25,
+            "defence_crush": 22,
+            "defence_magic": 8,
+            "defence_ranged": 25,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 20,
+                "defence": 20
+            }
+        }
+    },
+    "6322": {
+        "id": 6322,
+        "name": "Snakeskin body",
+        "short_name": "Snakeskin body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB5klEQVR4Xu2WUUsCQRSFnR/QYyCBsISISIgPgigrSNJDgmBiJmVQIgUihUgh9eNvnFnO7Oy4mJW79uCBg+Kq8+099142kznooIP+hZTEey9S4vtFqdcKUq2eSrnsSal0Ivl8dl9gSsZ3TWm3yxoMUAB6furr9/B65RKFXAeaz4e6YqzaeHwpw+GFDAbn0u02pdNpJA/F6BaLW5nNBgYI7vdrxqgenEK1lLy/3cvry40BwXsADq8b2ugv9hjs+xUpFLykoJQsl2MT12jkm1cagLgOGEQHoGz2SH9vx1BKVqsHXQ0bwgUCMGwDcUJDqF+BufmHcdkALhAjY3MHsRUjUOG62FrKjHYud6x/zDsHECaOJhDHHzD4nEDRGwtd8Txt9+QYqcj08A9QHQDxbgFmN7ddJdgG4uGu3ZNjFN3IhAEI+ycOCLB2hbCPrnotM11bHu4qgOGfMioYU4NDcR2jzV3E6gCYQFyQ9frZT6OJ03rOBGJcWHyEAiShXKAdwARazzls6FarZCJDhJ8fEw0DQBtoZzDxCvYPYGwge5QJNHns6iX4h77ZRsGEbQJiZOy7BKsDKQOzCWg67aUBA20HhGejhKOivgfCo0hK1aGi68AFQo+lVJ1Q7ipwnWJ14mUD7h3moH3rC+9PTORbO2z/AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Snakeskin_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": 12,
+            "defence_stab": 25,
+            "defence_slash": 28,
+            "defence_crush": 32,
+            "defence_magic": 15,
+            "defence_ranged": 35,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 30,
+                "defence": 30
+            }
+        }
+    },
+    "12596": {
+        "id": 12596,
+        "name": "Rangers' tunic",
+        "short_name": "Rangers' tunic",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACEElEQVR4Xu3WsWvCQBgF8GTMkCFDIAQCIqGIlBCKIoggZBAtHbSIHdrBoUu3/gH937/m3fnMJWopGhOh/eCBprT367szxrL+p5ax5TCtjF48SiwJ7nS8SKcFmC3xxFLpDnUAQx4yS5L8em9owq7ani33c0d6mQYR5ebNjJ+cfbKNI4v3QLI3X6YvvkyefQlK7dWGsyXNFyTKw1blGXU91Q5CEDFoC60BhLDRGmC2hPjDQx0/0ZnEvgJxYYXJg/e8BihemyCeu4tRyGMSyqyfb0kvUJg08mSwcmQ037WTBxBieLaiXaNAmaC00zkfpX9Zw9hOP3QVaLoqQFiUGEARgPDPAIWWyp/MC8eEbb80iBjExPCwA7lMQ9UsUIe3i1rmNIgYNKe2KSqDqi1dtHXFHAeZGG7hdtyV9SBS5w9bjduFiakNNDIgTBXD7a0GqBrbwRSg2avOYltg8J73HbZgpuZ2MIeg5UcZw7v0qUVPXT9jbFknkfQDdw9gO3iNbfsNqMaxZfPpyrIfqqSht/86AUbdDHNQ6DpNgDTGPCtoB18veI/WYs9RmMZA5t2ZoMiyVPgYksWBwl0ZpNsxP9o80AQBE++ekxo4Q7odgojC9dZA5ncUg+tEtQKqhiBiGgVhIfMRo1iwFRBmtz2J/kT9BOLPrgwqPxMVC9p7DNIYxpzyggWoFczxqbZ2A3NTmD8x3xViMu88twGdAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rangers'_tunic",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 15,
+            "defence_stab": 6,
+            "defence_slash": 9,
+            "defence_crush": 12,
+            "defence_magic": 6,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 40
+            }
+        }
+    },
+    "10330": {
+        "id": 10330,
+        "name": "3rd age range top",
+        "short_name": "3rd age range top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADO0lEQVR4Xu2V709SYRTHvX+Im3PNF44XzMWaThaDyZBJQ6fgQBwi4kRCMjV/5MgMtZHpTM0yc5kuW6tW801v+te++T30XK6ABmRbL/huZ8C95z7P537POQ91dTXVVFNNShqK4ypVkluxNET9XkT6PAh4nOjusMFpbb1iI03yel12yWs1my7JrQpYw2h/D+LBXiRCPvjcHfA4rHC0WUo4lo8Bb6fkEl7lmhsafm+cy3Hb2mQtwpcBlV98IuzX3VGbcKF4JILhgSCCfX3o9XjQ5XQi5PcjNTam59ChQng6p5zmd4JdBC6ShlRqDMPDQQyFAxKDPV06kO1WC9pvmmVjBUUQgjEspmYpEzcywvB5OkcIBtdS9whzCZCGdHoG01MJJJMxjIyEEI9HkEhE5bfahFAPJpJIz8wgGYshEY0KXH9PD8zNTToUr/E+QeiICv42OnMJjFKOenQ0DJ/PK04R6v7kuCy2ODUlMHTICEN37nS64HI40GGz6S4qZ4wwjOLeulQaVlcXxR26RSDC0TVanXm4IM4szc7qUAuTkxgZDEn52EuEoovTdxM6AHtKfac7BC4bKJtdkjJlMgt6zM2lpO7ry8vYXFkRMG5IMAadIhz7iVB0QAEoILrFfuQ9lrVMICrfiFyAU8bx5+j/+PJZoAj0ZH5eD5aSgATj1BGazxpDNXXp4+APyiUWnzE/z86w93wdnw4PcfxqD9nHSxK8RtD74+PyyVweqEaXCEWX1fFREZCSmgIFeLi9jdcbG9h9lhUXuPnTR2kp29y9lPTVUCAguTOxkLiq3GEYX66MCStHGr4eHYkjL9bWsJHJYH9zU0rIsjF8Xq++KQ9WOqUOQyNIFTDGcuWvfT/9gI9vD/BuZwcHW1u6Y3SKE5cvRR7I2DNVgFAa7L1utLntaLEZ/0zPHTo+xumbfWnwbycnAvP+5a4cB5ywPFAuX8VfwFAabN0utDpvw9TacuGt2SucKPYLp2o0HJaDsdvtxo3GxgKgwj6sWhosjnaBaTQ1XQAqhGETs2/sVisa6uuLgK5J54u2W9Bkzh9gpcpQKq7BjVLSpHeMQMa7xjKUCmPuNeqfvnF1+q9gaqqpQv0CjkERWUue02UAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_range_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 30,
+            "defence_stab": 55,
+            "defence_slash": 47,
+            "defence_crush": 60,
+            "defence_magic": 60,
+            "defence_ranged": 55,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 65,
+                "defence": 45
+            }
+        }
+    },
+    "6133": {
+        "id": 6133,
+        "name": "Spined body",
+        "short_name": "Spined body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADQUlEQVR4Xu2Wb0sbQRDG3Y/QFwERAiFIEAkliEEiipIQSYMRlRjF1GL901AbRKytFRHxk0999vrczW32bDYW+saBIXe3O7O/nZmdzdTUm7xajLhf/oMQwsj3628SDhU6/0VxIfR78m1UE/utrdbIt+Q5WCIADcF3fltbW5aVlSWpViuyUHkv5fJ8PBcwBKoUCvG3V0D5ATbbG9YxfluthtTrq16w2dmizMxMSy73LgUDuAgwWIxdEAtDd3bacnCwK73etnS7HfueBVarLVo4gM3NlaRQyKfg3JXGEGMX7vf35OhoXz4fH1rFM765YFCCNZvrI3A6akkKg8TI+fmRXFycWB0MjuX0tB9D+cB0tFwoKlMaGCUjV1dfbd3g9/Lyi1VAAVKDEYpgPiiCaUXUAqCM3N1dye3tpdUfN0MLBwBAZYFB3UghKgCjEpA6JpSRi35XHh5u5P7+2ioAATAcnsUp1FBUF4qnkoDUlcVKyIkzMnhOwdn+ttXHx59WAYFFkT4fGMc1FKLA0whtry9LY7maAnJX94ixICd7HaufdjetAsKNjE4XnlFLhGEd4R3jO8/PEwMR5OP2B+m26rKxWrOQTB9qSxc9YQGqwRAd2MIn/EwMhMWwAHbGDksgXeg6fYycBqpVyn8K11gbzMM4QIOAsAhSAqd0iLpC1NzosFcBiGkE0PrSglTV3QY7+kWRBwBBjHVKQwIhlb7osLZY1LBFWirzpdgeqYYNxlFbAUAmDi0NNRDqSkdH9yYCoU6QrnJJXxXGzkO62IPGBoIhgJK/C0krAJAvOjx5AGK6SsUIBIpNsH4CgKL6wQLsJy4Q6qjXbqZgNBBOFdNVzM8k9uqQoGGODYTj2WmsWsfYqT4p7E+HnQ3bV9zoQHW68tO52Bbz/bAvyihQshMjT0+/bNdGUfvShZTgkkXt4Wbn3w36RR9y0/mXKKWB0g0sAkIv0gXtAiEtOJ240TUQo6qjFASE0NOAQLhw0U90d/YBoXBRJ/i3qDeE2tNRGhuIRqMG0Th2C+d4xq6hOs2MrLshnFAdpVH/XokcpZ0lY3CaBYSNuLXn2r/sP0M40T857TRLs+y1b9/4ROI6zVLX7k3+pfwGUS6TNFNcWLgAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Spined_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -15,
+            "attack_ranged": 15,
+            "defence_stab": 40,
+            "defence_slash": 32,
+            "defence_crush": 45,
+            "defence_magic": 20,
+            "defence_ranged": 40,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 40,
+                "ranged": 40
+            }
+        }
+    },
+    "10954": {
+        "id": 10954,
+        "name": "Frog-leather body",
+        "short_name": "Frog-leather body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACZ0lEQVR4Xt2WTWvbQBCGo2MPOeQgEAKBEEIIE4QxCsbBwSYm4BQT0hLSUkIPhf7/n7D1u9u3HY8+7cgqdOHBtmTNPBqtZvfi4v8YnjmOwYYO7CiLpEIxic0kC02aBCYKfUvgX1oGEHMBlmVitvdTs7krzPp2Ypbz3LIoswO0HLnOAjO7Dk2eXpkw+HCKmLtgUYamnAYVIUKxOjmSJb6VQQzGS+JLS08pz2zX8T55VBGiFGmS08ynkVkt0j1/YxYT3wpN47hLql5o9zCzUKxNTsLq7B4SG5dSlOkl9PyY/hECCPi0vWmUQgXkMSnL6vAmAR5j7+p8ec4P7gZQqEkKSXlcnoeQfdy/ZfCdcwkTvMccctVBAMJAnz/OG6V4nv+R51EdxmCFAG60o0qeedlltjoaiMmEOimSvT7d1kpJiTpaquSqQ7SUTiiT2jmyyi2bZWZxb1VqGyXbSB0dE7t6Afn6aWmlCOW0pJTFHEJjlInr0BYHQ//ZXeCZn28bK9UkpmUA+xCFdK53DCf049u9eXu5q4jVzR1WqMdjOXW4lgC0lK4ShbB0nKE6cnjm++vaQilZJSmDLj2KEFoD6BLisjOaENCPDUJshKMLcT5JIfQfvTCPJkRkI6UM18AkcnueMwntN2yz0KxuoooAJVAVSOTJlSlyfxwhSuETSZEczQ/7aGxV8ZvIjZiONsDwbFVQHUoBvG3syli3ZLUg1GNVP3W4naRedOWOQMqQMwk5GaJlQJ3MKEJaRMK3658KyWNNQh0bsWNH++OqO0a00EBVqgrJ321CZGAhjOoO8lgG3xMx4HvQMdvGL+Iv4gi/36jMAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Frog-leather_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": 10,
+            "defence_stab": 23,
+            "defence_slash": 26,
+            "defence_crush": 30,
+            "defence_magic": 15,
+            "defence_ranged": 32,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 25,
+                "ranged": 25
+            }
+        }
+    },
+    "1131": {
+        "id": 1131,
+        "name": "Hardleather body",
+        "short_name": "Hardleather body",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACXUlEQVR4XtWX0YvaQBDG3cc++OCDIEIghBCCSAiSQzw8lEqPu+IVKWILbf//P2PaL8t447ib87Lbhxv4ULJD8uObnclmMPhYYcgtX+i8t/LfFYZWzZSaekLVbExlPqIsHbZyP8TQdPLJKXf+u8PQZpW0UAxyCXQtDSKB6jQNhTK0e0jOUOwUu+WSBokI5IZZNcVZEmRWTCnPJpQkY5qMh/8HSMKsV6VXgGvqjKp56gWLAgSY7Xp2IQ2joVxgUCCQof2XjJ52Ne22VSeUvqbdYjB2ST/pxjD0tE1p/7hwQmkgrHOOyy0o0CVDP49r+vb1zgklgXAd664c3vwAg1NBQL9PD/T9ZdkJxe5gnXNceRBcQul6ls3Qj0NJp8O9F4qBcA1rMk/mcj6cYod6uGSB3oJid7AmYaRbLJ7uPWAQr0AQygdhXwFQQnaBsEM8wQOAEJdQh+fcjoK2+/6V6nN51m5T0OY+p/Uya2eXFKY73IkKBJDD87wFcUlDLRcJLaopzUv7uokMVNPxpXICoWxSPqhoJft1bJxAGkQLUBKoyMetgoH+nO6uoPTDtbDJ4ZQGCmh5GZcucXf5xF2HDkPZGChNRqHuIEzbWewS2r4LSI4AAGFOMVCE/YMwdNwX7cbGbxeQnkcMhGmuD2n6KTeGdQcgEP77gDSMBELLa6CeLll3JBBmkQbywUB85OUZFOjSK5Cc0JCG0aXSQPrg39MlWzIWA+HQz3K5Il8ZLqDRcNAXCGGhJAwO/S7p95cPKMIsskdZ+Tl0q/TXbgQYjuuv0z6KBGODbxYqfd8PE38ByvPxu4OPy4kAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Hardleather_body",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -4,
+            "attack_ranged": 8,
+            "defence_stab": 12,
+            "defence_slash": 15,
+            "defence_crush": 18,
+            "defence_magic": 6,
+            "defence_ranged": 15,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "ranged": 1,
+                "defence": 10
+            }
+        }
+    },
+    "1741": {
+        "id": 1741,
+        "name": "Leather",
+        "short_name": "Leather",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABHUlEQVR4Xu3XPQ6DMAwFYDJyC47QrUu7MDGw9P6HSWWilPTFCXZ+QJX6pLcgZH+yOpRh+KdLjI17Sdzy+TlEvQBn7DKPnyKIx3WJG74u41YpqtPVdggHkqCo9F4DVIzhULg81wpUGtMGpYb1A1Efd/W1dCAtiubfpmkrbk7kGFSD8iDcmogMw4GkKAVIjqlBCUHGvtZxKy6VVINSg0pRHC6FUYNqULlrCa9DiUE9UNWglihqE5AU5Zdyz0KMGEQDEJIqYnB5CEMQbs4kfyWuRygPKwRR9KgQhpiwhSCKHnV0JeXvh4sOJQXhFmXkqByowXXCuH94CMBKQDi5OG7Y/gWBmByo8XW+sw+OcRyoKwbD4bCnYTB+MVd89+fyBpVntT5gDYm8AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Leather",
+        "stats": null
+    },
+    "21021": {
+        "id": 21021,
+        "name": "Ancestral robe top",
+        "short_name": "Ancestral robe top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAEIElEQVR4Xu2WXUtbWRSG3Ze98KIXB4IgBJEgIhKKIgalIWLQkIgNfqFRRNOK40e18bMxGqtpaq1Va5XO2FKn0xmcaaelZabtUBihw/yE/p63fZfu42nUNrYReuGCRcI+rL2e/a611zlZWad2at+VKaSunKAx2ee9qb567/+J2m6yhoAHpc5C9Ieb8ENXA3o6ggiH6hFqrBWQ1qAXvmpXCmTGTUnysYF2SU4IwzgLR75d4KoqSxGoqRQY/no95fLMWeRAdrYt01AKM6MXMT/ZixvT/Vi6NoRIXwiXLzULJAG7WgOiEIGo4AWfG27XOZSXFAkY4TMEpbC+MIYflyYFZCURwfL8sPy/GR80wVg+XTr+smROZw0KCioyCaUEZGs9jj8eJPH39orArSVHDoDRY5FuDPe2ilIVFS04V+JHYaFbSkhAlrGoIO9roZRAEObxvTk827qJ17+v4sFKDBuLEyaQFYpAVMfj6ULl+RBKS+tEpY5mv6kcoSrKnF8DpfD04QK2NxP47acEnj+6hX+erAkkAR+uTQuYFYjq1NT2oar6ItzuDrhcTQLFPuMzrR57bP8Wpm0K7e0LJhSB3j7bkLJRrV82Zj9Ri1CBugj8/iF4vT2iEstWVhZEdLgL18YvYeJyp0BRNe7vtNvFUzMfYgrd4TW0tMyhtS0hQFRm5+V9vH26jpePl0Q1lnNzOSqjgM1dXz8qUD7foKjEslEl3ky6Vq64uMoESs18hCm0hZIINkTR2BhDU3Nc/L9Xj/Dvi01RSZeOfUMF6BeCEwKlVdJlC3f2yJouJ5v92EAE4Gmtp+b6zNV5TI7EEBkcl7nEUhCK8BqIzuRWNbifhqJyNlv+cXpI4d0dG14kDFNm9gPX52JJxCZmpWcSU30CxGRUUkPxAIyjOnZ78V5ihfdbOdhZtuFJ3EDYdyZdlRT+v2vDX0kDv04ZWB04i3hntrkBfTaakEZmX1iVoQJUkuUiDNXRSmgY7rs9bWCkORuO3Kx0VFJmQ/KG6GnLkxpGrmxwfXZRBiSVSQViSaxAOkaDarX5zOEoT0clJZJzY3119cTNyyuRDfQM0uWxKsPDMI6HYYx+sVqbXT/Xg/MLKu0nZFnYuLzWnLJ8cfI55w/VOQqIKjAZFdBA1kHK3uOt5EzSCn1RJfqt6yvSL6NDk+gN9++dRMnsYRMfBsTTE4iqUtH9Tw+F1cUN3JhbkkvBW5omjLbdG2WF2Q38eIXrqrE8mI+AtxKvFwx43eXi/CbiJwffVXyJ5uYY5htex/KQ41ei6GzrtqynZbvBnDkcbNZNG/we3Bt1CBDHg6/KZQJpKH605dlzDgWKjs1goHfouEA0/fmZKq3Cz1MF+DNRiDe39+fMUZ4ae/h6mqaDDgYe3Phzbo08av2b7cQ2PrVTy5B9ANz08rH/G3BaAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ancestral_robe_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 35,
+            "attack_ranged": -8,
+            "defence_stab": 42,
+            "defence_slash": 31,
+            "defence_crush": 51,
+            "defence_magic": 28,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 2,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 65,
+                "magic": 75
+            }
+        }
+    },
+    "4712": {
+        "id": 4712,
+        "name": "Ahrim's robetop",
+        "short_name": "Ahrim's robetop",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB7UlEQVR4Xu2W4WrCQBCEzQP0Z0EKghSREkoIRSkploaGihWEFkRK8f1f45q561w2mxitRumPLAwX73J7381uq71eF1108e8iMPW6eLiDo2hYqwvAlR0Iwxt/+HyemMnk1iyXTyZ5HNtxNotNHI/z8e4c7gX2IBwKAMAQCDBZNrVrq9WzfQ9j+vJgnz8/Ur9nNOqbweC6DajA3lQCYYQLSXLvBYg6yX0Eioco69HhgHBjCeRh8vnpJLSjhcxH/UwouNQqEBIDCCPEA5skL3MWICRmE6MkdIIj+ooNDqVp6EuOy/T7V6f0UeATSiAk9iX5LZsUmplr2CuBTuyjAkjC2HnlDqQbGmvM0VLZimQEcnYHZrN5M+v1qxX+1OVnCC5hvnUgXS4CoVdYnu+veaVsEFzCu1kWlcp2JFC1XEUiB4R/irpMmIO4zgvUuaRP3BNldyAJpN3QYjMTqAWXmoHQM+wTvMOy4TPmsRejdEi69EegAkZKArFxMWJtu32vuMMekkBQ+XIHhQPSkkC6b+AMv1ilCKRzEUqfvCNczReL2ArPkAZybmB9ap/RyNIdXmK/4weF/h3jNjc1tXZBu8qLUYTSJ+8MAkghwThvSq0wL4Geg8ouNF3ypKgm3iV9oL5gCzAudNIm6b1ddHGp+AHm4b7U52mKxQAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ahrim's_robetop#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 30,
+            "attack_ranged": -10,
+            "defence_stab": 52,
+            "defence_slash": 37,
+            "defence_crush": 63,
+            "defence_magic": 30,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "magic": 70,
+                "defence": 70
+            }
+        }
+    },
+    "10338": {
+        "id": 10338,
+        "name": "3rd age robe top",
+        "short_name": "3rd age robe top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACXklEQVR4Xu2WXUsbURCGc35CLnIpeFW8KtIboVgsFkuQKrVYK4aAVVupDSH4VdsQQrDxoxISbGNtRejHD53ynOOcuGtWCvVse9GBYdk9uzsPM3PeOZnMfwtiRpwn3adqRm4P35FsLncBYSQ/NS25bDZtKBecwPcnJiyUPnuQz9vnPajgYEZ2Gg0pb7+xQbfrdR/88dych8HJ1sPJRyGhjBwcf5S9TkeqzaYN2jk7s9enhYIHWSmV7HVh8blMzc5aoOHBwRBQRlqfT+WoeyKHn7o2KHC1vX0P83p9Q15VKh7sWbEYFkgz1Gy3vWu2cGBKm1tS2XkrL8tlKSwt21IGKpuR+sGhdbLC/cmPn/Ju970HAobMsBYHCpAl19A0Mq5Au62WB9qs1WzvsEb5ggMRkB3mSuCAyNjlDOnOAj440Hq1akuhQN1v3yNA9NDdsTG7RuZ4NygQ2dGS4Ow4MqFAxZUXEaHk/UBAxu4mMkRQDcj2V3HEF1dXfYZwmp9nQYAIzHZeWlvzAZEB+kqBWEOhdV2/CQKkQXHuUek4EFse1R6wwa9+E//rH5oOSyPH5+fS+HAUmWtaMnrm1tCQf1edDN1wljIZ90OXHXYXJekHpI2tEEFgemak/eVrItCT+XkZGR0N0TdJ5oZsEhA9dG98PF0g9Oc6IA5q/wwQR47JmZl0gRDEJCCUPJA6J5kDQoVV+BQIYQSIxk4VCEHsB4QwMuH/GhDCeBmI6c6so7FTBdKzdD8gbeyeWgc3B0RTx4E4D2ljp6hF0aF5nacEhEUHZ5IHnmFRiw/OJI9/97v2CzeNwBHXu8/qAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_robe_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 24,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 24,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "magic": 65,
+                "defence": 30
+            }
+        }
+    },
+    "20517": {
+        "id": 20517,
+        "name": "Elder chaos top",
+        "short_name": "Elder chaos top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACj0lEQVR4Xu2WIW8bQRCF76DBAYNIUaVIVkFhVBJWVFRQUhISUlBSUCmgoKAgIFJBpUoFlcr6U7f7ef20b+ecs2tfDaKMNIpzuzfzzdvZsbvu8VifWj+5tQBvhkV6PXTp1aJLV9lPCFeS3CwX6dPZkN7nv3y+zv4u+9sMBpzAgPyPYAWEhF/Oh3SbHaiPZ4v0YeMCxIF50XXr/VW12axfA5AUJb4+G9LnDdBDUAJBNRS7nA+qbwBIdp//d5UiFHt0fBSAWsCh2AxQfbozABIC5M8iFCoBgtNf6iup9HK1OgaqXwO4SsD4swgFECA6PsAENRuQFAGAz98vlluhpJJuoj5HqJhlT+vTN1MDIAH+yECsOShQ3kvsjVBHqlSASAoQCfXsZwZyleIo4C979ZxnGgdHAem4UICgRe4+/VotG5W8x9jnE1tr9NQsQFRJIgIqye8MJJX86KRSnTtFUdY4OvroKCAdlfrAgUjkTlIdjWZOSVziEIP5dCBQhdFVVnUCYt0HH6oAcrFxBwJW4+BgIPWN1FFfeNWunl/tNnGJpaF54NUvV1ZOMlWN0zvqm3i1USwq5MMT6BprL6vXVYFIVL+L+vTn+XJ9bPFrBWXoE7+RwPvwJFar9qTVW0EQXWWCtN9FJVm8hQLyfYwHH57s+4fmrt9dCvJwVS2QH5uANa88nm7iHr+TSjVx2FEVlY+H2nYgVY9rXimeoHS8O1QqQFKIIApMVa6S9kcgPzIppAL1DAcK+B0/3AqQvwy9eoGk7ZfjdA/hNDTFeSyPN26DxgrQ+OWyRqURchcQ6+07NRew29cam9oQ1+oFUL+pYWvV8R23qTWzqQ3jtdoX7p5o/E61qbWDTcmjx31P9mSntr8aVzk5alHoEAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elder_chaos_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 10,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 8,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "magic": 40
+            }
+        }
+    },
+    "6916": {
+        "id": 6916,
+        "name": "Infinity top",
+        "short_name": "Infinity top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADhElEQVR4Xu2V70tTYRTH3R9wXzwvHrhcEIaIiMgYsjEmE2XDoaNkheCLJCKKCCvLFJQkrbRVK/MHI2GVYQgjozIkaxADwQjCV/4D/SffPOd2btssvc4EX3jgy3Pv9jzf+3nOOc+9VVXHcRzHcWTCA/c6tPjzkHM1Z9DjPY2klUDcjCKiw4iaLXxNY7EOAdA2ehjyYzLoR1/dRVyoPYtebw+6q7sYSpSw4iUiwKTXQqLaQtwyEd3WAaE8yESCmG0O4HG4iaH66y7jUu15FoGRKGOk7AOFhbStxSnFkD01XnTXVDNYSAUYyO/1VgLlwbhvGPMtIYZ6GrahCGig/gqP5ZLsSUkpgxfqa9Fb63VKeyCge75bO6AIZqRhgEXXpKGGflY5FJW1r6GOoaiE0lMVA036b5dAUekIhH6j/0YbhxhkJatZVKZyqAFffckBOBDQQ//dEijKEo30+9NAike6X32pGZTgpJwEJX0mB4CydCCgx02TO6DofjbwCNnQLI805/t7k+fQ/+VgBFX+mqjgpNkwAkGlkQd9iLcyzItwBpngE2x9sZxsCRTNk+xIbwkYQVWQJbtcYi67tXfmwbdkBwon25FPxPCps40hl9tbsBSN4HW0mXttPODjhqb50mtURspUBVmyG5qMCEZ2K0DrXXF8PRHD50QUHzt2AtFpHG1qxKXt0yWbo2yTF/lUkCUPzEIX9EoH1GIUaiYCYyLoAFF2CEaA3u0BxH4bp2y/hTYYqRCM6779ZOk30Gon9FIMKhNhEzGXUpEEKBeL7A70/TT0WsLeYDoMY9AGcpmlbYP1pA2Ua4eab2ETMZfM7Atosxs6f8LeIGV82L8/oIS5gXa9hja9jGaVRVBNOeYEUay/AY34G/gNLWu6rC10mAX2C6kM/Mb4/oA6zXXE9CpadQ5hNY8mI+WYUxOTpKHdAJ00NxHXefarCKiQM53PwcyYwsRNwzEnAIGSE7YX0I+PJvKvNXJzGvOTtt/18+K5a2wf6zcmfw6Wpu3F6RGF0aulQMVQboB+Wp+waeaQ18+wpO9jSg1i0LBfJXtkycMLC+ZzrOhpXpxRI0gZ1xxzAiiG+hfQuboaZ82W9ZY9l3Wa/dLqhuO5J9C6+RKreo5hSItqAgvqTtFi+yFuJPM3zFe8QfHKqjGWCyCKncayUBbLtRu59dw1yk1dL9wlyr3+h+dxHKn4BZCg7bPJLCDsAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Infinity_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 22,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 22,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "magic": 50,
+                "defence": 25
+            }
+        }
+    },
+    "4091": {
+        "id": 4091,
+        "name": "Mystic robe top",
+        "short_name": "Mystic robe top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADv0lEQVR4Xu2W60tTcRjHd/4AX/hicBgMRi8kJERCiWKiGMUMCQsv0ZxMnQ6d90tm3tJcWiZTU/NSabYyzTRFFBWTEruZ2BXEyMLoRRBBr/fim89zOqsZlaVOCb/wg+2cw2+f3/f5Ps+ZQrGlLa27BLiuDZUAW10Lik5WwJKajagjhs0B9fjJU0zPPONF3301mo2HovX85RxMiSmbwSWSgPnXC6isOo/9utDNkCkB7969R2f3ADKy8yGKKhiMCRsJJSAwLBOj45O41T+C7t4h9PQNQ62mPLkdSkB4cj38gw2YmX3BUHGFvUhMSoOf/27s0Qb+UMJ1L6WAhJIBHIixwts/FAtvF2EuG0J1TROX7qg+FnGmZOgOHMSJwnLnWicoATF5nYhKb8WeEDO2eWuRUjmBvoFRHC8oRUGxFSVlZ9By+Tpq6luRkp7LuQo7FImg4H1r6Za0EYEcSrAhJLoMPtpwiJod7A4NylPWapw+U4P6C21ot/cwWJIlA3pDPJfSGGfmz9+H6T+XU4AqcxFi0lOIMeNQht+AZ0gttvvp2J3G1qvc+lW2RoQaK7jr6houISeviEF8A6Lg5bsXTRft/GxD8xWGpmfIxYhI/d9ALcGkzEGMn4IyehjKI/0MRNczbQ8wOHyHs0Obh5nOsTMd1/pQWl7FeaKMqb12wcNTxI2eQb7f1nET9s4+7syRsXsMSOArgFqCSZuHyvJKcidhmh2SbSZ36KR06sPmWkRYGhmQrlGWyBXVtp0MQ89TqXX6Eh4V1J1KlZdL2ej184dXkAB17keoj32CqPBhKKVh1OkOzZxL7V0MQtmiE9PJrRU27NoX6wJDz1BXBh/O4XueSmlWyRArgCEtAeV/gb/VgcgGB8TEGd4ku3Yak/enuTQEos9qR3ROB4ZGJth+CjcFXv5RukcOkjvaUAvfW6EjyyVAU+yAzykHtJUOLpnsztGMywxiyLXzGKDBSGGmYO/WmTjwcikiU5vZnYCDaauBkfWtbMc/O38gt34WpqLbyKieQuyJHv48PHqXu4hKQkAUZtlhcpYawSOgcLUwspaHTkDa2btIr5qE5fQ4kspHuINoNhGQX5DcxtJhRNNDeIa1rRWMpJ83kkpHYARFGSEg6iAqDd3nDs3+ANE4AYWH2gn0fY81l+QCQRnzu3gOUWjl6zQuVOlveH6tqTu/k1zC5YuCTMEnKI1C6w53XCWfXgakVk8sHUSW7ZFzsrsVyFXS3xOa5BR8t5Xr15KA6F9AsnVso92R9VfvKPfINVf/kb4C990MqujK5LwAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Mystic_robe_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 20,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 20,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "magic": 40,
+                "defence": 20
+            }
+        }
+    },
+    "10458": {
+        "id": 10458,
+        "name": "Saradomin robe top",
+        "short_name": "Saradomin robe top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADXElEQVR4Xu2Vz0tUURTH5y5nMQsXgQiBC2nRIty4kSBoFaKgkmNoxmRmmD8yMzPNzEzTzBRTM800k9K0BkW0VJIUFQRLEqL/5vS+3zt33jhK2LxxEcyBg/Oe993zud/z47pcMYtZzGJ2kCmJzI/ElNy9WSmVJSVyzeezgqTw79VLBXI5L0+y0tL4XF9VJS73Wblzo0IKcnPlTGrqUUApGe7pkb4n7dLxsEmaamvlemGhXLmYL/k5OVawU5afIByAulpapLu1VVru1fO5org4mlBK3B6f5fkB98nbF/0EhCMwggKyrKhIzmdkUEVAeTzl+lt3luXnogUFoKIAlE+WZmZkduK9+MfGZOLVkLzp66MSz9vaCIb0NdbUEFZ/57Vg0plG7JWcmOgUSsnXuTlZnp0lzNrSomxvrPPdwvS0TI2MMJUDzzql/UEj1cEzVAQ0gKEiIKMApOTLp48yP/VB5iYnxD8+TpD15WXZWluVb58X+N6kEGlC6h7fb+BvfP9uaFD6n3ZQxagAAcKkB4E3V1bk++YGoRb9fv5/enRUBru6WPAN1dVM3aO6OgLgW8B2NjezCRzUkWKacELIjoBIxc7Wluxub1MpqKNry0sHEGBulZZyRGAPqIs9TI05UEmxO1Ab2AzBjOy/dn4wlSha1BDWAAAdhm5Cm5tWx6Gg0lB3N2vM5ToeqUroLrtDcLrb5WXc7PfuT7Y0ug3qmdN7MzOttac5o3RQxSaASthHu25/RypxEyuQHoA6kCeuUiZfD1MdFDC66EJ2dmBNSnAdVET96X2ygjARA6FDUD8mgN5IEWakt5cwSAWKGFM7IT4+LKhirSG1pq4ihIEpzhB9d9kwyUlxnEEnEz10dBDAkhLc9IRj7sAB9B4YDzgY7jYHQHqG4PT2XaRhUDsoavxGS6NgERBwgLGBtK/Mz1NRMwocAeHkppjhrAW2Oe41LwONvxxg+nRq0UWhric96ghKYpLb6v2TqeC1YO6o0FMbILgZmsE7iw1grwWQ2ctBHekpjXSESh1arBpMQ+kuSg++D12HqY40I70O0qa7A3NGD7T9m4SChYPsXat4zSC1SNtBex3C7LG/98T7LRTi4DW603DnofgjBIKFy+/E9qsYvuJQ5ujjMPu7ijH7z+0PzI9bcqOnwd0AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_robe_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 4,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 4,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 6,
+            "slot": "body",
+            "requirements": {
+                "prayer": 20
+            }
+        }
+    },
+    "6139": {
+        "id": 6139,
+        "name": "Skeletal top",
+        "short_name": "Skeletal top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADh0lEQVR4Xu2WbUtUQRTHdz6CL4QQgiUkRCQkFNlQlJWVRVRUfEIRLMKQxOxBrERETEtEFFEzzdQUMzQWRRQ1NA1LEok+0Yn/uZ7dmXt3XXelV+2BP7vMnTnzmzkP97pcCUvYPzNFkRXJ7PMus+ZSpujBvSbK9eSQ232dUlNvUFraTcrISKfbmbfCbGbJ48ni55iLdcnJSZSRns5+rgilqLX5Pnnz8xxA+fl3WNnZmcbGEMbtUFXlpVRXXclAmW53vFCKujqeUIm/yIABhAAJVErKtSCQHQprcLD2hy1XAVJUU1NOM+Oj1PGo1QiVz1dgAEEA0qG83jzKzc1hqO7OZ9Tb9Zw82VnxAimqqiplLb2fosmRIWpraWYYbIDN7EJYBErABGp0cIBe93YHx2PMI0UVFcUsAAWWP9LCuwl2itCUFBfxDdmFkAJKB8P43NtxPtDIm36eEweUorIyvwH1eWGWQzc80MdAfn+hQ9hMpIMtf5im2YkxPgxCHiOUop31L7S5tmJAbax+Ysf4j3EIYKKp0WHOMUgHg+BzcWaSQydQgG2orQ7mlJ3i3BTtbgTo69YGQ20H1vgXY3ub67wQtyWQAgYhLFJNIgGUm8AtIeyvul9ygiOnkJcVpcWRoCygo72d8wlOoeok2QUMwu3h9BDAdDiss6rK6Q9Q8jxM5SkOjT5BF8br6ioZSgeD1pbmaai/lyvQDhYCcrns/pDo+vMwFvk00J+zUzo7OaafRwd8k/vbm8GcQ+IjV5BP2AihefG0XdvQ7i+03wVAMMWJKj1EEhHjd5vqqbGx1lBDQzWHGpUmLUDvTwIAn9LVJdmxWxQYmOJmaH8fYRyb22Ggw91tBwjWo5oECKEVKPhMToqh7AGEaxcgOZEOoevHt30DBDcL6UDIPxQAoFBlPm/BZaCsLr0yP8O5MNjXwy/XmsryC4EgHQQHgdAABej36Qkd7GxxrqEA8FmD8Sg5ZJW2vB7kesUpcggn1SUVp4NIpYW6sbUWc5FrmGu2hIhm5YkAORcqrjCB0JtkuJLHR5m+FgeAb6ffCy1UZdjEvFZFJ98PudxR6oGVJVpdnOPGiE8MUefjNu7Cfl+hAYTDAh43HwMQLNQvzBgr+nV8xLkAIOQaXhvTYyPU39PFyYregw8x5Ehjfa1tU7MXRckf02Syc4HpNJrsPnS/Tt9xmt1pNNnXJyxh/6X9BUOKCayVOGxCAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Skeletal_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 8,
+            "attack_ranged": -10,
+            "defence_stab": 35,
+            "defence_slash": 25,
+            "defence_crush": 42,
+            "defence_magic": 15,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "body",
+            "requirements": {
+                "defence": 40,
+                "magic": 40
+            }
+        }
+    },
+    "544": {
+        "id": 544,
+        "name": "Monk's robe top",
+        "short_name": "Monk's robe top",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACKUlEQVR4Xu2W30cEURTHmz+ghx5iRYysJMlIWVGkiCJW+kVFEfvQQ0QP0UOkh5567b+9+c74NKczM9vs7Baxh2Pnzsy993O+3zPXTkyMYxx/FlEYLH8tsg1ON+LQXZsJu0krbC+1CuPF2cmQxFOh054KGwvTvwGWLXiz0w5XW3NpAuHHgrIwAtSvxiMCi8Ld/ny43ZsPvd12CgUY14y9UvrlGijBDgEVhfuDhS8goKrSQu2v5GmhAEriuAlUFB66i9+gtDFwHlJAF5txOFqfTUEEBpygrHVDAXkopb22dgoIlZSCszbS5I2BHg9zIKDKEihsE4jSWohKQwE9HS8VoGxaICUqAQNcmUp+tx8ig/F20eg+y1TCPqualGqoUmaXNrM9YvvK95fS9hJK2XsaS6VGQNqMTfiCuI+NHgrbODAFQFG6L6VkXWMg3xcoZ7NMJQ5O9Q5K676AZFsjICqzBx69RVqlvEoCYHOKU2FaB9v8rhWR9w/Voo7y+WS5FMo2OIclQHpPz7BtQJUyIBamQQF6u0xSKMDKrONDoF/0rt5BcQqsDURD2wYF6P16NbycZUAWylqHbVjDe3pOkQMDUSUJ0EevkwIBVWYdxXgglNezvA36Ru63PYE5FLOKovB6nhSgvHWcWx6IYlH9B5Xyhvb5fTJ/tvonBXggPpjaQLYnSD9Z13WyCkgO+DUrolgpE2tMrojiegOt6ausPbFP+LVGseY4xvGv4hNCXXWfv/r/CwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Monk's_robe_top",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 6,
+            "slot": "body",
+            "requirements": null
+        }
+    }
+}

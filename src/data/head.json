@@ -1,0 +1,1322 @@
+{
+    "0": {
+        "id": 0,
+        "name": "None",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": null
+        }
+    },
+    "24271": {
+        "id": 24271,
+        "name": "Neitiznot faceguard",
+        "short_name": "Neitiznot faceguard",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADMElEQVR4Xt2W7UtTYRjGff6APvghkCAY0icJkRBEURRFUVFRMRdLRddEdKZTp/na8mW+ZlPbzJe0ZTMVli9jqGVMLHr5EkEf+neuvO9xzuZAOqc8TbrgYW/nPOe363ru+3liYv4PCUR+E0UJPB0fxyWBErB1deHVs3kGStLpogkl0GQ0oqfNIsMoB9LETYHcrCwMdnerdEfIjkb+8hcSGOnthb2/D0d7eyqABDrvN/+Bo7+VwMQjG6aGBlVMLmBpbERLfYaKP6BYAkV5eegwmxVOLjD2cACpyckYsFoV3qNYAg9aW1BZWqoiLoH6mmpU6/UqHFUkga3ntTxxRXGiiskFu7MyN6fwDyiWQH9HHrIzMjiC0ORUMZEjdM+9qru4U16uTVx97e3Iz8nBe59PfvgLpxOuyQmuOqoiApB+c45X8HqTPitzVLHEaVTF3J3p/Y7Hg63VFXgWF84FGuouQJ3BIN9zgTAkgauxsTzx2+038G1uMJR3tQ7zj6c4RlrwtIDLCgv5OmqcFJcG7pCCQFRdFNm7nR0ceZuw7TZiyeHg3kRbSUNtLTuZnpLC1agRDEngx4cenBweIOD3M9jxbjN210xnHCIgAqGoJEc1gfly2IaP/lZ8P+5kIPpMDr10ubDwZJo7Ny36ZpOJ1xKtm7i4K1oBkYKLlFz5FrDi074FPk89NpZqsDprwOxoOcYGimDvLeTrzMZ06K5r5hBJYM1VxTHQILc8C9VYdujhGCljGFtnPvcqU1Xqabkn8NAUiMpcgjrxtWBxulIGDB9Wcza/Eph0RImc7QIkMD91m88zFBE5U2dIQY8llyOatJVwldHBjaIioLaGTO5PB16vdlDUf14vL3FV0cPobEQuUIVRz7mZkCA7RRFS1dE1GkUXbIp76+sc3/LMDBx2OwPRgwmGNtLw6AiaepZmQJ8DAfi3NuF1u7n/UEMsKchnd27ExyMzLU3uP+FDo+ZIErxz07YxMzrK0dGGS8cS2jJuJV47AxA+Ime6IAn8/DrJMUhxERB1Zn1pktZunCfBzZE69PTwMHdoWi9RgpEkeOtwO0PHjSjCSDoLEmWYoC4NyL/QL73tsI6Zp7N5AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Neitiznot_faceguard",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 36,
+            "defence_slash": 34,
+            "defence_crush": 38,
+            "defence_magic": 3,
+            "defence_ranged": 34,
+            "melee_strength": 6,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "24419": {
+        "id": 24419,
+        "name": "Inquisitor's great helm",
+        "short_name": "Inquisitor's great helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADh0lEQVR4XtWX70tTURjHvX+AL3whiCAMkSFjjCHGcDgmDmWJholmaIaaKaaZmplpFmaaEFHQH3zycy7f67Or07G7Nz3w5dzdc+7O5z6/ztbW9n9Y4Gpl79VbY+daaoF78rjqlubn3eT4uBsaHPSbPZ+ZceViMdqc+dmpKb+W+9VKpQ6wvW4KPHArCwteQIyNjHgoAJ5OTLiN5WWvxbk592x62q9hLet4Np9K+RHY4UIhepnRUsmv1734rvdY4F6/XIoEBECvXix6KEnAGvGQNuM5vIvnmOeaUV4EOgRvyMIvfLO6GnlCXkG8JfMAMgcwYVPoBI7H+CxPMT7K540XG7YQaGd93W2vrUUj2t3c9ABxWDYTGJ4AGm8QJqAAAnAgl2sGCAvc+60tD2D1aW83AgQKTxAuABBgAAEWB7LeaQrow9ttL8CsABMUm+MlZMHuAkrgHSxwH9/t3ClBAqZ8sUBqBQAJhqLIZjLJgAjPyf5+JD4jC0X+1AMiZwSTMFxY4CFODw4iWTBBEToKIA5EmRMuwSQMFxZ4iLOjI6+vh4e3wH58OfVAJLcqS9WmHiSYhOHCAg9x8fnEfT8+9rJwvy8uPBAw6kk6SgBSkwQImP50OjnQ36srD9LZ0XFLAiJs8Tmk4wbvANPX25sc6M/lpfdIfDPu//x25oGotPh8PFwApXp6kgMpRAoZ4cNrv87PPQz5pBwibOpJOpCBwksAAdpyIAQEFUbJK5kBsEeHGqJCZr2TCIjkrQdEqGx1CUblrs7cIu9ggX9TC8S1BaIpCkgwCpWqyyZzQiAs8Js0AsQ6HRU6JpTkfE+oxHZ9fFTH/NuT0ISQhmiB1HtsZyZU3V1dHqarvd1V+tOumulvBVTgDscrkZcERO+JA8k7hAoYlO7sdKlrqHJfn4dKmEeB2xkpuYPKaJRLAHGO6QyzQDpIqShgBnq6XbY7hEJAJQAKYfZGyx4I6SyzQPQe/fAnXCQwQIVUKEExInkpvtsDFrit8nAEJCi8JCB6kD3lyTEBDRsBZT+jJrxUCwSMRtsUBURTJMfoN4TFCo/EpdDFd33AaqE0qrTJF1tRwMQ3RpPZTI1U/k32pPBhC4WXBKN+o986lDVi4+lc1s3mc17zg+EvRQvSBExo4YM3f3/xGtooFd1accitDBX8pgBIAFiIloDE7ebL7H/z+2UhWgZyl8U3uk/xZxu1f/Pw0r9EVq1IAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Inquisitor's_great_helm",
+        "stats": {
+            "attack_stab": -2,
+            "attack_slash": -2,
+            "attack_crush": 8,
+            "attack_magic": -5,
+            "attack_ranged": -5,
+            "defence_stab": 19,
+            "defence_slash": 10,
+            "defence_crush": 21,
+            "defence_magic": 0,
+            "defence_ranged": 12,
+            "melee_strength": 4,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "head",
+            "requirements": {
+                "strength": 70,
+                "defence": 30
+            }
+        }
+    },
+    "4716": {
+        "id": 4716,
+        "name": "Dharok's helm",
+        "short_name": "Dharok's helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABb0lEQVR4Xu3VsWrDMBAGYOsBOgZMIWBKCMWDCSUQChkCWULo0EcodOiQuS9Q6FZoIVuHvuoFWZx9OsuSUkuRhxz8i4XOX86Wk2XXilYC+JWEJeD74wVGhBJw/HytQYuiSI2SUxHw+/UG74fnlFNSkOXyrs7fzwGm00kdXOM7IpW62eNqrqWqCpjN8gaV5zeXQAlYr+/r9IHMqCgwAZtN2YBoJEg+trK8NaIiTEthbCAZCeIoBAVECdhuqwZkguGE5GOjKBNo4GdBYUwgCkMQRUUH9cFcIP4eDQbtdosOisKSgDCjAqkTokJB9LqMCRUU9LR/aBqpZl0QXeOY4CCcTttIP3l8jX+HTCet7X92KRBOCa/ZQDIu0IAptSATSgfp07kYiE+DYhKDsswHEwVE36Nus5GCKMYGQpTe46zST5oPyIWRPbp9vMsN8p1OAAyW/sXmaz6YAO8PL9uv0//P+tK//59la4Y3c4Xvu9bQOgEq2XyAIlvAkAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dharok's_helm#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -3,
+            "attack_ranged": -1,
+            "defence_stab": 45,
+            "defence_slash": 48,
+            "defence_crush": 44,
+            "defence_magic": -1,
+            "defence_ranged": 51,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "11200": {
+        "id": 11200,
+        "name": "Dwarven helmet",
+        "short_name": "Dwarven helmet",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADCElEQVR4XsWXcUsUQRjG3W8h/SUSEhJyhCFJkiSJSYZJZmiGmRmmmZmZaWZmZ5rZBVFEX/aN3wzPNrde2N7OdQMvd7uuM799nued0ZaWwiOxP9XU4SFePVu2R/en7dbwcLPA/KIf327bh81NW1lYsOmJCbvU3W0XSyVX/wnML3L4bsfKb7Zsd2PDttfW7MnsrF3t60thLnR1pdVAqMSO9/ZSVXbW121rddXZdWNw0C739KQQ5zs70+L3Sm1tjYBKqlR5/XzFXj5dcnYBBMiV3l4HRp3r6GgkkLfq+6dDe7G4WFWEeWhgwG5eH3Kf1/r7nX3kKYTKzlhgJPbj85H9/HLsPqmv+/vOPgE9mJy0qfFxuzM66joNMNRSuFEokkqJ/apUHATqfDs4cJ+VctlliQxhGaF+eG8qhUItlFKuIimUOFUEgioU31GHYBNocrQ0N1el1O2REZcrWRfJNh9iIFBExTVtry4j3Mvz8/Z4ZuaEdeq+SOH2Gx9dhSIqoABFIXUcWQII29ggwyxFBTp6v+ugQgCFO7QS67AtBFKOQssKA0kVgQGFIrIKEIpQYxUW/Q3obHt70Rz5fUctruMizI5CjV0AEeIwP2GoBVRAJb//YAu5yaqknVr5QRmBaHMkP1GB1PbqtPBQ1TkWAtHu2hRVAmOTPNPaWq9tiVuIBciCgKRSeJ7xnDZG7EIhSkcJ97JAdaiUuK7hzXlDbXqhbWRJtqnD7o6NOdsoQFCIe1GAgMAGJlU7M7lUo1iYaxYn1DzDs8CjEhACIkuFgNS+TJbdgcPKAgFAEWys5DsvVRiIRViMibBO6lC1gPg5By3Pco3VCnsUINniu+LfSocskABxDwujAGETXaIJTiue03mGckDonoAK7EWJy0QIk33i5PBq8CIhEKW9iL8g6zxCfIbyvY1vBAqrARCQrtmxgco3bzryqMNIXLBrAan19R+JoLIznDrywGAXgUbZbPYEFla+l801fHdR2rtqLajrsMJZIg6fHZ1n2FNnRmIO35VYVkudJo142fgNLxcKzA2PIhQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dwarven_helmet",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 6,
+            "attack_magic": -2,
+            "attack_ranged": -2,
+            "defence_stab": 27,
+            "defence_slash": 28,
+            "defence_crush": 31,
+            "defence_magic": 5,
+            "defence_ranged": 24,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 50
+            }
+        }
+    },
+    "10548": {
+        "id": 10548,
+        "name": "Fighter hat",
+        "short_name": "Fighter hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADOElEQVR4Xu2W30uTcRTG3WX/hdchIaFIUSBJYmGSYSaJYGZGJiJmZpqVppkM2TBnuiWba5rpauiFYQmCVoKCWInGMFFLSDQxrSuNE895Oe/erQLbj7zZgQN797J9PzznOed8IyLCEY5wSOjIk7saCkR5ZQmVVRRTQWHeboEph1bXVnDW1FXSzaoyhsrLz6H0jFP/C0oBqW+4Q3pDrZp4FqjiqwWUcyGLUlKPh1otHTU263/LppYGMty/5wVVWHSJss6dpWPJiRQTGx0KKB0fbDIbqLWtkSzWJjXxjHcNxrtUp69ioNLrRQyVfT6TklOSGCg6MjKYUDovGOujZrI5WsjeaaaH7SZ6YDGyWoC6XVOuAuVezKbMrDOUmnYimCoppQIMDhcYR5eFE1CABLDRVM9AMHfRlctscJQuLf1kMFVSyiXKAAAgHU/aOPEZgHgPcHQdxgDMnV+Qy2XLyDytMXnAoeOSQB2Bedxj5dRCAVaAbtwqpZJrhX8sW4AqKeqgXFABhwOky2nzgpLyra2u0pzbTZNjY/R6cJAGnj2lHquVVcJsEoP7nvIPoZhZ1AFAt8vOQJIC9XN7m76tr9PS4iK5p6dp/NUIDfb1kdNmU8sGlRKTEgKBUsqFcuBQwGhToADjCzQ1McEquex2shiNrBB8BKD4I4f9gfKYGeWCEk6XQ00tmBbo88ICzc7MUOyeCBobGWaVAKWvruKSAejgoTh//ORtZimXrzr4/vvGBm1vbdH62hp9mp9nGMnnTic5Wlu49aEQoOIOxAQG9DdDi39+bG7S6vIym/rL0hKXDDBD/f3U29FBZoOBgeAhAEXv3+cPEEKnzh/pJGl16S6oh/cAWpyb4y778P4dvR0fpxcuF5sabQ8PIVGyqKi9/gIhdKpKsi60U1qG4teVFS6Xe2qKJkbf0PDAAPX3dFOnxcxASHRawtF4FcZPIIQCBSVkdUjie8wpjIeFj7PcXaNDQ/Syt5fN3G4ycdvLLAoCjITcbbzhZI9hSuNuhF2GSY19hmmNnYabJPZaEGGU8PyZBwzGx3jAYgUQVgeuINhn2Prin6DD+IYWbCcZUhhtyEE7Sd/fhiMcoY5f+8r4VSsn/YgAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Fighter_hat#Normal",
+        "stats": {
+            "attack_stab": 5,
+            "attack_slash": 5,
+            "attack_crush": 5,
+            "attack_magic": -7,
+            "attack_ranged": -7,
+            "defence_stab": 27,
+            "defence_slash": 29,
+            "defence_crush": 26,
+            "defence_magic": -3,
+            "defence_ranged": 28,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "4724": {
+        "id": 4724,
+        "name": "Guthan's helm",
+        "short_name": "Guthan's helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACMElEQVR4Xu2WzysEYRjHd44ODg57UVvbHuagPUzisCIiG4pWCbGESH7kt7gpObm4UEKSFCIkyY+QJEkO/qJH33c84513RxrNDGW/9a1t2/d9P/N9nuedDYWy+nVppH7zi9Joa7md/hCURtsraQFkRKNuofx4ChNobrrGbUoa7a51fixytTD0ucbZO6sdFpDLlEwoO9j3bkxVUH19GdXVlQg/no/R08W48PPVhACan62llpTxscaVPqHgo60eOt3po/O9fro+HKS7k2FxIAAA0tRUaQNKJhN0eTAgfntzPCSMfQDECblMCTJjxkaAwQHY+P50RMDgYAAARgWqqiqm/Y0uOtzsppPtXrGeE/8hDMuEwqZ42oezUVGCl+tJWzoyENKpKC+kRCJO60stYtyxBwAZSD3FpTQLCMm83k7R2/2MBdPcXG0BcTqlpQYVFxXQ4lwDLS00UiQSFg6H837SP07KbGKGaWtNis9qOoahUzweo1gs3wbkGRTX3oxcI10P2RyJZJqBAKECeVA6Wd8DoWxIKTCgdLpWGCWD1bFnIF2PWiC+AgECPSQ3tQyEXkJjA8iphzwHYhB17GUgNDf6KDCgr25pGOPP08aT5jsQ39TqLc2WGzswIMDIlyIbJeMLkvsoMCA5HYDIBhD3EWByc3OCAeJGZnM6PPooG9YxjOdA/MrgcnEjyzBOQD7AsDL/oKlgPGUqkLqTZ+KnNQ/JfAGr9jEdZ8mAX1ldk1VW/0bvz0uYqz/hEZAAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Guthan's_helm#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 55,
+            "defence_slash": 58,
+            "defence_crush": 54,
+            "defence_magic": -1,
+            "defence_ranged": 62,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "10828": {
+        "id": 10828,
+        "name": "Helm of neitiznot",
+        "short_name": "Helm of neitiznot",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACyElEQVR4XtWW70tTURzG/f4JvghEEMYQkbEXIxziaDgUh4aKhflCLeb6IXO5tDWtpRnq1PzBpm2L/NVaSkkjUQQtpfBVRC+iv+jJcy67zOt058TuogcujJ0v5/mc55z7Pbeo6P8WQfvPxZKtlxIhHApB3IQQn5+TqJcWYXtjgxtYDAYBE8K7V3GJeikRYrMv1MlzGyhpbieTegAR1paW1O0Sm5ywEolILEBKhPnxNonJCcvhMD6srkgsQFiEZKybb1d6xdqKs1K2d2FiQh+g6dFmDPXXI5VICBgQUus9mB1rlUhUSoTxx03oc7sFDQivFzoQmZoSgP8rEUb8TrycmRE0IISCV3miYvVSUuIf8HjwJhoVNCCMBRoF05QWYX2xEw0OB7bW14SBngw0CNZK66S5TV6D3+vVrJi9adpHqd9adaGns1M/oMz40+Zs+9iZmgwGOezt7i51LDrTroHPq5QDmjZj9xhrdm9jsVNALJFyo5HXnF5A3kVqPznc2cF+KoWdzU28X77FG19o5CkC/fd5Qs1OJy4VF+t5fpgIi1PX8XVvD0e7uxzq80cPPyfss2L62SiGH/hUILPJhEfeOj2BmAjHB/scigEdpvrwKeE+k1BrUyOsFgt8d+3/BigzoV6XC+0tLai12U5+2/QH+vUtgJ+Hfvz48lAFSkS7+Haya2WwtxY3O6xorKvE0L1q/YF+Hw9zoO8HgyoMa5jxuRvqxXunuwZtTWY89xUgoZoqMyzmChgNpRyIJcP+z3xanHaUlpTwN013oCvVFg5UUW5QYdKNL90w6+1WDpQ5pp0pT1KArBYTB8rsxJk1hrKyQqTDRHDYLnMgc6WRf+ucNaVCbReTAsTOEQPKviVKQtnH8i7lfDCg7IbEOzR7CpAOkwLEzlF2Q/YWVp0Dq4sITkfNBYaEOrvu14VW58GklWtcB+UyyzUuoz9ZOF1UKKk1OwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Helm_of_neitiznot",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 31,
+            "defence_slash": 29,
+            "defence_crush": 34,
+            "defence_magic": 3,
+            "defence_ranged": 30,
+            "melee_strength": 3,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": {
+                "defence": 55
+            }
+        }
+    },
+    "22326": {
+        "id": 22326,
+        "name": "Justiciar faceguard",
+        "short_name": "Justiciar faceguard",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADZUlEQVR4Xu2W70uTURTH9/wJvui9f0JvIpBCIQwLE5FQUZQ0U2Zq88daa8kyf89fqW3I1tyymdOm02lburE1TQ1CwhKpsN72Z5z8nnnnw7B6seepoA5cdnf3PPd+ds73nHM1mv/2b5pEqSt/0CTq02XTXwIl0X1tFnkGKxjodGbmEdhvhxMHSjTQkkO+0aokSFPtTbpRUa0m1PHhYthHrMm5zZRLi9Yanht1etJpG8nQ1Er5Fy+p4S2JiguvJg8ryMvn+ROrg57anDx3d12moKOO56YWAwO1txnpevk1aqjRysDSNok367pr5g37zd2kb2jm+TO7m7yOKZoZriSv5QqFXfU0aChkoG5TB78DL4nQQVsJfaVlEnXcaSfPhIv/MT5x2HPXNPncM+Sf8pLfM0eBsSKKe5qotfIMPzfQ0UO97Z38bFWZXOxpm8SbwhtDnX0MMt43zBBL0z5a8fopOLdIYXsxbXp1LG78/rBnkJ+HR0uLipUFwqYAgjfkECFfgFbnl2nN/4IigZf0JdRIO95KmhgaJ2v/CIONdFsYTFEg59gEawUg4vDoyirFgmH6tjN5ONy07iqjt75WDhsE7jDncdjwZ+BhxYEQKngDIJuROHsqMDNPpzIykmNnoY02pm/R6mNtcg36Q8YpCrTrq+JwwTMbazGGwZDDQFPvFvWsI4RI/pviQK+cpQywvhplIHhoK7pO27GN5ADwbsDAQBA0BrQEOHhJQSCYxAUwHoqcCIQ5SgCAtmebWdB4XgChmCoOhGyBiE8Cwndo7P2ykWwDozTr9DAQWguAFA6ZMOmHQFiDvj6s3GMIZCTaigCqr65VBwgZBh2lAmEtvBSkvaCZtSQHgmcVrtTCJA4FdCQHwifWUJ9Qp04CEo1ZcSAcAvEi4wQQ4BBK1CgBhKruemRnUQNI3A4UBoJJiYaKZnpYFIV+EMpUD8mBsrPOqwf0KTZKB1uTyZ4GIHgIQOhvgBUhAxDq0bmzWeoB7Yct9Dluo4PXDvr6Zoo9gpSHqAEEUJH25tsmvsrWlagGBJO48H2MHo3IEEPur/XSXugBZxoaLO7Xjq4SsugLyFibqyYQLHFHxgUM3RwVGn0MzRUwC+PV5O4t5+zKzbmQhFERSKNJbH584f/ZUB1GbuKwX43U9/5buvYdP7bq+47QIREAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Justiciar_faceguard",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 60,
+            "defence_slash": 63,
+            "defence_crush": 59,
+            "defence_magic": -6,
+            "defence_ranged": 67,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 2,
+            "slot": "head",
+            "requirements": {
+                "defence": 75
+            }
+        }
+    },
+    "11335": {
+        "id": 11335,
+        "name": "Dragon full helm",
+        "short_name": "Dragon full helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACn0lEQVR4Xu2Vv2tTURTHc8cMb8gQKEIhZOgoLm6d2qWDi4sdQiBgrAgqGUJRbNBSbYcS0YJaGooQSSldxA5O/m/H+7nXw7vevLbvhfxY+oXD493c5HzyPefcWyrd6lZzkZF4ZYEy0u32pDhU0f25ZaTZfCJ7e/2cUOwxsr//Kef+QjLy9dsPWV/fkE7ntUtwr1a7JomRlWrJ7Xuz8yHH/sIy0llKpNc7kEbj8Q0JjPT7x24PUPn+QCEZGdQq0rVAjUpZ7pf9P78qgBgMzt1zNPol7fbz2QDt3EmkXS3LqgUC7kXVvwP5sOLX2Xtg9xEtu8aezc3m9IG+1yvyzibZSMpyuFxxoYmBAwyolVJJ3ts14AEi1NEUSN2cWB6IRJ8tyMd/AQyQIRDJgdG1R3btblRiSqkNH2fKKeNgaOovtnRA4RAwr5b+B1pL0nLizoMkdUhBFAbHJiyj74tjCwMQMAAqjPYSQADoO+4AiEO7u4eyvf12UpjxySGAwRVKQuAYyZ9Vfa8ABAhQ9BpNjjsA8Vmr9XQymKOjUzk5OZPh8KdcXPyWy8s/zhXtn9AhYHTKANFnDIRTVx8XNyr+QhqULewhSgYU5QFEYQAIgbL6qFBzq63eWiPDuu8ffpzRJhSSH9UeyoLRKcsGKVxCZJwbjD7u6LhTMvpIewiXdPTD2Np66YITm1iLGrsgDPJjf16vuhNbAbKAYhh1Rt2IYeJMBeShRhZKAWjmEEjvOQ1KN16WqcAgD0S5QgBc0Xf6R2F0yrIApgCj8lAxUDjqChOO+RQBYvnmvg6Ip8LodM0UiNGPgfQMAkhLpcfDXIFCKD2lQ6Dl2QMh464PDkJCx13vsrCZsxp6RvK3vzoVXq4xyBxgVOP33IJAUoXJFwoyL/0FqY+VTJE4LroAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_full_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 45,
+            "defence_slash": 48,
+            "defence_crush": 41,
+            "defence_magic": -1,
+            "defence_ranged": 46,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "1149": {
+        "id": 1149,
+        "name": "Dragon med helm",
+        "short_name": "Dragon med helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACaElEQVR4XtXXz08TQRQH8J3jHvbQA4kxIWmIaYwxhIs3T3Lh4MWLF6PxoAcPJB564ICJCYL80GiQIopYhKIg1aaGaAqJB/jDvuyb7dt9nc6WbXeR9SXf8CNl5tM3b3eL44SlEH1/4aWw93kDuUPtflrPE0rh1+43fF3/2EblAqbQ3NlB7cMaVl8tZYwaeK0Atf1+FZXFhRgUd7BXOl//bn7e8vtEpXDUbKJRq+FLpWJZSOGJO4JHfh66RZ177jDutnPHvawT/Y3Sa9HXsWJRJ1orcSkcNhpobG2hurKCt3Nz4Tuf9K7oECoOdtu9hAk/9Prf+9/xrFwOQeZOfZRC6+cP1Dc3sbG8jDezs3jqlcKYMAZRdwh0yxnSnabjT9kdLoWTo0P8qdexX62i7CPMMIy7JEHHrZZ+Q48f3A+7a+4wQCm98JR3tSsMksfGM0SgvwcHegZHHQ8lx9XJAKUw7V2zpheI5oeOa2J8PAQNO07aOVJ47m9sC6MkiAeaQa9nZnDDKbQxQVKAFF5417tiwujoeIbMK+ymj8kUVPJbTDFREia7ZAPRMUVJCXrpjeowLC6dm3Ym0w4xSGaoUNAxj427xIPN96FzAzFEguTP/wBEpbogcSBK7kAcCYruQRmBlgrdx9ULxB3iq+xcQDaUDcR3a74x2kCMMndKWBHIhpKRN0cG0fyYIO7QgF3qBMWhzMcHgXig40DmTgmrPxB//JBXmASl7A5VMhB/SLNd8jaQuUsflQxEHZIPV5qf3IB4oCUouKpSHxdXsNhZIH7aS5AJyQATVLCQ+T/X2ckcYpbcIGnMNf7LOgXXtlQY4OF7lgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_med_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -3,
+            "attack_ranged": -1,
+            "defence_stab": 33,
+            "defence_slash": 35,
+            "defence_crush": 32,
+            "defence_magic": -1,
+            "defence_ranged": 34,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "1163": {
+        "id": 1163,
+        "name": "Rune full helm",
+        "short_name": "Rune full helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACKElEQVR4Xt2XzUvDQBDFs8cccuihIAWhiBQJEkoxiKViaEGCtGILhmJVxA9ExS9UKIhQEE/+0SNvwqRrWk+6WXBg2JaS5Md7bybUcf53KZq21UohWt4t1d2Elp22TTBFbW/MMKF7wkBVp0ULTkCes2gDKgXa8h6o6V5RzY0zIPxWr1a581cZLEWR95zZBZg8UP4Kw6UydXy3mwGVnZo9IKjTcEccZrR1IKiz6vZp0Qk5Qzgl0FaAMF0AQW4kR5aApouwV/rkaVt3z7M9VPCEpVYBQGB06wpUJ1VEYGQZbnsTHv+CA61o5+yOto8uKUqOqbU3pPWdATU6XQo2Ozz+enYMAynau36h7sUDxSc31Bld0ObgkJq9hMJ4l4Ew/gUtREX7j2/Uvx1T7/JpRiUBWgrW2DLDQIoOxh+UPE1ocP/KUKJSe3jKKulA5YrRcVcMgh6+vDMYGlC6bQDymxFV/YCBvPICQ+Xv9stS/OByqcTZQeM7Gp/FNliGUK+ErRmF/lglxXkBECzCCVWkYRcyhFDDLgDVGhsmLUunSgeCKjihDE59wmAZoMQuo0CilABBIZzIj76HAGUUSDKUt07ABKgexd9UMg70k1Kyg3QggwqhUqg8kCglIy9AhjMklb5M54EBCPkBUAGh1kvxloZVGHdYJROmq1Op+cUB4V0GINnOMl2iDra0qGlgKc4rxdmRlyoUEpg8SAEwUvp/92lbAJmW/nCrIEXVFxQlNpWhSktJAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_full_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 30,
+            "defence_slash": 32,
+            "defence_crush": 27,
+            "defence_magic": -1,
+            "defence_ranged": 30,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 40
+            }
+        }
+    },
+    "12931": {
+        "id": 12931,
+        "name": "Serpentine helm",
+        "short_name": "Serpentine helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAELElEQVR4XtWX30tbZxjH817mIhe5CIgQCCGIhBIkLEgkQ1EsbjhpQ1PLtCXasJI1rWJttdXWrlTUtVbr1FmdLWPdmGzsYneDDcZGYTB60a5dN7aLrf1Dvtv3eXmP7znayfFX2QNf3pyTkzyffJ/nec9JIPD/DIXN9UpCYWRgAOVTQaSzB1x6BYAa5kwlhP6+EAbPhZBtSr9UewylcHlwEB9MTmJ4KITRkRCujoXQeDDrUipbg663g2huCuylW+swBuT6tRAmxkO4MRV2Ja5JxRz3uMaT1aiKRnYTSqG/XMbC+1MukO43Yuh8M4but2Joe12rpSGKxowWgWwnO3vqdwtK983a3VWcLtTgVD6BYntcgI4cjDpQxcNxlI4k5NyhlmokX4u7gNK5WhRP53YDSmF8dAT37yxJQhuIiW2oUkdCxGO+R5cMUKYpKVDssR1CKUxcuYyPFxYkqSM61KzdIBSPCUoZMJ43LnmB6mKx7UIpvDc8jJXZWfnlTGLE8V9ZDqOxPY1cW52IrthgvM4AGagdA3HClm5No7NVl4JiY7PBmzsyIkIZ8TzLRBHGBqI4ifZkejNuEQrnz1RkylgiOkAxGUfeALXm652VyrakBIQl4750tBBE6WRQXtOlXDoi7kUTVX6hFCqlkjQ2v5B7CxPRIRvG6Onzr/Dk7y/xy19r4pbpGyMe06FDrQlnMn2WUOFkdxfGLlyQX8d7mJmeW9Nh3J4NY2E+LDBtRxtEdI7vmfcJTccMXN9xrYGe2u0BHcvnMdR3FsUTQWlkApldmkk/vR/BF2sRLC2GXef5mmJ5WTq6S9cITSC+pvM+gRh6t2bJCGR2bCb+8dcJPPhtGj/9fhs//3FHVh7/8HQc3z8Zw7ePhvDNw0ERr3345108e/G1NDe/9/qlS36BFLoKBZk0booGhA6wVBx7A8WVEN89viglqq8LI5eJOOLn+HkOiJkwbim+gd7t7cXU1TG5dYyciOJKTwzj78QxWY5j5mwCc/0J19gTRGD+3ZcIxh5iLxmgREo/CWgIvfoCYv9wHyKQgbpW0lA3KxrK3nOM2FMUXbSBUrmASLsUCPiAYeg6L8/MCExfp4aiS4SiS4Qa7T2wAcrAUA3twQ1ANpSPUFi8eUNuHTbQULcunYG6WEyi8XDQtUPzeDMg0z/bKBdDSbnuzc/LHZ9ABsrup/PHk+KSDWWA7q1qoPq2oANkQHzCMDTQ6twcPvlwURIZILufBrpq0VGqQr5c7UBxpV4G5M3kI5SUjI8gn60su6BYOkLx2AAVKtU41q/BvEDpZnvCdhTKKZu5m7NPDBRXuzf+S9ss1WahpGyff7Tial7zaGsn20reb95BKCmb95mH96p1F/Y9lDz026XLtWRE638Q9x1MOUAGxobah3+um8XGhrW1B/2ydXib1Svv9X7jHyNlXW+mtpvUAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Serpentine_helm#Charged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": -5,
+            "defence_stab": 52,
+            "defence_slash": 55,
+            "defence_crush": 58,
+            "defence_magic": 0,
+            "defence_ranged": 50,
+            "melee_strength": 5,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 75
+            }
+        }
+    },
+    "11865": {
+        "id": 11865,
+        "name": "Slayer helmet (i)",
+        "short_name": "Slayer helmet (i)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAD4UlEQVR4Xs1W8U8SYRj2/pC2fnKtNdf6xc3VcrmauXTqQhyE04xcyhhTU8yImGGiEkyB0JNOERPFQoxhZav5Q3/X2/e8tzvhZrXqbvluz47vOO59eN7nfb+vru6PQyLjnf8YEq3GYnSGSEm0PDfHhC6fP392SGWWlk5Rybi2NKqTSZScj1B+Ta4iJVFuJX0KSdMCLz5BaDpsSCbRy2cBSr+K6s9svk7x1YJSqsaV43EujZJI0Hw4RrOhhRqSIJRaXKCbzc28jjwP8toilVTzojRIshxNUyySpMXZOM3NqKpUEwr5/RSdmaGdNxmrVEJInCQWDpOc3KD0UoaSsVUGvsukNnVCUAd/QCubRSoh1JevJhRaX33LJHBFCXG9c+sWtba0UHx2lsm13Gylzu4ecg24rSUFdfLZIm2v79HeVokVS8Vlysl5JgRzw3MX6uvpkcenE7KsdEi+v1uhg71DqpSOmBTIZQWh9XSOldpIJrnEVxoarCcUm1umXaHQl8NjOv7ynT6Vv/IakEU514RiXW1trNClixetJ5QQXbaXK9IHodBR5VsNitsHrNLSQorutrfrhKCaiT6qHYwrwkPvRJn282WqFD/zFQAZXPFdVpgcHRgRYwGE0H0dt1vNIKVuDUelEncOfLGtFDi5hjz8IwgAMPZWZoefUUQXQim7w8Vm14amCaU7UedF4CUNOBy6Er3d3dTT2cnlgW+Mal5vaqJuW2/NPVMIQW4kRGKX3c5E8BnewH2QctpsOjktuc3u5FnU2tZBbe1dDFPKht28Util44+HnNjZN8jeuO8epgdDHp43pwHPQCENmkL/qJJ6nChtbdHXcpkVAkCqf3CIST0c9jIxDViPeMf4M56DUqZ6CIOumM3S52JRJwQvaaSqce5cHaO+vo4JQSXHvQG99U0hhGNHQVG4bBqhhgY1KQCzh4MRbvMFsbdheKJkUK9QUHTDm1AuhHomwnGivJPnssFHGqGoOIbExXEELY6hifnjHZ3ksuVyaapUdrntTVJHC0l0Vi93EDoJXQZCIX+IEZwI6giMB8g3PsXqbGZTVHyfNbNcWkiCiDhK2F00fH+YxkZGOfH06DRN+aZ0THon6bFnnEYnptk7G+tJyuflmpIZ3/yXoRJy2pw06Bwk70MvE0BykAN8j3wMzwMPjfsDbGRZjpOiJKwlNODo11XSCGANDPUPMeGJJ0Fu9WQiQul0VN/HTCSEkHRCbpebVaomAaCk8Jr/aYgnNH4D3Lh2rWprMTVq96qfwd3nqtomJLra2GiFsdXQZsmvgMTw0AkBycxJ/bdhHITG9X8IY3Lj+nfxAxi923QXXBOnAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Slayer_helmet_(i)",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 3,
+            "attack_ranged": 3,
+            "defence_stab": 30,
+            "defence_slash": 32,
+            "defence_crush": 27,
+            "defence_magic": 10,
+            "defence_ranged": 30,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 10
+            }
+        }
+    },
+    "21298": {
+        "id": 21298,
+        "name": "Obsidian helmet",
+        "short_name": "Obsidian helmet",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACUUlEQVR4Xu2X20oDMRCGzQN40QtBCkIRESlSilSKolgslipWVNSKJzzUSkXER/AxxZdZ+RL+JZuueNFUQQ0M2e5mmW//mcykExP/428MkwzbjwznvN1sJrutVmobq6vfDecc7W23k4OdneSo0xmyzfX1ZKVWSxbL5XFDGauCYPKMZ6i21WhYtZar1XFBORicnuzvJ6eHhxnjHurkQa3V6+OAcmHC+fnxcXLZ7Vq7OTuzvz+DInwY71dLpZhQxjoC4PH2NmMP19cZKIy1KIpKAM3NzsZWydivx7lAnno9a3lQAkIpoJTgEVUy1pGABOMD3V9dZkIHjICU3JGAnDo484Ge+31reVBaj1LkEoldnJ6OFTanDiEJgV4GgyGgu4vzdCcCJIWURxFUMqk6Yci4/1YpWrgQimeEzC+UpZmZGCoZqw5OwqQW0HsAxVrCRrhei5MWCJUW5udjqGTSmsPX+yqpLsm4JyDCRe4AwkyRXKpUYpQApxBQOBKUgASlGiQgFUVBce3vthFUMjYxBSWlfECMEGnLc593pgqFFIrfaiMjwDAcEPmAGn7LEBAzznmmRst6tRDCBZiOJ1GAQihmAQEoIBxzzVqZwhepr2WBBEV4AJJaAmIWkN5R+9C2jwbkQ7FjAJJaOgEQJmBZowarxI5UHLNAMr6YuiIomQ+NsQ4Y5ohNdhgKGHV4P3Th8cPVHGMVjd5klZh8qfqVOnsIRHWWcwfgwEasQeEw6db1D2N5x1bUQBUH4kZkGA1J7v/d+dzGBJEdciBnX1n4/v/4leMDAS84l5I1+D4AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Obsidian_helmet",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 25,
+            "defence_slash": 23,
+            "defence_crush": 26,
+            "defence_magic": 0,
+            "defence_ranged": 24,
+            "melee_strength": 3,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 60
+            }
+        }
+    },
+    "4745": {
+        "id": 4745,
+        "name": "Torag's helm",
+        "short_name": "Torag's helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACRElEQVR4Xu3Wz0sbQRQH8N0/wUMuhYDksIcSQhBzSLFUGgwqKBVCKJKWtlRFpYKIehFyURBBSqGCLUWKiFaUKlJKS/HgRc899O958p3pS97O/jBsRg+SB18kkOx8fG9mdx2nU53qVFy5FJ07Kf+ifX15KhazVOh9qJLPe5TNZlRuEdUEDA8/onK5SKVSgfqf9KhIFIM8r1t9P9+Nv1bLpUrlqS8jI499MAliTCbzQMVyl1yqVgcaAWbsWb8PJDvE3QEknU5RKtVlu0t+ECJBPDaA5LgkiFHmlROWS+PPy41IkNxHcv/wuEyQpS6Fg6L2jwQxxmKXXKrVhlRyOUfF83TS6WbMkUWBLKA0SHYIAYi7FLaHAJLjMsd2w+jixBokTxgw8tgnAZmriHLp+9c3MW3UIHQDYZDc1DsfxmNBCTa2S8c7ryNQ+shjcYRB/Bmg3a2awlgFoUuHX179R/nDozFBfMoOPr+MPWUJQCjdJVx8b/uFwp3uvqWf36bo/GQ2AGIMgt/VFwcVKOxOnRjEXZKY30fTKiaIMVe/5tV3N+qjgQdrmyCU7hIW+LE/6QuD+B7EN8S/F8sK/n51LPDqwQ/WtkDAREWCgMEo/12u0Z/jGfq4XqGVhbLCWAShXLo4m1NjAgId40gQjjnGBdTZ3gR92qzS0rtSA2MRhAqeMHTEBIW9lDFIvgtZADlO8/auUdgzJigKwyAkl9Phf7CFx0YrpVESFPYOLTtrhiEWMFzBRczIRcNiXrHtMhcIi/mbTt3rugZO0SkoQrdZ/AAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Torag's_helm#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 55,
+            "defence_slash": 58,
+            "defence_crush": 54,
+            "defence_magic": -1,
+            "defence_ranged": 62,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "4753": {
+        "id": 4753,
+        "name": "Verac's helm",
+        "short_name": "Verac's helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABsklEQVR4Xt3WXWuDMBQGYHO5Cy92UShCQaSIiIgXluHoQBBKKRS2//9jsr2RNMlJ/OiIynbgpdBifDgn0QbB/y/GzWxWPeBwCIwsgJqzoIJUVTqAmrPOZDHedacZiylQUSQWyGO3GL9cGrFQFccji02D5Brj68wqhaK/qFKgNI0tjA6iV/6iGL/d3idQPahpinVA9/uHQJmL0uPN+KnOeZJEFsYzCGWikLpOeFnGPM8jfjzuRVYFfX22AoU0b6kBQnDT/sjvLMwCIBT72R8BP58zAyRRYyCJ8Qhi/HqteNvmBkjvkolQqEUwXVc+MC4Qgj2034dGPI9KnZ6hMckAg65QEOIJ1D9X0BV8AoRPoBAdIjFDIImid3iiegzG5EIhdFwyFOJpbG4QOiMxFELHtwiIdsYFohA6QnnaVgHNweibehXQEMQjBjUO0sc1htFB9A5P1jTIhaGnaxPQGMYrCBj9vSWf0hREAS6MN5D+3qLvLldX8F0UvTziqTuy7H+DdFQ6RocsBAoC2W7VdjcqDG3MIiB3AbUTybJXkSQJRTYCoexxuuJpQ88rOs6h0Ov+ZH0DhPWtd+G8MCoAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Verac's_helm#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 55,
+            "defence_slash": 58,
+            "defence_crush": 54,
+            "defence_magic": 0,
+            "defence_ranged": 56,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "11665": {
+        "id": 11665,
+        "name": "Void melee helm",
+        "short_name": "Void melee helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADKUlEQVR4Xu2W0UtUQRTGnUcfevAhkEBYJCQkZAlDkiRJEpMMk8zQDDMzTLMwMtHKzNYwsw1RM83WbKk1K3FZss1F2KLovzrxzeXszsze3GXvNV86cGB37r0zv/t9556ZnJz/4WoI0nNXIgkQmJ6m2acT5Pf5yHd3aDegBEVWQvRxaYneLczT4tQUzTwZp8nRUXo0OEhDfX2GYjuqngWzGgjQm5kZmns2SYdKSuhgcTEdKCqSub+wUBvDf09BAe3Lz3cbStCx8nJaW16m4Ms5mvf75aJqAuRIaSkd9nr/BZSgo2VlFHq1IG2CSrwoJ67bAe3Ny9PSJSgLCEWM2lEXRUI9FQhqqGkCeT0ep1AWEGonFg5rQMcrKhJAsEZNOyCXVLKAop8/abacqKyUQKgTTjsgE8qhSoJ+bW1JEDXtvjATageABG1FIvQzFksLlA6KYfbk5tLZurpsbRP0Y/ObLZD5NZlQdkDn6usTxZ+lSkLCAOp7NErxrxvy/+94PGMowFy52EqnT9ZoymYJhBC0ub5OX1Y/0FowSCuvF2VzxBiKHOMmFGBuX++ha+3t1NLYKAtfvQegDoAQ+r70fGxMLmKOI2EL1MAXCHugogrC9jkAEjQyMCAXwG+o9Pj+vQQQJrUmFtTa1CSBTlVXy+uqRVANIIByDASL0KGxdcCyiYcjcnc31bnU3JxQiIGgDFTBdVbJMdDbF7MSKhx6L3/j/APV7tzopVvd3bJWAHO+oYHO1NZSTVWV7N6wK9mZhVTKFaDxB8NSHez22FwZCIXL2dvZSZcvtMgeowIlF7aAYB0r5giIawhK4VA23N+vAXGyGoDGczsOhNMh6okXNpMXV2FcBkIICYSawREEJ0d1MTNxzbQLCVtdA8Ib49iaqoYZ1r0MhITFaAkoetQXWoELx5CkDcibXV1/mdA67vJ92DYAc7WtTWuK/EL2L5VRWEAMxQWsWsKJDo0+hZ7EY7BctcohDIfQtgyGQQvAnsUdGkDmPbBKhTFnzjKsbqwu1NPRIWHQndXPXldBBzJndRjmWwrZk7C/pYJs95yLkTppZkW63TXXIx1MtvEHwzygxTnb4tgAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Void_melee_helm#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 6,
+            "defence_slash": 6,
+            "defence_crush": 6,
+            "defence_magic": 6,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        }
+    },
+    "11664": {
+        "id": 11664,
+        "name": "Void ranger helm",
+        "short_name": "Void ranger helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADUUlEQVR4Xu2W/y+VcRTHPX+CH2zWZruzZs2aWdMsy7Isk6XJkkaaJE0kSRJJEpHEhEQiUUTdaVartv61016fZx/P5/n4di/PVT90tvPjvef1vM/7nPOJi/sfMQlHts99C7fgh6lJeTc2JhMvBmWwu1u6Wlvl7s16uV5ZKReLi/cDygX5uvhRwnNzsvR2WuZfT8jk0JAM9fTIk7Y2uXerwQeUHgrFAsoF+b22Jj/DYfm+siJrS4sKCqCp4WEZ7u1dB7pRVaWAzp7Oj4VKjg9idWFBwvPz8m350wagngftcv92owIqLymR/NzcoFVy5Nfqqg9It2vxzZTMjI7K+PMB1S5gOpqbFVB9dbUCOpOXJyezs4NUyQP68eWzUkUDYWgNhKE1UENNjVy7XCEVpaUK6FhGRlAqub7RMCikgVZmZxXQ9MjIukJPH3ZIZ0uLNNbWypWyMjlfWKhaBtDR9PS9quQoFUiKL8/MqGSqSA2EQoy8DXT1UrmcKyhQ7TqSliahpKR1pexKEYTjK45XKI55SSAY87Fn/Qqk/1Gnmi7TP7SLCTuemanUOZSSIgeTk3fTOscH8P7VuFp8QGwFgirtTU1qIZowp3Jy5ERWllIGlYAid6GS6x38wTgDYYNgYLYyqrB37tTVKTPjHVoFEP6xoQ6npu4OypXVu0mADDzuUj7RqtAeVMEzKINvWIYXioq2hKJ9Gsz7/6jCg9opUYd2bQeFp0wwMgoot21M0cu+Pl+7dBt10loz+R3KAcaEYWivVf6kGxEa3VGbmYnD2BRi5wBH+2idNjPFORd6IaISeygpIU7lgcREBWYCmGlX3iIcNVn2F5Goxu1CMcwNGMa2oTRQQny8Sg1kV4oi/LJ6X7QR0k5MHhMgPOIW8YcNaQOjlAlE2wIBwsT210eSPNJMDwUGhInNZag3M3uIpYip8Q/GZjmyk/CSCYShTVPbVaIIR50PTGwuRg2m75cJBpQ2twkTGBDPDe4bu0VPFmqZYOb4oxDqaFOzg/QuCgCIcBek7ZHtEnDA9O0CJlAgniEsRf2H5jTp5NVo+0kfW86G3tQBABHuksRLJgSgtIzCtkqbpfchgYSjzgdQvJUw+GbFdkr7X/cYm39xjIpFFv8ExN+IP1r8QG8g6vGDAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Void_ranger_helm#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 6,
+            "defence_slash": 6,
+            "defence_crush": 6,
+            "defence_magic": 6,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        }
+    },
+    "11663": {
+        "id": 11663,
+        "name": "Void mage helm",
+        "short_name": "Void mage helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB0ElEQVR4Xu2W30oCQRTGnUfwIpBAEAkJCZEgvOkJvDLBDMIuRC8MgxDyxv5QogkRBXnfo544Mxx35uzYurOzStAHH8uuuzO/Pd/ZcTKZf6UmAaZ3JgWwl83Cfi4nj+gdQQkJUcjn4aBYhMNSSZ4T2JahhIQ4KpeljysVaYRDE9iWoAKYk2oVTmu1Ve/gdbQOtgUosYLhzfw0HsNkNIK7myHcDgZw3e1C/6qj3eNdCoYmqBYK8kgRkalCulOslgIh4/lFsxkCsDl4Cc8KBlWVOqvXodNuy4ioj2wmKHM0LzLXHz0mDsGdQpWiQXBN4uZQfFRHBQ2s90YUjM2eoARctlqJYehLdYjOXGfQ542GXFuSwDgChdcX3cNeLzYMAeHfzPdyGTe26H5xgflaLKSpQjGqJAwQDmObbFN/zudukdlAOAyfbJ3pXh0mNhAHcYXRgd6nU5fqoEygJBF9zGarZxyrQxIbg0T9hn57eXatjq4Aik+Exk+YX+Om5xNWR5faB3HT1pVfJ2NUWBUOxEd3lFqpOYwNChuXR+0pLlNqMAVmA+IQuj3GFZYOZmt8m71Xx6bgje1Qs/sJvD4+pBNXtMI7A92pxfWbaNJ15vf/Of0AOgjTjbN0bmQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Void_mage_helm#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 6,
+            "defence_slash": 6,
+            "defence_crush": 6,
+            "defence_magic": 6,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        }
+    },
+    "10350": {
+        "id": 10350,
+        "name": "3rd age full helmet",
+        "short_name": "3rd age full helmet",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACaElEQVR4Xu3WT0sbYRAG8MwH8FgIBSEHD9KD9AvpzYPYgqA96s3/hRRK1GotVmNrNRoSJBoNCTE1hoREQ0MK3oWC9DNMeWaZzW6QnvZ99+LAsMQE9pdnZt8YiTyX0SL2d6hF/GJw0Ncho4ijQ0NuK+h1LBYGirjxs8K3tRr/aja5e3frQ/V/2kI5oLt6nTutlnStXBZUCCkRl3I5AbUbDUkH12qxyBfpdBgpkdxcQb/bbRld5fKCz1Ip/vFl2zaKZFTN6rULyp8cc3p3l78mEpxYWebFuVlboyO+yuf5plTi1k1Vdgcg4NLJJO+tr/Ha+1UXYxhEXDw9lXFhgZES9gcNEKBI6t3bNzbSIVlYTadeuZJk0ABhn/DedaHAqZ0d0yDi3NGhpAMM0gEAI7vvdGRs+hqpAY5dMrTUJE/NZSYjT5FiMCI8WffdrrtHeA+fKWSz/G1rkz8uLZlAER983pLdwA0xKmA0DZzSgOFvSK98fiYJZQ++82Y8zrMzM0GjSL4tzhcchkgAADzuwOCqIKSI0eLxx5fQsQX8tBEnP23IjRSEJPTnAiAnAaex0PH5efd1wBgUydmS2d/3gbBH3pvi+ufhQRZfQeNjo0GPC0USvXdkAGFEaC/o7+OjjO/DwoIPFHhCWM6Xw69cEJZbQVjuXgokxwCeLhyOxkD4oQQIjYOvH4RUdHza05OT5kD6P87/QDgCvAs+NTFhCoTq7QlQCgJGW1GWQJGIgmIjI4IKHdQrB4X2Yp4CDUSjNkCoHqq/FQSMRRDqaZQXpBhLIJRz836Q7ptljFN6c20vwjrGWwoJFWGq/gHHY0+rp8bu4wAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_full_helmet",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": -2,
+            "defence_stab": 47,
+            "defence_slash": 49,
+            "defence_crush": 43,
+            "defence_magic": -3,
+            "defence_ranged": 48,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 65
+            }
+        }
+    },
+    "9672": {
+        "id": 9672,
+        "name": "Proselyte sallet",
+        "short_name": "Proselyte sallet",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC60lEQVR4Xt2X3UsUYRTG973ci72YiwUJgr2ICBFZIgmiIArCREKFNCxFzQ/8aNvUzDQzUfzIFDPXrM0001rTWpRF8yNFJQsvpIv+nyeeM8yuO3mXMwMdeDmIzMyP53nOeVmX6/8uhcRxtHSIsSoNzXke5J9zOwmmEKn3CkzPLQ8ac3SgS2kupPtcTkApzAR1oMFSDSUX3XEg/s/v88kxP2VhKUwFNIQqNFEn9+zfQOYnLC6FcI2uTvUVdxzo/CkHgajOo+se3LzgjluWccJBoOe3NQSzPcg+446rZATaEaCuQg/KL+u5oVJU6OQxR4ASi/BbR4pMW3+xFt9DNk+YbhUBNjtTZBcx2Jy0TH8CyPyUBaUrYsDQLm7nWKtXxp/5sTHQCtHpaUTehDE+PIwXvb3oedyG1vp6BCorZfyPe21biAprCwuIzUYwPzmJ9y9HMTY4gIHOTrQ3NQkQt7VN+0dhd2MDm0tLWPnyGQszM/gQfo3w0BCGurvR1dIiQPk5OUmBNr/liErh194e9na2sbO2io1YTFSam5jAu1AIoad9SUAZfr+VQEpAePZ/7ArY7/19USo6NYXpV2MYfdYvQHXl5bh2NVOAvJomUOa3/WMpbH1dlpczO1SGf2+vrGB9cRGLkY+YfTsuwWaoSwsLkZuVlaTQEauksBqNChAtYmeYqQw77WKG+p60I1hdjaKCAtzIy8Pp9HSrLNOniiBLc5+kc+TZqQy7MWE1ZWWoKC4SlSwFojX8MCeLnTaxM9DszA8VamtslAxVlZQgLTXVOiCGlx82W0fb2I3F+PBeUGwjEFWyDMgItaHU8vy8dO4hdmMHPbgbkLGnbRYqxNKhOGGHWUeFmKH7d+rEMhuAWPplSjBzyJkhjnxDba1dChml8H19XayaGBkRqxjmjubmpPxwMdoG9HNrS6zipWpcF4Y6HHsuRUNNC5biYaVkynip8pbndBnZMYPYAGPUwd/uieMASKIOftxRELvqDxcivVSDUuxtAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Proselyte_sallet",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -6,
+            "attack_ranged": -2,
+            "defence_stab": 19,
+            "defence_slash": 21,
+            "defence_crush": 16,
+            "defence_magic": -1,
+            "defence_ranged": 19,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 4,
+            "slot": "head",
+            "requirements": {
+                "defence": 30,
+                "prayer": 20
+            }
+        }
+    },
+    "3753": {
+        "id": 3753,
+        "name": "Warrior helm",
+        "short_name": "Warrior helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACOUlEQVR4Xu2S32vTUBTHdx998GEPhREYhCGjjDwEmYyWicWyYgeTVkIcs8Kg07K1bNbq1m10OmrFTaSV0qFuzoK/XsQHwQfxyb/s687Z0oWbpIlMH4R84BCSnHPu5557BwZCQkJCQv4mAvIXfwLVBEqyQfkCppHhp/zXG4FmY96vRqC+MeuXZENg4VYGy8W7SCVi0LXRP6pt7+Y5X1dVrxqBzwdlv6QTBJbmDTwslzCXTbFQbFyDqg4HlBJ40yr4rSXw/WsLc2bqpKlXY4GVhZvYXLuPnJGGeX2KhSYndJ6Sogz1qbUQOOwU/YV+fGvjw2EdzZ0yqhXrjOXmx0KVlSJPJ5tOYDoZRyJ+EZf0MWjREUQigy51FgK/fnbRaa7aNu+JwJePO3h/sI39ziZazyt4Vi/ZxAQqiznU1h84hKwJjV5QWehUyhnvXm1htXwb2ZkEv/eZEnFcQGI0MXp+6jZY8u1eDa/b69iuVVnKvsi1VBKT8Qlo2hjXW7l7L6v83t1/zD3oBHYbyygVTKSSsSBChODpUENqQEENaWq0cxKyGlkhT8AuQHUvnt5DrZpnEdOY6uWe1vsiuAHthsRoEXpaR+HeSPClJgFrQnQfnzxa5DtZyN+AkbnqspnAOM9fiZw7WmDD8b33/0iIjskusnTHQG42jZnpy302ExD5WEhIjqg6iPHoEK7owyzU71KfScaJU2hEOc9BUjFN6QnZF5dD7npGnLt2i3+0uDvyjr1CrgsJCQn5n/gNiMLPfkeIaHgAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Warrior_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 5,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": -5,
+            "defence_stab": 31,
+            "defence_slash": 33,
+            "defence_crush": 29,
+            "defence_magic": 0,
+            "defence_ranged": 30,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "3751": {
+        "id": 3751,
+        "name": "Berserker helm",
+        "short_name": "Berserker helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADGklEQVR4Xu2U70uaURTHuy/3Yi96EQwhkIiIkCEjiUkxSSYZBRbOwh/RzBTTUmf2y5m5slYtLEZtUFvRWsUWxRZjjL3Yn/ad58qjeVN7nm29ml84IJfnnPs533OuNTVVVVXV34hBPLlBihMUiCGdsEPBHQwrSYeSBIViWJix8fpatVrOHQxvMl4lCQrE8OV4GvFov5L6DCd7EfjcpltwieHsMIZYyKIM6Oj9osIuCPwmeIafF/M43X+G8FiP3NrZpMttvNtJIDJuR7teW+EiCYLBZrVA1yp9W/77Xz/2sJ2ZwpBDAdD3iy2e5Hb15pOuJzL4XP3wOCyIhgKYCHhhMjyEVtMEtbq+DBTD5VmGNxsKDMgH+na+iY3lMKyWzjJJDEG3jQNNRyc4kNNqRp/ZAIP+ATTNDWXycrm0Dsm50bxL4heCGL5+3sBS0g+jQVeiMEPIM8CBErOTeSB7nwnWnk4YO3Rob9PmoQp5hfyzj6u8YZkuMVycvuIJQV/uv0KMiNfOoUQgcqjbqOcu6bQtZaByNXa343JdYjg9TPNZv96Y5F1MRVzcsc31KKJ+Jw+CSsanONCQracIiByiXWpqpM6Lm/l0tIKD3QVkViOIT7nheWpBd5e+EhTjCecna/y1kb0f9lK8o8xaGuvLKaymk1hZTHCHYpEggn4PRt0uuBwD/LV1mYzZ19kGjaYFxwdpHrQ3FPSbHsyL514+gat7WmF0jENQNwREhQhI7DaVmMFsLIzwuB9jXjdGhh1wDD5Bj9mUB5JApKA6LxeD2TE74Rw0y4EhMexszWD/7TyHokL0VOm8rq42D7SUnOMuiaBXg2qQ4xRUcy09kR9Vb3dHHkgkKCHGd4gKks0SUKFADoj2SDoTg87JEcqlMZEzM9FhjI1as6N9XJQn3l5GhS4pxO4JiEI8vxrkCjWWTgX44/CN9HOY0n8pMiR1SqGqu1MUElCzuhb3G+vQ2nwPj7T1RUEvkxaYdkaEVeiOqMpAEpQIpFLduwZQPNY/1nWgBtVdHnKA/gFAKV3fETlxSzA5iZbLDbFOVVX9l/oNuN3h4mTA+0oAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Berserker_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": -5,
+            "defence_stab": 31,
+            "defence_slash": 29,
+            "defence_crush": 33,
+            "defence_magic": 0,
+            "defence_ranged": 30,
+            "melee_strength": 3,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "11826": {
+        "id": 11826,
+        "name": "Armadyl helmet",
+        "short_name": "Armadyl helmet",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC/klEQVR4Xu2W3UsUYRSHff8EL7oUREJCQiQMSZIkSTZRUfEj3Aw1U/xIxK9MXRbF1dRkSzTKKKWLCpTqIoKI6E878ZzljLMj4ri27kUeOOzMzsx7nvmd33l38/Iu4v8NJ4eZk/ADOHm13iYvl1vk+WJTLqCc7G1F5W2yIw1kLd7oAZUVFp4XVArmzUa7bD1rleRSs4KsxOpzAeTk084DhTGQxGydZg6AnHzZ61V1aBEQ8amILM7c1ePR0ScyPDwh3d0D5wHk5PvHfk8dlJifqJX+/lEZeTylMH19IxKNPpSmpnapra3PprGd/DoY8tTBNwYxPj6nqvT2DilMS8s9qatrlqqq29lUycmPzwNy8L5HPmzfl+npuMzMLMjY2FNVCBja1NnZo+rU1ESkouJmtoCc/Pk2Ij/3B1WheHxVYrEVr0UGUVx8RdPUKS295qkUXPGMkQKiZatr2zI3n0iDobBlSclVaWholcrKW1JUdFnKyq5nQyUnv78Oy8bGa4XBO7SIYuXlN7zk3MBoGXAoZlDBVc8QTjY330lHR5cWoSAAeISWoAbHfGc+YsIAQSWe4do/gkr9RtEq8w1FKWYQJO1Dta6uRwoOENeBKSgo1E8zebBCyEiBJJM7CpNIJNXMs7NLMjkZ8zxkCSQjD0xbW1QikUZVD3CASJRFzQygnOzu7svCwrp6hhFnvNlr/BCMOyAkytAqYJg4Jq26+o6qh4/y8y+pShnsTSm/sNlhXv8eY4VJO7fN0A9DUZJps/0IKBQC8hRATpaXX+jbU5RCVoykHaSd23XzDTu0wdAa0n5CzG8AAhqybU59Ym9tfqAQyeJ2zPekH5Ln/TCW3A8Ux3iLdUKq5NS0ZtKgJ8zox2WqgDsCZFDAsA5rhgZigsw31gp/wZPS1rE0IFoGCO1iTft7kl7/SDgd58HBMU+lIEjwiePi8P50FYHBDrxwCJWcjjfTFVQleOdpIv2FnCpv/6FOUMnpuGeqSvhI990JNULddOY41QuHuukiLiI9/gLxXB0XUvipegAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Armadyl_helmet",
+        "stats": {
+            "attack_stab": -5,
+            "attack_slash": -5,
+            "attack_crush": -5,
+            "attack_magic": -5,
+            "attack_ranged": 10,
+            "defence_stab": 6,
+            "defence_slash": 8,
+            "defence_crush": 10,
+            "defence_magic": 10,
+            "defence_ranged": 8,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "head",
+            "requirements": {
+                "defence": 70,
+                "ranged": 70
+            }
+        }
+    },
+    "2581": {
+        "id": 2581,
+        "name": "Robin hood hat",
+        "short_name": "Robin hood hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABfUlEQVR4Xu3UsUvDQBQG8GS8IbsIgVCCOEgpRSlKpRJBqrTQgtShDhmydBA6ODj4v59+vb7cu0tT6JkQh/vgo4GG3i/vrgkCHx8fn78mlKqdR0HuZkIOs6AGRdhW0erHs5UoMf2xAg2ShC0ayu04MtowSkGec1HBXN5oFPXzPipLGIBNtFPUAouNMDCjqSgxaV8V9+VDIT9uI/k1aQmz2kYGZrKsYuILVdy/GQn5ndH2qDaOmRdCPq3rMZjCeqAmU1yL3TWHNIrBZOxzAwzfKmwTUMA0NBX776nPDMqnM897ZV/eE6OYzFnMD7dTQpliC/Dk+xIGEA6wC8T0TZfjlkXqggplD6Pfg65+J4BPe+G6EujxNd6Vwxy2TU2GMPZieEKq/d0h0MPi3EARyF61JgpzaPFDxfmh0jsIxQGnlyNKKIfpINWDXFcg7BLKhgF14nR0+HviWG0Yx3AQ1Rl0SjgMrYMQpnUQhU/NxphT7SR6Yh1DdP7BVHx8fI7mB0UP3iSIiyzLAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Robin_hood_hat",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -10,
+            "attack_ranged": 8,
+            "defence_stab": 4,
+            "defence_slash": 6,
+            "defence_crush": 8,
+            "defence_magic": 4,
+            "defence_ranged": 4,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 40,
+                "defence": 1
+            }
+        }
+    },
+    "4732": {
+        "id": 4732,
+        "name": "Karil's coif",
+        "short_name": "Karil's coif",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABqUlEQVR4Xs3VQWuDMBQHcHPswcMOBREEkSLSQyjDURyOlXkpo/RQ2Oj3/yIZL+FpEhOrxtg9+NMWY/z5fMUgcCrCRJ5aiCCsLDO238ft7yfgCGsayk6nPU9dFy1qt4tYFIVrogi7fL+y8/nAUQhDFKUph62EIhyCIEQhqDrmLWiFTonOyJFRCMIuAShJtr5QhF2vb0pklAmEXQJUGG6WRvVBMkp/bLYuHdJ0KRRht9tRiYyCLq0O+v15b6Oj5OHWH5tX0P1e91CQR13yCsLIHcNHZ5ol7yDxbxkfDyDC7xo+kyTg0S9qC6Vi7eIgeBQySE+eqwEI5l+AZJQ3EFy4+Up4Pj/UULpVUhQvLMtCFscbHgAt9AoR84MgHYIpy8iK0UGOXRLdeQSqqljByCD4vjoIO2QCwRx5A5lQ0B0bCAcbQY5z1M2PDQSYOaCZXeqDxN2RUSBc6w3UbSRAMsYGwvWeQeLYXJDDHA2BxPGhwFoTSD02ubp/WR8UBLixLbiHCSTvM6GGQeOqAzl2B6t7uc7bqA/SV0ysZUALdQfLdTPX8w3lutnU8/8A0QTkVdDtrgIAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Karil's_coif#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -1,
+            "attack_ranged": 7,
+            "defence_stab": 6,
+            "defence_slash": 9,
+            "defence_crush": 12,
+            "defence_magic": 6,
+            "defence_ranged": 10,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 70,
+                "defence": 70
+            }
+        }
+    },
+    "10390": {
+        "id": 10390,
+        "name": "Saradomin coif",
+        "short_name": "Saradomin coif",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACLUlEQVR4Xu3Uz0vbYBgHcHP00EMOgRAIhBBKKaUUSSkVRVEYMnboQfDgDh4EGRNU1M1fKB6EwdjFf2KH3XbwPBg7DhkIYyBjMGR/xrP3+7zN2zcxSmmS4iEPfCkpL30/7/Pk7cREWWU9mTIonrFWcnODKqYfyxhRBjl+lxy3R57/krz6Esf1lvk7y2lyTLs2DpRBbjBHbnWREwTr5DdeqHjeioIBDViBKIM7EW0eNHtUrb2m6tQyB89+sCa7JmCMcp6T7YZFoAwyrQ5Z1gy1Xn2hqc1vFG5/p/buD6q3V1UYhq4BpndLwHJGSZBtL3AYs3ejAkyju8ZB14LqxqBboqv1jY8ManleXigN5DxTASbcuab2m5/UObhlUL2xL1BbEoYxivE2t694fY5dSgchDBKj67z9Rd2j3wpVC1fU+9U6/CpvZj6jM/hG4aT4cWx0D9UfIaOO/9D06Z2EiVFifXh+LW+nSMbRDTB8q/onxibJ6KMDCAEOz513twoUoZI7DVnyqgOjJ4JFqfgVmnQmyWpasksnf2n67B9/AjT//jPNXnyioHepOjRCl+L/O3p0HDB6gLJDm5yuwyC8V/MfrvpdGRmDkqC0RDCzZnKSKAQoYHhkomsZMSj5/qQFqAiTTBKFlz0HDOphEBKNIAlKwkyzlfVm6ZWOip/4cRhSKCit/REsDZK2PmPFUY+fdoDSIQ+vH7kkarjTFtKVtBp+k2HXZa6xbFJWWWUVXP8BgfQmbHOP388AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_coif",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -1,
+            "attack_ranged": 7,
+            "defence_stab": 4,
+            "defence_slash": 7,
+            "defence_crush": 10,
+            "defence_magic": 4,
+            "defence_ranged": 8,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1,
+            "slot": "head",
+            "requirements": {
+                "ranged": 70,
+                "defence": 40
+            }
+        }
+    },
+    "10334": {
+        "id": 10334,
+        "name": "3rd age range coif",
+        "short_name": "3rd age range coif",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABoklEQVR4Xu2UX0vCYBSH3TeRLrwQCRG8mCiK4rDRwMQ0REPMikKKCCKI6KO/8XvH2c57tpmTNbzYD56b94/n2dmZpVKRIkVOOpaKknvC4s1BW9lON6DRs/MU8wuhKESkDIH1ersZ07lMJS1dhGSoeMvtB8RJVZvnyu21lNOx1aBFkpnEUgvPUcvxRUQEbK49ze3kMgLu4O7MHarpqJ+tFIpu52P1eDPR7FYz9bqeB7xvl+rjYaX5fFob0DrIQMrS7a/ZjUDkbbMwilDhr+eN5nt3F4B1yEKaulQvl4+VsrQIzRAXoo4kyfy83BtCuHekUPhlcBkMa5JQkgzWsI/zKYVCiUq9qsFr4p84DXGSEJfh3cEZnMcMkswfQpY6q1UMEd6ZjjdUvauRpj91NcOZp3EWY32OwHnAuwNxCB0og/hdgYiU4UBMykmRONDdFDIUc172wcXk3j78kTg44b9xGmju5DrfI1J2CIn/4TiiRczifI8jKx6QUIoPK++eLEY3ZfEjBeLivz6JfHJ5659jSiV1JedE50GeyD0n0JUiRYpkml8MwGmccw6XhAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_range_coif",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -2,
+            "attack_ranged": 9,
+            "defence_stab": 4,
+            "defence_slash": 7,
+            "defence_crush": 10,
+            "defence_magic": 5,
+            "defence_ranged": 8,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 65,
+                "defence": 45
+            }
+        }
+    },
+    "23971": {
+        "id": 23971,
+        "name": "Crystal helm",
+        "short_name": "Crystal helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADF0lEQVR4Xu2XXUtUURSG3T/Bi26CQLzwQiRE8MIoEsEoQSgRBbEozSQT0xSxTDNzMC3RMi3RzFLEzBQ1DRU1GSuxtISkDyLwqp+x4lmnrTNDl3PO3LRgM3POEc4z73rXu7dRUf/L1TISeieCZeRidZMEQ0UM0MitB0OSX1ypQIkxMfrZNjAVAuhZGfE9HJHM3IIgoL7xZbl5f9BrKCPtT6eluWdUjqRnBgDtPatq6vQSykjH4IwCJSSlBCnU/XxB7vZPaDsvVDV6AeW0pb79iQLlFVX8famzfF3DUnunV8rr26SwvE5yCy+7CWVkdO693Bt6rf4pu94qDR0D2p5LNT6FrPZ16X3UOV1SLTnnSkNaGrYyMrf6WYZercrA5IpOU01ztxRduaGjX9nYoav02m0F4j5A2WdK3AOaWdmUsfk1VQkP0RpejBp2cX22tEZhiISs/GI3gIwsr2/L0toXebmwrlC0ra7tsXoFhQrKatVPeIYFyMm88yGxELYysrH9S/wbX2Vi8YNCdQ7PqY9oWygUMCey8iU9M2cXJoxARra+7+ha2/qhKgHVNbKgPsLUQFU0tAdBkU+px0+5ow7tWt38pgqxJpc+qrlRidH/F1TK0WMSHb3PHSBMjCJkzPy7LTU3k0YiE4ItvWO6GHsmDXMnJh+W/Qdi3QHqn1hRA5M1XKMQ4fjoxaJe28XfMPZMWfzBZImNS3AHiNbwy+3EBK49wxq52tKj0HgoKSU1ZFsJWxlp7RvXX0/gkS97LwmGs1nE90NpGQrlChAGxrgogFKAcX/W/0mm32xoLj2b8uu4E4w8S8vIVihXgBh3FGKfInMCYTA8E8ZkkcwYm+fkkIUJO9DPnd/qI8baKgAMxuaYgWLsWezuHD9sC12AoRyg3rElfbHdmwBiP6ONVh17KLMgLsDYMjI8+1aB7AkRIEKRexwxUMdFVULLAcDQcfGJ+mKCEl8BwuTZjPIAxpYTfAQe5yISGkB2djt1Hqljy+yeofET/1kAgtEjAEM5B3v2KPYwgIiBCMHYCk7mCMM4FTjSEYfxqv4AuEwmrUAzxGMAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Crystal_helm#Active",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -10,
+            "attack_ranged": 8,
+            "defence_stab": 12,
+            "defence_slash": 8,
+            "defence_crush": 14,
+            "defence_magic": 26,
+            "defence_ranged": 18,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 2,
+            "slot": "head",
+            "requirements": {
+                "defence": 70
+            }
+        }
+    },
+    "3749": {
+        "id": 3749,
+        "name": "Archer helm",
+        "short_name": "Archer helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC+UlEQVR4Xu2V70tTURjHfV72ohe+GIQQiMQQGTIkCYfSUBopFipryn6EzTWZm84xNU1MZc2fiYoohWZSplKiaEQUvfbf+uZzbvdu3s3241xfFH3hYbt3u9/zOd/znHNLSv7r3xFBf6dwGeEhRNjfikHOkLC9Hpb00EQ42XsmzKzl5UUaEpaT3ZIemgg/T6YkzQhToy5JD02Esx8zkmaEgWCLpMcFEd6sjUn0AMHZ1mgUEOHL4bJmVpwhYTRuYA992p2VNFMSbrlvk0hZiPDteBXvXr+QBvp6tILAkzZJn99GkV4jdghhfMSPJnttsSkRTj8v4fjglWT/qCKsLQ3hsae12MkpQHs7yWINdCIxuZGYD/U2a6EpEY72F4RBPOrNEyjXAArQXCICt8uRp6cmwuHHeQFlqarI8TCDEFxOpWH/DEbYXB9HrN+N2pqqHP+9IMLB+6So3p6OS4CUwXt9HQh42jAQDsLZ2giHve6SgRRPboH03Zbpm1WE3e2ESIkb0dGkH4TQ1+1ENNCJiN8lvg/2h+B6eA8PHA2w22qypKUAJafD2nmUJwyLsLM5JYB43Xm7pgwIsaAb8ZBXfDIUVzwahrvdgfZmO1qabKi/Y4WlUlluLj5ceZJ8hFirzYUCsUjEyzuN113driqMWnwt7p0DeZ3NWkp6IPbSN3TBQGpK30/XxOw2VkcFxEjYh6W5BBZnpjGfnMRsYgLDsQgioQCe+n3weTpFk1stZrFMH7am8XZjQrzP1IOxQBhVKSg25qQYYnkhmQE0Njwo+qgv6EdPtweerkdotDfAYqkSz3E6nLLZrCx7kUAsJW6GUt9p2WpibCjjHhe/VHlj8HmWno4EEEs5lzj6dMOUMeHl5POM3/h6ZTF+/lsI3q5mo2BUKUnpE1BLBdIXL1U03Gk0jCoSPVNmuoaKsuuoLC9F9S0TblfeEEB3rTcvVJ2lDCZT6VXBsEjAqEDpUHqYbEB6NwNUOBDXFQKxMvskV13RcqWUvpPyLb3HX6lf1ZqvnO8xz5IAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Archer_helm",
+        "stats": {
+            "attack_stab": -5,
+            "attack_slash": -5,
+            "attack_crush": -5,
+            "attack_magic": -5,
+            "attack_ranged": 6,
+            "defence_stab": 6,
+            "defence_slash": 8,
+            "defence_crush": 10,
+            "defence_magic": 6,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "6326": {
+        "id": 6326,
+        "name": "Snakeskin bandana",
+        "short_name": "Snakeskin bandana",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbklEQVR4Xu3VT0sCURQFcN+HCNoIEiIhIUM4yMhIg0ODDY6Y2CAlLmRKsCkkE9q0zkWBFLiqz3rq3nj5B2n3nKB34K7fj/vOvEmldHR0dHR0/l0EVifRCHQ6NsKzMhoNE3X/MEmYQL9fRfeiwqhicQ+FQgauW4BVym0bJjB9inEZuej1HEbRllqtEmo1A7a9z7h0emcbKIGX5xFfDx1OG/l4f+QhSLd7At8vw7IOYBbzDDIyGVUogbfXe8ZIkMQ4Th7DYRvnHQ+eZzHGOfrulFLQbDb+KbDESNDgqoUwPP7amgnDyDFMIUhgPn9gjJzfQDSnTUctiEpLsw6iHhEoippot6u8mSCoME5hsRcgOYSRxZYgKjVthzDy06cNKdvSZNLE+C7gWf7SCBTHIUNs21iBKMLICMaMRnXc3vgYDDx+i+hxJBw9itnsrsrubMri33U9rPEDuQxSfE2bszhw/eeaAGY9y11JHKOj89fzCUpCK/c1EQYbAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Snakeskin_bandana",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -5,
+            "attack_ranged": 4,
+            "defence_stab": 2,
+            "defence_slash": 4,
+            "defence_crush": 4,
+            "defence_magic": 2,
+            "defence_ranged": 2,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 30,
+                "defence": 30
+            }
+        }
+    },
+    "6131": {
+        "id": 6131,
+        "name": "Spined helm",
+        "short_name": "Spined helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACIElEQVR4Xt2XXUsCURRFuz+hByGEQEJCQkIiCcMwDEOkJMNMEsEyk0xEzDITESnxwR99Ys9wZu74RcKda3TAFwtmsdc+R93Y+N8jaPqdNY6gWOyY1gyFh5svwDBQyOfTDWVClMsFyuev6SJ1vk4gQY3GE9VqDxZQJpOiROJ0HUCCXlsv1Gw+U73+SJVKkQqFGwsoGj3SBWQq6nab1Ok0DCgGui/dUS53ZWk7CO27XWxB/X7bePV6LQsI2qrVkgEEbel0kuLxEwoG9ygQ2HULStD31ycNhx8LgdAjaMtmLymZPDOA/P4d8vm2VUMJGo16FtBg8O4AgjIZiLUhHQB5vVvk8WyqhBI0HvdXAkK5AYR0AMQFV1RyEwgp/QYIyjghAHE6imAwNhBSmgeELSsWbx23iPsDoEjkUL0yuUcAemvXHYeRdfGWTfdHqTI8TE4Id0jWxSvPG4bDyP1xVRmvPXThSiMd1iWnEw6H9AKxLk5HLjNfafv+KNWFsdeeC81A88qMAqM/DKP4BmFmgeTtko8h0sGFthXZQEoTknVxoeXtgi6kg+5Mw7gAhBGO+8OF5k94bBbfGrsvznSUAyElBuJCozuAWaTKpXR4zK8fXGiogqZpVVqBJpOhAYTNwr1BMotUaQDCCKM/UAWgWRjzf7QCQReKDFX8NXX2gfbPIhcKLY8w7g8DLXsgvz/vbwpHGOsOoGUwmkeLitXmT8Homh9jAc70r8Rd4gAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Spined_helm",
+        "stats": {
+            "attack_stab": -6,
+            "attack_slash": -6,
+            "attack_crush": -6,
+            "attack_magic": -6,
+            "attack_ranged": 6,
+            "defence_stab": 6,
+            "defence_slash": 6,
+            "defence_crush": 6,
+            "defence_magic": 6,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 40,
+                "ranged": 40
+            }
+        }
+    },
+    "1169": {
+        "id": 1169,
+        "name": "Coif",
+        "short_name": "Coif",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACD0lEQVR4Xu3UfUsCQRAGcO8j+IcQgSAiIiIiUkiSKEliYWGSGYlQZkZlImZlhYiURkTUN56YPfZax7tTu1UJGnjwBb35+eyhzfb3R4HhLGxUwNXVDVQqNTg+Poejo5NFwRRoNB6gdn0LFxcNKJcvoVg8hUKhBNnsAWxv780Lpi5ptToMhO1Uq3WtnXy+CDs7+5BKZVgikfVZoVTI4+MLtNs9aDafoF6/19oplc60dtLpXUgkNhkGH/F7IZdLJkqBbvcNOp1XBrq76+q2k8sdsqNKJtMQjcYhFFoFr9fHnktsSYF+/xOenz+g13tnMDwuo3bwmGKxDdZOMBgGvz/AUCsra3JR2a0ADAZfDIdHhjezXjsiCBtClNPpYjCJR6eC9ILtcBC/mfG+wWNCFDbjdnuGUPTqvxhjECaT8o+AsCWOwiOz2x0Mho1JQCls6bikN3yQjHsh4FsaitfjYHE57VosoqYDhYPLY1EW76fpQWYozMxAiBAjgvRQHGYZRBcbhYJoOGpuIEwk7GShGBE1NxA2xEEUJb6WBsKF4yKC9CIFRJeahQKMYuG/aDrQesSthSLE9y20pA9Sf+FoRBBfTt/DSAPxxXgxGj2QUSyAcH4aGAbQGQ+KRz0sFkE2mzmEj6It5KEQaaDJZhRkFrX1mc5kIHr89CoSxxxEITPG8Bn9K1gQ5GfExTT0s/9jdb4BFzc2tJ/7IsEAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Coif",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -1,
+            "attack_ranged": 2,
+            "defence_stab": 4,
+            "defence_slash": 6,
+            "defence_crush": 8,
+            "defence_magic": 4,
+            "defence_ranged": 4,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 20,
+                "defence": 1
+            }
+        }
+    },
+    "1167": {
+        "id": 1167,
+        "name": "Leather cowl",
+        "short_name": "Leather cowl",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABiElEQVR4Xu3XUUvDMBAH8OXRhz74IBRhUGSMIWOMoRREGCiIgsIehoLig9//Q0Qu4ez13yRtTdoiePBnW9lyv122sM1mf7+UrmeysoDnh0v9eLfS9/ul3t8spoIpfXhamyDotrzQ5W4+Fsw2Ob5sgpjd5txkuTgbCmUhb4etiQ/EmPUqNxi6pddtiyIlSumP45VJCMPTYUwxP9V5nqWektKfr9e1uEByqxBEoftJUQT4ei9NaEo4HcK4QJQsOzGohFtXfaMwuF0ShFNiFK7+i/KDeOt8IEbxlBKh7OHXFt5CAslIGCcS1Q/EUwqhIj9P/UEhFB8Dg4AIISNBLhTDokHY2BcEYRg1GogizyRXRgXRhBiEKPk4GYgatkWCXEkCwqahIMCXiLOoH4hObQ4i5PWIKblB9h02I0HcHK9RkoG4MS2GcYF8iQBRVROoA7DaQfTrgP8MuNfoWGEIl/ppyEFIMlC3aoJCsVMftLqBcPtxlYQVBiFkYAxX8yiYCFKVbIzB5/5XbH0Dj9EIP3IahFEAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Leather_cowl",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 1,
+            "defence_stab": 2,
+            "defence_slash": 3,
+            "defence_crush": 4,
+            "defence_magic": 2,
+            "defence_ranged": 3,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "ranged": 1,
+                "defence": 1
+            }
+        }
+    },
+    "10550": {
+        "id": 10550,
+        "name": "Ranger hat",
+        "short_name": "Ranger hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACHElEQVR4Xu2W6ytEQRjGdz76I9QmySf5QEpENpIQcsu2xboVm+R+vy+2bdsN67bkLso/JpeUfH70zDR72JVS5uyX89TU6cx0zq/nfeadcbkcOXJECVgjo1IQE9MjGBjyw+vryBSUAgmGljEzP4bAyAD6BrvR3euV7wvdbrugLJC14DymZkclDJ0hDF2qb6y1yyWBrfAqwtGghNHOEIYQLBvf6bIZdkkgurstHeGPOQjj6+n64ogCHgr0obyi1LRLAqHIOp4fH5POEKaxuS7phnJESGgNadAlgaPTHXy8v+Pt9RX+ft8PMGrdwvIUOr1t5oFYsoIsF16enmR4dVm+/1RgY2tRzqfP/bsEDhIxRGKbsizp7qg1DP3YZMAOIMrqyOkwan5nP4yl1Rk7gq2kQX6Cub5LIBYPybaQgSaZKguIjZPh1sFPXWmDBE4u4ri8PcbeYUTmaGVjToa7ptaTCSgLiMHnjtQusXSVVeV2QimY8+tDnF3tI34clTuROSLQ6PgwWtub7IKyYG7uT+Uzdxm7OvsRgdgieBNgniwoI2DfYRhodnOGOhWILvHQ1VBFxYUmoEQS5u7hXD4zPwRiqAnEfqSBeOi2d7bAU12J/Pw8Ey1ByMwwyHQncbb3KwzPv+bWBpSWlcDtzjYDxBIRhKXT213D8FbAI0TfJnk7YPfOzc1JwvwzEGUdJX8ZhmCUvh4lfxmp33HkyJQ+AT9EHiYJUx1/AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ranger_hat#Normal",
+        "stats": {
+            "attack_stab": -5,
+            "attack_slash": -5,
+            "attack_crush": -5,
+            "attack_magic": -5,
+            "attack_ranged": 6,
+            "defence_stab": 7,
+            "defence_slash": 10,
+            "defence_crush": 11,
+            "defence_magic": 5,
+            "defence_ranged": 8,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "10342": {
+        "id": 10342,
+        "name": "3rd age mage hat",
+        "short_name": "3rd age mage hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACFklEQVR4Xu2WXy/DYBTG7SO4cO8j+AJuJFwIicgyCSJCEDb7YzOjpoqOWZqN2UxGiH8R8R2PPK+ctW/bdSo2LvokT5q379rz63NOm/X1BQoU6N8oRN7uqUI00N/v6R6CdYZxgnVNTphYZrvleHbHYVwzNDjYDSgZhgG8YHC+S0AyDBdM5naF7SBW0OhW2qVt9rUvOWEAsaUokhmOAbOqSnvHJ6Toui2lEMXWIj8dehmGCwIgk8+LojlNE0esGQzHfOFUAGFfPSu2AHLpRTIKSTpR10nJLvmBcsIwCBvFUJRheJYACCCkg31YOy+J9gGkfpGj1wczuW/MmAzDbbHCwCiIQjiGp0ZEQYDjHFJhIIADUC+XaTYyRpPjw1QupvwMvAlknRMrDKeAIvDR/irVyllxPDYMAcQpAQiulNJ0V89TJDxKqc3ZnwG1S4jbcHZZpeJVjQqVCjVriigKIOxZ24YHeLrVhBfmJigRnfEDBMlQbu3Cb5AOgIzrBt03DuiheSjAMCeAO9fjpGtRUvdWxNy8Per08VIUCa0tT/sZasgdCvGbT/cFVarV6aa6K1rSzgz0/nwqEtpYCftNCXJCOd+OkGgTUgIUErKbzwMMKaYT8xKUXLOj5L8W7q+quY92AYCNNYyhxxrtw/fI+34dxBd5XWzumXCAgKtGpmV8i6wg7e73q3KD65xyj2RP909hAgUK9N/1CUgJ3Llj2TPxAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_mage_hat",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 8,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 8,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "magic": 65,
+                "defence": 30
+            }
+        }
+    },
+    "21018": {
+        "id": 21018,
+        "name": "Ancestral hat",
+        "short_name": "Ancestral hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACtUlEQVR4Xu2W70uTURTHvf+JRIiMMYZsiKORTDZsuDHHfsjcZC1TRNPG0pQ5mz+GaZMNhsMy0czMTPSFJNkoCCsk6UXUy/6Xb5wzbpMVtML5PEQHDuw+9+G5n33P9557a2r+jRAof6JgCDzOT0JFUAI7q3MMpK+tVQOUwIutrLqAXu8tqQuosLMIj8OiFh8JHB2sI9YfVItKAidv95BNxdBub1aDSgJfPhawtpjEUI9fDSoJfD5+hcPnOdydGIDPZVVapWLJjt/sYDU3gWhfAJca9UpCCbx7uYFPR/vcj0glu9WkdOkEK0T9KDd7CwG3TXmgD4UtFHbzWJwbQXfQpTzQ+8NNbpD3F8bYR4oD0S6jXMkmkIhdg7b+glLGFthbT2P/SQZbyyn2EAE1GbRKqCQYgoB21+ax+SDFHZuAWszG8wYS8LRZOAloe1qDb88asTRcx0COVvN5ApVgfE4r56Pxeh4/ndSg2dTAHqq7SDBV9RF9vJinYSi/bhhx8tCAg7SOgYx6TRnUmYIVP0hbmnxCSd7ZXpnl6yuN6XClHbYwdRPxaIS3fm+XG0HvFT7f9Nq6swITSI33s1kJSIKchqFLPp1jy5k45pODmLrdg9GhMJ/+BNXlb+PuTUYvgf1VCP7H+XujDENJi5ISlPSb5mirZ2ai/O7MWB+bmi5sA90+7tpSJbov0TknW0L5ar8JwQvRUSCBJIwsDz2j+V8BjdwI/VAoEnD8BCXbQoVgJZhyEFkeCSQVopISEJX3zvB1Lhn5SKoky0Z3b2oJNksTm79CtQRcrmG4PXH4/EkEOlMIheYQiWQRvppBVzjN487gLM91dEzze15vAu3uUTicMdjtg7DZemGxRGC+HITJ5IPR6ESDoQ16fSunTtfCMNSrKuhXpS1ezawQphjy5Wpn+br/40/iOzKcmd1yDzLtAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ancestral_hat",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 8,
+            "attack_ranged": -2,
+            "defence_stab": 12,
+            "defence_slash": 11,
+            "defence_crush": 13,
+            "defence_magic": 5,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 2,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 65,
+                "magic": 75
+            }
+        }
+    },
+    "4708": {
+        "id": 4708,
+        "name": "Ahrim's hood",
+        "short_name": "Ahrim's hood",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABjUlEQVR4Xu2XQWsCMRCFzQ/osbAUBClSyh4WEYsUPAhepBQP/v//kvISHo6TZM1ustuLAw/Bzc58+2bMxsXiGdXD2H7NGsYeDp9O3/sPp93u3anrVk4zQnmYFIgE2qzwOWkYezy2SRB+B7Xt2xwueXdk4ZgATKAJXTL2dOru3OkTHFuvmyld8u3Shfs0oUvGns+boGCOlsvXKVx6PDupVsKlpnmpCeVnRxfKFUA5S5VaZ5JPn6vK+5IJCoxRJaDHMGgnBv73Z2svl6/guobSFQZGCIT2YcCxBRBGAlF65yZQoUseiBAskgMUg0OeQpduQBASxxwCTApIO1XoUjmQbHUVIMLIxEOBZI4CIOOK5AJpEErfXwVIzsC/AzGRnJ8U0PW6nxcIIkwMiCIY3mGVgPxxA0k1lHQnBSTd4b146xecj7w7BJJnIUDlbIqEIUgxEBMTCAA8Mep2aSDCyD8A1EgghIfSQDyo4XpM+lepRShdLTPCghSeMia9Lqbb2hGhC94Xj4deF5O+5xlD4w8No0JvyRw6FwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ahrim's_hood#Undamaged",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 6,
+            "attack_ranged": -2,
+            "defence_stab": 15,
+            "defence_slash": 13,
+            "defence_crush": 16,
+            "defence_magic": 6,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "magic": 70,
+                "defence": 70
+            }
+        }
+    },
+    "20595": {
+        "id": 20595,
+        "name": "Elder chaos hood",
+        "short_name": "Elder chaos hood",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB/UlEQVR4XuXXsUsDMRQG8Mt4ww03FEQoHEWc/Rs6OXTp4uLi4OIgODg4ODgIDgXBQRAcBMG/M96X9Ou9Pl+r9JLeYOCjN7TJry9pkhbFTs15O4M05+8OKn/b5qbN9ajyV6MyPA+Acv7+sDJBF3UZQCdNsy9UxDy0sVDI2RKlP5mhOX/ZVgEYDSKKsD1Vya0wjxtQEpa5Si6sEWIkiChdrXm+qeumipgnA2XBjosiBypOlcRokFxXGpZ4PbnwU5aYxbheA+l1ZcESVsn9wEiQFQuVsEoRRMyzAZpNyrDGUMlzUU3CkoMkRoKm48KfNmUAbUMlBxHysnzFgMBoEEMUq5gFBAyCwSRGguZHXbBbE4V1lBz01tSrKfkNQxDfnwWEzhmNsUAI3osqAZToKIl7EEB4ZSyUhHBDlKBpFXfsnlWKR4YF0ihieGTwfgTQrIpJAkKn+IYWiCiC5PWDlzWAcD9iekybCx1wL9kEwsAAbMIg8rM9qtSdYTwGLBRBDDFfk5H/nNQhH8tgQ+XlTY/2h+bWjgiA8KxRAMgAIiNRr+3WwQrtUCUXpgC/GJ7kPD50lQjj4NvSY8rQugu9PmAl6r395ginxkqcpp2rI1vsyELhKME0YBcnSkdDemJii510/0wtkE4WiG5dx3EwiWL2ArGartpgEN0kYFDIv2vfGq0R4AcNIToAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elder_chaos_hood",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 5,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 4,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "magic": 40
+            }
+        }
+    },
+    "6918": {
+        "id": 6918,
+        "name": "Infinity hat",
+        "short_name": "Infinity hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC0ElEQVR4Xu2V30tTcRjG/V564YUXg8MBYYwxZMgYMpHJRNlw6GhiURhkIWaI/RJGUpJIZFKaJVmLQixDqpFkJiFl2MqLKLwJIoigv+Vpzzu+a85fx4iOxF54OOzsx/ez533e95SUFKtYxSrWbkuh8I6NpZCoPI09AqUw6r+MkOEQIL/TaTdU1p1aR/leAFJIx5swVV+LkRo/Droq7GybwkK0AautUcxnrhqqr8pjF5QSkKWWRsyG6zARDGCwuirXNhtap7CyL4K5pnpxZ7TWbycMS4k7j8MhJEM1GA747Ay1Qir0UALNHM00BmXS3GWl/yo/PGS95uof4fP+ZizHIpKlwap+9Li7YJZqqL8Ktv7w8WC1ZIRtuZQRw0uHFhqe4mNbFmrEPyQudTjb0eY0ETaNDX/iDyGVTM10QxD3MmGdrAvkgPo8vXIoNR1M4nUsLC3jpu739qHbfQztLqeAD/i9sgK6K91yL1aRD2m5lEwNg5oPxJHmgQPehOjbWxOpSEg+R/EeYdmyU14PejIQhNPq93nlfqfHlbc8LYFllx0Po0scZ04QQ0tQTtWPtImfH0y5fl8xBc44sAajNQ1Hyyukbjswda0c1wfKETOj28oCVHaUGVLt0rDvYk6E+vrGFH1ZMrC2aODTCwNGfAWO5peiueRvoAsny9DpOrJBdLDDzfWw45pQuVzQpfHqkU1FiNVnBtIpA8uzjgzIfE4aiMHnADBPfKQwg3yd8FUKkM7VDi4pmZjF5kYka27kNBkYw0TgqsAwwJyo/IwVSmdNixnkYBCOoIRiprRD27ikMPyuXVxi6+gU26eDzlwxT8wWYZgv7p+txPf1UBCITunnnQUYXYV7Y3ONfTqKK+8PY2jpEM4/b8O5VByJJ3GcnYnhzIMW9N6PouduE07cieD4rQi6boY3gFiAyVb+F7ZSIaAV7Rpkt1UIaUWFv1Gs/6Z+AYoTjDagaCe/AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Infinity_hat",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 6,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 6,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "magic": 50,
+                "defence": 25
+            }
+        }
+    },
+    "10547": {
+        "id": 10547,
+        "name": "Healer hat",
+        "short_name": "Healer hat",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADQElEQVR4Xu2W30taYRzGfS+98KILYQiBxJDoQkQMSYpEKZy4KCmTrDCnhqu5prXZ7KdLXLpV+5H9cIW4wdqSitG2iwZjFxusqC0Y210X+xNi98/2vnLUattV5wRjDxw8nBfO98PzPO/rEYn+698XwdHrzJQDGBkPwd3txAVLPTSVqrOCIrifTKD/hh+OjlbUm4wMhl7l5QqhoQgi0TD8fT7Y7FYY6/RQqZWQSkugrdJAV62FXF4qFBSB85KDgTQ0mfMwMtk5BkAh6TPqFAXkGYrgy94evu3vw+XpgN3RwhwpuEEQS4wzYAqlUMjZM5Wc/vIigh+Hh/h+cIDP29usyFxf6NDcYIJkMoQ2ez0qNRX8AyWmoygVibD74T0D4mIpDCVYmB+E290Ifa2abyAqgsm7txAKBxjQUXdy66lUGFf9rTCbdUIAURUOwaMwubWlR8MIhZxobjYIBSQScSAnhxGk02OIjHvR2WkRYqf9TQTZ7CQrNXVIwB79SQQrK1FMT11jQL29NuaSSiX4yc2J4HFmHPG4H6OjHgSD7ej2Wlm5y8pkZwFFsJ6+jsxDP2ZvexALOxDyN6GnywSTQYVzUomQUAQvn9xEdmkAyzM9mJlwITrYhoGeRnjajWgwVaJUJhWqTwRbz0cY0GoqiNTUZUxHnBjrtyHouwhXmwFWsxYVCpkQLhG8W4/gTXYMr58OYWUxgLm4F5PDHRgOtKDPa0GnTc8cUlbIcb4s9yfMo0sE9+wlmLKVINFcgiGLBH11EtafcJ+V9ae9uQaWOjWqNArmEhfd8TedkgiDGTNK8HUrjo+rAbyY88BXKz4RmV5XAY2yjLnEY3QEQwYJdtf68WljAG8zvdiYdTNAd7U4v8vsTdVsp1GXaHQ8FpzgSpUEO9kgg9lc8GLtgYsNi5kkJ3pEXeKi4w3IpxVjZzOItUUXns06kZ3vYsMmfnWJxsZtfVuDjrlUrS1n0fEG5NaIsRCzsQHLd9oYFAdEzyIuNq7cxholg+INyKkWYzPtZQOS0Za8Q7RH3G6jsXHlplA0Op6AqArfR68y3fl7CkTPI263cbFx67//fDklFV5ePKgAWnxx67zBHFfxoOLhgoPwpZ+QKmcj/AxkEAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Healer_hat#Normal",
+        "stats": {
+            "attack_stab": -5,
+            "attack_slash": -5,
+            "attack_crush": -5,
+            "attack_magic": 6,
+            "attack_ranged": -5,
+            "defence_stab": 6,
+            "defence_slash": 8,
+            "defence_crush": 10,
+            "defence_magic": 7,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "3755": {
+        "id": 3755,
+        "name": "Farseer helm",
+        "short_name": "Farseer helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADNklEQVR4Xu2U60tacRjHOy974YteCCEIERESMiQMMYpJMqmYw0IsSsOZF0zLwllZs2ZmSRdstdqaq40mW0RMWkRsbW3t0q5sf9J3/o6dU3qszNbWC7/wcOR4fs/zeW6/vLyccsrpUotCwv67EiDtxlZoG9QXDXWS8wSIqVmN7k47bGYj6pWVUFSWZwCVVTUpzEy6jzlIocOohc3QiD53F9wuB5x2MxrqFFBWV0AuFR9zjojCWnQc0eXACd9wROHxg6F4ID3kslTnFFzmJjhNOtq8nm54epx0lbTXa+gqVckkkIhL0wSksLkexovnE/D1t9MxuN9wROHr20ksLfjgcjTRByRFRbSR3z3WFhZoeLCXBdJr66C7cQ1qVTVbJbGomJPMduwuYqtTGLlthVJRgcU572lQFL7shPBkwQmnTccCMf8xQMQyAeLzCw4CUtjdjmBvawSxaC9dfeb9YcIcUfj0Koj912NYnnegy1rPAXLb9SxUOiAyRyqFnAUSCArZwCTRD9ujiEZcMN/UnAZDlAAiFpntgMNcewSIQn+nMWMgMkcEqKSEaVtiFBjfWk1NSrJpdZjFwxkbbCZVEtB0KIDJMT/GAz4E/YNJQGTLLCYDDK1N0Gk1qFUpUVUpg1hcxrbt+7sw7XsmZEKtUpIZ0LfdabrP98NWDhAZRiZbYqPDAzSUz3sr6X2qMUA/3s9id9OPoK8FVXJRZkDMofkpCyxtStbp00d+CPj5HCNQV0r4kIoKIRcLcFUiTDKlVMgC/dy7h621AQy6GyGVJFp5KtCvj4t4s3EHcxPtMOkTfSarGQo4OTDFAh4NJCoqYKFOAiItW1/xwOPSoKxUkBnQ7/0l7MSGWKDeHkM8qB0dFu25gcg4rCx20dsrFPJRUV520IFjFQf6HMHLVS+mRtvolumb6+j7iDzPC0QWhlwnZDYL+Ty2QqdWiQEimZD1bFAroK6vTgtELFMgZllIokeBUglSRGHjWR/Cwfid41SjUS1jb+xsjcfLp59kNsmykFE4MxCZITI7jFOmtNkY44OZzbYWRZLPVII0Oswu2XH2YsDIpXhGmIT+FghXWcBctC4VTE45/Uv9AQaSIhMHKGz2AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Farseer_helm",
+        "stats": {
+            "attack_stab": -5,
+            "attack_slash": -5,
+            "attack_crush": -5,
+            "attack_magic": 6,
+            "attack_ranged": -5,
+            "defence_stab": 8,
+            "defence_slash": 10,
+            "defence_crush": 12,
+            "defence_magic": 6,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 45
+            }
+        }
+    },
+    "6137": {
+        "id": 6137,
+        "name": "Skeletal helm",
+        "short_name": "Skeletal helm",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADTElEQVR4XsWWe0+SYRjGfb+Fa3Nzrg/Qf26urW+Rm45m5mEe8mxmZpalaY5BJp7wgEoqSRKM4RDFlOGJPKCERuY8ZPUtrrpvejm8wz+cvHBvzxjP2PP8dl3XfT+kpFy5BMReSSkBq5+d2Fp3w7vlwaFvD8ffAzg/OUkGlIB5iwnOOStci/PYdK9gx7MOv3cHPwKH+Hl2mkgoAaZpPazGadjNH+GwmrE8P8dqbW+sMhQpdXF+lggoAZMjgzCMDcM0OQ7LzBRssx9CaolQB/tehvp9cS43lIBhTTcmtL2Y1mkxMzHKahEYKUX2eVZdnKmA34fT4yP8+XUhJ5SAXlUXBrtVGO3rCYERFNlH1q27lrH7ZTMU8jtZWQx0Kz093lAC0tPScDMjA++6OhhM26NmKKNex9aRbWsrS1EBlx1IhFK2v4RG2clKUaYo5As2C9zOBR4Fvt1t3M7MTAyQCKXubOdMkW2xckRAkVDSE69Z0UCvmp9A1dHGtlHnmQ3vudtWHHaeSwQkqkRLBpUE3EhNZZiWxkchIAq4fqg/KtgERMHe39niESArUFN9TRRQv1oZBPo3l+ZMRizZbZwhCjapROGmjpMFqL6yHI21VWhuqMOLpsccbAKK7DSyjGBoQJJKZBupFDjwxztHAmoflsUEGhvQ8JAkhajLSBlSiYDEJSoUR5UEVJQUMZQIpH2WjanX92BRF2JxoAwefS18plYEHL38jIgrEkh66jUqCFScn8fWEZCuNRfGrvuw9RRjbawabl0V9mYa8c3+lkcALRmBqASUFuSHoPRtCnxSFcDRV4qG6gosacuxNVmHQ5uSu04EksEusYJADxS5/GnozIO1u4hBCMiuKWGl/NY3MYGkp8WhBJQXFaAwTwFFTjarQxCukUq+dFaZj+WhCnw1t/F3ek5kBqIK/3cmAApz+EKB7fPNtoR+I6Nd4RIvFxWJBCILKdiRILLChEvgDqPOigQiSK+hAUdO7X+FElZBIJo9YaDgPnXasWtcsi97CTwUoxUK7hNkUoBoMEZnKLi/MVGTHCB6OqirpEA0i5ICNPD0Lj8bUiCyMSlApBANRykQDcqkAI08z+FOkwJF5iqBQFSXTeJYewmqyy6OtXfV+gsWacp2cSAFFwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Skeletal_helm",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 2,
+            "attack_ranged": -2,
+            "defence_stab": 10,
+            "defence_slash": 9,
+            "defence_crush": 11,
+            "defence_magic": 3,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0,
+            "slot": "head",
+            "requirements": {
+                "defence": 40,
+                "magic": 40
+            }
+        }
+    },
+    "12639": {
+        "id": 12639,
+        "name": "Guthix halo",
+        "short_name": "Guthix halo",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADU0lEQVR4Xu2W30tTYRjHPZdd7mIgwmCMMcY4jDE2xsbEseFwY5M5jpvoUaYuBdPUpmal/TCkCCmKgsKLfiBEQQRdRBBBEEEQXXQZdNvf8cT3eX2PO1PTnakX4Rcextl73vN+3u/zvD/a2k71/0uhg+NEJAZLPnJTatND6edeyrz0Ufa1j/JvVSq891Pxo5+0T4GTgFKoc8NFpVI3jYzkSNczNDiQ5ufJiSKNjeb5WdOSlM93MtgxuqVQ/LaLIebnB2l6usQQs+fLtLxcYRhAykAb4Po++Kn/s3TryMAUBqnVdAaYmtIo9dhDXffcFFt3UfiKg6JrTgbGf9VqgUOCpVJhTmHpa/AowBRaWhw2XAEY6sZcvOYIzHUwIMABJNOLFJa+BGjge8gqlGK4go+iLlC8PKjTuW+g3V20k3+6g51EfwkWjapU/iacEu8eWgrXBoBQC4muIPW+U00wjT3MEm65em2c1u6nXnY5EPC0BgSrwyGfsYwPByMk3ULALTiFb1kAUmh1ZdywGHtLszBmiboCkMWUKbxK0Dn3xlwzjW8eTgIIiyIeD1gDwmwcDjtVfkWa7byHFArWHLzqUIuWgFA/6Dz4Qy5RS8t0WwqFLgog7EmWgNZuTLBLdruNRn9HSP8ZbgFMochVJ2WzMZ4kCrtpIF+lnaEwqzMdNp4VdlpsbM1BiW8BBvWDZS9hmgJydIv9o3h/kmLXNQrNZUgdT5BHi9RB/QtMtKvVdt5QsUBU1WUFRkrsHeXNWY74zX4K17IM5S1HyV0I1Z1NjRI1g5WFXzjj8ezsSRZgIIW8up2GtxZp6NkFKj2ZMZzyTyQZaufOYw4csjhwtYdTVNioUnZ9hNIrA+TKBfj033sSB0ohZ8ZGlVeXDCgM0HtnzEif/HjPlpefgzNpiiyJawhqD87i/cyaTqmlfoqfyxmrtiWXYLv+YoEHQE3lblV4cJxtiQdudi662kfRywW+nEkgnIPo03NtiJILRYpNZig0lGgFCNqdEhlIS/KuzgEn4EL91QR3I5z28pqLKy5cPfsnZjVtQnJV1AfPck4UPVIJF5CS+qMGv9h/5MVNwsn2FlzaT8IlpA2XfumMebDdzh4TjNTugRoHa3S3sf3IdWIDnepUTegvOdjT7AysR4AAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Guthix_halo#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 11,
+            "defence_slash": 12,
+            "defence_crush": 10,
+            "defence_magic": 11,
+            "defence_ranged": -1,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": null
+        }
+    },
+    "12637": {
+        "id": 12637,
+        "name": "Saradomin halo",
+        "short_name": "Saradomin halo",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADtUlEQVR4Xu2W3UsUYRTGd8lxnf1yN51chbV1c9f1Y/3KJRSlIDIVN0wwow/L0tXMj5KMIKWQoCCIupHCi66CIJKEIAgiKAKjmwiCrrrtj1A4nXPemd1xEnc2tW72wIMw7rzze5/zvGfGYslWtrKVSVkhpf9eVvC0PITC9pdQ3Pv5X0LpXUip5OQP8B17D66m22CR/XytPhDYSSjxYEflqKoRVQnwHFwE/8AvAXTgLliUGMQndswlDSQB9sgw2CsuqrrAcjXNw40naxBIrDKQt/k+5MfuQefkt+12KeWIPYIA4UHUAEjeKlWVYCtqBlugB2YX1yA+twol/d/B2/oI5MgQty23sHE7XBIgzppJcFQMIcQ5sIcGIM/fAXmlXeA7/kmo54MQujKzsAbhMXSodwW8LQ9ADp6A4lM/QSqohVylaStQVtjlCnI27OHz7IgzOiUA8MFK99tkiDWRS/Rb+j9nKHYHino+QmHna3A3zqJLDSAXxf4GSsAwSAhdKT+ThFBwcckTSWZCL7pGLXXF5lPuoeh6WesthLqJLu0HT0lGUAQTYEfsobNi0fg7UDqWQTny/A8Y492aWzn55di2LzqtgLsBXfK1gcMngDa+f10hjHMvyOgI5YZg2JWOJfAeego5ngoOcLrFNLcYqu+rEEK5G+fAWXcNXTIFhDBu0Sa5/LSA6XrDrnjbHidBNnfHWAQV5hNHQDKu7Yxe5baZA+LcDIrMcJuW+OhKu2vWgaRZyFDq5Ka24Zp8YmvGzQKViUGH2WF3MDc03CRvtZkFNijhELWaYHg0YPukPS1mRoAKRBMYTxa5QyeKxj8Nv8yBDDAkaluwn2NhovXa3BnltlF2KNA0SyRPJbYtmm5HuloPQ25TJh24WZu/O4MMYagd1WPcNgq20v6CXaIF6bibg1KPPcHQ7MK2018asLbSOE7sejPuUOEi7n0cYEfVBGqUwZTDz8QMItFQTEJtLHaENkG/R4c5N9gqB77TaG2poMGMO1pZ+YF0o6d1IQWGVrNblCvWMs8lbqv6YD4EehByhb8IcIwE+7BVXcnNmHBHX2KndLOzdhqP6BRCjTOYcvSVgGA44VgSgkRZQYfIDTqp9GKVy3r5lIqN1mbiTqrEDRTMEE7WGQPYJfExFkkYNCxexPRthF8ENO25RQihb3OG7hhLLOKsu84j3xmdxsF2BYNPrbws4CIEpwGO8MtVa7s2v/QgW4ARpbmVytdmIgjxwbbtIMbSg5nRjoEYS/+gdDLem62t1m813uyq2CCWzwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_halo#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 11,
+            "defence_slash": 12,
+            "defence_crush": 10,
+            "defence_magic": 11,
+            "defence_ranged": -1,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": null
+        }
+    },
+    "12638": {
+        "id": 12638,
+        "name": "Zamorak halo",
+        "short_name": "Zamorak halo",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAEUUlEQVR4Xu2X709TZxTHfV4tadLkZsU1YtMWbulPzLqBwtwydFMcEMUFJhYnE5iBKQI6N51TmczJAMOIgA75IRR/8Rs2utgoM0u2xe3NXmz/z3fnuU9v195t9PYW92Lxm5w3zdNzP/ec85xz7oYNz/RUxfDv9p9KPPTyZgndNglXY9ZvlzBENuy0/APgUwEVTs9tMqNjsxmjtbmYOOTCnToXZurdCJcW4NbuAoy+EcTXBDVKNpFjwW2yaTkL83lZ6wnF0GY14xTZ/BkPbryTi4EqJ0Zq5CSo5aNezJRvw/23tuJuaSEmCXL8zSDGyO7JInJBpzNTKIaWLBOWPvVigWAGqnLQu9eupKmPrItSxyN2hiLHoTlUpMmHlX3FWKooxlzFNtzZU4ApitQ6RInhGMFELvpxm6LQX+lAZ6ktRZ0kGwddJKjJXS8pqcsgSgxNBBO9FMDEuzL6COZsiTXJaSrj52otJjw47qdUbsXpV61YNBYlhiPkaPGoB+O1spKiY0UvxJ399UA9Er4iH/iU1M3SC0XcaUGJt5onmDGC6SGYuqAFK4ZgVDH8cCqAFaqtMKVuOcGX9qRGDDWSCXMEczOUi64KOyrzzHgQeyNjMFwMu83P4fv2fCw3enF+Z3bcp/ZkgsSfHncFMHlYxhWCKdlkwkOvNUMYVQx7OVRbPuYa3Ch3mLAa8609GZMAin7uV6Jz8jUrHq8bjCqGRrooD1sCmH7Plco3QxkBfXvRh8FqJ0IBKdUfDIhh5oQfC+974j1pDd8CaOGcB51FnqQbpT1pXAwRagFTrS59QDzH9z9yo9lvTypk7UljYnjUHsBUXR6GGhz6gcLteajIlpLqR3syfTHsl+hlad7dbM7FZ29n68mAuPI/d+dj9YJP6TtR95q3QKcYqglmqUm0ki9Ddhzfkdxktf+ISYyKX2p24CeyX7u3KF1VbWLGwBgOU5ONtorxc63egQ/LrMpKoguIX3s+DJ+EduIJQf34cSFm6XoOVzvQsSs7TShxxR+1BShVVDe0JXRQqvgaklg/awBxibHB14g/LgTx29kgVk8EMHfEjWuVdp0pFNFUBjP1Gz4PR2lv6q21x5c1nTCqhMPfO7cjun0jvim2YLaQtr+DMj553ZowGLVg4jceFb4/8UjzgRqmBa5vnz2+PaYJo0oU4nevbMRSkQAaeVFCT7kNIa+kFLw6bFXjUeUg0/UezDR4lC2SwwxWOeLrrEEYVQwrxbQLFz2P6QILxgio12fGVZpxl6ieqjxmdNKmeJ4iwfdsPv/GD8kYPiDjOtXLV7Q/9dDZL8psClCGMFxij+EP418UEy9LGDmQgyt7bLhcEsANam53T7ox2UogLTJGmsmaCKYxB4N0m/gXCF/2+XaZCKR9SppiOE2p4Hszh+rfL7ZGXgtDJVtwj4DCNAbCLS6MEdBA7FMoMZWqZRidRP3deSpTH641rWfD0jrWY1ofz/S/1J/VryLmtgkGIwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Zamorak_halo#Normal",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 11,
+            "defence_slash": 12,
+            "defence_crush": 10,
+            "defence_magic": 11,
+            "defence_ranged": -1,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3,
+            "slot": "head",
+            "requirements": null
+        }
+    },
+    "10452": {
+        "id": 10452,
+        "name": "Saradomin mitre",
+        "short_name": "Saradomin mitre",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACvklEQVR4Xu2V30tTYRjH916ei114IchAGCO8EBkixWg0jImyxool/gINynajpskaKtjQEE3zx2zNX1s2Mi0jSxxiDKNApcAgokBGkBf9I9/O82xnuq2C4dQF+8KXwXnfs+fzfp/nnKNS5ZRTTjn9dxKIOisk8CoYxKPh4WyAEngXCjGQZ3AQd9raThNK4PPONj5sbGD5cQAj/X1obW5moFKt9qShBH7s7eHr7i4219bwbGYag3d7cbOpEWaT6aRTEoh8/4bd7S1shcMIv3mNoM+Hez09uFZfj/y8vBjQv5wxCfyMRPDl00eeHfLLJ/PwezzodTpRZ7fjjE7Hnp0YTzHtI2cITODX/j63ieZmdWEBb1dWuF3jAwPovt2Bq1YryvR6aAoKMPVghD09Nhp3MtwRwASs1g6YyptQdtaGtaUlBqHfwOQkz88th4MTKjcaoS0s5NbR2tOpKTwP+PlJpDTJ9BCQ6To5TSgBn7sG6rxOSOoW+UY9F6FiVIRScLtcDEQzZKuqQklxMUOpJYnvpf0EQAdYXVyMWk6YrtH8UY00nkyBkLcaanW7DOSQbzrH7xwCWZyb5XbR/ChAVy5ZcMFg4DkiGKVVlAS1mBxafsGHIVBaSxsoPFMXS8ghuxH3nTYGmfd6+f2jADXW1jIQtY1SIiDaRwcg+Pfr6wxDyVDCygwRTFpAm34CcnHLHnZVYMJlxqjzIoY7y/8KNNZtZzdUV/OMEQjNHSWWDJIGjCIhA/Vw2+bcVZjurWQoAupvMaK1rjQBiEB0GjU0+RIDUSKTQ0OZADkswUCBPksKUNcNA65fLkGFoRDn9Rroi/LjQH9qzRFBFAlIkg0qyRwvQFaA2hvKUFNZBJtJB4tRe5wgihKBDgokfxYOfEwgimJACTBRHS6c7MP/kGERkCUOlLx6SkpN59SVVTA5Zat+A4Agdg4ANNsfAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_mitre",
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 4,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 4,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 5,
+            "slot": "head",
+            "requirements": {
+                "prayer": 40,
+                "magic": 40
+            }
+        }
+    }
+}
