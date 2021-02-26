@@ -2,6 +2,11 @@
     "0": {
         "id": 0,
         "name": "None",
+        "short_name": "None",
+        "icon": null,
+        "wiki_url": null,
+        "slot": "ammo",
+        "requirements": null,
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -16,9 +21,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": null
+            "prayer": 0
         }
     },
     "20220": {
@@ -27,6 +30,12 @@
         "short_name": "Holy blessing",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACwklEQVR4Xu3W30tTYRgHcN/LXeyiC+8lIrrsDwiSBiEhklJLFIfNdOR0KTp/taWpS9NMMTOWmFqKlpW0bLHWL0PN/LE1GRZTvIig+iu+7XlO58zVXXDeA9EDD2dnh3E+fN/nfVlGxv/6d0tAaUNLRQgcO25HwZmLRqIEcnKdDDlytBDZFhvyrU0MOpyVJRslUGTz4XSRFydPuXEizwVLTrlRIAHbuWsoO38DpeX9KD7bBWtxG2MIR88kLpvgl9NLK6puobJmhK92xwBK7FdRWNKhgSSllA6qqhvHhYZJvjpctzk1erb/QKnclFSQq/4u6lpmuWsbp/meUnPW3pGZEpVIAzW3BbgbvHN8T6kdPOSUmRKVYJDb8xAt7c/Q1vUSl3xheDqeazgFJBlFIEJc7n4NX98iTObiZFuVNuUjHKqUj1JBCkbpYNDBGLWlo9p7FjTM/NMKvAo700CGoAiz8NaFpcUarK3WYWO9HtGIm5fOZMqVv/MIE99sxdZWDxKfh1Lz9Aukon7/pU4lsBlrZsx2wr9nnpQB33tWSdh9ArGPjYzZ3RnnlymYUj4OvL6Qdhw0tj7RcLqjKJnUnCioK9eX+Tjo7H3HO1EFEo6ODJ3TUjCpwRWM6R9e5e4dXEH3wHv+jnYlHaR0qFJquqHSd5HgZAgyPLoB/1iEr4P+NQYSjp5TarSkOqelluAXD42sY2wqhsn7m3wdvRdlIOEITKnRklJqOqMEzxElMjIRxdRsHI8Dn/Bgbos/T0zH+HsCZ1sCyb/DM3vmULcS6Lv5gROhhAgUfLHNSVEy5sxOOKt/IBL7xvcSQFSC54cQlA4tU4H1q4ZZWvnCSf65MXQrwfNCszPzKA7zPo/SmV0Iv9nlOZOIUUvwvJjN1cgr2OGEyiq+83IagFFLYD6USKbTlOwabasbhFFLPW9SEAMxSv0t5CcPG579wV83XwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Holy_blessing",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            null
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -41,9 +50,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 1,
-            "slot": "ammo",
-            "requirements": null
+            "prayer": 1
         }
     },
     "22947": {
@@ -52,6 +59,12 @@
         "short_name": "Rada's blessing 4",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACH0lEQVR4Xu3WW0sCURAH8Oab9AlCopCiKArFJMMkMzTD7EY3EbtaydJFNCgiC3uIEoyeCiIIwpce+mITM8vsumv0EOxZiP4wnN314fyYc/asbW3/+bsB1MvVCALQ4+nG/v4hN1GAXV09DOno6OQSkKe9XTUKcHDQx4De3gH0evsYRtcugAD9/lEMBMZ4HB4OMI4wVPRM4bLpnaFJg8FxDIUmeCScwASkqEtWUDg8iZHIFI8Ck+4p7VIzKBpNcAmMukalsEsUsIDi8VmuWCxpwSnsEgV4YkIkEnOYTC5w0bXgdJC9HA0YoFRqCdPpFT4C6Hya8eVx1n/QUkpQAiKM1E8gBXsLLCDCzAW0FoxCEAUYszByhEvBIq6MloyiZ80YZSCaOBe5xK1oFfOxW+Nb1/y9U7CHJIDZ8QvG7Mfvjc0tqNbjwFEYYCZ8xhhtus6TyX6ivWU/DgTnOIo6Y25aHTU/v8ZFR8J3OIe7Zd+0wJjl5SzX4mLmW5wJcyDWNwh4coKsrm7g2voWj3acwBzulgQMUCazg9lsnkc7TrpmwhyLuWyEINDmZgFzuX0Ljn4vFi9Q006b9qFjgRbQ7u4h31NnarUnbDQ+8fj4nO8VgChgLBt1h5bp+fndwBQKJQtGOej6uobVmwes119wb++El1UhRgK8TLQ0j4+v3KG3tw/ulgsYCeD2toaVyh2Wy1fGq+4SRmL+gxSIixg9v4V8Ae/9VOEHGM7+AAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rada's_blessing_4",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            null
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -66,9 +79,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 2,
-            "slot": "ammo",
-            "requirements": null
+            "prayer": 2
         }
     },
     "806": {
@@ -77,6 +88,14 @@
         "short_name": "Bronze dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABYklEQVR4Xu2Vv0vDQBTH7403ZMgQCIVCKEGKlFIkUJSKoEuGDHbp0sXBxUFwcHBwcBAc/KOf9+7l7OV0cGju3uAXvgTy4/jwfd+7KPWvZAIM7yQU4E0zRUFQBAK4qirr8GlkAV6tOB0RMO2aIASlc76YyEnHFVlAOoDdxQybeSknHb/IiYG4yMu6kJAOj8ovcnIgKvK8ymWkQ6Pyi5wAiH8J5NvL2hZ5NslSpQP4Oc3x3QC8GW/PNG5qlSodwI8e5NV412i8PlHYZTpFOmBTIRDyfq2xPWWgbW6uGacUfjWS4DuVl5LdLRmITEBtvJRgAPJc8qgIhKDuDMzOmMa20aOnBAMQ8lOfjrMPNHKxGcYHIdOu8n1faNwHQOFKR9ThvHGmcTk/FllsIKXcCA6jALvDyJRYdKDfxWkR0EMP5LZ9IiDSEGjkQv9V8AMofCOywBZbEBAJ7FkkCIgkoj9DHRvmC+BdGgbjBzTzAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -91,11 +110,7 @@
             "melee_strength": 0,
             "ranged_strength": 1,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -128,6 +143,14 @@
         "short_name": "Iron dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABZ0lEQVR4Xu2VsUvDQBSH7403ZOhQKEIggwRxkCBKlhRKiyWWVBqQLF0cXBwEBwcHBwfBwT/6mXeXa3NnB4fm7g3+4EehacvH995dhfhPsAC67wQMYLVcIiMoAgHMkkTVfeo5gOVisQNyn3oO4N1tycvOfDrlY8csMgM7gPVqhUWe87FzM5vxsUOLfJ1lHOwA3q/X1iIHB6I75yxNedhxFzkAkP5LoDabjVrkJI5D2QH8jkf4eRLhR9v6UmJxKkLZAfzqQN7bNlcS56nAKpIh7ICyQiDUbS6xPNdA9ah9jbQl91sDBXZW3ia61YUGohJQ6c8SWCCvEz0qAiGohxamaUtjK+TglsACob50dkz7QAMvtobpg1DpVPX7OJa4dYDcXzpi9veNKY3L9Hkc+QYSwoxgPwpQJ4xKxrwDHY62RUBPHZA59oGAKDbQwAv918AvIPcTngNqsRkBUUDdRYyAKCz2x86xYX4AEPEeShNx/7YAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Iron_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -142,11 +165,7 @@
             "melee_strength": 0,
             "ranged_strength": 3,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -179,6 +198,14 @@
         "short_name": "Steel dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABdElEQVR4Xu2VPUvDUBSGc8Y7ZOhQKILQQRyCiIgglILgUDpkaYcijUqssRL7YcSIFRQUhA7+6GNObtImVweH5t4z+MJLoUnLw3POTSzrP8YCqH5jMIBRGCIjKAIBPGg206pXNQfwbjRaAalXNQfwaTblZef63ONjZz4ec7ED+PIQ4Vm/z8fOre/zsfM4maDb6XCwA/gWx3g1HPKxMw0CPGm1eNh5vp+XFtkAkHwlUD8WC7y5vMA9xzFlB/Bru4afWza+J+0dCmzvWKbsAC4zkNekgyOBp7sWurYwYQdSKwRC9Y4Fdh0J1Ksln7a0pP6qosDKyqIh6+5LICoBdfVZghJI3JCjIhCC8hOYQVIaW1tUbglKINQos5O3CFTxYkuYIgiVTlWxQV2gpwCp/7TBrJ83eWlceWd1WzeQZeUjWI8C0hNGJWPagX6PtEVAYQaUH3tDQJQyUMUL/dfADyD1Ds2BdLEZAVEgfRYxAqKw2J9yNg3zDavLJUtyGySiAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Steel_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 5
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -193,11 +220,7 @@
             "melee_strength": 0,
             "ranged_strength": 4,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 5
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -230,6 +253,14 @@
         "short_name": "Black dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABOUlEQVR4Xu2Vr2vDQBTH78kTERGBMihUjImJUspgpmqqoqampqZipqJQUTExUTGY2B/9et97uSW5VFQ0d0/0A18C+cWH77tLjHmQDeL4TEaIq7JkRVIQIZ5NJj7x1cQ07aiTUScUX02MqnZE5tHOdVS105dRJxTfkZC+TAYh+SW0ZTK2Q/w3LvnnqeCzy3puefFscrVD/FuLfLts3ix/vBheFTZHO+RbgQiyfbe8fBWhdemOhbQUPzUQ9N/K10iymooQAqFlupaoI3IayaggAqmdk9m4YGwLO3hL1BFBjnU7IW2hgRe2yLRFEOyqdj4ry9tIKH7THWm+NyEYV8ihKlILGRNG0IyC/A5D0FhyoetIWxDa10Jh22cSAl2hgRf0rVBPKL4jMeQXtiIhQP5bpEgIqFg/Xe4tcwEB+hPufo6GOwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Black_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 10
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -244,11 +275,7 @@
             "melee_strength": 0,
             "ranged_strength": 6,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 10
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -281,6 +308,14 @@
         "short_name": "Mithril dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABZ0lEQVR4Xu2VsUvDQBSH7403ZOhQCIKQoUhxCFJaAuXEEpcOQWiHILQUERcHwcHBwcFBcPCPft67y7XJ6eDQ3L3BH/woNG35+N67qxD/iRZA/52IAZzPa2QERSCAF1lm6j8NHMCiWO+B/KeBA6jULS87k2nFx45bZAZ2AC+vtpjn13zszGY3fOzQIo/HioMdwMVi11nk6EB052RZzsOOv8gRgOxfArUs780ip+kolh3Ar9MBfpwk+K67mkhUIxHLDuBnA/KmW08llmcCq0TGsAPGCoFQN4XE5bkFWg30a2It+d/qKbC38praVrkFohLQMpwl6IC8pHZUBEJQdxqm1qWxKdm7JeiAUJ8bO65toJ4X28K0Qah0qtp9GErceED+Lx0xh/vGlcbl+jRMQgMJ4UZwGAWYE0YlY8GBfo+1RUCPDZA79pGAKF2gnhf6r4EfQP4nAgfMYjMCooC5ixgBUVjsTzfHhvkGL3QdYSYETgEAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -295,11 +330,7 @@
             "melee_strength": 0,
             "ranged_strength": 7,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 20
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -332,6 +363,14 @@
         "short_name": "Adamant dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaElEQVR4Xu2VsUvDQBSH7403ZOhQKAGhBHEIIqE0SEsKIVIpUoeAZOni4OIgODg4ODgIDv7Rz3t3uTY5HRyauzf4gx+Fpi0f33t3FeI/wQLovhMwgMubJTKCIhDAbDrVdZ96DuDierEHcp96DuDqdsXLTn6V87FjF5mBHcCyLjErMj52uoscGMgscpqnHOwAVncVzso5Hzu0yMl5wsOOu8gBgMxfAnXdrPWdEydxKDuAXycj/IgjfFetZxKLUxHKDuBnC/Km2swlVmcCt5EMYQe0FQKh7i4lblIDVI/Ua2Qsud8aKLC38jox3V4YICoBbfxZgh7Iy8SMikAI6l7BNKo0tkIObgl6INTn1o5tF2jgxTYwXRAqnapuH8YSdw6Q+0tHzOG+saVx2T6NI99AQtgRHEYB+oRRyZh3oN9jbBHQYwtkj30gIEofaOCF/mvgB5D7Cc8BvdiMgCig7yJGQBQW+9PPsWG+Ac/WHPIrwo1qAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 30
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -346,11 +385,7 @@
             "melee_strength": 0,
             "ranged_strength": 10,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 30
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -383,6 +418,14 @@
         "short_name": "Rune dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbklEQVR4Xu2VsUvDQBSH7403ZOhQCIIQpDh0KKVUCiVCaEGCRLEdQiEqRRQRERwcHBwcBAf/6GfeXa5NTgeH5u4N/uBHoWnLx/fuXoX4j7cA2u94DGCSXyMjKAIBHEaRqv3UcQDji9UGyH7qOICz1Q0vO5PTJR87x8tLLnYA58UdjuYZHzvTs5yPHdo5/WnCwQ7gydU9HqXnfOzQzjkYjHnYoZ0zTFKfdvRfAjVdP6qdE0Y9X3YAv/Y7+LEX4HvZxUhi3BO+7AB+ViBvZfOxxNmhwCyQPuyAskIg1GIiMe1roEWnfA20JftbLQU2Vl5D3WyggagElLqzBA2Ql1CPikAIal3C5GVpbLFs3RI0QKjPlR3TOlDLB1vD1EGodKvqve1KLCwg+5d2mO2+MaVxmT51A9dAQpgRbEcB6oZRyZhzoN+jbRHQQwVkrr0nIEoTqOUD/dfADyD7E44D6mAzAqKA2kWMgCgszk8zu4b5BuHdH9dzq39PAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rune_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -397,11 +440,7 @@
             "melee_strength": 0,
             "ranged_strength": 14,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 40
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -434,6 +473,14 @@
         "short_name": "Dragon dart",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABuElEQVR4Xu3VTUsCQRgH8J3jHvbgYSE6SecOEnkzioQwMKhDL/iGmZeEQtFSzOhgRhK2oiDiB/BrPu1/13FGWzq1O3vwgYcdBX1+/ndm1bRNbQrFaP0dhcUon7+mEKEY1WoZBxSLRsOAYpS5OQkLiFE2e0mJRCwMIEbv3TaVy+dkmhHVIEaTyRe9du4omYwvMYpAjKbTAVUqJSrdnqnHzGYWWVaPXtolOjrcU3+rhsMPGo8aVCik1aczHn1Ss/lIrVZR9clyk+n33+xrnXK506DTwd+A6MGg62Dm8x49P+WDxLiA6pbhdMPuB9OgYkSnajFN1nctyKcyc4ZzDLps6g4GnTqIUb2eCyodgUEq9zYEGPTVAnRh9/7uThDpCAyuQADEUQBlF6CUofsNEhiOwGsOSxsChLXPIBcjI+S9AwgH8bWPIBcjI7B30BxzbGhBgVaPNbolNYZjsAzC/sHaxxMmHnpAdLbdRjrAxHXNAQHCN7QMWv+2fynxSwUOaSRsDBowGeRjOl7FlqcKaxnEb5mv6fwu5iQhhrIVUODp4OivDvUGrX/Sx/JKgKnYO6K8ByrC/FV+Y34A5p6Mof9wrYEAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_dart#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -448,11 +495,7 @@
             "melee_strength": 0,
             "ranged_strength": 20,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 60
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -485,6 +528,14 @@
         "short_name": "Bronze knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABVElEQVR4XuWV0UrDQBBFOx8hiFAIUqRIkT4UgmJQDEgsRSJYAy1CraVSW2tFRPz6K7PLxM0KvjWz4IV5CRs4nDvZNBr/KwT/iWIIaa+JQKAIg5N9A9ONIjP+iRpDyJNWaScImCyOcNzZ0wYi3J4fmHHtKAERirRtJgA7hPHlYTnKdn5gArBTheHP/KzbRK+9qwFUhZFFdmFqBPoNI1Wp2hEYt6qj1o4eEMPIjcwwSnVxCI+DDjaLBZ4mk7IqJTscwvtyiefpFNdXmTYQ4eNlhdVshofRCFma4jSODYhCXYTP1zXW83lp5yJJKiA1wnDI7A3bGQ+Hxo6CFYndG7bDQDf9fsWOf3rLsVWxHQa6y3NNO4Svt42xw0C8O+p2+KsKxg5XJXbui8LYUYPhqtiOAPl2/De2HGtHgJTtSOz+MJCyHTf2/uFbWdmOG5X/1N8JCqbufAMgjGEiAGROjAAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -499,11 +550,7 @@
             "melee_strength": 0,
             "ranged_strength": 3,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -536,6 +583,14 @@
         "short_name": "Iron knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABVElEQVR4XuWWUUsCQRSFvf/EJwkJWcKQJEmSxCTDQBOMwEQM08yIiH79iTPDLLMT9LZzBzowL8MufHznzuxWKv8rgnBHMYLzVguJQAkuOx0Dk1WrZoVPRIzgqtvN7ajDDHo9XLTbOM0ybSDB7fUAN/1+wY4SkOBuODRACdixMG4p2xFMRqNU7BRheMzPmk2cNBoaQEUYN8g+TESg3zCuquN6XceOD+NXpQZEQwTiJeiq8mGiA92PxzhsNnheLExVIVD4RskRfGy3eFkujSUHc1SraQAJPl932K1WeJrP88q4r1CX4Ottj/16ndsJfzEiwjBi5oZ2HqZTY0fBioudG9ohEI+9byd8uuTYqmiHQDxhinYE3+8HY4dAnB11OzxVydhhVc7O42xm7KjBsCracUChnfCNkmPtOCBlOy52fgikbMePvX94Kyvb8aPynfo7ScHEzg8wuGc5Cu4OmAAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Iron_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -550,11 +605,7 @@
             "melee_strength": 0,
             "ranged_strength": 4,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -587,6 +638,14 @@
         "short_name": "Steel knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABe0lEQVR4XuWWT0sCURTFvd/Ej9DOTW5yY4JhkhmGYWKGaWZkZJaVmeafwiBq0Zc9cd7jDeMs2jl3oAOzGWbgx+/cd2disf8VQfCOYgRn1SoiAiW4uWgbmI143FzBJ0KMYNDtenbUYV76fVw1mzgulbSBBLOnR4zv71bsKAEJluMxFs/DKNgRfEwmBuh9NNK2I/icTj0YZTsWhnYIw2N+WqlgP5fTABJ8zWcGiDCvDwO0ajUcFgoadQm+3xYrMK4qNTt+mNvLDk6OyjjI57GXzeoAsS4e8WGv51XltxM60M9yiU6jYYaYVSnaYcTMDPfNznYa5WLR2NnNZDSABNfnLVMTzaRTKWwmEgZEoS77S9Gu1z07W8nkCkiIMIyYuXFDTDsKVlzs3NAOgTgvfjvBp9ccWxXtEIgDrGhHzOKjHQJxdtTt8FRFxg6rcna4b/y7JnQYVkU7DihoJ/jGmmPtOCBlOy52fgikbMcfu3+4lZXt+KPynfo7kYIJO78FgoxRzITt/AAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Steel_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 5
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -601,11 +660,7 @@
             "melee_strength": 0,
             "ranged_strength": 7,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 5
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -638,6 +693,14 @@
         "short_name": "Black knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABNklEQVR4XuWVzWoCMRhFzSO4EEQQhqFIl+7c1E3dqItiFyooBZVhxH9LKaVPf8uXkPkJ0+4mN9AD2QwZOJwvk2k0/hcK7hMiCq1mE4FI5TL9KNLL3eERI1MUcnd4JJcJQKhahiRUliHXUXjs9bJFrpPLPMQxOu02s061DEnIyIiIXW4dj0K/y9DqFGWibjcsoSoZ70IysvvhgP1mUynkvlEzCh+nE467HV4mY/ZlqPB5OeOcJNiuVhiPRngaDLQIYVwKX7crrmma1XkeDksiHmUEpc+N1FnP57oOoYrFnBupI0Kv02mpjru7ZsyopI4ILWYzZh2F7/e7riNCcnbodeSrCqaOjMrWeVsudR2ajIxK6lght477Rs2YOlaIXMdizo8IkesUMfeP3MrkOkUo/6m/CUrGNz9XfUxyKS70vQAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Black_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 10
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -652,11 +715,7 @@
             "melee_strength": 0,
             "ranged_strength": 8,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 10
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -689,6 +748,14 @@
         "short_name": "Mithril knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaElEQVR4XuWV72uCUBSGO/9JH6MPIWMhhDJRFiZOKqhG+0GTVjSbc8TY9te/41y5og72LY+wF+4XuRcenvfca6fzv0KofxEMwTTnaAkUwb66VzBGt6tWfUeDIbhuXNgRh/Gun2FZt7i4DKWBCP4kwXi8r9gRAiIEQaqAWmCHEIaZAuIlbCeH0UDCdgg30amA4Ws+HEYYDDwJoCqMHmTD8CXq+g2jqxKzU4ZxnMeiqn7fkQFiQ3zF+REcjZaqqrKdxoFm8y9khwP2m01RlZAdDuGUJHiJY0QTv7DT61kSQISP1yOO2y2e1mv4ngfLNBWIQF2Ez7cU6W5X2HFtuwLSIAyH1NywnbvFQtkRsKKTzw3bYaBZEFTs1HefOXlVbIeBltOppB3C93um7DAQz464Hb5VrbHDVWk7D6uVsiMGw1WxHQ1Ut1M/cebkdjSQsB2dfH4YSNhOOfn7w6+ysJ1yRP5Tf6dVME3nBzCNbisM6GFUAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -703,11 +770,7 @@
             "melee_strength": 0,
             "ranged_strength": 10,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 20
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -740,6 +803,14 @@
         "short_name": "Adamant knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABa0lEQVR4XuWVXWvCQBBFnX/is/gQSkUiBoKiJEElSo1gP7AhKNbUWkop/fW3zC4b4hb6lkygF/Yl7MLh3NlNq/W/QrC/CIYwiAZoCBRhdDdSME67rZa9o8YQJsmksCMOM90G8Jc+euOeNBAhfAjVKtsRAiLM0wVmT7Mm2NEwZgnbIcRZXMB4c0/SjoYxQFyVO3XhDB0JIMLqsCpgzCCXYWoE+g3DVd34t+i6XRk7ZRh+kXlu2I4YEBviK86PoKmqDFM7UJInuByPOOx2qiobyD5RcQgfpxNe0hSLMChgOr2OBBDh8zVHnmV43m4RjMcY9vsKRKAuwtfbGef9vrAz8rwrkBphOKTmhu3cr9fKjoAVEz03bIeBllF0ZcfeXXF0VWyHgZI4lrRD+H6/KDsMxLMjbodvVWPscFXGzuNmo+yIwXBVbMcA2XbsExVH2zFAwnZM9PwwkLCdcvT7w6+ysJ1yRP5Tf6dRMHXnB9uUbMBbpoT2AAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 30
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -754,11 +825,7 @@
             "melee_strength": 0,
             "ranged_strength": 14,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 30
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -791,6 +858,14 @@
         "short_name": "Rune knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbElEQVR4XuWVW2vCQBCFnX/icx+KFEpADAQDJQ0qUVCDoljrBW8xIqEtpU/94afMhIQkhb6ZCfTAvoRd+PjO7KZW+18hFL8ohtDyfFQEitD2lwLTqNdlFXeUGMLTbJvaUYdxXwNYozkenZ42EKG7vQpQ1o4SEMHbRwJUATuE/uldgHgp2yEMzp8pkLKdPAxf82Z3hIblaAARhpcvAWKYzjqUqh7sjkZdv2GSqtTsZGHs6RqGOxCYe9PWA+Ir7iwOaVVZO6UD+dE3wt0O28UirUrJDodwPRywXy7Re3ZSO3dNSwOIEJ2OOK5WeJlM4Ng2WoYhIAp1Ed7OAYLNJrXTNs0cSIkwHJK5YTvT4VDsKFhJEs8N22Ggvuvm7BR33zhxVWyHgUaep2mH8HEJxQ4D8eyo2+FbVRk7XFViZzYeix01GK6K7SRARTvFEzdObCcBUraTJJ4fBlK2k038/vCrrGwnG5X/1N+pFEzZ+QEZOndIbiq5OwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rune_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -805,11 +880,7 @@
             "melee_strength": 0,
             "ranged_strength": 24,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 40
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -842,6 +913,14 @@
         "short_name": "Dragon knife",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB4klEQVR4Xu3VTUtCURAGYM/ShQsXQgSBtJQQCUOSJEkSkwyT1NAMMzPMj4zKCoJaBC2CoEUQtOuPTvc9x2Onq8vuXBcNDH6g3od35lw9nv+amRKk2vVSkNs5H9X9XjdRCnI/75MNzMBC4b1IMMiJUpAnC/FodTvgpabVOh1gmEAK8mwh0ACZGOZ0BL0u+Oll1Lh4L+BaOoLeLARA6GkYvGZKR2F0X1mYaSA8soMAmYYx03EYJOg96JeNZHBh3SbI3B/7L/xxKdBHUKUDhIZoDF6zpQPI5ygdO8RstnSAwR0Y6ZiQ6uieg/dKnKCvRb/8f9rNZiUCDQB2SCfDMC51kYfhkG7O+7SXy0kEWu8QYCbEUcxlp0N3FwM6azRkMmuxmMTo/WFNBYkAcnJYo52tjMQshUJjBFsq/VaLrntdCTmqVGg7nab1eJyWw+EJhIMQlKBBu02n9TodH1SpWiyOMSuRCMdoUD/xYzzdZlMmUyuX5Zg2EgleDMaDpcWI8BzpYEw4TcwYlEoFy4vTpNMBKJNK0Wo0yolBCQlAKtgdfaIwLpwoZowuIRNBA4RlxrjME2X/hsMl5GlC7xcK42PuUjq6BJXyeZmMy+mYJWgzmfx1N3YZhJr8S7B/gr00ZCYwbtU3eMvQFmYBsxoAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_knife#Unpoisoned",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -856,11 +935,7 @@
             "melee_strength": 0,
             "ranged_strength": 30,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "weapon",
-            "requirements": {
-                "ranged": 60
-            }
+            "prayer": 0
         },
         "attack_speed": 3,
         "stances": [
@@ -893,6 +968,14 @@
         "short_name": "Bronze arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAvElEQVR4Xu2WsQrCMBBAc2MHB4dCEQrBQTp06BAHXRycBGdnVwf/fzy5XIOawg0OuYD34AiUGx6vGeLc/wDIUwWA59BjGLoapACvxy2eph4Hv45Ck/eaUoD3yxgL0VQhdAsNHsZNHGUhltl1br47LKMu9CmiLpPqKIoklnXyjYJYHQmrI2F1JKyOhNWRAHy2qy+hfKMgbxk6aehbvlWIpcy+Ub1DgI+Wf1MuoyREpBpVvAaZJFCFjGEYP/ACMyirgv0XxrgAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -907,11 +990,7 @@
             "melee_strength": 0,
             "ranged_strength": 7,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         }
     },
     "884": {
@@ -920,6 +999,14 @@
         "short_name": "Iron arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAvklEQVR4Xu2WMQvCMBCFc2MHx4JjJ4fi4BAHC0VooUhxcXHuJg7+//FJkoZqChkccgHvg0cg3PDxckOU+h8ILllAuA4DTlrnIEW4jSO6tsW+rq3Qoao4pQiPacKl722yELrrAuemsWEWcjK7rZp3x8mwC32KsMv4dhhFPOt2womESDsxpJ0Y0k4MaSeGtBOD8Co3X0LhREIWGXOamLtwKhFrmWPBukOEZ+meKZRhEjL4NrL4DTq8QBYygiD8wBvm/621bCDQvAAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Iron_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -934,11 +1021,7 @@
             "melee_strength": 0,
             "ranged_strength": 10,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         }
     },
     "886": {
@@ -947,6 +1030,14 @@
         "short_name": "Steel arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAuUlEQVR4Xu2WoQ7CQAxAr3ICuQQ5NY0AOYOfI0zhZkg2yVeA5ndLeuUCuyUViGsT+pLmkqXi5e3EhfA/APKYAHAaRzz1vQUpwNs84WUY8Nh1UWjXNJpSgM/HPRaiMSF03lexEI2yEMu02/C+OyyjLvQtoi6T6iiKJNZ18o2CeB0JryPhdSS8joTXkQCc681CKN8oyEeGThr6lm8VYi1zqFTvEOC15t+UyygJEamGidcgkwRMyDiO8wMv9sCxVKfvQPQAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Steel_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 5
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -961,11 +1052,7 @@
             "melee_strength": 0,
             "ranged_strength": 16,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 5
-            }
+            "prayer": 0
         }
     },
     "888": {
@@ -974,6 +1061,14 @@
         "short_name": "Mithril arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAvklEQVR4Xu2WMQvCMBCFc2MHx4Jj6eDQKUikUBAdHRyKQyf/gIOjv/9JEkNrChkccgHvg0cg3PDxckOU+h8IPkVAGIYJXXcuQYpwPN2xN1e0rXFCumk4pQjj+ELf31yKEJpMBa0vLsxCXma3VZ/d8TLsQksRdpnQDqNIYN1OPJERaSeFtJNC2kkh7aSQdlIQnvXmSyieyMgsY08bexdPZWItc6hYd4jwqP0zxTJMQpbQRhG/QU8QKEJGEIQfeAMf66039rww5wAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -988,11 +1083,7 @@
             "melee_strength": 0,
             "ranged_strength": 22,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 20
-            }
+            "prayer": 0
         }
     },
     "890": {
@@ -1001,6 +1092,14 @@
         "short_name": "Adamant arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAvUlEQVR4Xu2WMQvCMBCFc2MHx4Jj6eCUQaQZLBSkbgWXIv4FcfD/j0+SGNQUMnTIBbwPHoFww8fLDVHqfyD4FAFhuAzQR12CFGG8jjBng1a3TmjfNJxShPk+o596lyKEbl2Fw6lzYRbyMruteu+Ol2EX+hZhlwntMIoElu3EExmRdlJIOymknRTSTgppJwXhWW9+hOKJjHxk7Glj7+KpTCxlTMW6Q4RH7Z8plmESsoQ2ivgNeoJAETKCIKzgBdcnrRINH1/1AAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 30
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1015,11 +1114,7 @@
             "melee_strength": 0,
             "ranged_strength": 31,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 30
-            }
+            "prayer": 0
         }
     },
     "892": {
@@ -1028,6 +1123,14 @@
         "short_name": "Rune arrow",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAwElEQVR4Xu2WMQvCMBCFc2MHx4Jjp85FLCIoCC7FQaSgCLo6ODj4A/ztT5IY1BQyOOQOvA8egXDDx8sNMeZ/IPiIgLDsz2hWnQQpwvp0wWzTo57MnVBTVZxShP39gcXu6CJC6DAt0HZbF2YhL1OPzWt3vAy70KcIu0xoh1EkMGwnnsiItpNC20mh7aTQdlJoOykIt3L0JRRPZOQtY08bexdPZWIo0xasO0S4lv6ZYhkmIUtoQ8Rv0BMERMgoivIDTy/9rp3mrsJWAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rune_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1042,270 +1145,23 @@
             "melee_strength": 0,
             "ranged_strength": 49,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 40
-            }
+            "prayer": 0
         }
     },
-    "4769": {
-        "id": 4769,
+    "21326": {
+        "id": 21326,
         "name": "Amethyst arrow",
         "short_name": "Amethyst arrow",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbUlEQVR42u2Xv0vDQBTHc2OHjgXHTs5SKk4uHYpKh7ZDBqmCdQit+KNDod06KKWbrg5Ojk7+Cf5jT17CS979SEXIu4jNwSN35OA+97lvIBcEu9MUJFUqQNZ/Op9D1B2VBaXg5uQSyMrzeAXzfgTDo9N4fNBsghtcCGYxmMLoeJACfS7fYBXO4tKBFNydXUlaSxZHO71WJwUK2zV46F3HlQEl4ONO6LBWIND7/YtmA2H29wLIQm1bo7kiQGSD26H+5mKZBpsD6eYKhuE2+Pg1WmvBNmERRgSIZ4TGX48fVrD5XDGYPDsIxIPN34mFOc9OHqzQMf1sZxtcZaeyU9n5F3bybHm1c9uoOwE82LEXJBh8Ynm0o9JFaRET5rAW+LKjw1B/0sjAEIYgTHBRO9wGD7ELho5QJDtoA8uEcQHRBgS/LH7RUxaMeUQmkNgFh//duWB0CFE727NFMHqukg2Udmf3kJnfHeWfgbHBim3fydI+slvtQqEAAAAASUVORK5CYII=",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAwUlEQVR4XmNgGDmA8T8EDwrA+L81qvR/ulvMYHAU4/8JSQ3/SwPS/weZe4IdZKCgMJCOYvy/qXLe/4awQjAeFA4KM+H8X+CTDMYD7CCIY9QkGKBpB+KYAXcQskMG3DGw0BlAh8AAZuigq6AjGA0dfGA0dPCB0dDBB0ZDBx8YDR18gPF/rigvioPQVdARIBwDokEYJIauik4A0zGmnAOahhj/Z4pCogndMQPkIBCAhcagaA1CAMwBg8Ixo2AUjAIyAADZTbJU9O4xMwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Amethyst_arrow#Unpoisoned",
-        "stats": null
-    },
-    "11212": {
-        "id": 11212,
-        "name": "Dragon arrow",
-        "short_name": "Dragon arrow",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAzUlEQVR4Xu2WLwvCQByG94sLFxYGx8HgklHWBDFpMZhEtC5YtmRc0E+geUk/wz7i6/4gg0MWtzfcAyvjFx7ep1wQeDw/BO6fGRFUVQkSKcHn/ehkUmu7z72YEEFdv1AUJ6TpgmEhQZZo7NZLhoUE10ZmFUccMrk12BrNINPSp6KRcVO5FxMjuJiYZx26VBs9rONeTIxPNYbg6FP9xacagyzV3ShkUciwjqDUCnkc4swidGuEDirkWeiZRNirQWZmoZb2bUwj00Ml4/GM8AUlCp3DSs5bTQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_arrow#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 60,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 60
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 50
             }
-        }
-    },
-    "825": {
-        "id": 825,
-        "name": "Bronze javelin",
-        "short_name": "Bronze javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4UlEQVR4Xu3WUQcCQRAH8JuvEcc+JVlZueSeiiNFIk5FIqKHiOitLz+ZzXZ27/3mT/0Zy909/MyMu8uy3wxxekUpAiEubc+f6d2OQ1wVua+Zyz3IGaOFIl5OTVRQoIBRAsUYGRlMd8JSq3bnvLJ8WdsIooqRUu6KBBRTz/v6Cxww+2qg3Z0GAzCqGKM8qhgDNarjYoiD+Y+qHfKfBCkZlXp3AgagO8TXzehbEIsskNvWYbwABXKvx61fivTJDtJg5FTGSMhjpCAwj13hCwbzPEwQMBLi16lEwYRAYT6BwmjmDVyfDfg6kVTvAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 25,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 1
-            }
-        }
-    },
-    "826": {
-        "id": 826,
-        "name": "Iron javelin",
-        "short_name": "Iron javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4klEQVR4Xu3WwQqCQBAGYOdNPEWEhEQdOghLS6IgQiAVRBAIHYIg6NbLT8zGJqt354f6YVhWPXzMLGoU/WaI+1eUIhDiTZa5tX935BBXec6Fta5kn8axFoq4LougoEAeowQKMVtjcLrjD7Vqdy5lwm2VBBBVjJRyVySgmMZM9A+wxxzsVLs7HQZgVCFGeVQhBmpUp3yGg/mPahhynwQpGZV6dzwGoDvE13r+LYiDLJDbLsV4AQrk3iwGvxT9J0dIh5FVGSMhh5GCwDz2S1cwmOdxhYCREL/OaxSMDxTmEyiMZt53txImB+RxNQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Iron_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 42,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 1
-            }
-        }
-    },
-    "827": {
-        "id": 827,
-        "name": "Steel javelin",
-        "short_name": "Steel javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA7UlEQVR4Xu3WTQuCQBAGYOefeIoICYk6dAuCIIggkAoj2EwMv0KQLv35idlYZfXuDNQLL0J6eJhZUsf5zQB2f2EKQQBvYaiv3bsDB/CZJFjEMWZRpEG+63KhAKs0tcoOqvO8qcEwgQBfZdH0oRT/dAzGHGrW6aith/edZ0FYMVTmqVCEYoLViP8AG8xpPeaeTosRsCobw7wqGyNqVZfNRA7mv6p+QL8SqLQq9ukYjIDpACb7aVMRB5kg2cGX8QdIkDKY9T4puk8OkBZDV2YMBTSGKgJTHee6YjD1eSEBQwF8X5dSMCaiMN+IwnDmA3mBGP4PvfTFAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Steel_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 64,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 5
-            }
-        }
-    },
-    "828": {
-        "id": 828,
-        "name": "Mithril javelin",
-        "short_name": "Mithril javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4klEQVR4Xu3WwQqCQBAGYOdNPEWEhIgiiYcgCAIRCjEhgkDoEARBt15+YjY22fXu/FA/DMuqh4+ZRQ2C3wyxf0UpAiFO0sqs/t2JQ1wULef5wZTs4zDUQhGXZecUFMhilEAuJstqnO7YQ63ancsu4r6KHIgqRkq5KxJQTLOe6R9gizlu5trdGTAAo3IxyqNyMVCjOm0XOJj/qMYh80mQklGpd8diALpDfK2X34I4yAK57WOMF6BA7k0y+qXwn5wgA0ZWZYyEDEYKAvNoU1MwmGeXIWAkxK/zCgVjA4X5BAqjmTcMYREx4/zgvgAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 85,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 20
-            }
-        }
-    },
-    "829": {
-        "id": 829,
-        "name": "Adamant javelin",
-        "short_name": "Adamant javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA6ElEQVR4Xu3XwQqCQBAGYOdNPEWEhEQeFARBEIoKBKkggkDoEARBt15+YlbWZfXuP1A/DAvq4WNmUTcIfjPEwyugCIQ4KROzDu9OHOJsm5lKq9SA4jBEoYjzfe6VKpDFgEDERV30pWJcFmM3NbQ7t03E7S7yIFCMFLgrEqWYppjhN7DFnMo5ujsOo2BUPgY8Kh+jalSXaqEH8x/VOGQ+CVIyKnh3LEZBd4jvh2VfKjayQB51rOMFKJBnsxr9UgyfnCAOIysYIyGDkVKBeR3XptRg3ufucAfGSIg/V3dSAGNsVGG6qMIg8wXgNRDcmJV8cAAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 107,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 30
-            }
-        }
-    },
-    "830": {
-        "id": 830,
-        "name": "Rune javelin",
-        "short_name": "Rune javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA6ElEQVR4Xu3WzQqCUBAFYOdNXEWEhEQuigIpiIKSCjGhH6KgRRAE7Xr5iblxlat750AdGC6oi4+ZQfW83wxx9YpSBEIczRNzVu82HOLx9sCjdc7DVWZAoe9roYjj7OQUFMhilEDEk/xSFMS4LMYutWp3zouAr8vAgahipJS7IgHFpHFLf4EtZjdta3enxACMysUoj8rFQI1qP+vgYP6jqofMJ0FKRqXeHYsB6A7xLekWBbHIArlvQowXoEAeaa/2S1F9soGUGDmVMRIyGCkIzDPrm4LBvPIIASMhfh8HKBgbKMw3UBjNfAAPTROp1YALogAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 124,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 40
-            }
-        }
-    },
-    "21318": {
-        "id": 21318,
-        "name": "Amethyst javelin",
-        "short_name": "Amethyst javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA8klEQVR4Xu3WUQfCUBQH8J1vsqckk0k99BYRkVRmTbNEFCnKTGovkST6zifn5m7u9r5zqD9/o+3h55yrzbJ+M4DFX5hCEMBkslXX4t2KA/hYJHgPYrz5JwVybZsLBfgMz0bZQa/oklVjmECA72WaNZ3t+aejMfpQs05nNXRwPXIMCCuGyjwVilCM16vxH2CNmffr3NPJMQJWZWKYV2ViRK0qHDTkYP6rKgfUK4FKq2KfjsYImA7gZtzMKuIgE2Q3dWX8ARLk4LVKnxTFJytIjqErM4YCCkMVgTn6bVUxmDjoSMBQAK9RVwpGRxTmG1EYznwAk6cahUOGImUAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Amethyst_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 135,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 65
-            }
-        }
-    },
-    "19484": {
-        "id": 19484,
-        "name": "Dragon javelin",
-        "short_name": "Dragon javelin",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAxElEQVR4XmNgoAtg/A/BgwIw/i8rjf0fF+czGBzF+L+3pwCOQXwDBYWBchTj//6+QjiGOWZAHTR5UgkYNzWmDXzoTJ1S9n/atIr/LS2ZAx06jP9nzqj8P3t29f+O9pyBdgwIMP4PkhBFScQD6hg/CcH/nqKCo45BAxDHgPCoYzABZlShq6AjwHTMADpoUEUVwjGjUYUJRqMKF8DumEHhoEHhGFANDsKDxjHhUqOOwQYYRx2DA4w6hhAYVI6BgEHlmFGABAAvveiSK0/RSAAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_javelin#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 150,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 65
-            }
-        }
-    },
-    "4740": {
-        "id": 4740,
-        "name": "Bolt rack",
-        "short_name": "Bolt rack",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB8klEQVR4Xu3VwWrCQBAG4HjssYdCCRTEgwSRECShpEQalIpIlVbE93+TrX/Syc6O2SRrlPbgwNxM5ttxZuN597jHv4uBas6bh1lwPB6q6XSkomis0nSqsixS+ftMLZeJWq3SW6BMABVP4okBQPHN5u0ECY3EM9Fw2AfVDOCnB2C9jqzZA6QBdacnwHY7r4p9bmateSFoUFscpwdAFkHudklr7vevBdwRNCi6AQwgQHx/5Wcvb8s4fjYyTf0ie4PQEVmsqXAYPhVZh+kFoi3hIFtxmXhHGHgqiz21SD21nj/0A9HmcBAHBMFjlXz4eQKUhOcgzFuWBb+/6xQmiOYHoDoATiqTg9AlCcrziUuXShAN9OGwqEB2gIzTbT3SIHTpQlB55/ANqwPJp86jBPE5IhDe5QSybVg3kP4rff/BmCMOcrgcNUhuGG2P+RJznqgrfH7kpl0EkgPNQRJACAD4zCDlNUF3khOINozPD4FefA2o64IsTonn6RND3z0nkBxoAsku8MtQAgjBv/IYZiTuoQ53UblhBML8HI8fBsgVwBG0WTzt10YReuXl/CBtAI7gEMLUAZrvsCrMDZMgibBhbF3oAJChN0zOjw3EB9QGcETwsA+0xFyxC02hQXKgkU2AKyJkmCdvQsgnbxay8J8g7tESPwXTeNrwadhgAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Bolt_rack",
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1320,25 +1176,23 @@
             "melee_strength": 0,
             "ranged_strength": 55,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": null
+            "prayer": 0
         }
     },
-    "4036": {
-        "id": 4036,
-        "name": "Broad bolts",
-        "short_name": "Broad bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABNElEQVR42u2WO4sCQRCEnX9iJIZmJmaCKIip4AvfByJGG/l+LSIiJgoaiXD/s4+epZ1ZNfVqgm0YdsKPrqrZisWiiSaaT6PIHAdgfm9Xup/PVMzlXIAKgA7rFQ3abeo16mgoA7Qdj6leLmugVDyOhfKnk6ePGAYIpOi42YRA4NvZLxcUTprCyyVJKxXyNPM8FJSik++THX1OGpsbZGyl0yUyMdDjctEbA8Vf0W4+s7YRyPfTbCLSprQ8NgynLZlIoKJv5BIgSRso+kYuPqN+n/LZLM7Mn+SCSZVJp6lVqeivbChs7n+G4cN+ESBOldwhQCyXvR3b3BCgTq36BGIzg+QK11UBYjh45ZBkvb9F4OrKZpYeDe9Ar16CAw27XS2XA0DBduSP7kCHDqD4pXYExkB9A+YPj0gvHOOgPKMAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Broad_bolts",
-        "stats": null
-    },
-    "9236": {
-        "id": 9236,
-        "name": "Opal bolts (e)",
-        "short_name": "Opal bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA90lEQVR4Xu2WTQsBURSG5/wTv0CyUaImapKGMmlSPtIUkkhmQdnYSVmODQs7WdjbWPK7Xt25RayszLuYp053cxdP5+tew4j5OwIdFAhOpz12wYZBSvC433C9XnA+H0KhVCIRpZRg7Tex6NdeMhEKCbbzDpZDh0FGIViNXUy7NkOpFIJJu4yeW+QScqwMg5CEvePVCzz943sVNOwcQ3YUglGzxJOd73J93/gzuly2meYRGjQsnnKpZ4Jk1BXysZkphFrVPE92jscAxWySQUjLqN3jz0ZRC2kZFZ2aGZ4RCyn0n5lIyDC0gM4WhdAbmpF/QyUTExPzA0+vyLck6mhVxQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Opal_bolts_(e)",
+    "11212": {
+        "id": 11212,
+        "name": "Dragon arrow",
+        "short_name": "Dragon arrow",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAzUlEQVR4Xu2WLwvCQByG94sLFxYGx8HgklHWBDFpMZhEtC5YtmRc0E+geUk/wz7i6/4gg0MWtzfcAyvjFx7ep1wQeDw/BO6fGRFUVQkSKcHn/ehkUmu7z72YEEFdv1AUJ6TpgmEhQZZo7NZLhoUE10ZmFUccMrk12BrNINPSp6KRcVO5FxMjuJiYZx26VBs9rONeTIxPNYbg6FP9xacagyzV3ShkUciwjqDUCnkc4swidGuEDirkWeiZRNirQWZmoZb2bUwj00Ml4/GM8AUlCp3DSs5bTQAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_arrow#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1351,29 +1205,25 @@
             "defence_magic": 0,
             "defence_ranged": 0,
             "melee_strength": 0,
-            "ranged_strength": 14,
+            "ranged_strength": 60,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
+            "prayer": 0
+        }
+    },
+    "825": {
+        "id": 825,
+        "name": "Bronze javelin",
+        "short_name": "Bronze javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4UlEQVR4Xu3WUQcCQRAH8JuvEcc+JVlZueSeiiNFIk5FIqKHiOitLz+ZzXZ27/3mT/0Zy909/MyMu8uy3wxxekUpAiEubc+f6d2OQ1wVua+Zyz3IGaOFIl5OTVRQoIBRAsUYGRlMd8JSq3bnvLJ8WdsIooqRUu6KBBRTz/v6Cxww+2qg3Z0GAzCqGKM8qhgDNarjYoiD+Y+qHfKfBCkZlXp3AgagO8TXzehbEIsskNvWYbwABXKvx61fivTJDtJg5FTGSMhjpCAwj13hCwbzPEwQMBLi16lEwYRAYT6BwmjmDVyfDfg6kVTvAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
                 "ranged": 1
             }
-        }
-    },
-    "8723": {
-        "id": 8723,
-        "name": "Opal dragon bolts (e)",
-        "short_name": "Opal dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABh0lEQVR42u3VMUvDQBQH8LsPITiWTqUUCaUhRBIqCZYKuri4OjgpgloRFDtIERW0Wq1Q0VjQOlQnheqioJ/s6Uu8ywXBSe5VyINAbsqP/3vvwtifFAc2PMXhuLkKQ4Li8PR4BMFVPQQZmcw3jAzH4e21A/f9PQm5vdmBs9N1KhSHc8eEl+dWCPh4v4bB4AR6vYaSmEZMULZhNjsi07nznBAoMBpB0ccP7aLEPEy60HEtCkwEwo9vFwsShGkdWAZFq2LUQm5UgnbNLGwaeSoQh/aUD4slQ4L2/bI8k4AaE47EXM5Uoe7adPNzMV2BZTMe6FbVh5pt0qWD7VFvZvVMAlqxSjIdTEttl3ZMs+Il0sF2zY8V6EDJWflad8+lG2ZcdRWD7SJa9WheNsatBEhtn9b/VrfbDp+5fC4BIlj1GLPl2FBbW5Lb9ROoEYPv/X4gz/jg3SOAWhMSm4R3jwrCxARW+0AjCOdFTQwHnAgUJyUeMdSEIMbEaidXnOz/9TuUpZVWWv+oPgHWLVcx00eFMQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Opal_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9335": {
-        "id": 9335,
-        "name": "Jade bolts",
-        "short_name": "Jade bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABDklEQVR4Xu2Wz0oCURTG57yJj+AjuLRN1MZpFVOUIi4aDTFr4bL8C4koMtAsVYoEkSJahViLFqIL8W0+OXNBt62abzE/OFzu7sd3zuFey4r4dwSmKBDkvCSceoJBSlD5SKH4fBhI6T0ei4UpJRgOv/HYft/JhCgkGI9/0e19Msgogif/C9XqC0OrFMGVO0P5ts8jlC/8IGVTCAmarQ0y2Tee+SnfrXDqDBjSUQRufs6TTq2+Rjoz5UmndLPE0XGDR0jXnaZd9w9r2CceTzrF0oIlHUXgnI140vH9DpIHFQYhI6NPxXUhF7aQkdG6TE+CM2QhxfyZzy9eWYQsywiYtCiE9tCs/B4qmYiIiD+wBZ/axMrY1KVOAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Jade_bolts",
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1386,64 +1236,25 @@
             "defence_magic": 0,
             "defence_ranged": 0,
             "melee_strength": 0,
-            "ranged_strength": 30,
+            "ranged_strength": 25,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 16
-            }
+            "prayer": 0
         }
     },
-    "8651": {
-        "id": 8651,
-        "name": "Jade dragon bolts",
-        "short_name": "Jade dragon bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbklEQVR42u3Vz0sCQRQH8Jk/oEM3ERYGERFZZFmUxSiMvEiQeJA61EHoB5QUkv04FAVBEOTRW4Qdk+jWpb/uxVubtzNFnWKewT4YcE5++L73doT4k5IgZqckbN0uwYygJJw8r8HuqBGDAqU+YWw4CZdvHTh6WiVI76EJ3ftlLpSEi9CD89d2DLh+X4fTl1aMShJziLmpKqhn5iiduygXAzXGIWj654OyR5hhLQdXFcWBSVq1U8wQCNPq+1mOViWolpon0H4pS0AGkIR+vQJtP0+gg4WA7iyg7cgnzNlKBN2qzzc/CDDTwbQ2giJfOnu1svVlNu8soE658GO7nGMOF0MrHWxXs6D4QPassLZrmoaJMYfbOQbPZliyQGb7nL5b4/EoPo28Z4EYVj3B4CYNjnu0Xd+BDjH4ezJ5pDsefCo00GlCepOwPSYIE9NY5wP9FaQHnAmUJKWPHmpGkBB6te0VZ3u/foeKtNJK6x/VB/rnRob3IU4WAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Jade_dragon_bolts",
-        "stats": null
-    },
-    "9238": {
-        "id": 9238,
-        "name": "Pearl bolts (e)",
-        "short_name": "Pearl bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA8klEQVR4Xu2WvQ4BURCFd97EI3gHjehsJf7iJyJIWCthUSxZzRZUNBSrEoVCp5GoPNeRcRNalT3Ffsnktl/O3LlzLSvh7whMUSDYRyeEmx2DlOD+eOJyveFwPL+F0qlUnFKCcOFj7rofmRiFBOsggD8eM8gogtVshlGvx9AqRd4yrWqFS6hg2wxCgqXnodto8Nyf6dBBvVhkSEcROJ0OTzrarnatxpOOtiufy/EIUbVLX2aSUVcEk0GfJR1FuEY9irbIZjIMQkZGV8XIjX2ZGhktXaR6xiykmD9zs1xiEbIsI2DSohD6QjPyX6hkEhISfuAFCWu8h4g2uSQAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Pearl_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 48,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
+    "826": {
+        "id": 826,
+        "name": "Iron javelin",
+        "short_name": "Iron javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4klEQVR4Xu3WwQqCQBAGYOdNPEWEhEQdOghLS6IgQiAVRBAIHYIg6NbLT8zGJqt354f6YVhWPXzMLGoU/WaI+1eUIhDiTZa5tX935BBXec6Fta5kn8axFoq4LougoEAeowQKMVtjcLrjD7Vqdy5lwm2VBBBVjJRyVySgmMZM9A+wxxzsVLs7HQZgVCFGeVQhBmpUp3yGg/mPahhynwQpGZV6dzwGoDvE13r+LYiDLJDbLsV4AQrk3iwGvxT9J0dIh5FVGSMhh5GCwDz2S1cwmOdxhYCREL/OaxSMDxTmEyiMZt53txImB+RxNQAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Iron_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
                 "ranged": 1
             }
-        }
-    },
-    "8739": {
-        "id": 8739,
-        "name": "Pearl dragon bolts (e)",
-        "short_name": "Pearl dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABhElEQVR42u3VMUvDQBQH8LsPITiWTqUUCaUhRBIqCZYKuri4OjgpglgoVCwoIlYoipiIpbYVRLEqOEsnBz/X05d4lwuCk9yrkAeB3JQf//fehbE/KQ5seopDsx3ClKA4XPbf4LBzF4GMXO4bRobjcPv4Dt3gVUJOzp+gddCjQnEIHROuhpMI8PDyAeHNJEIliWnEDKo2rOZnZDr3nhMBBUYjKP541y5LzPOiC9euRYGJQfjx/XJJgjCtU8ugaFWC2ijMStCxmYeWUaQCcQiWfNisGBLU8avyTAI6WnAkpr9Sh7Zr081Pb7kG22Yy0Bd1Hxq2SZcOtke9mdUzCWjHqsh0MC21XdoxZzUvlQ62a32uRAdKz8rXunsu3TDjqqsYbBfRqsfz0py3UiC1fVr/W6NRED1rxUIKRLDqCWbPsaGxuyW36ydQIwbfx+OBPOODd48Aak1IbBLePSoIExNY7QONIJwXNTEccCJQkpR4xFATghgTq51ecbL/1+9QllVWWf2j+gQ+i1bIZpKhcQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Pearl_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9336": {
-        "id": 9336,
-        "name": "Topaz bolts",
-        "short_name": "Topaz bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9klEQVR4Xu2Wqw7CQBBFOx+AQOD5BDQShSIoBA4k7zchPAWFlgTaBJqQIggIPF94ybAJWBS9oieZbNad3J3ZXcuK+TsCUxQIgmQO60SWQUrwTBVwT+bfUrrPpNNRSgluQQB/s/nIRCgkeFxCBDuXQUYRhJ6H7WLOcFSKvGUm3Q6PkLtaolatMggJLr6P5WjE0z9Hx0G/XmdIRzH9Q5OOTtd8MOBJRy/CSrnMI2TPpjzHdT7sWUZdEXi2zZKOIhg2GzzpXK8nlIpFBiEjo09Fvxf5ZWhktPQh1TViIcX8mcftFouQZRkBkxaF0Beakf9CJRMTE/MDL13uvhps6Gs8AAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Topaz_bolts",
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1456,363 +1267,25 @@
             "defence_magic": 0,
             "defence_ranged": 0,
             "melee_strength": 0,
-            "ranged_strength": 66,
+            "ranged_strength": 42,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 31
-            }
+            "prayer": 0
         }
     },
-    "8667": {
-        "id": 8667,
-        "name": "Topaz dragon bolts",
-        "short_name": "Topaz dragon bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaklEQVR42u3VMUvDQBQH8LsP0CFDoBQCRymllBBCaAkpQqBdKkhxEBxcBEVQEYoFF0FEHBzEScFFCoJD6eQnfPJS7+VO0UnuVciDg97UH//3Xk6IPykJYn1KwnUtgzVBSXj1xvDg5QUoVuoTxoaTsPS34NkbEeTJG8JtbcCFknCZBPDmbxaAd39SJIaoMjGHmJu+grxeo3Tu0mYB1BiHoNWfz6KAMPdZE656igNTtuqwUycQpjUNGxytKlET5RHouNsgIANIwjTvwXbYItDJIKY7C+ggDQlzMUxhvx/yzQ8CzHQwrd24w5fOURZZX2bzzgLaido/tss55mwjsdLBdo3big9kzwpru1ZpmBhzuJ1j8OwlXQtkts/puzWfPxZn1AosEMOqlxjcpNn5KW3Xd6BDDP5eLF7ojgefCg10mpDeJGyPCcLENNb5QH8F6QFnApVJ6aOHmhEkhF5te8XZ3q/foaKqqqr6R/UBZgpB9BMamioAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Topaz_dragon_bolts",
-        "stats": null
-    },
-    "9337": {
-        "id": 9337,
-        "name": "Sapphire bolts",
-        "short_name": "Sapphire bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9UlEQVR4Xu2WTwqCQBSHfYcIIgg8QkQtWgghKAkaIuJCJCSSsNqUm3ZtOkJ7L9EtOkOH6AQvngNFrlrpb+EHwzAwi4/3b0bTOhqHWC0IiPvGg3vTO4IU8dB58cB8VlJyHul6m1LEWXbhOD5+ZFoUIs7zKydJgSAjEKfpmcNwh5AqgTgItuy6Kywhw/AQhKiqHcdJcOonig5smiFCdARi39/gRKeervqNhlHpms1sHCFvucZJlzwTIK0u0M9khhCyrAgnOmV54/FkjiCkZGT2FKd920JKRpa9iKu9ZSFB/ZmBhDRNCahoQQh9gWn5L1AyHR0df/AGDh+yDZWk0DkAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Sapphire_bolts",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 83,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 36
+    "827": {
+        "id": 827,
+        "name": "Steel javelin",
+        "short_name": "Steel javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA7UlEQVR4Xu3WTQuCQBAGYOefeIoICYk6dAuCIIggkAoj2EwMv0KQLv35idlYZfXuDNQLL0J6eJhZUsf5zQB2f2EKQQBvYaiv3bsDB/CZJFjEMWZRpEG+63KhAKs0tcoOqvO8qcEwgQBfZdH0oRT/dAzGHGrW6aith/edZ0FYMVTmqVCEYoLViP8AG8xpPeaeTosRsCobw7wqGyNqVZfNRA7mv6p+QL8SqLQq9ukYjIDpACb7aVMRB5kg2cGX8QdIkDKY9T4puk8OkBZDV2YMBTSGKgJTHee6YjD1eSEBQwF8X5dSMCaiMN+IwnDmA3mBGP4PvfTFAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Steel_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 5
             }
-        }
-    },
-    "8675": {
-        "id": 8675,
-        "name": "Sapphire dragon bolts",
-        "short_name": "Sapphire dragon bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABcElEQVR42u3VMUvDQBQH8LsP4OBQCIHAUUopJYQQEkJFCbQguoiD4OAiKIKKUCy4CA5ODo6u0rmLk7sfwMVZKLg6+gmevtR7uVN0knsV8uCgN/XH/72XE+JPSoKYn5LQSO9gTlAS/P4zeL2HEhQr9Qljw0kIVl/BK54I4q08QiO750JJOE8C8AcvJSBYf/tIbFqiqsQcYi4zBYW3QOlc5c0SqDEOQbM/H0UBYa57TbhIFQematV+xyMQpjUMfY5WVagNtUigw65PQAaQhGGRwmbYItDRUkx3FtBeHhLmrJ/DbhbyzQ8CzHQwre24w5fOQS+yvszmnQW0FbV/bJdzzMlyYqWD7VprKz6QPSus7ZqlYWLM4XaOwbOTdC2Q2T6n79Z4fFOeQSuwQAyrXmFwk0anx7Rd34EOMfh7MrmlOx58KjTQaUJ6k7A9JggT01jnA/0VpAecCVQlpY8eakaQEHq17RVne79+h4q66qrrH9U7DChEa5D5JKIAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Sapphire_dragon_bolts",
-        "stats": null
-    },
-    "9241": {
-        "id": 9241,
-        "name": "Emerald bolts (e)",
-        "short_name": "Emerald bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9ElEQVR4Xu2WPQrCQBCFMzfxCB4hldgoCKISf8CfKJho0KigEISAIDYK2liInsEreAMv9GRc0NbKvCIfLMt2H29mdteyUv6OwCwKBP7dRftWZ5ASxM8lFo/gLaXnbCaTpJRguTpjPN59ZBIUEkTRBZPpnkFGEczmR/QHMUOpFIHrrtFohFxChWKHQUgQhgc0Wwue/vFHW5TLQ4Z0FEG3F/Gko+WiambP2yCXd3iEqMqlNzPJqCumXCTpKIJKxedJ53o9wbZLDEJGRp+KcOolLWRkdDnO5L0nLKSYP3O1FrAIWZYRMGlRCH2hGfkvVDIpKSk/8AJyebsE+zY0DgAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Emerald_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 85,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 36
-            }
-        }
-    },
-    "8763": {
-        "id": 8763,
-        "name": "Emerald dragon bolts (e)",
-        "short_name": "Emerald dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABhUlEQVR42u3Vv0vDUBAH8Lw/ohAChdKplFBCaAivJEQSLBV0cXF1cFIEsSAoOomgIIJQQZHSyaEIndz9A1ycBcHV0b/g9BLfjyA4ybsKOQjkTfnwvbsXy/qTYmDNTzFwZzWYExQD/uKA/2jnIK/R+IaR4RhE73UInm0J6T7Z0HkgS4zBVRRA783JAclHHfirk6NUYgYx44TDarMm07lLoxwoMAZBxcfPuS8x94sxXMchBaYA4ccPfVeCMK2z0KNolUJttNQwnwRN2PfaVCAGo6UMNrueBJ1miTyTgI4XIom5XRnAUczp5udmuQ/bgRroy0EGQx7QpYPt0W9m/UwC2gm7Mh1MS2+XccxFPy2lg+1a77h0oPKsfK17GtMNM666jsF2Ea16MS97vbAE0ttn9L81mYzyZ63dKoEIVl1hDiIOw90tuV0/gQYx+D6djuUZH7x7BNBoQmKT8O7RQZiYwBofaAThvOiJ4YATgVRS4hFDTQiyLLHa5RUn+3/9DrWqqqqqf1SfmfdPKxPWlvkAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Emerald_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9242": {
-        "id": 9242,
-        "name": "Ruby bolts (e)",
-        "short_name": "Ruby bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+UlEQVR4Xu3WsYrCQBSF4dw38RFstlC2kBSLCgsiwbVIRNQgMVkMCQQXCSIqCoKVnYWPeuRmYG2tzCnywxDSfdyZCbGsqrcnMIsiwa71ibTxwYAS3L7buHzZBUrf67VamShBfswR/8X/mBJBgu15i2SdMGA0QbbJEMQBw1ZpUmA83+MBjVdjdNwOA0gQnX7xsxzynB9/46M36zFMRxN42YhnOuEhxCAa8Exnms9gOzYPyE1dnu0K9gHLVdcEk/WEZTqacF31+/2KZrfJADIY/fakSVg2yGB0OQuneJYM0sw/c3/eZwFZlgGYaVGAntFc+WdUmKqqqhd6AAbMtlH25JKaAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Ruby_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 103,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 46
-            }
-        }
-    },
-    "8771": {
-        "id": 8771,
-        "name": "Ruby dragon bolts (e)",
-        "short_name": "Ruby dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABe0lEQVR42u3VMUvDQBQH8LvRoYNDoRQKpVMpRUJpCCcJlQRLBV1cXB1crAjFFlFREFRUFEFoQZHSyaH4IZ95Se9yh+Ak9yrkwUFuyo//ey9h7E+KA1ue4nBQXIElQXG4LhdgUCokIKdaXcDIcBzuY9DZAoRnFD8f0iXGYeK7cFtOQU+V1SSxkZGYRcy0I2C3VlTpfIZ+ApQYi6D05c+ipTBfmwG8BR4FJgXhyy9bTQXCtB49h6JV2rrXSwp059bg3GlQgTiMtyLotx0Feog66k4CutnwFeZjpwdXgaCbn/ftLhy72UC/9iIYCpcuHWyP/mXW7ySggddW6WBaerusY166oZEOtmt/rUkHMmclXvcwoBtmXHUdg+0iWvV0Xk7XPQOkt8/qf2s2Gydnr1E3QASrnmEufAHDkyO1XT+BFjH4PJ9P1R0Pfnsk0GpCcpPw26ODMDGJtT7QCMJ50RPDAScCZUnJI4eaEMSYXG1zxcn+X79DWV555fWP6hs4a0meF1PTLQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Ruby_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9243": {
-        "id": 9243,
-        "name": "Diamond bolts (e)",
-        "short_name": "Diamond bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+0lEQVR4Xu3WrQrCUBjG8b134iWYjTZNIkMNm4g6ZE5xTBiKDBEUBatoNFj8qGKyGk1e0CNnB7Sa3BP2h8Pqj/fsHTOMtL8n0IciwfV0xGG3ZUAJXs8nHvc7bpdzDMpmMkmiBNEygj/2P5gEQYLZeoZgEjBgVIJwGsL1XYarUkmMsR2bB9QYNVCwCgwgQW/VR3VQ43l/nKmDUrvEMB2VwA7rPNPxFh4qvQrPdFpRG3kzzwOyhhbPdblzl2XVVYLmpMkyHZVwrfp+v0GumGMAaYz69gwDL2mQxqhjds34mTBIpf+Zy50yC8gwNEBPiwL0jWblv1Fh0tLSfugN9sC7tmEdrboAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Diamond_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 105,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 61
-            }
-        }
-    },
-    "1687": {
-        "id": 1687,
-        "name": "Diamond dragon bolts (e)",
-        "short_name": "Diamond dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABiklEQVR42u3Vv0vDQBQH8Ls/QnAsnUopEkpDiCRUEiwVdHFxdXBSBLEgKDqJoCCCpf5CSgsiGCt0EaFSOgjWqS7+QU9f4l0uCE5yr0IeBHJTPnzfexfG/qQ4sPEpDs16HcYExeGl14OHdjsEGZnMN4wMx+H9bQjP3a6EPAZ3cHNxToXicOaYMBwMQsDHaASv/T48de6VxHTOTtmGxeyETOfWc0KgwGgERR8/tosS05l14dK1KDARCD++WyxIEKZ1ZBkUrYpRK7lJCTows7Bt5KlAHBpzPqyWDAk69MvyTALan3Ek5nqhCnuuTTc/V/MVWDfjgT6t+lCzTbp0sD3qzayeSUAbVkmmg2mp7dKOOal4iXSwXctTBTpQcla+1t1z6YYZV13FYLuIVj2al61pKwFS26f1v9VqNcJnKZ9LgAhWPcbsODbUNtfkdv0EasTgexA05RkfvHsEUGtCYpPw7lFBmJjAah9oBOG8qInhgBOB4qTEI4aaEMSYWO3kipP9v36HsrTSSusf1ScXP1nxtIK2ewAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Diamond_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9244": {
-        "id": 9244,
-        "name": "Dragonstone bolts (e)",
-        "short_name": "Dragonstone bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABA0lEQVR4XmNgGAV0B4z/IXhQAMb/00K2/O/xXTEYHMX4f23C+f+Log79nxG6DewgAwWFgXQU4/+s3tn/Exr64Y4ZQAcx/s+ZsOB/UvOEweAYEGD8n9o29X90VftgiCoQYPwfUdr8P7SwdvA4KKy44b9HQvZgcBAjOCEH5lYMnvQDSjs+qQWDIXRAABJdgyZ04up6UKILXQWdAeP/qIrW/04RSYPHQchZfYAdBImuQZLVQQASXYMkdECAcXBl9T17Nv23DYoZDA6COAZU9kyb1j3QDoI4BoQDskrB9AA7CAQgbWbf9OLB4iAGBogDIKE1KByEAIMmyyPAoHLMKBgFo4AIAABu4L8MhaeDcAAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonstone_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 117,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 61
-            }
-        }
-    },
-    "1668": {
-        "id": 1668,
-        "name": "Dragonstone dragon bolts (e)",
-        "short_name": "Dragonstone dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACjklEQVR42s2XQUvjUBDHmw+x4GWhlB5EZAmlJbQkVBpa2sUuKILXPXhyERaFBddVRC1UV7Z00WIR9SAuigcvfr/ZTmReZyZFMWmNgZC8vPDm9/4z/yFJpcZyWJBK9uAAFqy5+5AgFAewoD1/DZt+N7i302nz/M1gOACefxceYK9+bsbb1R6sl9tvBRUGOHULcNy8De57S49w1PwHu7W+UmyCQBzgolyExcwHA3dTcYN5DjNBtSw48xxoFWwT/LiYMzD3VS+Y5zBhtcYIg2ogwKY9AwT3KzdrgHD+0LEF0HWlpBQbW4sY1I6bha3cR1iZnjIQ/L5VyBhYPG99VyhGkGNqEQN3+WVYzdsm4EnDF2M9P0qxg8alahERYfrzNfjpFsXiu+WSCX7erMO2J+e1YuhANAM5NBbQ7+ocrBWGBdz7XIXvTt6Mu3UfNorSXW0nI1KqHRgR6Emd0O4rngw+SJeuFZ4+ciA5NJY6f2oVoQam50fJMeNRwBxwlEMjq4PBqVZ4MJ2ur59mxTs0T+NTLws7+bRJYWQgVIfUoMVfSh/WGx9jvfH0xaqf/TlXqIHBdLooGAHoDXDgiDDDVJDV6URAchMpyIPrerv80lDui6DK1dVJcOLOaDF6ptOlra7ncVMx0jQMjF14Y/2bgMFipmf0fHlmWhS3Tpc0RAx1MDguzgHv7i7MeBQgppPDYH3FSJclgnU6LaMC1Qbulr+D9cXHz/WiyApRcJ4uWpwDkJtojO8/3x4iHvwjne7lh7ucIyBMF4cNajCeu8JgtBC/hnvJk6KoBgfSvSeBfzRLAKEBJvDZ+vpUB/2rtRWki+AS+3nkDZWrlZhK5kdR1VOCQNKl7wJIgyXkspfAXnf8B5j+QcgB2/fvAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonstone_dragon_bolts_(e)",
-        "stats": null
-    },
-    "9245": {
-        "id": 9245,
-        "name": "Onyx bolts (e)",
-        "short_name": "Onyx bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/0lEQVR4XmNgGAV0B4z/IXhQAMb/Rnp6/3W0tAaDoxj/W5qY/Dc1MAA7CsQ3UFAYSEcx/s/qnf0/oaEf7pgBdBDj/5wJC/4nNU8YDI4BAcb/qW1T/0dXtQ+GqAIBxv8Rpc3/QwtrB4+Dwoob/nskZA8GBzGCE3JgbsXgST+gtOOTWjAYQgcEINE1aEInrq4HJbrQVdAZMP6Pqmj97xSRNHgchJzVB9hBkOgaJFkdBCDRNUhCBwQYB1dW37Nn03/boJjB4CCIY0Blz7Rp3QPtIIhjQDggqxRMD7CDQADSZvZNLx4sDmJggDgAElqDwkEIMGiyPAIMKseMglEwCogAAC/cuYKdG2ldAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Onyx_bolts_(e)",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 120,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 61
-            }
-        }
-    },
-    "1669": {
-        "id": 1669,
-        "name": "Onyx dragon bolts (e)",
-        "short_name": "Onyx dragon bolts (e)",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbklEQVR42u3VwUrDQBAG4N2HELwUQpASQgghNISVhEqCpYJevHj14EkRxIKg6EkEBRGECoqUnjyUPuTobNzNLoIn2amQgUD2lI9/ZjaM/UlxYKtTHLxeD1YExSHo92HD9yUo8bxvGBmOQxSGEqUgJpAE9FJkEoXvaRxbwCYxh5jZUMC+v6bT+agKCVQYh6Dm448i1ZjldgmvZU6BaUD48es00iBM6yFPKFrVoo6CdQ26y3y4TEIqEIfpTg3Hg0SD7uuhPpOAbrcKjXnfG8NNKejm5213BKdZO9DP4xomIqNLB9tj3szmmQR0lg90OpiW2S7nmKdRZaWD7TqMIzqQPStf616VdMOMq25isF1Eq97My8VmboHM9jn9b83nU/kchIEFIlj1FnNVCJicn+jt+gl0iMH3xWKmz/jg3aOAThNSm4R3jwnCxBTW+UAjCOfFTAwHnAjUJqUeNdSEIMbUatsrTvb/+h3Kuuqqq39Un5zcR9nbHT9WAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Onyx_dragon_bolts_(e)",
-        "stats": null
-    },
-    "8882": {
-        "id": 8882,
-        "name": "Bone bolts",
-        "short_name": "Bone bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAgUlEQVR4Xu3RsQmAMBCF4dwaViETOJoLuIFBwVZnEBMiOkMIGekk2lnZ+cD7yqt+3ikl/of4efkQsTEVA0URz1N7BdVa40TZrsFaya0WaSXiGBekoILYux7rbSEMSCsRp+SRggrAtx37iLQScc4bUlAhb3vjjgEKUgoqRgghhPi7E2zjUQp2GVkkAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Bone_bolts",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 49,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 28
-            }
-        }
-    },
-    "8473": {
-        "id": 8473,
-        "name": "Dragon bolts",
-        "short_name": "Dragon bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABO0lEQVR42u3XsYoCMRAG4E1paSEsgYUgy7IsIosooqXdXWUhXHOFhWBhoSgiYucz2Iq1Tzk60ckmp9iZOWEHAqb7+GfGaBCU9fYS8K8wv3ENXBQrUMBXVNWgXCl4DvSImaQhyErlDhCwaMg/QI+YXSuCcRIazL6jNJAw3kGbPLLa4wI9YwrUUEkDmmWJATKABKx7GYzSqAC1E3NnAU1bscFs+xlM8phvfhBgp7PspvCTKb50sD32dw+lxZDODURpUFrjZp0vnXnHTQfv37HkA7mzwtqu2/DaGFz9YSJ5ngr9cDbUQ7sY0hFwOh30GajQATGseoHBdFbLmdmuR6BHDH4+n4/mjgeHmYBeE9K/e67PArbHBmFihPU+0JiGDaIBZwIVSdGhoWYEBQGttrvibO/Xa2j5V7Cssj6pLpJnIvu1xARPAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_bolts#Unpoisoned",
-        "stats": null
-    },
-    "3902": {
-        "id": 3902,
-        "name": "Amethyst broad bolts",
-        "short_name": "Amethyst broad bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACRUlEQVR42u2W30oCQRTG3TfxSrrsLgqDSJAKi4rU8B+lVpjSH7xLLdPWiIqCoAeIoKveoMvea+Kb5eyemd2I2FmRaGFgnNE9P7/vO7Mbi/1ff/+yhDMmBKa6mBOl+Y1JgLLER/9NVBa2xHZyTQJNx+NCVW2skA5QL3ss7tZPRX12w4X4tN/l3piVcwo/Z89cEEchZ/3t9EnCeqBjALK7HReEBgeyV5riJFMbl52WAqMW8WD178BKDMqdMZj74VCxqb2652aG73kwXu7ITlU5Q+rwEOfmMvLzTf9CqNZ4ygEGA1aSnaFhDnZ2AkNMAYZdBIljoZuuu2D4LfY7my3NzhBA1+c9H9Br2ZbzB9tWVIM1g+WGXDtpNKSdU4mEORjcVA8qICjEt4NLVw0AvZSuZLdBvcNq1bXTAIwDVMxmfW3MIXT1yJ52sykeRyOxlEpFE2YqiCIEAQU4DLenVa/7ui80TK1U9KlDRbhSBMS7ba9S1tQzoAz3n9Z5USqIcbS/79qDOXKWnJkxAWTJG6Fd1Rv+bBdvda5eaCCMcj4vgQiKF8XabqGg7BEoupKDG1EHgeQwPCO0TnNShOZQjs4mo2HW1aEiWENRvsePAYRZDbvR92ZPHSoCEAKmAMMeUhbgmXTaNFAsxl8xkAn9AUpAXE1Yh5wZ6q7gPJFdvAiHhXLYg1IAN9hd3wNRUf1MgiKwh9sVqToY+NdB6uhZIrsiUscLdnAR51nFlfM/9yK4SA0dhgKsQ0QK4wdT1cNJHbkiv7U0Cpgv8y/nq1ZGh4oAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Amethyst_broad_bolts",
-        "stats": null
-    },
-    "9144": {
-        "id": 9144,
-        "name": "Runite bolts",
-        "short_name": "Runite bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA3UlEQVR4Xu2WsQrCMBCGc2/SJ5Di4mKhWJBSKmiH0kFFFOkgVbGL4OJDuPdRT86DFjI5Nf+QD0IgZPi4S+7OGI+H2D5xCHFc7hlEijg/3zmM059QGAQupYjL9s2L6tjLOBfaNM8+XY5lBOLsdOWo2GIJzbICQYi4uL2w3s+qbnm+rhCiIxCnhwtOdOx02TdGRtM1TXIcoeWuxkmXFEOQry5o7wKJjkBYlbnrPjyJEgQhlZHa0z6G+mPfGgmVkSWdXXbHQoJMgzoZgggZowIaLQihAZgvPwAl4/F4/uALQcmjfEAYKA4AAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Runite_bolts#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 115,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 61
-            }
-        }
-    },
-    "9143": {
-        "id": 9143,
-        "name": "Adamant bolts",
-        "short_name": "Adamant bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA0klEQVR4Xu2WsQrCMBCGc2/SB+iQpYPFQqlUrFSoRVREnAQHB6F9Ffc+6sk10GImJ+8f8kEIhAwf93OXGBMIEPsnihDn+5xBpIjrW812aUchG0WaUsSn15mLQzHJqAu1j3aKS1lGcHFluwxHaH3ZcLJKEISIm3vzFZe6kMSVblOE6gjE5bHEqY4fl3/jz0ANQwEwLpBWF4ira4VSHYGwWn0Y3hwvYgQhJyNPRd89tYWcjCyZPbIrCwnyG6TxZQcRMsYJuGpBCM3AtPwMlEwgEPiBD5RMnrNLJJBeAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_bolts#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 100,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 46
-            }
-        }
-    },
-    "9142": {
-        "id": 9142,
-        "name": "Mithril bolts",
-        "short_name": "Mithril bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA1ElEQVR4Xu2WsQrCMBRF8/6knyBihw4FqbTYoVJK6VA6FBEEddEufoh7P/XKM2Ahk5O5Qw6EQMhwuC95iTGBgMBd8YigLAeQSAna9oI43n2EVlHkU0owjs9vOirjXajv7yj2PUM6iqBpzsjzjksoTSsGIcEwTFznp+tuyLKWIR1FUNcnnnTccrk7/owtV5IUPELV4chTLm2GJFddsW8XSTqKcHXmeX5hvdkyCFkZ7T3T4+pbyMro0JddZ89Civ4GhUnIGCtg06IQWqC58gtUMoFA4AfeRzeh9p48S7sAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_bolts#Unpoisoned",
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 82,
-            "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 36
-            }
-        }
-    },
-    "9141": {
-        "id": 9141,
-        "name": "Steel bolts",
-        "short_name": "Steel bolts",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA3klEQVR4Xu2WsQ6CMBCGe2/iI/goTA5sEhYEFQUxRhEXEAeFRAejA4965mgiiZNb/6Ff0jTp9OXvXa9KWSzEvycGId7MIwaRIi4Pe544Ti80Ho1MShG/muabjsgYF2qriuMgQEhHID4fc458H0focip45nkIQsTvtuUiy3Dq517XnIQhQjqCrh+YdKTd8zTFSUfafeq6OELyOsNc1/N2RWl1gbgpS5R0hGGyQ8h03QNnsouMjIpkbfwx1DKydqu43w0LCfIbJN4uFyhCSmkBnRaE0ABMyw9AyVgslj/4ANaLrvD82qmoAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Steel_bolts#Unpoisoned",
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1827,11 +1300,1061 @@
             "melee_strength": 0,
             "ranged_strength": 64,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
+            "prayer": 0
+        }
+    },
+    "828": {
+        "id": 828,
+        "name": "Mithril javelin",
+        "short_name": "Mithril javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4klEQVR4Xu3WwQqCQBAGYOdNPEWEhIgiiYcgCAIRCjEhgkDoEARBt15+YjY22fXu/FA/DMuqh4+ZRQ2C3wyxf0UpAiFO0sqs/t2JQ1wULef5wZTs4zDUQhGXZecUFMhilEAuJstqnO7YQ63ancsu4r6KHIgqRkq5KxJQTLOe6R9gizlu5trdGTAAo3IxyqNyMVCjOm0XOJj/qMYh80mQklGpd8diALpDfK2X34I4yAK57WOMF6BA7k0y+qXwn5wgA0ZWZYyEDEYKAvNoU1MwmGeXIWAkxK/zCgVjA4X5BAqjmTcMYREx4/zgvgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 20
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 85,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "829": {
+        "id": 829,
+        "name": "Adamant javelin",
+        "short_name": "Adamant javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA6ElEQVR4Xu3XwQqCQBAGYOdNPEWEhEQeFARBEIoKBKkggkDoEARBt15+YlbWZfXuP1A/DAvq4WNmUTcIfjPEwyugCIQ4KROzDu9OHOJsm5lKq9SA4jBEoYjzfe6VKpDFgEDERV30pWJcFmM3NbQ7t03E7S7yIFCMFLgrEqWYppjhN7DFnMo5ujsOo2BUPgY8Kh+jalSXaqEH8x/VOGQ+CVIyKnh3LEZBd4jvh2VfKjayQB51rOMFKJBnsxr9UgyfnCAOIysYIyGDkVKBeR3XptRg3ufucAfGSIg/V3dSAGNsVGG6qMIg8wXgNRDcmJV8cAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 30
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 107,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "830": {
+        "id": 830,
+        "name": "Rune javelin",
+        "short_name": "Rune javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA6ElEQVR4Xu3WzQqCUBAFYOdNXEWEhEQuigIpiIKSCjGhH6KgRRAE7Xr5iblxlat750AdGC6oi4+ZQfW83wxx9YpSBEIczRNzVu82HOLx9sCjdc7DVWZAoe9roYjj7OQUFMhilEDEk/xSFMS4LMYutWp3zouAr8vAgahipJS7IgHFpHFLf4EtZjdta3enxACMysUoj8rFQI1qP+vgYP6jqofMJ0FKRqXeHYsB6A7xLekWBbHIArlvQowXoEAeaa/2S1F9soGUGDmVMRIyGCkIzDPrm4LBvPIIASMhfh8HKBgbKMw3UBjNfAAPTROp1YALogAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 40
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 124,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21318": {
+        "id": 21318,
+        "name": "Amethyst javelin",
+        "short_name": "Amethyst javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA8klEQVR4Xu3WUQfCUBQH8J1vsqckk0k99BYRkVRmTbNEFCnKTGovkST6zifn5m7u9r5zqD9/o+3h55yrzbJ+M4DFX5hCEMBkslXX4t2KA/hYJHgPYrz5JwVybZsLBfgMz0bZQa/oklVjmECA72WaNZ3t+aejMfpQs05nNXRwPXIMCCuGyjwVilCM16vxH2CNmffr3NPJMQJWZWKYV2ViRK0qHDTkYP6rKgfUK4FKq2KfjsYImA7gZtzMKuIgE2Q3dWX8ARLk4LVKnxTFJytIjqErM4YCCkMVgTn6bVUxmDjoSMBQAK9RVwpGRxTmG1EYznwAk6cahUOGImUAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Amethyst_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 65
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 135,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "19484": {
+        "id": 19484,
+        "name": "Dragon javelin",
+        "short_name": "Dragon javelin",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAxElEQVR4XmNgoAtg/A/BgwIw/i8rjf0fF+czGBzF+L+3pwCOQXwDBYWBchTj//6+QjiGOWZAHTR5UgkYNzWmDXzoTJ1S9n/atIr/LS2ZAx06jP9nzqj8P3t29f+O9pyBdgwIMP4PkhBFScQD6hg/CcH/nqKCo45BAxDHgPCoYzABZlShq6AjwHTMADpoUEUVwjGjUYUJRqMKF8DumEHhoEHhGFANDsKDxjHhUqOOwQYYRx2DA4w6hhAYVI6BgEHlmFGABAAvveiSK0/RSAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_javelin#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 65
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 150,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "4740": {
+        "id": 4740,
+        "name": "Bolt rack",
+        "short_name": "Bolt rack",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB8klEQVR4Xu3VwWrCQBAG4HjssYdCCRTEgwSRECShpEQalIpIlVbE93+TrX/Syc6O2SRrlPbgwNxM5ttxZuN597jHv4uBas6bh1lwPB6q6XSkomis0nSqsixS+ftMLZeJWq3SW6BMABVP4okBQPHN5u0ECY3EM9Fw2AfVDOCnB2C9jqzZA6QBdacnwHY7r4p9bmateSFoUFscpwdAFkHudklr7vevBdwRNCi6AQwgQHx/5Wcvb8s4fjYyTf0ie4PQEVmsqXAYPhVZh+kFoi3hIFtxmXhHGHgqiz21SD21nj/0A9HmcBAHBMFjlXz4eQKUhOcgzFuWBb+/6xQmiOYHoDoATiqTg9AlCcrziUuXShAN9OGwqEB2gIzTbT3SIHTpQlB55/ANqwPJp86jBPE5IhDe5QSybVg3kP4rff/BmCMOcrgcNUhuGG2P+RJznqgrfH7kpl0EkgPNQRJACAD4zCDlNUF3khOINozPD4FefA2o64IsTonn6RND3z0nkBxoAsku8MtQAgjBv/IYZiTuoQ53UblhBML8HI8fBsgVwBG0WTzt10YReuXl/CBtAI7gEMLUAZrvsCrMDZMgibBhbF3oAJChN0zOjw3EB9QGcETwsA+0xFyxC02hQXKgkU2AKyJkmCdvQsgnbxay8J8g7tESPwXTeNrwadhgAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Bolt_rack",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            null
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 55,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "11875": {
+        "id": 11875,
+        "name": "Broad bolts",
+        "short_name": "Broad bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA00lEQVR4Xu2WvQrCMBDHc2/SR3Dr4tzJvVCtYMXFR6jf1iIi4tJBJxff8+QSYvzq6t1wPzhCIMOP+19CjFEU5ReAodgBvF8veGsa7CWJBCkndNxucFoUOBnm3FJBaFeWmKepFepEEa9UPZ8954hkGIUAT1X1JsIoQwAe1isJMXlCXAKEAM91LWFuPGBvl5DuEID75UKKENiHUONqR+NqA7AbxzjKMrvS/vPEH3EyVPQ6eyHGDjkhiutVhl1oPOhL6I7HfTEECRnjJNjj+kaUjKJI5QEyvKJOiTKdfAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Broad_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61,
+                "slayer": 55
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 100,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9236": {
+        "id": 9236,
+        "name": "Opal bolts (e)",
+        "short_name": "Opal bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA90lEQVR4Xu2WTQsBURSG5/wTv0CyUaImapKGMmlSPtIUkkhmQdnYSVmODQs7WdjbWPK7Xt25RayszLuYp053cxdP5+tew4j5OwIdFAhOpz12wYZBSvC433C9XnA+H0KhVCIRpZRg7Tex6NdeMhEKCbbzDpZDh0FGIViNXUy7NkOpFIJJu4yeW+QScqwMg5CEvePVCzz943sVNOwcQ3YUglGzxJOd73J93/gzuly2meYRGjQsnnKpZ4Jk1BXysZkphFrVPE92jscAxWySQUjLqN3jz0ZRC2kZFZ2aGZ4RCyn0n5lIyDC0gM4WhdAbmpF/QyUTExPzA0+vyLck6mhVxQAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Opal_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 14,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21932": {
+        "id": 21932,
+        "name": "Opal dragon bolts (e)",
+        "short_name": "Opal dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABAklEQVR4Xu2WMWvCUBSFc/9JcBIRydAQInkEEgwZ7Ny1c7upCBUcRAS7FKstKKUV2nRydre/7JSXBw11ckrOkA8ub7nDxz3vPp5l1ZSOwBQFgq/PGTbrEYOU4Of0geNxhSyb50KObVcpJfiOArwG7p9MhUKCQ09hqzwGGY3gPfTx6DkMUWkEC7eBB6fFI7SMQ9xdUUxI8HadYqp8nvvznMYY+sV2nXeUjImLZjq7fvIvrvOOkjFx3XbaPEKLSHHFRbLqGsFTErFMRyNcq77fv+Cm1WQQMjL67RkO7qsWMjK6JoGfnxULacyfedz1WIQsywiYaVEIFdCsfAGVTE1NzQX8AsFDtLRPW2PtAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Opal_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9335": {
+        "id": 9335,
+        "name": "Jade bolts",
+        "short_name": "Jade bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABDklEQVR4Xu2Wz0oCURTG57yJj+AjuLRN1MZpFVOUIi4aDTFr4bL8C4koMtAsVYoEkSJahViLFqIL8W0+OXNBt62abzE/OFzu7sd3zuFey4r4dwSmKBDkvCSceoJBSlD5SKH4fBhI6T0ei4UpJRgOv/HYft/JhCgkGI9/0e19Msgogif/C9XqC0OrFMGVO0P5ts8jlC/8IGVTCAmarQ0y2Tee+SnfrXDqDBjSUQRufs6TTq2+Rjoz5UmndLPE0XGDR0jXnaZd9w9r2CceTzrF0oIlHUXgnI140vH9DpIHFQYhI6NPxXUhF7aQkdG6TE+CM2QhxfyZzy9eWYQsywiYtCiE9tCs/B4qmYiIiD+wBZ/axMrY1KVOAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Jade_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 16
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 30,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21957": {
+        "id": 21957,
+        "name": "Jade dragon bolts",
+        "short_name": "Jade dragon bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/klEQVR4Xu2WsQrCMBCGe28hglBERKRIKZVSERRdnMRJBxcHEbQIRdFFUHASdHRz8AF8Ap/ulzNgIJNTc0M/OELgho+7XBLHyckcggoREJLHALNrV4IU4fQeY/cafqV477uuTSnCJSrjEJR+MhaFCLe4jGPIAtZlGMK56SL1ihJaxRCW9SLmtYIcoVXLx8irSBAi7HsRZk1PzvlJOyEmfk1CdRjCIm7IqY7ZLjMjY1S7BlV9/5gZGSOwXUJGnSGs24GU6jAka9Sfzzv6Ff2ymxkZomT4qdhuEttCSoaD7x5eLQsx6s88DepShBxHCahqiRDSiBl5jSiZnJycP/gAdrCsRxsrVtAAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Jade_dragon_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9238": {
+        "id": 9238,
+        "name": "Pearl bolts (e)",
+        "short_name": "Pearl bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA8klEQVR4Xu2WvQ4BURCFd97EI3gHjehsJf7iJyJIWCthUSxZzRZUNBSrEoVCp5GoPNeRcRNalT3Ffsnktl/O3LlzLSvh7whMUSDYRyeEmx2DlOD+eOJyveFwPL+F0qlUnFKCcOFj7rofmRiFBOsggD8eM8gogtVshlGvx9AqRd4yrWqFS6hg2wxCgqXnodto8Nyf6dBBvVhkSEcROJ0OTzrarnatxpOOtiufy/EIUbVLX2aSUVcEk0GfJR1FuEY9irbIZjIMQkZGV8XIjX2ZGhktXaR6xiykmD9zs1xiEbIsI2DSohD6QjPyX6hkEhISfuAFCWu8h4g2uSQAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Pearl_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 48,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21936": {
+        "id": 21936,
+        "name": "Pearl dragon bolts (e)",
+        "short_name": "Pearl dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+klEQVR4Xu2WQQsBQRiG9/sncpKkPdC22m1rZXPg7OrMjVKUchEupGwRcuKAf+Dsd70aUzZOTrvvYZ+apqnv8PS9801jGCmxI9CLAsFsdcVwsmOQElzuT4SHx1tKnc1MJkkpwdl3EDrlj0yCQoJbzcXWtRhkFIKjZ2NhmQxRKQTTchZDM88jNK966JQoOiTYN+sYuzbP/VnXq+jb0XT9VsSMjoumO7tG8BXXb0XM6LjaxQKP0NR3ueIiGXWFYBn4LN1RCNeon04btPI5BiEto96efq+btJCWUWvk2O89YSGF/jMPKhaLkGFoAd0tCqEImpGPoJJJSUn5gxftwLSGSzZy9wAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Pearl_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9336": {
+        "id": 9336,
+        "name": "Topaz bolts",
+        "short_name": "Topaz bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9klEQVR4Xu2Wqw7CQBBFOx+AQOD5BDQShSIoBA4k7zchPAWFlgTaBJqQIggIPF94ybAJWBS9oieZbNad3J3ZXcuK+TsCUxQIgmQO60SWQUrwTBVwT+bfUrrPpNNRSgluQQB/s/nIRCgkeFxCBDuXQUYRhJ6H7WLOcFSKvGUm3Q6PkLtaolatMggJLr6P5WjE0z9Hx0G/XmdIRzH9Q5OOTtd8MOBJRy/CSrnMI2TPpjzHdT7sWUZdEXi2zZKOIhg2GzzpXK8nlIpFBiEjo09Fvxf5ZWhktPQh1TViIcX8mcftFouQZRkBkxaF0Beakf9CJRMTE/MDL13uvhps6Gs8AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Topaz_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
                 "ranged": 31
             }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 66,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21961": {
+        "id": 21961,
+        "name": "Topaz dragon bolts",
+        "short_name": "Topaz dragon bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/0lEQVR4Xu2WsQrCQAyGmwdw6CCIIJQiIqVIKS3FIgi6dBI3BxcHEVSEouAiOIiDg6POBd/AJ/wlHljo5NTL0A/CcZDhI7ncnWFUlA5BhQgIT3OEay2WIEV41yd4mclXiveeZemUItwiGye/9ZPRKES4922cAxbQLsMQLqGF1G1KaBVDWDtNLLsNOUKb2MPUbUsQIhxHERahK+f8pMMAM68roToMYdXvyalOsV3FjJJR7Uo6+f1TzCgZge0SMuoMYTfwpVSHIVmjnmUPjNv5y17MKBElw0/FYb/VLaRkOPju4VWzEKP+zHPfkSJkGEpAVUuEUI6Ykc8RJVNRUfEHH25Iqi7hlrUMAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Topaz_dragon_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9337": {
+        "id": 9337,
+        "name": "Sapphire bolts",
+        "short_name": "Sapphire bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9UlEQVR4Xu2WTwqCQBSHfYcIIgg8QkQtWgghKAkaIuJCJCSSsNqUm3ZtOkJ7L9EtOkOH6AQvngNFrlrpb+EHwzAwi4/3b0bTOhqHWC0IiPvGg3vTO4IU8dB58cB8VlJyHul6m1LEWXbhOD5+ZFoUIs7zKydJgSAjEKfpmcNwh5AqgTgItuy6Kywhw/AQhKiqHcdJcOonig5smiFCdARi39/gRKeervqNhlHpms1sHCFvucZJlzwTIK0u0M9khhCyrAgnOmV54/FkjiCkZGT2FKd920JKRpa9iKu9ZSFB/ZmBhDRNCahoQQh9gWn5L1AyHR0df/AGDh+yDZWk0DkAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Sapphire_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 36
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 83,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21963": {
+        "id": 21963,
+        "name": "Sapphire dragon bolts",
+        "short_name": "Sapphire dragon bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABAElEQVR4Xu2WMQrCQBBFM4cQQkAIIYiEICEkhIgixEY7OwsbCxFUhKBgI1hYWVjaewlv4Rk8hCf4Mi4YSGWVnSIPhmVhisfMzu4aRk3lEFSIgGD2n2jEDwlShOb4DSt7faV4H9i2TinCJXFwDJs/GY1ChGvq4BSxgHYZhnCObeS+JaFVDGHlWVi0TTlC626Aie9KECIcsgTz2JdzfvJBhGnQllAdhrBMO3KqU25XOaNiVLtGreL+KWdUjMB2CRl1hrDthVKqw5CsUb/fbxi6xctezqgQJcNPxX630S2kZDj47uFVsxCj/syz0JMiZBhKQFVLhFCBmJEvECVTU1PzBx9fcKtStpGY+AAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Sapphire_dragon_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9241": {
+        "id": 9241,
+        "name": "Emerald bolts (e)",
+        "short_name": "Emerald bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9ElEQVR4Xu2WPQrCQBCFMzfxCB4hldgoCKISf8CfKJho0KigEISAIDYK2liInsEreAMv9GRc0NbKvCIfLMt2H29mdteyUv6OwCwKBP7dRftWZ5ASxM8lFo/gLaXnbCaTpJRguTpjPN59ZBIUEkTRBZPpnkFGEczmR/QHMUOpFIHrrtFohFxChWKHQUgQhgc0Wwue/vFHW5TLQ4Z0FEG3F/Gko+WiambP2yCXd3iEqMqlNzPJqCumXCTpKIJKxedJ53o9wbZLDEJGRp+KcOolLWRkdDnO5L0nLKSYP3O1FrAIWZYRMGlRCH2hGfkvVDIpKSk/8AJyebsE+zY0DgAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Emerald_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 36
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 85,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21942": {
+        "id": 21942,
+        "name": "Emerald dragon bolts (e)",
+        "short_name": "Emerald dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/klEQVR4Xu2WwQoBURSG5zyEklKykqRZ0HQ109SILFjbWrMzpShLxUYpiiQrK1tv4Rk8hCf4dd0ysbKa+Rfz1e126yy+zn/P7VpWSuwIzKJAULtnUb1lGKQE/jMP9ci9pfTZLhSSlBJcAhc7t/6RSVBIcG152HsOg4xGcPIVVo7NEJVGsKgXMbXLPELLpo9hjaJDgmOvg7mneO7PptNEqKLp+q2IGRMXTXcO3fZXXL8VMWPiGlQrPEKLwOOKi2TUNYJ1O2Dpjka4Rv183qJfLjEIGRn99oTjUdJCRkavmavee8JCGvNnnjQcFiHLMgKmWxRCETQjH0Elk5KS8gcvnTmxE1Uj2KMAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Emerald_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9242": {
+        "id": 9242,
+        "name": "Ruby bolts (e)",
+        "short_name": "Ruby bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+UlEQVR4Xu3WsYrCQBSF4dw38RFstlC2kBSLCgsiwbVIRNQgMVkMCQQXCSIqCoKVnYWPeuRmYG2tzCnywxDSfdyZCbGsqrcnMIsiwa71ibTxwYAS3L7buHzZBUrf67VamShBfswR/8X/mBJBgu15i2SdMGA0QbbJEMQBw1ZpUmA83+MBjVdjdNwOA0gQnX7xsxzynB9/46M36zFMRxN42YhnOuEhxCAa8Exnms9gOzYPyE1dnu0K9gHLVdcEk/WEZTqacF31+/2KZrfJADIY/fakSVg2yGB0OQuneJYM0sw/c3/eZwFZlgGYaVGAntFc+WdUmKqqqhd6AAbMtlH25JKaAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ruby_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 46
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 103,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21944": {
+        "id": 21944,
+        "name": "Ruby dragon bolts (e)",
+        "short_name": "Ruby dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/ElEQVR4Xu2WwQsBQRTG9x0dHByUlJKTJO3Btq12Uyty4OzqihtSlHJRpJSiSHJy8kd+GlM2Tk6732F/NU1T7/DrffOmMYyY0BHoRYFgmklikE4wSAl2uRRW2eRbSp3NfD5KKcHDd3FyrY9MhEKCZ9PD2bMZZBSCW93B1jYZolII1lYBc7PEI7Rp1DGsUnRIcO22sfQcnvtzaDcwcYLp+q0IGR0XTXcundZXXL8VIaPj6lfKPEJr3+OKi2TUFYJ9y2fpjkK4Rv1+P6JXKjIIaRn19kzGo6iFtIxaC9d57xELKfSfeVazWYQMQwvoblEIBdCMfACVTExMzB+8ALIqropYRldSAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Ruby_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9243": {
+        "id": 9243,
+        "name": "Diamond bolts (e)",
+        "short_name": "Diamond bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+0lEQVR4Xu3WrQrCUBjG8b134iWYjTZNIkMNm4g6ZE5xTBiKDBEUBatoNFj8qGKyGk1e0CNnB7Sa3BP2h8Pqj/fsHTOMtL8n0IciwfV0xGG3ZUAJXs8nHvc7bpdzDMpmMkmiBNEygj/2P5gEQYLZeoZgEjBgVIJwGsL1XYarUkmMsR2bB9QYNVCwCgwgQW/VR3VQ43l/nKmDUrvEMB2VwA7rPNPxFh4qvQrPdFpRG3kzzwOyhhbPdblzl2XVVYLmpMkyHZVwrfp+v0GumGMAaYz69gwDL2mQxqhjds34mTBIpf+Zy50yC8gwNEBPiwL0jWblv1Fh0tLSfugN9sC7tmEdrboAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Diamond_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 105,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21946": {
+        "id": 21946,
+        "name": "Diamond dragon bolts (e)",
+        "short_name": "Diamond dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/klEQVR4Xu2WuwrCQBBFM38iViIiKZQQSRAiioXWttbaKQgKloI2guATEQsRfLRiZWtp5QddWRcMWlklt8iBYZspDnN3ljWMiMAR6KJAcDkesFvMGaQEz8cD99sN1/PpLWTGYmFKCfaeg5mT/ciEKCQ4F10sXYtBRiHY5G2MLJMhKoVgkI2jayZ5hIaFPBoZigkJ1tUy+q7Nc38m5QLatr9dvx0Bo+Oimc6qUvqK67cjYHRc9XSKR2jguVxxkay6QjAueSzTUQjXqm+3U9SSCQYhLaPennarGbaQllHVc+z3GbKQQv+ZOzmLRcgwtICeFoWQD83K+1DJRERE/MEL3XG1+7Z0muAAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Diamond_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9244": {
+        "id": 9244,
+        "name": "Dragonstone bolts (e)",
+        "short_name": "Dragonstone bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABA0lEQVR4XmNgGAV0B4z/IXhQAMb/00K2/O/xXTEYHMX4f23C+f+Log79nxG6DewgAwWFgXQU4/+s3tn/Exr64Y4ZQAcx/s+ZsOB/UvOEweAYEGD8n9o29X90VftgiCoQYPwfUdr8P7SwdvA4KKy44b9HQvZgcBAjOCEH5lYMnvQDSjs+qQWDIXRAABJdgyZ04up6UKILXQWdAeP/qIrW/04RSYPHQchZfYAdBImuQZLVQQASXYMkdECAcXBl9T17Nv23DYoZDA6COAZU9kyb1j3QDoI4BoQDskrB9AA7CAQgbWbf9OLB4iAGBogDIKE1KByEAIMmyyPAoHLMKBgFo4AIAABu4L8MhaeDcAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonstone_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 117,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21948": {
+        "id": 21948,
+        "name": "Dragonstone dragon bolts (e)",
+        "short_name": "Dragonstone dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA+UlEQVR4Xu2WsQrCQBBEs38iViIiKQwhkhBIMFhoJ9haa6cgKAg2QrQQBA2KiJU2tv7fyHlg0MoqmSIPlmu2eOzcHmcYBZkj0EWBYNFKMPZjBilB0nti071jGZ3eQmaplKeU4Ba4OLjWRyZHIcGj5eHo2QwyCsHFd7C2TYaoFIKVVcbMrPIIxaGPYYNiQoJzt42F5/Dcn107xMRJt+u3I2N0XDTTOXWir7h+OzJGxzWo13iEVoHHFRfJqisE2yhgmY5CuFb9et2jX60wCGkZ9fZMxqO8hbSMqrnrvM+chRT6zzxt2ixChqEF9LQohFJoVj6FSqagoOAPXtBYsnyUQud0AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragonstone_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9245": {
+        "id": 9245,
+        "name": "Onyx bolts (e)",
+        "short_name": "Onyx bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/0lEQVR4XmNgGAV0B4z/IXhQAMb/Rnp6/3W0tAaDoxj/W5qY/Dc1MAA7CsQ3UFAYSEcx/s/qnf0/oaEf7pgBdBDj/5wJC/4nNU8YDI4BAcb/qW1T/0dXtQ+GqAIBxv8Rpc3/QwtrB4+Dwoob/nskZA8GBzGCE3JgbsXgST+gtOOTWjAYQgcEINE1aEInrq4HJbrQVdAZMP6Pqmj97xSRNHgchJzVB9hBkOgaJFkdBCDRNUhCBwQYB1dW37Nn03/boJjB4CCIY0Blz7Rp3QPtIIhjQDggqxRMD7CDQADSZvZNLx4sDmJggDgAElqDwkEIMGiyPAIMKseMglEwCogAAC/cuYKdG2ldAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Onyx_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 120,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21950": {
+        "id": 21950,
+        "name": "Onyx dragon bolts (e)",
+        "short_name": "Onyx dragon bolts (e)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA9UlEQVR4Xu2WMQuCQBiG/f5JSEiIiEQihiIoRUPNrc21FQQFjUEtQVBQRDg19SPfuA6Smpr0HXzgOA6+4eF77zvOMGpKR6AXBYKWZaFpmgxSgrbrwrHtt5Q6e41GlVKCRxrhHPkfmQqFBM9ejEscMMgoBPckxD7wGKJSCLa+iZVn8wjtsgTTDkWHBLfRAJs45Lk/x0GGRVhM129Fyei4aLpzHfa/4vqtKBkd18R1eIS2acwVF8moKwSHfsrSHYVwjXqenzC2WwxCWka9PYv5rGohLaPWOgrfe8VCCv1nXnYDFiHD0AK6WxRCBTQjX0AlU1NT8wcvL4itz6fvV5cAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Onyx_dragon_bolts_(e)",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "8882": {
+        "id": 8882,
+        "name": "Bone bolts",
+        "short_name": "Bone bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAgUlEQVR4Xu3RsQmAMBCF4dwaViETOJoLuIFBwVZnEBMiOkMIGekk2lnZ+cD7yqt+3ikl/of4efkQsTEVA0URz1N7BdVa40TZrsFaya0WaSXiGBekoILYux7rbSEMSCsRp+SRggrAtx37iLQScc4bUlAhb3vjjgEKUgoqRgghhPi7E2zjUQp2GVkkAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Bone_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 28
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 49,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21905": {
+        "id": 21905,
+        "name": "Dragon bolts",
+        "short_name": "Dragon bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA4klEQVR4Xu2WsQrCMBCGe4/gIEihEKSEEoqUYhEd3XRyEFw6dBAcOigVB3HzGdz7qL9cAy10cjI35IMQCBk+/rsjCQKPhzA+cQihjKcQIkW4pSF20aQTypRyKUV4FwrnZNbLOBd65REqPQiNb/wZQm103z8yhJYaxySSIER4bgzOWSynf5pVgpNhCefpMIRLLigdLle1mMtJ51po7ONQjpCocj3WBgctKB0ul5B0GJI16m37wVaJeLusDDfzvaldC1kZXmWqut2xEMO/QZIkFARWwKYlQmhAzMgPiJLxeDw/8AVBUJobxv+wigAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 64
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 122,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "21316": {
+        "id": 21316,
+        "name": "Amethyst broad bolts",
+        "short_name": "Amethyst broad bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA2ElEQVR4Xu3WPwrCMBTH8byb9AhuRdALiIuDS3WxddJBnbVaLUFExMFDdPIGjt7rJ2mI9f/oe0O+EEqgw4e8UKqUz+f7FKFa7BGu+oxLVqDf7EhAWVAxOyHtTjCss6MqkG6NMW0nJagWBLwovZjf75HBMIIIhzx/gjBiTIRdtpIwJlc1LgEgwlFrCffGRdhv1lJOx0TYLlMpIMIojv24fuTH9S1CIwwxiKLyafavb/wxizHLfJ0diPGELMiM6xHDDkr6PQmn47K/GIJASlkE+7jeE4Xx+aR2A2MaotACaka+AAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Amethyst_broad_bolts",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61,
+                "slayer": 65
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 115,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9144": {
+        "id": 9144,
+        "name": "Runite bolts",
+        "short_name": "Runite bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA3UlEQVR4Xu2WsQrCMBCGc2/SJ5Di4mKhWJBSKmiH0kFFFOkgVbGL4OJDuPdRT86DFjI5Nf+QD0IgZPi4S+7OGI+H2D5xCHFc7hlEijg/3zmM059QGAQupYjL9s2L6tjLOBfaNM8+XY5lBOLsdOWo2GIJzbICQYi4uL2w3s+qbnm+rhCiIxCnhwtOdOx02TdGRtM1TXIcoeWuxkmXFEOQry5o7wKJjkBYlbnrPjyJEgQhlZHa0z6G+mPfGgmVkSWdXXbHQoJMgzoZgggZowIaLQihAZgvPwAl4/F4/uALQcmjfEAYKA4AAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Runite_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 61
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 115,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9143": {
+        "id": 9143,
+        "name": "Adamant bolts",
+        "short_name": "Adamant bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA0klEQVR4Xu2WsQrCMBCGc2/SB+iQpYPFQqlUrFSoRVREnAQHB6F9Ffc+6sk10GImJ+8f8kEIhAwf93OXGBMIEPsnihDn+5xBpIjrW812aUchG0WaUsSn15mLQzHJqAu1j3aKS1lGcHFluwxHaH3ZcLJKEISIm3vzFZe6kMSVblOE6gjE5bHEqY4fl3/jz0ANQwEwLpBWF4ira4VSHYGwWn0Y3hwvYgQhJyNPRd89tYWcjCyZPbIrCwnyG6TxZQcRMsYJuGpBCM3AtPwMlEwgEPiBD5RMnrNLJJBeAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 46
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 100,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9142": {
+        "id": 9142,
+        "name": "Mithril bolts",
+        "short_name": "Mithril bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA1ElEQVR4Xu2WsQrCMBRF8/6knyBihw4FqbTYoVJK6VA6FBEEddEufoh7P/XKM2Ahk5O5Qw6EQMhwuC95iTGBgMBd8YigLAeQSAna9oI43n2EVlHkU0owjs9vOirjXajv7yj2PUM6iqBpzsjzjksoTSsGIcEwTFznp+tuyLKWIR1FUNcnnnTccrk7/owtV5IUPELV4chTLm2GJFddsW8XSTqKcHXmeX5hvdkyCFkZ7T3T4+pbyMro0JddZ89Civ4GhUnIGCtg06IQWqC58gtUMoFA4AfeRzeh9p48S7sAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 36
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 82,
+            "magic_damage": 0,
+            "prayer": 0
+        }
+    },
+    "9141": {
+        "id": 9141,
+        "name": "Steel bolts",
+        "short_name": "Steel bolts",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA3klEQVR4Xu2WsQ6CMBCGe2/iI/goTA5sEhYEFQUxRhEXEAeFRAejA4965mgiiZNb/6Ff0jTp9OXvXa9KWSzEvycGId7MIwaRIi4Pe544Ti80Ho1MShG/muabjsgYF2qriuMgQEhHID4fc458H0focip45nkIQsTvtuUiy3Dq517XnIQhQjqCrh+YdKTd8zTFSUfafeq6OELyOsNc1/N2RWl1gbgpS5R0hGGyQ8h03QNnsouMjIpkbfwx1DKydqu43w0LCfIbJN4uFyhCSmkBnRaE0ABMyw9AyVgslj/4ANaLrvD82qmoAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Steel_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 31
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 64,
+            "magic_damage": 0,
+            "prayer": 0
         }
     },
     "9140": {
@@ -1840,6 +2363,14 @@
         "short_name": "Iron bolts",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAzklEQVR4Xu2WsQrCMBCGc2/SR3AoFItgF4sWK7VYK9Q6VFx001dx76OenAdWOjmZf7gPQiBk+Lg/l8Q5wyAer3iEeJfnDCJF3FQVz6LoLTQJAp9SxNeu422WfWS8C52PDW9WS4TqCBrXOk1xhA5lyYskQRAivpxarPPT1jVeXDDVke76jmu8489oXPM4xhHaFwVWXCCtLuhlCFIdgbBave+fPA1DBCGVkbvncb/5FlIZGfKyy+xZSJDfICEJOacCWi0IoQGYlh+AkjEM4wde3JOhA6hGVvoAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Iron_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 26
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1854,11 +2385,7 @@
             "melee_strength": 0,
             "ranged_strength": 46,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 26
-            }
+            "prayer": 0
         }
     },
     "877": {
@@ -1867,6 +2394,14 @@
         "short_name": "Bronze bolts",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAxUlEQVR4Xu2Wqw7CQBBFdyQCUVG/AoGoqGhCICEoRA0Cw0fg4Ffw/dQht5O0YRRq54o9yWaTzYiTeWVTqlRE/Usgosf9VkmkRK99o13ezEJ9zpFSordDs2QHMuFC4/Ar5CMKQyjkS+YjCiL6OLdzQ9P0z/3U6qWjyA6w/qHJji+XjyiMlWvYUSxDQFguklEHtntIsgOEa9Sn6cPSzCaDcr1fz2ghk8HB7sEdLATwG7TPGIlQSiZg2aIQWqEZ+RUqmUql8gdfKcCVFOTzQuEAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1881,11 +2416,7 @@
             "melee_strength": 0,
             "ranged_strength": 10,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 1
-            }
+            "prayer": 0
         }
     },
     "9145": {
@@ -1894,6 +2425,14 @@
         "short_name": "Silver bolts",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA6UlEQVR4Xu2WwQqCQBCGd96kR+h9pFN0kC5hHoLyIJEJEYp5EEW8WNkpit7vj1FQ6tSpncN+sCwse/j4Z4ZdpQwGwveJRgirlQ8hUoQoymFZ01ZoPBrplCLU9R3rza6X0S6UZXVfLs0yDCGOC7iuJ0coTSs4zlqCEKFpXgjDk5z+KcvbR0N/3/gzhCQp5aRzvT4RBLGcdIqigW0v5AjxuIsp1/n8kDLqDCHPL1LSYQiet5eTTlWlmExmEoQ6GX4qls5ct1Anw2u7Pba7ZiGGf4ME3z9IEVKqE+jSEiE0IGbkB0TJGAyGH3gDUm21R2kMOREAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Silver_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 26
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1908,11 +2447,7 @@
             "melee_strength": 0,
             "ranged_strength": 36,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 26
-            }
+            "prayer": 0
         }
     },
     "9139": {
@@ -1921,6 +2456,14 @@
         "short_name": "Blurite bolts",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAA/ElEQVR4XmNgGAWjgPE/usgAAsb/hUX9/weJoxj/t7at+B8ekQ92kIGCwkA6ivH/nLn7/5eVT4U7ZsAdNHHS9v/FxRMGQ+iAAOP//ILD//PyugaPgwqLjv8PC585GBzE+L+378b/9Mxtgyf9VFZf+h+XsHwwhA4IMP4vKDw6eEKnq/va/7T0LYMndMorLv4PCOwZPA4CZfdBE13tHdeAVcXswRM6peXnB0vogADj/4TElYMndObPn/Lfw7N+MDgI4hhQVVFclD3QDoI4BoRT0zaB6QF2EAiAWoOM/5NS1g0WBzEwQBwACa1B4SAEGDRZHgEGlWNGwSgYBUQAAHUms1cB1b4aAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Blurite_bolts#Unpoisoned",
+        "slot": [
+            "ammo"
+        ],
+        "requirements": [
+            {
+                "ranged": 16
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1935,11 +2478,7 @@
             "melee_strength": 0,
             "ranged_strength": 28,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "ammo",
-            "requirements": {
-                "ranged": 16
-            }
+            "prayer": 0
         }
     }
 }

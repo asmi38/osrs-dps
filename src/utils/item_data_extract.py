@@ -5,6 +5,11 @@ import item_names as names
 def create_none(slot):
     none = {"id": 0,
             "name": "None",
+            "short_name": "None",
+            "icon": None,
+            "wiki_url": None,
+            "slot": slot,
+            "requirements": None,
             "stats": {
                 "attack_stab": 0,
                 "attack_slash": 0,
@@ -20,8 +25,6 @@ def create_none(slot):
                 "ranged_strength": 0,
                 "magic_damage": 0,
                 "prayer": 0,
-                "slot": slot,
-                "requirements": None
             }
             }
 
@@ -69,7 +72,24 @@ def item_list_creator(category, items_complete):
                 result["short_name"] = data[item]["name"]
                 result["icon"] = data[item]["icon"]
                 result["wiki_url"] = data[item]["wiki_url"]
-                result["stats"] = data[item]["equipment"]
+                result["slot"] = data[item]["equipment"]["slot"],
+                result["requirements"] = data[item]["equipment"]["requirements"],
+                result["stats"] = {
+                    "attack_stab": data[item]["equipment"]["attack_stab"],
+                    "attack_slash": data[item]["equipment"]["attack_slash"],
+                    "attack_crush": data[item]["equipment"]["attack_crush"],
+                    "attack_magic": data[item]["equipment"]["attack_magic"],
+                    "attack_ranged": data[item]["equipment"]["attack_ranged"],
+                    "defence_stab": data[item]["equipment"]["defence_stab"],
+                    "defence_slash": data[item]["equipment"]["defence_slash"],
+                    "defence_crush": data[item]["equipment"]["defence_crush"],
+                    "defence_magic": data[item]["equipment"]["defence_magic"],
+                    "defence_ranged": data[item]["equipment"]["defence_ranged"],
+                    "melee_strength": data[item]["equipment"]["melee_strength"],
+                    "ranged_strength": data[item]["equipment"]["ranged_strength"],
+                    "magic_damage": data[item]["equipment"]["magic_damage"],
+                    "prayer": data[item]["equipment"]["prayer"],
+                }
                 if data[item]["equipable_weapon"]:
                     result["attack_speed"] = data[item]["weapon"]["attack_speed"]
                     result["stances"] = data[item]["weapon"]["stances"]

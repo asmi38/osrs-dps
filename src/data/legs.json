@@ -2,6 +2,11 @@
     "0": {
         "id": 0,
         "name": "None",
+        "short_name": "None",
+        "icon": null,
+        "wiki_url": null,
+        "slot": "legs",
+        "requirements": null,
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -16,9 +21,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": null
+            "prayer": 0
         }
     },
     "24421": {
@@ -27,6 +30,15 @@
         "short_name": "Inquisitor's plateskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACUklEQVR4Xt3XUWvTUBQH8N0P4EMfBkEohBJKCCGEkhJSWiwLlj6UUcdoBe2YhU3mdE5EnA8KPvmxj/2f64k3IUxE76144ZBcBt2P/z33Jjk4+H+Govb7vQxFie+ThijKgt6P+70MRUHXo2fDjCEo3HudB/tAKbq9uqKX5+eMMOvRaERBz2lSij6+vaGby0taZANGrLOUlklM4zCkxWxGgyRhUMrLaX3cDxqmKafkCKTo690dgx5Pp3ScD2k+SBk0jSMugJBSkWUulk3Rty+ffwkSlLOUAHq13dJJkfOylbueMQtYR8um6NO7W/rw5jWN87yWkAk6mkzcgt5fX1cgaerT9CcIGKCcgXAGAfRit2TACEhQ+BuWzQloXpa0Wa9ptVzSZpeQgEwUQGhsBwekoouzDYOwXG0gSUh2m8WUFD8qUALCDjNB0kMA4RySs8g66OliXIFkl6FwL3UyyxlmFYT+AWZe6H+KNGSXNUHzSUpJ6FMcRbb6SNGqHNHz4wmDgEHPyFMeIFyRGmqchdT1DquELKSkQWdPpgzCw7QNhEYHKIt7NVDz1/7C0KDt6VErSAognE+B71Uva1ZBKLwd3gdCQsBIWe0hJAQQnuy/A7KQUh2Eppa+MUt2GfpHygnI3PZtIHwASFkH4dNHDsUmRk7ryH/I5xCu1kAXq7ICFf0+XwNPJ4D3aSQXdTUgCXw+i3D9J0BZ2OPTGlerICBQTQB2nTnHsmFexH1bIAz9ydyWCEBITeZmWXp06KF/WAMOOx0uScScC8Iqpj7qCTTnf4r4DpA7mZazXw4FAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Inquisitor's_plateskirt",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "strength": 70,
+                "defence": 30
+            }
+        ],
         "stats": {
             "attack_stab": -3,
             "attack_slash": -3,
@@ -41,12 +53,7 @@
             "melee_strength": 2,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 2,
-            "slot": "legs",
-            "requirements": {
-                "strength": 70,
-                "defence": 30
-            }
+            "prayer": 2
         }
     },
     "11834": {
@@ -55,6 +62,14 @@
         "short_name": "Bandos tassets",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC/klEQVR4Xu3WUWsaQRAH8NxHyEMhFAISipTggxQlKEpFUYxoiBI0WJVgjGI1RmtqTZM0TVObJk0wRRrah9KPOvW/sufe3tlq7upTFwY99G5/Nze7cwsL/4clQyFzYelQ6NHioqmwEDXCpMPhiZGNRmgrFKRkIEAxn5ciHg+F3G7yOZ3kcTjIvbpqJUqhQjw+MXKxdQbinwACl/D7VRxQjpUVK1AK1TNpqqRShiGC8L24kaBSclODAyrgesayZLfZzKIUatdq1KxWWTTKZTUuL17Q/dcuDW4PqX/VorsvbfrW79CPwRH1zrMstofoZCxG0VCInnu99NRuZxjnEIaQZ5tiKCpGBNVLJTYhAIDcfmqyAAzA9ydpymcytJVIUDwSoeDw8fnW1jQgeaYpxxgkZscI1Duv0XWvwb4fv0mp2QkPCx3ZAejJsI7mBvp4VmXx+aJOr19tarLDQbblZetBwMggZObDSZlOu7vss7kfp431qCY7HpfLOpCcHRGEuuGgbnuHjjtFqlWiuuwA9Hhpaf6g9kGO9oohNTuWg4wwHMSXPOrm7O0edVp5OqhlqJAL6LKD4HuQJSARI4JQ0DIot+3XgdzDNoKYKwiPrLWf1YFE1D8DYafmNQQQryGA+CMzytJcQVhhKGqAUNRzBV318qyXYR8CCJsi9iGAioWgBsRRJkGjxjoNCMueg1DYHCRnCSC+9OXZphhakAy7uSywzi6C+ErDPoQOL2cJIBMN1hjEUZNAKGwRJKJQR6ZA8i4tRv96h4Gw9AFCtwcIhV0pRQyzZDlo9OwVGvR36df3dyqIv34AhDpCLwMK/xWzBJDj4e/XIxBHjO9qMghLH6jGyxhD8fNk0AO7vkJHraZ6Ig8c390UDUGoI6AQQIk3IYaJnjbG8GNgED/vTzUg7EUIDsM7kTipeEMmQKMLjY9GIBS0CMJujdfW7mGSBd4YEcaTmgRph8IwCCx7bI5oIWi08mPRZ1d7ncm/zTz0E4sTyCGfzceffpt5yJP+bfJZx29wq77u+14/KQAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bandos_tassets",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 65
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -69,11 +84,7 @@
             "melee_strength": 2,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 1,
-            "slot": "legs",
-            "requirements": {
-                "defence": 65
-            }
+            "prayer": 1
         }
     },
     "8840": {
@@ -82,6 +93,20 @@
         "short_name": "Void knight robe",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB1UlEQVR4Xt3Y3UoCQRQH8J1H8CKQQBAJCQlZwpAkSZLEIHoAoSAwb4woAyHs40Iy+zDFMCwzDLwoCHrEE/+R2dZtFQxndmngXHiz8+PMmTkzatr/GIzsw5HByO/z0dX5Gc16vTz2drZpxuNxCsUonUxS6+aaVqJRWtJ12s9maT4Y5CDd71eJYrSZSnEQEKuxGC1HIrSbybgLdHJ06DzoIJejtXicgxqVCgehthTWEaOtjTQHoX7WEwkOQh09VKtDIEVZGg3Cb1eBHu9uaSEUorlAwB2g9n3NXaDnep0Ww2F3gLDLOo0GByne+qNB3WbTXaC3VsuJw5EZCBSxOKXRy5Cdi2KR15Ciw/EHg0DNoJjNIHR/hWcRMwCIWrlsQBDY8qVCwcgQriQSszTAmEFYMivIvGQCJClLv0HAWEFYLqUggRkHMqOkguwwCIFQDsKEdmFGCIhYMkmFzYwlsQsBMmfGCppyliYDWVGOguyyJA00CmUHkrz1Gd9NX/0+vb90eBM1g3BTFPdpEZenJX5IotlKeDwOMvTZ61H/qT0EwuQAiReHCPQ0gI7zeQM0xSwNQB+v3SGQmBzXEDsQ+hrebRJAGNY/FCYLYKYM0jTx0b+G9XvjxjcJu6XMzEezNgAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Void_knight_robe#Normal",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -96,17 +121,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "attack": 42,
-                "strength": 42,
-                "hitpoints": 42,
-                "ranged": 42,
-                "magic": 42,
-                "defence": 42,
-                "prayer": 22
-            }
+            "prayer": 0
         }
     },
     "13073": {
@@ -115,6 +130,20 @@
         "short_name": "Elite void robe",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACgklEQVR4Xu2Y0UsUURTG9/4JPgSLsLBILCIhQyiSJElLMi2u6OK2stMGIgmyui2oSEKIbQoRSyEKUcSaaC8FS09FiNBDPShC0YMv/S9ffWe54ziVVDZ3CjrwMWf34c6P75x772EikX8/FI6X0VCIxWOIxL6vaHPUNJTCzK0ZlG+WUZorYXJ2CvaAjdRQCunhNBKtCQGy4nFTUArVh1UsP1jGypMVFKeLyBVyyIxkkLSTsDotk0AKL7e28LxWw7PHjxD/WqJKtYLx0jhOt7RgJJPBqaYmkYGyKdQ3N1Hf2BC9WF9HayKBpftL4hLz6WIRA5dtNEejooChFD4fHODD7i7ebW/jTb2Os+3tONPWhqyTlfze7UXMTk2ikMvhfFdX0KU7BHq/s4NzHR1SLr6YQJ2WhdrqqkDN3ShhOJ02A/Rxbw+f9vcFiOUiEJuaT+rp2hqqlYoLEyAQQwnIpd5e2WUUIehOfjQPZ8yRXtJNHTAMQ8FOJl2ghbsL3wBxt4UKdLGn5wgQj4JQgAijgVhGNvZ/ID8Qcy8QFQoQpYEIRyBufR6SoQDxeiAQYeiQPosMAx2609/X5/bPhe5uEV3i9WHwHGoAjV11BEi7Q1dCBRrN512goVRKgPjUByR/65s+cKDr1woCRDBenuwlAjAnpAaiS0aAWC6OFhzEvEBXBgclp2t6JAl4SFNuA7M07Be6oV+u+0e7Y2CnqSMwGojDWAhASkB+BogwFG/8ABu7AaT1IyDtzl8J5C+bf8UTRqN/uLucbNYForxA5YkJybX4X0DbX8nZ4wfiMH9nfh5vX78S5zjYex1iT3mnR/+qJwz/x4RfEx36wy5FInrR35V/vePiC1KO0m7cq5GBAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Elite_void_robe#Normal",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "attack": 42,
+                "strength": 42,
+                "hitpoints": 42,
+                "ranged": 42,
+                "magic": 42,
+                "defence": 42,
+                "prayer": 22
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -129,17 +158,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 3,
-            "slot": "legs",
-            "requirements": {
-                "attack": 42,
-                "strength": 42,
-                "hitpoints": 42,
-                "ranged": 42,
-                "magic": 42,
-                "defence": 42,
-                "prayer": 22
-            }
+            "prayer": 3
         }
     },
     "4759": {
@@ -148,6 +167,14 @@
         "short_name": "Verac's plateskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABPElEQVR4Xu3X0QqCMBQGYPcAXXQhSCBIRISESBghGAndeGPv/zaLMzk6z9Sc26LAA/+NMv04m049by1rxbhenBbjSRKJxPFO5HAI2oShLxIEmzaOUYxn2V4LBWPSKHKFYrwoTiL57SgCwCmkQ1CH+WsQTJ+DddTH6IAcdUkfJMMsd4nxsowXgzAWu6R2RwbNRVl6Jw135xNoCGZpLQ13Zy6Iogy7xHhd3xUIxcigMRTCDLu0DDQFA5Tvb5d2qVs/5ePSS1GkSvL83OaaxUpgnMH+1qwdBOEaoIgxkBw4hx1yAOqmjE7HnPwcCD9LVtBYjECAkUFwwRXUFOPPZ9ID4QVNQfCmlp80eueRYryq0q+AZnapAb1e18mdnh6jkSF4DD/WfgIE+9tCEBT9+7QfwGiAPA8HuAy951o69QZLeISPO+JFiQAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Verac's_plateskirt#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -162,11 +189,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 4,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70
-            }
+            "prayer": 4
         }
     },
     "4722": {
@@ -175,6 +198,14 @@
         "short_name": "Dharok's platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB/klEQVR4Xt3Y30eDYRQH8N7LLrroIuZlzCSzi1fmzYwiJpLa1epiFY110+9uokRXkZLEpItM0k2Mukgi6WKl9OMiJZX+l287z5zt3bOVpJ1Nh8frPbb3+TjnPLOtru5/hIGvl3gYsG0vLMsDv99Ec7MLbncTXK4GtYRRBkLBFrUYpKPoNa0ejxTKQHu7T1XIiWIQraqACMNXHSXYNgPhsIXOTr+CUJW+QglVqQDittH1O5T+hD+OYhBXKdEfygMZJDTcpSCqCuUYRyDB01YKIgCDuGVVA1FFqD3d3a15kH7SREEMYJBzfoROWvGx5/b09gSK7qsC4gGmzasKovYc7SWwtdaPuckwon0WIpE27G8PY3mhB8MDbQpDrRMBPWUWkVyJIp2KI2CZCnR+OK5y8zNdCAbciMeCcqDX23W83Kzi+nQWqc0YBqM2Xu828Hy5hLP0GBJDIQWiqwwou/nHY0pVigC0OecIdXE0oVrHmIqD3h+SqkJXJzM42BnB1GgH3u43VS5zPI3d5KAUhiL75SxkZj9/muDzNcLrbYBp1udzfC/QKo6fgRilv7sCkQPZtqssiHIMEkKVgvSqOTECc1QAcYt0pA7Sn/DHUXMgCvpNlgMRIDcnuZxzrmoC5KyawPxw/Bykv7NCUXMgisIfC4XWlMsJBm/q3Lhc7jfxCXhXOzvM9JnOAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Dharok's_platelegs#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -189,11 +220,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70
-            }
+            "prayer": 0
         }
     },
     "4730": {
@@ -202,6 +229,14 @@
         "short_name": "Guthan's chainskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABZElEQVR4Xu2WQWsCMRCFd39ADx6k24KwrVJWQRG0FMseevLgqT23t/Yf9P8TmYSns5OxKDhjDz54JBk0+XiT1S2Kk1SG5fIxzGZ19GRyH0ajKnow6EfTZ+S3jJRgjgGa17UHlA4EKGegPcwhIG6HtuVA31+ffwIZp9S9zDIhCVVVN5YplWGxeIgAH+9vu5EMGMx53TClBDSd1qFpenHk8/H4Ls5pxHw4vLUHAoA2cig3IKQkjWS43YDofhAE7gqZAPgImwNRK06xOdChtvFWYe3Wss3mNY7r9SrO23YeAWhNMLzuAsRTwlOGJ4snRgkhJbnbmUQbdw0IDiM/QwkZpVQUaeMcTDNAzGCSyvD783yUE5ip8nchWKsjJbnLGZW/fuBgrebSrtXLk3q4VjOGgfTDtZobEFLih2s1N6C2bTqJSCCn+8OVA8i1Iwxpn9I/ASJ1f5Hl+gJA6W+EHy7XV111SW0BbwgJLagKDz8AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Guthan's_chainskirt#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -216,11 +251,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70
-            }
+            "prayer": 0
         }
     },
     "4751": {
@@ -229,6 +260,14 @@
         "short_name": "Torag's platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABv0lEQVR4Xt3XTUsCURQG4Lk/oEWLgQgEceEiXAyRC8NIkoQkwUIsRITMaiOFuOsDf/qJ9wyvOtexVXNGPDDMzIWZ+3DO/ZgJgv0IJ+lHLuGkenYiUVSWSqUkpdKxFAqhhOFhHign9XoktVpFUQCVy0VFERQVi5YoJ43LUwXhYJaAQpZyBfHsl86wbE7a7XNpNqtaNpSM5QOKpTPMUgxqtWrL7BC3jjLMkpNO5yIBQpbWS2c8ljZBQKSBjJaATRAGcxqIGco4S0kQ1yGMo20g/w3/HCsQBjLXH4L8qW8KAoDTnPcEGa7YMQgZQbnQOUHMGNvMQFiHRqNbPWPMoDwADYc32gYoMmcG+nh/kMmkK4PH1jJbuO71ruSu29A2QM1A8/lQZrPBEoXy4Hr81ElkyQz09TmWxeJFYW+v93IUHihwOu0rEOUzWoMQTjE/388K6PevdUYBiVL6IP/pDMJppygLZxVAgK23mYL8ztNARvsYIgZhJqFzziYfZDqGCOJe9hfIfzqDSIKwXeQMQsTbx06BsCLz09UHGY4fRgziN9E2kP9UhhGD+PexAyDE6l8+7jx5nwMoCNgxO/fv9yp+Ac/eBA9GExnlAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Torag's_platelegs#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -243,11 +282,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70
-            }
+            "prayer": 0
         }
     },
     "21304": {
@@ -256,6 +291,14 @@
         "short_name": "Obsidian platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABu0lEQVR4Xu2XsWoCQRCG3dLCwkKQA0FEJMghIoqcKBEPDxUNRkRDIF2avEOKdClS5TnykJP9R2a9O2ydFZKB4XZAuY//n5nlCoX/uEoYupxewlBQrbqslMsuPUAZCtttqtdqF4E8QBmK+n2GajYaGaUk8Ztuva4BZWi/2dBsMqH70YjGwyHD9TodBwjlFFUytE6SDBBSgO5aLYYSIAWVTkCLOOYnoJAClLZRFWg+nbJKeAIOtg26XQcF29SAHpYLZxkSUHn7oJIa0KMFmPZ7nPFgwLmxgEkU8TkKQ2oEgR7Q8yJhgNV45EAAKWeAqgL9NCsMtY9nDAKww3zuzoB6rRT1gNA/X7UyfQYlere5LhXp29Yf9vxmQVCrjr00tSxE7B7UMmXphlYBetrteFtjugCDnYMa448pA5SSOhJ20lYrBoAqAHo5Hnk/QTXFHSRxAoJNUAQWiWKwULF/JAwdtlvuJQEAIKyESl4sk+sDPSSKiWVeFLoEJHfazQEp3vQSZyDpl5sFkjWgDoQJywOhBpC3PSR7J197AUovwjRQ/i7L//OKcf5SPb04+/WqdLFmQ14qL07X6jB/Ln4BJ3LKY6cfaC4AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Obsidian_platelegs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -270,11 +313,7 @@
             "melee_strength": 1,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 60
-            }
+            "prayer": 0
         }
     },
     "9676": {
@@ -283,6 +322,15 @@
         "short_name": "Proselyte cuisse",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACoElEQVR4Xt2XzU8TURTF5y1ddNFFEzYmrBoXLlyYdONKEgKkGCBWDIgBRAzyYa2ISMGKtciH0AYpIhVFLFq02tQ0xWIi0a1/1DHnTl6Fidu+SbjJJPNeMnm/nHvevXcs62SEwv8fV0LBb1nynHY8LkEpvF1bw4v5eSSmo7g/OoKb13twubVVgM7V15uEUshvbyP3OoPNZBLL8ThiExMIDw2hp7MTPq/XtEoKhZ0d7L3ZQvbVBtKLC3j2aAYP74Zxu78fVzs6TKqksJ/Po7i7Kyp9yGziXTotqSNUNBLB2OCgWaDK1y+i0PuX68ikUlh/viTvGyvL4iemTqvk/LoGoSRNBEnNzQkAVSEMFaK5+7q6qgoZUMkGopk10L3hYfHR06kpeaexjaZMAyUTCcxOTmJkYEA8xHf6x7ipjwI9uDOGG9e6RSFefcJdaWszC0QDE2jhcUyueXcoJMaeGR/Hrd5e08XRBqKJqQj90t7SUl2zWl9qbjIPREPTwDy8qaFBFKOHCBRsbDQJxFBY6fNitNmDi2ctXAgEpAxwLxz0IHj+lEkghcN4Hb7lPkpz1T5iodxaXcXSk1kxenvAhnJ+XYNQ+LNYJ1ClqA+5iA9n/H7ZO4jZ6+mQp6qQMZXYx3jtWXfomd+VijRbdn5efaMp+/V9X1JEY7Nv0diH5bIAMWXGgX6WSgLE6sybxmvPPc5HrgAdFAooZLMCRAOzEP4oFo8BEdKYqfU8xHbBoUxDEoi37qhCBlRSKO3lBIjtgqOHhuSw5gRyfl2DUJIu1iHdLrhX/vxJgDgTGQZi2CrpdsE1ATkFuArEdsGhjGumUAMZ9I8OO0VsHRpAz9icIA2rw7BNzL8NmphrVm4XgRj//uXtw4+vXQCyLH2wPty5PlHxF5GNn9TC+qfoAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Proselyte_cuisse",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 30,
+                "prayer": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -297,12 +345,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 6,
-            "slot": "legs",
-            "requirements": {
-                "defence": 30,
-                "prayer": 20
-            }
+            "prayer": 6
         }
     },
     "22328": {
@@ -311,6 +354,14 @@
         "short_name": "Justiciar legguards",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADF0lEQVR4Xu2W3UuaYRjGe/6AHXQQSBBESISEiCiRFIqxKKkwMZPM0SqTPuZc1qyJtNZstdbXKtdyFqsGbWzERicd7YNt5zvc2P9yzft+eZ1JO/PRg3XDjS/vqz4/r+t+rseysqu6qqKUwMUuWSkAuqpKmLQ10NbUoLqqqlRQCkhjbS3qdToY9XrEJqO42edHpUZTbLUEbPU6BqFuaHBxWywetLYGMT1xBxPDo7CatcWAEllVCECFUYGamrzcTuc0vC4PAxmqq2VBCTTV1aHNaED66S7M5i4GUV8JyG4fRMv1ANrax9HtmoG92SZTJcEw71+9xUnqELurW9DrW2A0dbAqzdZ+2Gw3slAORwgudwxGXaVcKAI6PTzBt5Mwzp6PINxvuhSI5qmnJw6P0w1NxTVZUAKnx2/w8+Mmvhz0YWtpjXcXWZYLpQKRdZ1dEXh678vaeQrQ96N+HCXT2Fvfwcr8IltHM3SZStRkH82U17sgB+r8mQcH23tIbSSxurCE8xejuOU1XlApH4zUajSZuAsMJfAp7eWdRv3rcxI7y+uIT83yrlKhVDCzwcDBWZeJC0pyAvI5dIWHov79NcXWvdxJYWPxCeZn4qyWurgKs5/o42cUmsGB4cwxo4RmQTNK+TLB1hEQxcCPD1GGoOAkqHqthq/pHgE9vDeHaCiCbkdX4YH+lgJFvTJpg9ViYVUIwN/rYzUIimYtEZvHo/gC70yJoSl4lt6tOeHu7MwOLs3UbHgaHa3trNbY4BjWE48ZaHkugYB/UK5KiVvNvADZQ01qzN2NITJ+m9UIDgQzh+4EzxpFBSnm6/HKU+ls253960GW0YKqGkO+gUwPsUrh0TAHKj2nmZKq0v6Ddl6AZoaigCwiIFqY1Aj4A6xSZHySn5Naa1N2WSpRqb9WsC2U5LQoLU720X2CCo2EMhEwheTKJpbCVpkqqXFAJRiGdh9ZRNe0uxQ1BNsXDUVRUV4uF+hiCVbhePeAVTpKdGQVyW2CKRIQleAz73X6mNXIVSS38z8luZTwzAfKf1eRq2QW/btKaNF/Un8ApT+Nd0GKvzIAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Justiciar_legguards",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 75
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -325,11 +376,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 4,
-            "slot": "legs",
-            "requirements": {
-                "defence": 75
-            }
+            "prayer": 4
         }
     },
     "10346": {
@@ -338,6 +385,14 @@
         "short_name": "3rd age platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACO0lEQVR4Xt2XWUuCURCG+35Al0E3QT/Bmy676SIqKkgKog2yBdo3K9tX20upbNHKMi1LSwxpBSGC/tbUO/F91qe3zoEGDjrC4TzMvO+cY07O/wiNMi8loVFufn7GpQhKo7yCAl6ZgCyFhdJQKSAzlAIgjTwb6+ReWUkDaqyro+ryMum2aXTl85LP7abNxQUDqLe9nQa7uhhKsEp/W3WwtcmVwlqdnUlrnXl3FkKjWCDAFfLv79PRzjbDeF0urtbU8DB122xGhQSqpFE8FKKI30+XhwfcNlQGIC6nk+bGxqi/s1O2ZYmbMFcpfOLjqgBib22NRnp6aHlykj9FgZ6iUa5S8PiIgcYH+tl1+I52IRcEQnzrKBhk7egtgpbQNqzWhgZ5IOgGQLB5R0szixpwbU2NbH9xINjdOT3FAPVWK53u7tKCw8F5bVWVPBBaNDE0yIdjMmMEABDV+m17884shcaHwlHQTElxMV14PNwy/F5kscgD6XaHhtAm2B66QtWUaAg2X5+foxm7na+J7aUlbhkgK0tL5YEwhwCFIQgNfSaTPCzhPOFJjUgBjfb1Uk1FBX28vRpAELY40EP4mq0PzQDo/fnJABJ+fiB+7jNYHxqC9ZOJhAGkZA7pQBiGyN/icQNIhxEFeozc8nUBZyF/ub9LAzLvymL83Pi4LmB9HTB6fq4WCNMZ80cXOR5tyoDQIryHdAA8R27OTtUBvcZi/GLELEKOhVwRECL1Xz7lKHMuHPrBvw835/8mvgBmClfsgUSasQAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_platelegs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 65
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -352,11 +407,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 65
-            }
+            "prayer": 0
         }
     },
     "4087": {
@@ -365,6 +416,14 @@
         "short_name": "Dragon platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABnUlEQVR4Xt2XIU8EQQyFp3LFiBWXXC7ZZBWSYHAoFAKDwWAQGAQJAoFAIEgQJCQIfm+Zt3MPupPVb8k1aS5TM1/63rR7KR1GmC/nKmF+1iU/LXlc8iglH/a5EpT50zb7wyb73abzm77zq5IXuZuATsZRCWX+ssv+XIAet/8ECDDoEIDuC9BtgbkueVmAzrNUtioVYZaAxF2yXxD4h9nKJuySTQDsCADQFUiITqEGILw+UZdqh9gRegYSAog1jAQZ0OuueigC4NWxxu7JgOLlEYgGp5ekQK1sSzUZEI0M73B9xNfFdSIDettP6fja4CvW2CUZ0Hu5PEoEoFYywgiAEDZbE5AtnoUziFF9BM+0HsJZ6B+GTd3gawIAfuEngOHbSA4UZxAA4B8C8SNNBFS3/RIQDS7f9i0QfNPWpNs+ziBK1NaExq7LNUqEWjuXhD6qkzpKRMi2JhqM5l9DP3WEEhEyyibqDsL8e+xnsqEW1wkNLQJCVAB+tuL8MVRIyCaUi2H+GWQjEGUTd4fx91++Xj4/rwCUEi/m5e35oOIH6mfOCHEg5x0AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_platelegs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -379,11 +438,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 60
-            }
+            "prayer": 0
         }
     },
     "1079": {
@@ -392,6 +447,14 @@
         "short_name": "Rune platelegs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB0ElEQVR4Xt3XXUsCQRQG4J0f0EUXggjCIrKIiIgooqwoSmGiomImmdGXCElRhOBNV9HvfusdOX6s3jq7eGBgZ2DYx3Nm56BlnUYoHB6+hIJjWXpEPcMnlEJt9AS3O0Kh2Uem2kAi7yKWzmlQxrZNohQaD3NcTmaoDu9Rag+Rb3SQLtfhZIs4C4VNZ2kDqo+nKPfvdJay9RaSpapGGcySQnv2hebz+w5KSkcUM2UcRAwhLBkzJM9ESekMle3/l1/dIFXrIllpwSnWEc9X9DzhNhDLuogksusMGcjSPogIzuU5HE+ZLZkXFE0VggOSEgmION9APDMC2AaFbMcfEA8zMYEASbn4cg4fQQyl7xz2r4iTxHnE1iDeR1yzk2mTIIXrz2+0ph+6ubKPsV3wopQ5b2tpst7dRwiF2+WvRnVfF7qFsJmOFj/ovS31nI1WMmQsS7nWeOccuaO5XpMvz2jJSsPZHkjWfAEVBy/IdybBBPEuIohr2yD59L27jxAKhd6jBsnlKMhDGTKQpcMgrh0CeXcfIZTGCIi3s4B4g/sAYqwA6YvBGkRgYEEGz4/EBiQAnh8vyLvriLF7ZgIAYmz+y69evjv3AWRZ8mJ5uXd+UvEHkqH5an8VrsUAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rune_platelegs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -406,11 +469,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 40
-            }
+            "prayer": 0
         }
     },
     "11830": {
@@ -419,6 +478,15 @@
         "short_name": "Armadyl chainskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACqUlEQVR4Xt2XYUvTURTGdz/CXggjGIwRIiIioozESBBliAsVN2NrYEsN08YwM52NGDq1xtgit1aDttbEoHLku6Lv9sRz1l2zGfTmf0cduG/uXtwfz3nOc/6z2f7tUvjzMV4KhbQfb18EcZiYRnT5OuZ9/fAMOtHX4+gElMJZJYJaMYzs/ix2YhMIB4Yx6nHD5bQL0IDLZR7q+LiM15kAUvEphMPL8PnmYbd3dQJIoVqto1T6gGr+tqi0uhpDMHgHU1OznQE6PT3HycmXpkobG7uIRO7D7w9hcnLapI8Uzs+/o17/hs9nX0WldLogyoyNTcDjGUV//yC6u3tMQSmsP3gkJxp9LKosLIRFlZGRGxgYGEZvb58cQ61rtIseKpc/NhVaWYmKsdkyqqXbZjFQA6ZW+wVTePUe2ewb8ZCGomKcOGNAlcongSkWa2JqAiUSh4jFdmTa2EaCGQHiZFEdDZPLlaRlR0cvsfskJVD0l44Bi42tpF1UJ59/hy67/dKztfVUWri29tBqlVTb439zLFdJn98fbodoHCpkoUoshZmZALzem3A4rjT3Fz3DYGQGOZ0EMATD8Q6F7goUw9DtviqPMyj5G0eeAWmxf3QpbG4mxLAcbw2l7zldhB0f95oDSibT2N5OyuOLi/eaIcg7jjzv5uZuYWjo2k8fWV5KglC3SIcgc0jvt1aFjKjEHGKLqAiNzbtnz/OSPwQkmKGWsZSsi729zIXWMK2pHD2kIY0BZTJF8RLbo78SDw5y0ja2kd9GRoG4v7i36BUqwrtUKoulpXXJJ0PLVZeSTwzuLKqjgzEe328CGW8ZtzzbQw/pYGwF0nfGgOghGpjrgt/QrUDMJX1nDIgTpcOR+6sVqHXyDAGxLv6fbzzcfmcQyGbTD7Y+fNndf1M/AGB/gqvNr8xNAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Armadyl_chainskirt",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70,
+                "ranged": 70
+            }
+        ],
         "stats": {
             "attack_stab": -6,
             "attack_slash": -6,
@@ -433,12 +501,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 1,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70,
-                "ranged": 70
-            }
+            "prayer": 1
         }
     },
     "23979": {
@@ -447,6 +510,14 @@
         "short_name": "Crystal legs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACOUlEQVR4Xu2X72tSYRTHd/+L6NWIEWMvhkghE0XxcsU0S8Vf68656ZbTDeemLk2dmbVcazlkbThyBWO1Igt63f/2becMF0hve54X+YUDz4F7uR/O+T7Pc+7Y2Ej/hxT8PaRIQfHlIda332Cl2ER8tYRIIouHs0lZUAp2jj6heXiORucM2eprBrKoHgYyjI+LhFJwdPYD9fYHFJsdRGIxJDIZbL89RTCelgN08fMXVyYQjSKk63i0sIjd7gW3TwpQOpfDQioFPZFkKAqC8gaDcoDWCkU8zma5XRQE5guHr+EEG1tBdusJV4k+7vb7uVou7wMOygVXScFmpcJVoRbZNY2rRV6itepyiQfaqtex8azNAFaHA6ubeeSfH8BksXAuHKjUaGDv5Cusmhdmmw25Uhmt48/QvGGGEg5UqNV426ueAAMQEOU+fRnTBqN4oHbvG8q7XXhCccytFNjgdDDqqfw1jFCgg9M+fMklmO+5+crofOwjmM5Au9z6gqszkAJzKIwpmx0zTieS1Rrnk+L9M5ACSyQKg9OFW8Y7cCwmYI/NywWy6nOYVlXcnJyCmlzm/LZpBjcmJhhq+I1/rCtj0zxkd/l5TePI7FJOhqlJCu+ytactzKeLKLWOkSm94rW0llX2TngwIy9V93vYqO+zsaUB0blDECZ/AK3edx7WjO778oBoYiRT37284UOVGreQcmlArfd9Bnjx7hyBcgU73S9sbElApOHfn6uQsMP+aPDx4Rh+bqSRROs3zGCr6qPK+WkAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Crystal_legs#Active",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -461,11 +532,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 2,
-            "slot": "legs",
-            "requirements": {
-                "defence": 70
-            }
+            "prayer": 2
         }
     },
     "4738": {
@@ -474,6 +541,15 @@
         "short_name": "Karil's leatherskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABOklEQVR4Xu3XvQqDMBQFYDN2cHAoiCCIk3SQDo6+VF+kfeSUVK4mx0vMr6XQC2epGD9O/KFF8Z9kI6R7so+QbVs45wSUP+jedTlRQg5DtabvSyNNczGSGWRivgwSchyv3iBC4WoJZt8Oh0JMppb27byej08QRCg6nqklHsQ1pIMytbTHYBBk2zpcPWCOQa6oqop+UQo5z0MwiINFbt0CwotzQQSGQHVdxrSUDkQoAgW2tL9/pqlfM47dGvVU3W4NGx1EmGQgW7ARbCfyHlowOkh/GXJBBCXRS5IHIcIVlOBJSwNSgGygo3AYLl8BISIStGFcQWpbXBsiFF7VMueAPFryB6mcClKfEApCjkD6uVlB+m9cbCBC4ZUtY/4DxTZ8QCZgi/c3jU5YTjIXC4m+njeGG1wsJLjmT80bcrJAHaRz/LcAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Karil's_leatherskirt#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 70,
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -488,12 +564,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 70,
-                "defence": 70
-            }
+            "prayer": 0
         }
     },
     "10388": {
@@ -502,6 +573,15 @@
         "short_name": "Saradomin chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABu0lEQVR4Xu3Wv0vDQBQH8N6YIUOGQAkEjuMoIZRQSqUUWhQLpYJKKdUKbaVDFUSkoJOLgyI4OPlnCP6Nz7x3+WXQRcilQ75w8C4Q+uHda6+1WpVCwuD3VUoYBFcv4K8eoXG+BXmyAT6cg2E4ZaAYtO/eU9D0Fvh4Cc5gApbfJVCLc50oBpbdBVfugyN6YDsBWHUPTEskHdIOEs1j4P4YXD5LUFgjrD7Y6Dw2BjKYgG33CUAr6hTWhinB7kx1dkmBpNyA2xhSlxBnWS3a4zJMrcfGoNGeJSCcJS6WCQg7pB0U9K+pSwko7FIWVDMs/SAaauxMBiQXH8BPn8A5uNEPwrmJj4pAIcy7uAdx9gbu+EEvyOvMFSiEIAqfIUjItTqyCKMN5O8tFIjPacUgxGVB+TcLDNs9UL1+qI4sXAko2ksh6Fn+rQKjQDjQpuknIKxLmCFMBIoQf4HybxWcdG52YIYwjAAxKK4rkEp4wXpb+kbhFYKIbF0KqNlbE4IGOfyXGN9nJYEwLAHFdQX6mfS3B+v4h7ICpcmBnBHtSwX5l18gjl4JQPvVJ/DRc1kgjIKkF2l+X0LyH57f/zff/vuNmq0utJoAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 70,
+                "defence": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -516,12 +596,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 1,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 70,
-                "defence": 40
-            }
+            "prayer": 1
         }
     },
     "10332": {
@@ -530,6 +605,15 @@
         "short_name": "3rd age range legs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC+0lEQVR4Xu3X70taYRQH8J4/oRfBCALxhURISCTDoSwMxUTDpDSu3jB/JMqd/VjZD+dcK1fNDaVa24q2FxtjQS8H+/O+8xy7em17N+/1xXbgQZ8X3ufDOfeecx0Y+B+6hMCfV19CYH9nB7vrayisrCCzJGMxHMbsjK8fKIGTFxWUNjYYtJbLtUGRUIhBNpPJKJTA9ekpftx8x7erS1y8qaH6rMTZKm9uMtLrchiZJYFwNo5QWsLP21vcfLrG0fMyai/3+fOR380g88iwUSjBmGAy2l5eKQRX0MPL4X3MIKvFbFTpBCMCSwu8CENZ0YImphywW8eMAxFkJh6GJxLE1JwPVscEYwhmn3bC5rTDOWkzDkQI9XDKhqlZHi1mzD4Oi82QDAm45/1dpSHA24OD30CENASkhVCp6HDqSdQKVIzZasGweQSDQ4N6PmmCM5DJyJDlKCKREGZnffD5pnG4t4fP5+ddmKGRB22QTlkS2NpUsLvb7MxrOeTzSSwnJCwuhrkhfnl/wdhYbAFzc354PFNwOh9iSJ8sCRwe7PEqlTYYpihpZLMJpFIxbK8W8PXjB94TkrIX8HvhdrswOmrpdZYEqtUSarV9/qxUim0UZYpg+WQSl/U6fyegmiUqp8Mx2XtQvV5Fo/GKUUdHZc6UCtveLjDo3esTnmlbTxSk4rG7MnVWD0EUnQufnR4zkHD0dNG0JxDNMRqwNPnlaFSDELDede37V/2roIurB9C6ajR4oKogGhW2MQvPMIvZxKuDaOF6nCVtNMtYrbYzsixJeJqOIx+bR3IhiIjfg+C0q6tUOmIoWqBKscigifFxFFdkKHKEQVLQ28boDFFD8LggEL2+0p5Aq4ko0tFQF+j+L3WKVoaoIaqgnVyCQdlmo6SSGQ46Oz5mkJJO8+GlZudeT0oMmve5jQfRuzS9P2tBdGNTyQy+fygEd2a6h+iRp31ZSTGIbmqDs0PR+udBU14FVQoZLtlSONAPEMX9sdC97wOo0721za9vmH8ufgHLMnjdGtJ8HwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_range_legs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 65,
+                "defence": 45
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -544,12 +628,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 65,
-                "defence": 45
-            }
+            "prayer": 0
         }
     },
     "2497": {
@@ -558,6 +637,14 @@
         "short_name": "Black d'hide chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABAUlEQVR4Xu3XQQ6CMBAF0PYALliQsCFhxcoQYnDh/Q9WHXBk+kVkIb8lcZKfUgP2ZWo1Onfs8mE91Hos2Lng2mfqhXBRPpRFsRq5p28aBuo7JkuQovDpHWoCXbouWlzmtXNTCje+JiMBNYMk174fgyC9JmydfwEEZkEyamd0ywSTDKTbhyB8hx/XDNKOJAfZzihCUpWnKFSQovT63FahqWMUFYTdyQJkUfaEJfsM2Q7hkdcvxWSgpZBAUtt+z0igbRg6CLcM50lAFnEbhvQgu3j2IMVkB8Knd6gYpBAZLYoIkvJvHcE5HWQXX8ofhAAMGSSF/+XjkI58XLrop+D9h6872bHAAC98v7cAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Black_d'hide_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -572,11 +659,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 70
-            }
+            "prayer": 0
         }
     },
     "2495": {
@@ -585,6 +668,14 @@
         "short_name": "Red d'hide chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABf0lEQVR4XtXXP2vDMBCHYWn04EFDIBQMpoMpwZhQyJapU4cuXdohS6HQ7/8NFL9yTpbVP1Nzcg5+2IakeTifJGrMbZf1f0e1xh8cjDfdJc0P0UVZ/1JX/nnMsTL+MGYY0xnjm0v4zL5tNVDWv7nKv7oJ9FSbgFoFKO2SgHJU/u0r1AR63z1EFF3iWSCNm68KqAl06nchH0Mfwv03kM6rsxFAd1IQ1xQkmGKgOEMZKP8L/1wziCvzUxyUdgYQYS/abupF1ECsLukMS56l33db3zauHEgwdIaOrQJEAMkzm2OYH+0ZYh8SDAh5jqBkU1QFAZAjQ3Ab52KUQJQNg5x2SM4zwai/MgZZEDwDzA9YVZDsQSDSoSZ3VVUGlK6yz/085EVAAGSHzkG8MlCrAAEBJJjVgfJvX6GsPyVDDYRnruS+rkMUQZRddIiOfD0O4R6Mcoeo+cSXQZaNEpDiCpOa5igFsVHKfREQc5MfHwVBVP6//DJKS35Z8qO/Jf/8zdcZVnXP5aHo5b0AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Red_d'hide_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 60
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -599,11 +690,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 60
-            }
+            "prayer": 0
         }
     },
     "2493": {
@@ -612,6 +699,14 @@
         "short_name": "Blue d'hide chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABw0lEQVR4XtWXQUvDQBCFd4895JBDIBQCIUgoRUKRlmKJKHjxUEsJpXgQDyII4v+/jr5NX5os1pPO0oFhdyHpfsy8mUmNOW+z8rur2veFlRFTHjz7wXWhrCwWG5nNHmQ6vZOyvJY8ryRNLyRJMomi1AHN8lwDykpdP8ly2cjVfC1VdS+TSe2AxuNpOKDVaj+IUlHMHRCjNBpFWmlrgdbrl0GUcM6MaT02LkpYFaBaoMfNq/OmeXeOfR+Ie4XU2Q4AKesDYUXKGCHCqABtt28uXQTCmRrygfxf+GM7AmGFfoID9VOFCgMUqixNooGrAaG6GBn0IOwvy1TyLA4HRBh0aWgpKBCaIlOGVDGF0JAreW0NEYgzjGcCoVOzKaoAoTEyOqws7pM47lwJCGadbhAhQACQA5YwqikDAHRDCKQMQzbQxD9qCD0IEKw6AsVxEgaIOgLQbvfR6SgIEAD4HeQDIWWACgq0338egAoHRBg1IACcAkIbUIoOzMrN7XMnaoDgjBUOILgiEMy6yzFU2YtwbvfqEYIdJz6B0IcI1NeQ/+Y/Wdsc+0BolJxtQYCgG398BASC+f/lh65U8kPjpafcf/7s7QtdNwdbHGPAMAAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Blue_d'hide_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 50
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -626,11 +721,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 50
-            }
+            "prayer": 0
         }
     },
     "1099": {
@@ -639,6 +730,14 @@
         "short_name": "Green d'hide chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaklEQVR4XtWXqw4CMRBFW1mBWEGC2WQVihAMDoVCYDAYDALD/39A2dvOtNPyUDBdJrkpTWB7cjuPxZj/Dus/SzXGA9fGmyWpfyFdKOvd0Xl3cN7sRm1NBhRAm2HQgBphzjPvTgS0J6hJAEmXXl2hzrUR0CVDwSXse2OiuggU1t9DEdCVdCNdSyD+rHB1NgGEKxNAWJMzIo+aAXEO1UD1E74cAgiOIH+aAwlnQtlDYy9azGeF9IBOVFkA2sXSXy0Xfui7dkAMA2fg2CSAAhSAGHBNJa+eQ+hDBAOItCcg2RR1gTAueGQQ3LzrkpSAEDbOMOEQz7MEo35lmGEEEfYArAesKhD3IACJpA7SfQXJQEWV3XOSNwPiDv0E1PTKaiCAAIhgJgdU//oHYePbIgEBJOyxAko3fzhsPJwcgiMNHULkiZ+aIzfKZg6hO0sgNEpZ9upAyJt6fLQDQtT/5UsplXwZfOg71d//+3gAXp+/82CH0F0AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Green_d'hide_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -653,11 +752,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 40
-            }
+            "prayer": 0
         }
     },
     "1097": {
@@ -666,6 +761,15 @@
         "short_name": "Studded chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABnUlEQVR4Xu3XTWuDQBAGYD32kMMehEUQFhEJIiKSIAGhkNISQimlFHrpoYf+mNz7g6e+q7Pq9uPUrAY6MORikoedd3cTz7vs8un3dlo+NVcebdsu2k49jyKrHaNa0CamuowoTyWlcUAqEiSDlWk8UyrlAuXT9S4xoCoPDWiMWgzIRtnvPkN9BfHYTIaEp0F4dYDy6elY08NhS/e3FR32JTX1mopMTUDjcJ95dFNQ+FgYUBJLisKgA7WvjHELOuYTkEZZIPsT/rgG0MfpRPJuvRwQ8iP3qQGNzyGHW38AIT8ARc+V3mkzHY4DCOMKmoTUy2YhoHZ1RK1IvdZ6ZFkadvmZI0PYYcCI9nCM33ZTUL/1nYIQaGBWmdSNHAEUCGHaEQjV3fbIDzBYIYCQIcY4zRDuMj6DsErIEIMY5RyEFdKgPtSLAOHawNgwMmx9+3fRokDoRYEYMwsoeW90jr4D2e8+Q/l006QaxXfZGMQohyBUt0r4CQsQj+0fNFQ3Ng3qb3yMbXYQH46coxlBKPu//LQdbflp8Zf+1PbzF1+fLo7tTauaAt8AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Studded_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 20,
+                "defence": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -680,12 +784,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 20,
-                "defence": 1
-            }
+            "prayer": 0
         }
     },
     "6324": {
@@ -694,6 +793,15 @@
         "short_name": "Snakeskin chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB4UlEQVR4Xu3WUUsCQRAHcO9DBBEIEhLhQ0gYopwgSWLiSRx2SIlQSIH4/V83/rv87+amnurm7MGB4XTvcH/MjKuNximOEpHTK0cKQCL3sp76q75bYwRImvZ9Lpd3AlU7rIBI0GJ+61FJMqoTFbn9fuVz0L/yKUHILHsQKFPYzxiCiJrNum61unfz+dDFcdcKFbnDIXPZ89B9fqQ5DIl1WSWAJpMbn83mmQd1W62qUaE6cXztQUjgsIbXu91TjkHlgGm3z3NMxaCA4casEkG4vr8leRuBGY87dhi0hBgJIga53S5ykCEGUVSHmwOFeSESmM3m0X+7+Izp3EgMErMiqwMMzh+NqRgUufU6Ls0N5oQYrOM9qoNBR2qQ/sRfRjjMsAFnghsDw3ni5qgMnpUHYYXVCVWR7en1LvNkC+V9eSoTUhlm8zryIKbE6IpxiHEaV1wVRMBgU0D0qcsZAYZA/jSYYtACicEBp1uI7HQu3HQ6sMAgwtwABAyuGsMWcqZMfxJQHVaGrQEG91gRPVemGD0zxOjqyP87BOlP/GOETSUGa7pqesAJNgFhU4kJmxRQ2UZgCDZoF4N/McsY+W1DaogRJkSxQblVunLmkO9RnildFf10TVFu4ZExIf4N5BQivgAddYFbs6pUlgAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Snakeskin_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 30,
+                "defence": 30
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -708,12 +816,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 30,
-                "defence": 30
-            }
+            "prayer": 0
         }
     },
     "6135": {
@@ -722,6 +825,15 @@
         "short_name": "Spined chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACEElEQVR4XtWXa0sCURCG3X8RQiASEiKxRBJKoiiGSEWGWSRC96hEpAv9/KlnZNbTEn3KWRp4WQ/sug9z31zu/1skv8vVItlv1KS1uy21uCJxuSSlYuGbnKEiububyGRyJqPRsRwd9aTbbUmttiOVSlkKhXUFiguArdwimU5v5eHhUq4uL+T8/EQGg/43oM3NUjZANzdjGY9PZTg8TIC24y2VO9DT03USNgOqVmOFQq5Ao35Xhr22DL4gDjsNTe7qV6gqpaKq2ayrnBJ7CQRMv1XXpAbAgBDV5+SlSObzRw0ZOURSG9De3q6q3W7o1Q1oNrvXpLayp8oMCBhkMC5AJHVYYWkg96QmXGEPQhamTKoMICv3g/6+eioECkOWfnoFtgACAs/0eh0NnwGlcyj99ApsCWQzjJwCgjzCQzTITIAIl3mGxpgZkHVnWz3o2FxpiOH64QaEJ/L5tWRcdOrVpEMDU1zPewFFySDd2CgmixlhC5czVyB6D7lD3rD7cKbSWMoAMbkB0X+sEbL3cKbabI6F4v70P/yxRdpzmF94hYpiJyKMtnKEq4fDLIt0qFoP4sXWAqwhZtIYmWOW3KwinPltwnuuQKGXeDlnriZyzBXo/W2aeAkoRgeVhzg75U9oi+8ySh6o15dnBUEkvKN3zBZeouSB+viYaZiAIZQZAGHpb/mlnMO1NHvxT0rf++/tE7rUNURgLW8xAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Spined_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 40,
+                "ranged": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -736,12 +848,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 40,
-                "ranged": 40
-            }
+            "prayer": 0
         }
     },
     "10956": {
@@ -750,6 +857,15 @@
         "short_name": "Frog-leather chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABm0lEQVR4Xs2Y3WrCQBCFk0fohRAKQhAJQYIEsYRKxNLQIkWkLaX0ou//GtOe1ZPMxv7gRWYdOKzuCPMxM7uzGEVnWyx/y9RiydLI0zjxZQwVS1NnsrmdSr2cOFXlWBbFtRRZ4oTflGlqAXWAoQgFIA0VFEhDBQf6LUumQO/71Yn22xvZPSykWc/lbjWTusqtGrsDen2qnJAdrADa3pcOikAGWYpbEAhgKBM+M0uACgYE6b35dBQGCIGRHTQ09rAGA0JpdP8QCPtQMCCs6J+fgHDSggLhPmJTQ6ZAhEG5eAkCCN95yoIA6VuZN3YQIJYGQJxbQYEQuP/U2G7ydqbBx94aGOg4WL9HA2dWNhl5PUQfZAakxwSEfV1KHv90fHX0DWaxPD8W8vFSO32+rdubGuI+fQbvokOv9B9mvK13zcz5dT8NDqSD8oHWP/oadnAggABqmSdOumQExIA1BYLQS9DFACFLEINqIMoMCMEI5gftoIwyBOuCAogBNZBhU8P80vgBAwIh4CmQ7zcH4gkLDATr/nbp+ucc///2BTX4XFZO04D3AAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Frog-leather_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 25,
+                "ranged": 25
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -764,12 +880,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 25,
-                "ranged": 25
-            }
+            "prayer": 0
         }
     },
     "10555": {
@@ -778,6 +889,15 @@
         "short_name": "Penance skirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB4klEQVR4Xu2X7UoCQRSGO3fiJfQv6Ar6kWBCEkXRBxlllGlmIYJU0gdSUkihFAZBQUF0hRPvkbN7nN1+tTNCdeBld2eHmcf3nJ0Zx8b+4/cHmXiNJMjkMpOsbHpiSCOCInNWW2A1j+aHhHfjqZRPKDLXx8usVmOJdVFfDDQSoNvmWqD26SpLIA93ZnynjczdZX5InfN1FgCRRs8ukeldbUXUbW0EcIWVKV8ukakVszy5LYGBS8X8tC+XyNRLs5GU6dQBSOrIG5DUjC0p8sZ+zgfQIF2YTH9ltgDkqbCjQPLJi6QN61F5M+26sAfpOqnORdYekbQBqFLIuHSJuFABhO1BQ8hqDUkbgOCmfG32aAlEmC4AaQi9beg2wEvaHLgUpgsFqyEg2Wh1G/rCVUmdPeIPg9id74DiBCfhqqM1iRgGk9gT6/TplAEcrgLKCZCdlrhiliKX93DV0SIZPQNpGHtNQn9cHR7aKNge9D2EPQy7vd7TpI+45QRIjhm4f2wXWP2bbdZzZ5ev0o4+OAHAOTjoBAgThgOTebnfM6/dEuv9ocJXtAEO7wVKXE0cSCYKBybz1iszzEf/IIDS0PpHJAyEiBuYGObzqcrXaB/7OeGIHzj8kxg3uf3sJQRkJJP/2fgCwd7nkWHkl5wAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Penance_skirt#Normal",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 60,
+                "defence": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -792,12 +912,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 60,
-                "defence": 40
-            }
+            "prayer": 0
         }
     },
     "1095": {
@@ -806,6 +921,15 @@
         "short_name": "Leather chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABlUlEQVR4Xu3XT2uDMBgGcD3u0EMOQhCEICJFRERapCAMOjZKKWOMwS477LDv/xXe5YkmmuzPaUYLe+GlF21/5H1ibBBcd4X0e3utkLqbgPayK9l5EFDitGeUBO1SauuEypxTnkYkEkY82pjGNbUQPlAh3R4yA2rK2ICmqNWAXJR79wz1FaTHZjLEAgXCpwdUSM/nlh5Pe7rcN3Q61tS1W6oKYYGm4Z55dDYofqoMKEs5JXHUg+SnxvgFnUsLpFAOyP2GPy4bxB+26wEhP/yYG9D0OeRx648g5Aeg5KVRO22hh+MIwriiLiPxulsJSK4OawWJt1aNrMjjPj9LZAiBBobJh2P6frBBw9b3CkKggdkUXDVyBFDEmGlPIFR/2iM/wGCFAEKGNMZrhvRZhlBjlZAhDXIPV/+gIdSrAOHYwNgwMmx9971oVSD0qkAaswgo++hUjr4DuXfPUCHddblC6bNsCtIojyBUv0p4hQVIj+0fNFY/NgUaTnyMbXGQfjjqHC0IQrn/5e32tOXt0j/6U7vXX319AlqC62LxX4zGAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Leather_chaps",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "ranged": 1,
+                "defence": 1
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -820,12 +944,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "ranged": 1,
-                "defence": 1
-            }
+            "prayer": 0
         }
     },
     "21024": {
@@ -834,6 +953,15 @@
         "short_name": "Ancestral robe bottom",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACYUlEQVR4XtXWUUvbUBQHcPNNfPK5jIkojEnHxMkUJ7OKttLJVKTa2sXadiW2tcZaa5duGqktohtjjD3taV/vzP/Jbnp7J44xc2UHDu1NaO6Pc07S9PX9/2HQ7ak1DIrMlejFTI6mpzM0OWXSxESSxp8l6NHjKA0OTulEGXTllmh+vkJL8WOKxWq0GK3yenbWonB4mUZGIjQwMKwLZdBF0+oBLSzaXLFCepmrhUqFQuMMCvX3B40y6LyRZwRAqI4MGhtb49QKOqvn/DaJTwFCdZ48Xbk/kGgZvgO0sxnjwdYE8tolg+Q5EiAM9oOHz/WAgEEKBEBilgQIM4Q7TQvIre3cCMI6l4r7oNHRJT2gk+o2o+TbPf7K4QQICRDapgXUtE1GyXMkQKiODBoammGUepU7jC5IfkL/CRRglf4OJP7TtIDEE/o20MvJsB4QhloGIe1izQel1xdo43UkaJBBjb2tGyuEPCjXGYQ0E1FKrc75GO2go1KSDisNH4MKIQOsDsIDOftpBgEjEudEywQo4OogfgfhO47hXH7b0olB9IIEBu3COby0AYP1XnaVj6lXuOPogmQMEpDL1mdynTYd2Q4VMytBzw/C4M0BERjMzea617L26SW9Ozyh4tt9vSC+o3Y3uCJOzWUAzl21v9D7+hmVCzalEqYeECDI799+MOD4oEmZrXwPCECtIHx+6nzl9mTfFH4N7/VrSaNFFatKZjLrYwIGIbzNO+5Hro7YHInqqCD114GEt9H1q2yzQ1au7IPkGdIK8sKg1ocL/rtQQRrbpYYH6W6uru8h1M3V9b/ETyJ6DsiOvCmdAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Ancestral_robe_bottom",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 65,
+                "magic": 75
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -848,12 +976,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 2,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 65,
-                "magic": 75
-            }
+            "prayer": 0
         }
     },
     "4714": {
@@ -862,6 +985,15 @@
         "short_name": "Ahrim's robeskirt",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABq0lEQVR4Xu2X60rDQBCFm4fwZyEKRpT8CNaKsRWDxUILBYVSRPr+rxH5NpxcVmm9bKYoDhx2e2H368zZ2XQw+I+/H1G5W6YRlTfXpztlCFXBrNcPbizuL924Wt25cT7PnfheFscWUBXQcnnrxtls7Mbnp8KNeZ46mQORBWCm06yGQOOri7pkpkD7ZAQUlZPJWadE8g5eIlsHA6JkbSC9zrLEHgjhHwmAto8OAuR7xpc50Gbz2CnZdrvoZExQ/gqBo1syNlU/QryHh4bDI6ssVUDqQepDQHDK6EHMkyS2BXp9mbuS6fpoC0jgkBkQmwKjbMlLKl+anjj17KP3R545ZWJzlU4wBj5qgBAAaF8LMANqy4dAukZMgFQupD6EyeUhurU8JCh/tR9GVBbFeQ2jY68LVaMeP/CSNBod95GlBggYgQHCnJGNEUD+vBcgeg/y/SMPCcKXTmTgskUuM2QJn+AbQOhF7eciPhMI5dOc0gXOUgWkX/uRqdmYuQAoV9tPwYHIjkDUg3RFCEgAnDC9RoIJDiR9xUMocHYU/j/TzytwdprQwt+Rv9avizckoWkxNR7l2wAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Ahrim's_robeskirt#Undamaged",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "magic": 70,
+                "defence": 70
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -876,12 +1008,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "magic": 70,
-                "defence": 70
-            }
+            "prayer": 0
         }
     },
     "10340": {
@@ -890,6 +1017,15 @@
         "short_name": "3rd age robe",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABsklEQVR4Xu3XXUvCYBQH8PYRvPAmEGREF7GLIQ7ZUBwOhw4XJjLDN3wpJQ0royzs5crP/Y/zxNa2hCDwebzwwBhsF/vxP+c5sKOjQ+2sJEQvoSVhMlmg0xmjXvdgWRXRKAmDwRStVg+OcwHTLEOWT0ShJCwWK4xGM7TbQ7hukyWUSqUZSE3TnWtJWC7XkZZVKucoFEriQOO3d3SXj2hMpgxDLcvl8kgkk7zbJmG+2TBQ7+k5AjKMYgDimFIU1LyZ7Q9osHqBN78NQDRDQkDXH5+/QHTKCJQpmmJAo9c1A7UWdwGIUtIsSxyIZqh9/8BAtl1jKKPqiAXR0adNHbTNdfmDKBWaHTry9fFVkI4/2LKi8NxFUZA7HEG3bSQTieDyQZxSklDr91HtdFH2PJQaTdYmw3Cg6zY0zcKxLPMCSaxFf4FOVVU8KNwyuoSDKJlM1oSq5qEoOl8QDTKB7Mt2AKLBpqVIm1rN58WCaBmGQYouOKEwiNI5gAhEgx0H+fOzd6CzrCYeFD5hQkH+IgyfMK6gbRt52/Ofdzuv6P88pfCdRPw/P/xux+V/KP7B+PP/Yr4AozAjHw2vg2wAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/3rd_age_robe",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "magic": 65,
+                "defence": 30
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -904,12 +1040,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "magic": 65,
-                "defence": 30
-            }
+            "prayer": 0
         }
     },
     "20520": {
@@ -918,6 +1049,14 @@
         "short_name": "Elder chaos robe",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABx0lEQVR4Xu2XrUsEQRyGd+KFDRsORDjYZBSLzWQyWCwWi8FiEAwGwQvCKQYxGEyWiwqmw+j/Ns6zc687zC0Gb2enOPDCXdjj4fl9zF5R/PkY2yb7MfZyo7TXLifVKDeUsVcO5GuxaKAEtFPXuaA80Of7m70Yl/bUAWW0ZOzdZtkAYYccO5ijfJY8EL0DFLmf3tiDMiPQgwP6mM8bKAyNq8rul0UOIGOfJ9UPEHbooafZLC8QJXutq8YQQGfjUX4g7AB07mCYsuxAwIRANPX2yEPFTyU8LdB0CUW52EEA7S6BBrTUAt1GQIdLoEkxmCVjX1wjAxICUTIWI9kLDA1gyTRlAiYEYsrY0hgaeFubBuIxKBmATBt2AGLSBBU/neD4K0NAamrdZTHQAJY8EFta5dIFmw0IGBLaoYcExOjzeYB9ZFZKJTsxEJMmoISWfLnCRhaMxp5SCYh9tJVuH3k7gontxED0UQiUwJK30wWjm55N3QVU9W/pdzsxkCZNZUvQS36yYhhFJeO2D8smUwleSVbLpYRQsiQo2SK9A4VLsCtAyZL+DsXpsY/8haqXsa4ApdIpGFP43rulddP764h+cJ3Ev/l/1jnf88ckFO8VA+8AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Elder_chaos_robe",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "magic": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -932,11 +1071,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "magic": 40
-            }
+            "prayer": 0
         }
     },
     "6924": {
@@ -945,6 +1080,15 @@
         "short_name": "Infinity bottoms",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC1UlEQVR4Xt3WX0hTURwHcM/jHvZwHw4cDly4jHEZQ8aQjTGZKFccOkxMTKEkRhgiBoJgKEgYYSKF9gdJ6C+JsChEQ6wkkSRDMkmQIAQhBPElgggi2MO3e87caH8che5O+sHv7XLuZ9/f+V1WUvJ/FEHuLkoRhJTHCCjjKLMPo9TeB93WCc3WUiwUQb+7Bx3Oc2jTWtHIIzBYhQn0SZBX06xEEQx5L2GgtBe97m506efRqjVJVJgZCNGglSkRjPmGs0AipWa1AREeToEsSikb1K13ot15NpWSGF3RQX+mJMZWVFCP60JaSscGlNw4cY+KBhKrn0SJsUUdZ+Q9Kgpo0NOH8ZAft8p9uB4sw0jAK8cm7pGloKc1FZg0ynG3IpAF6ve60eFyotUhMJZ8i/4O1OxQrUqJYDpcmRfUboIaNW4daMYETRmhnKBejxtR3YGIagmI4GXEyAtKjsyihNJB9yuDmDBRAjQW9EnQoM+DLrdu1R3KDRIpCZBIacjvRY/HhTZnYsssBT2qCh44NnGPCgwieF5bhfm6qixQ5tgGykrlpoU5K+S3KJFOEhSrDsnVzzW2K/v3qMCbRrBYXw2+dRp8swVsrQls5STYUgPoQj3oXB3odC1orAZ0qhr24QBs7a7CgvhOWwJkdiP/hAa+iRNsHfVsDXVs2fzbsYga+gIGnYVyLQhbVC88qIXv4hTfQTPfRhPfSsDYhkRF2EoK5VdG4bRFYatNrH/maUdQBHFjA/HQR8T9Zuvr+KW+xw/1Hb6py9hTX+MLn8dnPoNN/gwL9A4eKpcxaO8oREpEAuLaB/xUV/FVfSMBO/yVRCQhG+wJ1llM9hy9jQllADeViylU5qmHKILv6lsJ2eULqRQEINmrbDKtp+koYnQEU/SqhB1xSkSmsc3n5MuX2YP9X3xwL7F7cmwiqVl646hBotJfKA7P1wc9n3nqoSr7pfnrX58/1vUb65/chc9jow0AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Infinity_bottoms",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "magic": 50,
+                "defence": 25
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -959,12 +1103,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "magic": 50,
-                "defence": 25
-            }
+            "prayer": 0
         }
     },
     "4093": {
@@ -973,6 +1112,15 @@
         "short_name": "Mystic robe bottom",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACMUlEQVR4Xt3VTWsTURQG4N6/IQSycilu3LUrf4FiFWwbrFgFP1DEWNtapZSCG5FCKdWABm1NhVglhPgVEtLYJBi0dOdfcCO4cTOLV869nuntcTK25k5GeuAln9x5OHfumb6+/V8KJrGXgeTyBWSyq79RscEUzt5ew7np1/p1dDKP5dVXePTkuQXrGU5pAEE49PnMxAukxnPIruSxmHmG+/NLvUAZDCcINJJexvCNpxi6ntWgw8lkVKidGDuMYcipqxkfExEoHENdYcjJKw9x4uJClN3pjKFwZ05fe+xjjo09iAoUjpHdGby0iOMX5qParnBMUHckSK7YRZk5wycoKLI7DDo6eNM1aBsjZ01Qdwhkd8jxdpkJKzESJY85gfgectidzhAZewjaIIfdUfq5xJEAO3aHeCpLkFx9j6Uwdrfg519A3CUHIIXzM0U/jJIIykBqbleYLkAKh2Y9HJnz0H/P2wGTW0eYMJCj7VJI3vFwcMbzYRz7fmJMGMjB6VKof3iPT/V1fG5sYLPV8mGUIEyn+4fmj5Pterf2UqMalQpatRraH+v40mxgq93WF7AxYSCHT3YzBGtv32CjXNYo/s4sbt5LEE9pnkFOn+z2he228+L277SlFBvkeBhul4T8WQqJqZ9++LHhcLv2WgrNahWJW9+RmPihXwkUSXd2V+ZUUhLpb35i6g6VQrlQQKVY1KmWSjhw+WucICpzc9O4kIdA/rNnxafu74egx/XfQKKoXxg4vH275goCAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Mystic_robe_bottom",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "magic": 40,
+                "defence": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -987,12 +1135,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "magic": 40,
-                "defence": 20
-            }
+            "prayer": 0
         }
     },
     "10464": {
@@ -1001,6 +1144,14 @@
         "short_name": "Saradomin robe legs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACoklEQVR4Xt2Yz0uTcRzHn+f4HHbYoaOwUweJ6KCHIC8TRERBIT0oxZJFmFqLzMwyC4u0MsWcmcsymzVrNTbGbDo25nLGRqOg/+fd8/4+e56eQg8d9n2gD3wO2xh78f78eH+eKcr/Eyr+TEdDhaa1QtFO6SDH9axzEkqHcfXgzbMlBB/O4N74OK4ODlbBHIFSEd/YQPj5MpYeP8L9Wzdx40oA3qYmAXTC45EJpWI/l0Mi8g5vQytYfjKLB7cnMDk6itbmZmeAduJxJDcjiK6tYWVuDk+np4VKfd3dzgBlEgmkPrxHbH0dofl5rC4sYHZqCteGh5wByn/eQvrTR8TCYURehPRp67KAjrjdMhtbxY9yGXuZDLLJpFBpKxrVgdoxc2dSAHnqjPGXpJIB9DWfx246je1YTPSSHehYfb18oPKXAorZLHKplBh/O9DJhgb5QJX9olCJpeOkaa4+MfpcjpJ3kQHE/FbcE8psvlwVgIrmFUDtLS3ygX5WKroqfpHcSSwhJ01RGnG6o0MukMsdgMs1bBkrx5/lM157dYijcoGoxPdSSajCHmJj02SZr4NBkcYFIHEX2aeMBstNzY3NZHObCklTiSXituYeIhANlq7PM2TI75dZMoYq1DE3NYForhMjIzh/9oz8KeO4F3a2Lcdn7xDo7tgYLvb3o6utTS5QqbBr2QZvIjaxeX4EBgbQ09kpF4jHGZuZ407beLW4aAHROiTfRKrl9HR5nh8E4l1NoOuXL+Fcb69cIPaP/UAzgTjuBLrg88kFYv/YT1j2kAnEQ186kOFhPuHwIvXNTZMVtiE2dCMkPQ6ZMAcBHQRVc5Xs6tiA9AdGkVWo3yYrHciAMkrDz6pwplq1B2L8/eeC3UQPe7/GYf6QPQ/7zP69f4lfitGvL/k7E88AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_robe_legs",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "prayer": 20
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1015,11 +1166,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 5,
-            "slot": "legs",
-            "requirements": {
-                "prayer": 20
-            }
+            "prayer": 5
         }
     },
     "6141": {
@@ -1028,6 +1175,15 @@
         "short_name": "Skeletal bottoms",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB8UlEQVR4Xt2WT0tCQRTFnY/QQghXEhISEhJJGIZhGCIlKmqCCC0qCCuKoIgWrgratWxR9M8KUxIllCyIPtmNMzLP50tr5R3owsDM8B7z49xz74zN9j9CUP+hJQSFw/MUDM6S3z9NU95JcrvHyeUa0wX1O5DX6eSEErQUXaRIZIFCoTkKBGbI5/OSxzMhgez2EU6VBH2+NSkWixhQmlUS9NFsUCIR7YGCSgoKSrECfbVb1G7UqFF56lEJUMWjA9rfLtD6ap4rbYIymfgPheAllTr4SfmIQaUOUCq1bAABBlCq6pA2BcMKBJVUugCGgbSxeyibTUqg5suzUfZQq3x7JVOGSmMFyudXpEowtfKNAoJ/HI5RPUD18oNUB55B+gCEuRYgpK32eGd0aKQQQJhrA6rcXxvdGYoBCHMtQLlcWgJsbazJqwKAWGeScX6g99e6NDQATorHlE0nqVWryvX52Skd7u3IPXxr/XtIIWRVoeThIaUajI099saIdFkPxx4g0QbYG6MCwlUBINxb2DN3asY3URcI14ZZIQVk7tQMKnUOR98pXV70AKENaLk6/gJifjEiRF+gaulGVp0WIHTmQUCM/lExGMjcg6x/DTH6A+Gy1QSEEBJot7ApATAAhAe+JiBEB6TrF+taQ1gPt67/TXwDXDIoAzLLp0gAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Skeletal_bottoms",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 40,
+                "magic": 40
+            }
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1042,12 +1198,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 0,
-            "slot": "legs",
-            "requirements": {
-                "defence": 40,
-                "magic": 40
-            }
+            "prayer": 0
         }
     },
     "542": {
@@ -1056,6 +1207,12 @@
         "short_name": "Monk's robe",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABW0lEQVR4XuXXMWvCQBQH8Nzo0CGDEALCUYJIEAmFUgoWREFQEIK0ujg4FDp0KAgOhQ795n95kZN4XuQS75KoD259/Lj3Xu7FcW4jGNSnkmAYRx6GXQ8vgYuIuwi8Bny3URWK4XvSxucowLLPET/7CbDfaSagiPOyUQybWeeAWr1xvL+2MH3yqwAxbOMwAf1M2/gaB1gPHg83RSUssWwMv/PwCCTfEqFK6iWGv4+uFogavITS6YNo6moBoj4ilOij2oDo+1Q5iCYtjbo3EMP/opcJom+RjApbDzZHPz/IcmNng86hrIIIUzsQYWoHIowuSDwhcrYLQ90/OiAxaYZvSd0/OiBLb1pxkKXRLw6ytNKqJyyNygJZeGRPbycPiBZ/0Udy5oKhBsllywLR0m+4jy4D0fZouI+OQaqynQNZWtb2v8hFQQJjEOQ4+2TyP7zeMY5Jh0ie98h5ri526qHmKchFJyYAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Monk's_robe",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            null
+        ],
         "stats": {
             "attack_stab": 0,
             "attack_slash": 0,
@@ -1070,9 +1227,7 @@
             "melee_strength": 0,
             "ranged_strength": 0,
             "magic_damage": 0,
-            "prayer": 5,
-            "slot": "legs",
-            "requirements": null
+            "prayer": 5
         }
     }
 }

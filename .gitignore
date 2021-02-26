@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/utils/__pycache__/item_names.cpython-39.pyc
+src/utils/__pycache__/monster_names.cpython-39.pyc
+src/utils/items-complete.json
+src/utils/monsters-complete.json
