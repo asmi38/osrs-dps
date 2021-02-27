@@ -8,7 +8,7 @@ def monster_list_maker():
     with open(inputfile) as f:
         data = json.load(f)
 
-    output = []
+    output = {}
     name_temp = []
     for x in data:
         result = {}
@@ -36,7 +36,7 @@ def monster_list_maker():
                 "defence_ranged": data[x]["defence_ranged"]
             }
             name_temp.append(new_name)
-            output.append(result)
+            output[data[x]["id"]] = result
 
     with open(outputfile, "w") as w:
         json.dump(output, w, indent=4)
