@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { changeStat, changePrayer, changePotion } from '../actions/stats'
+import attack_sprite from '../data/icons/attack.png'
+import strength_sprite from '../data/icons/strength.png'
+import defence_sprite from '../data/icons/defence.png'
+import magic_sprite from '../data/icons/magic.png'
+import range_sprite from '../data/icons/range.png'
+import hp_sprite from '../data/icons/hp.png'
+import prayer_sprite from '../data/icons/prayer.png'
+import potion_sprite from '../data/icons/potion.png'
+import stats_sprite from '../data/icons/stats1.png'
 
 const atk_pots = ["None", "Attack", "Super Attack", "Zamorak Brew", "Overload", "Overload (+)"]
 const str_pots = ["None", "Strength", "Super Strength", "Overload", "Overload (+)"]
@@ -11,10 +20,13 @@ const magic_prayers = ["None", "5%", "10%", "15%", "Augury" ]
 const range_pots = ["None", "Ranging", "Super Ranging", "Overload", "Overload (+)"]
 const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
 
-function StatRow({stat_name, stat, dispatch, pots, prayers}){
+function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
   return(
     <React.Fragment>
-      <td></td>
+      <td className='poop'>
+        <img src={icon} alt="stat icon"/>
+        {stat_name}
+      </td>
       <td>
         <input
           value={stat.level}
@@ -33,7 +45,7 @@ function StatRow({stat_name, stat, dispatch, pots, prayers}){
                 {pot}
               </option>
             ))}
-        </select> 
+        </select>
       </td>
       <td>
         <select
@@ -67,15 +79,16 @@ class Stats extends Component {
         <thead>
          <tr>
           <th>Stats</th>
-          <th>Level</th>
-          <th>Potion</th>
-          <th>Prayer</th>
-          <th>Effective Level</th>
+          <th><img src={stats_sprite} alt="Stats"/></th>
+          <th><img src={potion_sprite} alt="Potion"/></th>
+          <th><img src={prayer_sprite} alt="Prayer"/></th>
+          <th>Effective</th>
          </tr>
         </thead>
         <tbody>
          <tr>
           <StatRow
+            icon={attack_sprite}
             stat_name="Attack"
             dispatch={this.props.dispatch}
             stat={this.props.attack}
@@ -84,6 +97,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={strength_sprite}
             stat_name="Strength"
             dispatch={this.props.dispatch}
             stat={this.props.strength}
@@ -92,6 +106,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={defence_sprite}
             stat_name="Defence"
             dispatch={this.props.dispatch}
             stat={this.props.defence}
@@ -100,6 +115,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={range_sprite}
             stat_name="Ranged"
             dispatch={this.props.dispatch}
             stat={this.props.ranged}
@@ -108,6 +124,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={magic_sprite}
             stat_name="Magic"
             dispatch={this.props.dispatch}
             stat={this.props.magic}
@@ -116,6 +133,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={hp_sprite}
             stat_name="Hitpoints"
             dispatch={this.props.dispatch}
             stat={this.props.hitpoints}
@@ -124,6 +142,7 @@ class Stats extends Component {
          </tr>
          <tr>
           <StatRow
+            icon={prayer_sprite}
             stat_name="Prayer"
             dispatch={this.props.dispatch}
             stat={this.props.prayer}
