@@ -1,37 +1,25 @@
 import { CHANGE_EQUIPMENT } from '../actions/equipment'
-import HeadData from '../data/head'
-import AmmoData from '../data/ammo'
-import BodyData from '../data/body'
-import CapeData from '../data/cape'
-import FeetData from '../data/feet'
-import HandsData from '../data/hands'
-import LegsData from '../data/legs'
-import NeckData from '../data/neck'
-import RingData from '../data/ring'
-import ShieldData from '../data/shield'
-import WeaponData from '../data/weapon'
-
-const default_equipment = {
-  "attack_style": WeaponData["0"]["attack_types"][0],
-  "head": HeadData["0"],
-  "ammo": AmmoData["0"],
-  "body": BodyData["0"],
-  "cape": CapeData["0"],
-  "feet": FeetData["0"],
-  "hands": HandsData["0"],
-  "legs": LegsData["0"],
-  "neck": NeckData["0"],
-  "ring": RingData["0"],
-  "shield": ShieldData["0"],
-  "weapon": WeaponData["0"],
-}
+import { CHANGE_WEAPON } from '../actions/equipment'
+import { CHANGE_STYLE } from '../actions/equipment'
+import { default_equipment } from '../utils/default_data'
 
 export default function equipment (state = default_equipment, action) {
   switch(action.type) {
-    case CHANGE_EQUIPMENT :
+    case CHANGE_EQUIPMENT:
       return {
         ...state,
-        [action.slot]: WeaponData[action.equipment],
+        [action.slot]: action.equipment,
+      }
+    case CHANGE_WEAPON:
+      return {
+        ...state,
+        weapon: action.weapon,
+        attack_style: action.weapon.stances[0],
+      }
+    case CHANGE_STYLE:
+      return {
+        ...state,
+        attack_style: action.style,
       }
     default:
       return state

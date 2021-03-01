@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { changeEquipment } from '../actions/equipment'
+import { changeEquipment, changeStyle, changeWeapon } from '../actions/equipment'
 import HeadData from '../data/head'
 import BodyData from '../data/body'
-import LegData from '../data/legs'
+import LegsData from '../data/legs'
 import CapeData from '../data/cape'
 import AmmoData from '../data/ammo'
-import HandData from '../data/hands'
+import HandsData from '../data/hands'
 import NeckData from '../data/neck'
 import RingData from '../data/ring'
 import ShieldData from '../data/shield'
@@ -20,24 +20,32 @@ import NeckSlot from '../data/icons/Neck_slot.png'
 import BodySlot from '../data/icons/Body_slot.png'
 import LegsSlot from '../data/icons/Legs_slot.png'
 import ShieldSlot from '../data/icons/Shield_slot.png'
-import GlovesSlot from '../data/icons/Gloves_slot.png'
-import BootsSlot from '../data/icons/Boots_slot.png'
+import HandsSlot from '../data/icons/Gloves_slot.png'
+import FeetSlot from '../data/icons/Boots_slot.png'
 import RingSlot from '../data/icons/Ring_slot.png'
 import CombatType from '../data/icons/Combat_type.png'
 
 
 function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style}){
   const style = "attack_" + attack_style.attack_type
+
+  const capitalise = ([firstLetter, ...restOfWord]) =>
+    firstLetter.toUpperCase() + restOfWord.join('')
+
   return(
     <tr>
       <td>
         <img src={icon} alt="slot icon" />
-        {slot_name}
+        {capitalise(slot_name)}
       </td>
       <td>
         <select
-          value={equip.id}
-          onChange={(e) => dispatch(changeEquipment(slot_name, e.target.value))}
+          defaultValue={equip.id}
+          onChange={(e) =>
+                    (slot_name === "weapon" ?
+                      dispatch(changeWeapon(equip_list[e.target.value])) :
+                      dispatch(changeEquipment(slot_name, equip_list[e.target.value])))
+                    }
         >
             {Object.keys(equip_list).map((item_key) => (
               <option value={equip_list[item_key].id} key={equip_list[item_key].id}>
@@ -48,19 +56,17 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
       <td>
         <input
-          value={equip.stats[style]}
-          onChange={console.log(equip)}
+          readOnly value={equip.stats[style]}
           className="stat_input"
           type="number"
         />
       </td>
-      <input
-        value={equip.stats.melee_strength}
-        onChange={console.log("Test")}
-        className="stat_input"
-        type="number"
-      />
       <td>
+        <input
+          readOnly value={equip.stats.melee_strength}
+          className="stat_input"
+          type="number"
+        />
       </td>
     </tr>
   )
@@ -68,6 +74,24 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
 
 class Equipment extends Component {
   render() {
+
+    const { weapon, dispatch, attack_style } = this.props
+
+    function bonus(style, attack){
+      if(style === "aggressive"){
+        return (attack ? 0 : 3)
+      }
+      else if(style === "controlled"){
+        return (attack ? 1 : 1)
+      }
+      else if(style === "accurate"){
+        return (attack ? 3 : 0)
+      }
+      else{
+        return 0
+      }
+    }
+
     return (
       <div>
         <table>
@@ -91,10 +115,119 @@ class Equipment extends Component {
             <EquipmentRow
               icon={WeaponSlot}
               slot_name="weapon"
-              equip={this.props.weapon}
-              dispatch={this.props.dispatch}
-              attack_style={this.props.attack_style}
+              equip={weapon}
+              dispatch={dispatch}
+              attack_style={attack_style}
               equip_list={WeaponData}
+            />
+            <tr>
+              <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
+              <td>
+                <select
+                  defaultValue={weapon.stances[0]}
+                  onChange={(e) => dispatch(changeStyle(weapon.stances[e.target.value]))}
+                >
+                {Object.keys(weapon.stances).map((item_key) => (
+                  <option value={item_key} key={item_key}>
+                    {weapon.stances[item_key].combat_style + " " + weapon.stances[item_key].attack_style + " " + weapon.stances[item_key].attack_type}
+                  </option>
+                ))}
+                </select>
+              </td>
+              <td>
+                <input
+                  value={bonus(attack_style.attack_style, true)}
+                  className="stat_input"
+                  type="number"
+                />
+              </td>
+              <td>
+                <input
+                  value={bonus(attack_style.attack_style, false)}
+                  className="stat_input"
+                  type="number"
+                />
+              </td>
+            </tr>
+            <EquipmentRow
+              icon={AmmoSlot}
+              slot_name="ammo"
+              equip={this.props.ammo}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={AmmoData}
+            />
+            <EquipmentRow
+              icon={HeadSlot}
+              slot_name="head"
+              equip={this.props.head}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={HeadData}
+            />
+            <EquipmentRow
+              icon={CapeSlot}
+              slot_name="cape"
+              equip={this.props.cape}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={CapeData}
+            />
+            <EquipmentRow
+              icon={NeckSlot}
+              slot_name="neck"
+              equip={this.props.neck}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={NeckData}
+            />
+            <EquipmentRow
+              icon={BodySlot}
+              slot_name="body"
+              equip={this.props.body}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={BodyData}
+            />
+            <EquipmentRow
+              icon={LegsSlot}
+              slot_name="legs"
+              equip={this.props.legs}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={LegsData}
+            />
+            <EquipmentRow
+              icon={ShieldSlot}
+              slot_name="shield"
+              equip={this.props.shield}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={ShieldData}
+            />
+            <EquipmentRow
+              icon={HandsSlot}
+              slot_name="hands"
+              equip={this.props.hands}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={HandsData}
+            />
+            <EquipmentRow
+              icon={FeetSlot}
+              slot_name="feet"
+              equip={this.props.feet}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={FeetData}
+            />
+            <EquipmentRow
+              icon={RingSlot}
+              slot_name="ring"
+              equip={this.props.ring}
+              dispatch={dispatch}
+              attack_style={attack_style}
+              equip_list={RingData}
             />
           </tbody>
         </table>
@@ -113,6 +246,7 @@ function mapStateToProps ({ equipment }) {
     cape,
     feet,
     legs,
+    hands,
     neck,
     ring,
     shield,
