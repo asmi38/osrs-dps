@@ -11,7 +11,7 @@ import ShieldData from '../data/shield'
 import WeaponData from '../data/weapon'
 
 export const default_equipment = {
-  "attack_style": WeaponData["0"]["attack_types"][0],
+  "attack_style": WeaponData["0"]["stances"][0],
   "head": HeadData["0"],
   "ammo": AmmoData["0"],
   "body": BodyData["0"],

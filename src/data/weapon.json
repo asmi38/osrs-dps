@@ -24,7 +24,7 @@
             "prayer": 0
         },
         "attack_speed": 6,
-        "attack_types": [
+        "stances": [
             {
                 "combat_style": "kick",
                 "attack_type": "crush",
