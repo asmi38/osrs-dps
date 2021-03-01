@@ -40,7 +40,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
       <td>
         <select
-          defaultValue={equip.id}
+          defaultValue={equip.name}
           onChange={(e) =>
                     (slot_name === "weapon" ?
                       dispatch(changeWeapon(equip_list[e.target.value])) :
@@ -77,20 +77,38 @@ class Equipment extends Component {
 
     const { weapon, dispatch, attack_style } = this.props
 
-    function bonus(style, attack){
+    function bonus(style, attack_boolean){
       if(style === "aggressive"){
-        return (attack ? 0 : 3)
+        return (attack_boolean ? 0 : 3)
       }
       else if(style === "controlled"){
-        return (attack ? 1 : 1)
+        return (attack_boolean ? 1 : 1)
       }
       else if(style === "accurate"){
-        return (attack ? 3 : 0)
+        return (attack_boolean ? 3 : 0)
       }
       else{
         return 0
       }
     }
+
+    function total_atk_calc(equipment){
+      const style = "attack_" + attack_style.attack_type
+      const keys = Object.keys(equipment).filter(word => word !== "attack_style")
+      const values = (keys.map(equip_name =>
+        equipment[equip_name].stats[style]))
+
+      return values.reduce((a, b) => a + b, 0) + bonus(attack_style.attack_style, true)
+    }
+
+    function total_str_calc(equipment){
+      const keys = Object.keys(equipment).filter(word => word !== "attack_style")
+      const values = (keys.map(equip_name =>
+        equipment[equip_name].stats["melee_strength"]))
+
+      return values.reduce((a, b) => a + b, 0) + bonus(attack_style.attack_style, false)
+    }    
+
 
     return (
       <div>
@@ -229,6 +247,12 @@ class Equipment extends Component {
               attack_style={attack_style}
               equip_list={RingData}
             />
+            <tr>
+              <td>Total</td>
+              <td></td>
+              <td>{total_atk_calc(this.props.equipment)}</td>
+              <td>{total_str_calc(this.props.equipment)}</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -250,7 +274,8 @@ function mapStateToProps ({ equipment }) {
     neck,
     ring,
     shield,
-    weapon
+    weapon,
+    equipment,
   }
 }
 
