@@ -12,6 +12,7 @@ import ShieldData from '../data/shield'
 import WeaponData from '../data/weapon'
 
 const default_equipment = {
+  "attack_style": WeaponData["0"]["attack_types"][0],
   "head": HeadData["0"],
   "ammo": AmmoData["0"],
   "body": BodyData["0"],
@@ -30,7 +31,7 @@ export default function equipment (state = default_equipment, action) {
     case CHANGE_EQUIPMENT :
       return {
         ...state,
-        [action.equipment.slot]: action.equipment,
+        [action.slot]: WeaponData[action.equipment],
       }
     default:
       return state
