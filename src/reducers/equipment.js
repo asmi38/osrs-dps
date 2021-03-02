@@ -1,10 +1,13 @@
-import { CHANGE_EQUIPMENT } from '../actions/equipment'
-import { CHANGE_WEAPON } from '../actions/equipment'
-import { CHANGE_STYLE } from '../actions/equipment'
+import { RECEIVE_EQUIPMENT, CHANGE_WEAPON, CHANGE_STYLE, CHANGE_EQUIPMENT } from '../actions/equipment'
 import { default_equipment } from '../utils/default_data'
 
 export default function equipment (state = default_equipment, action) {
   switch(action.type) {
+    case RECEIVE_EQUIPMENT:
+      return {
+        ...state,
+        ...action.equipment
+      }
     case CHANGE_EQUIPMENT:
       return {
         ...state,
