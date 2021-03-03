@@ -3,46 +3,46 @@ import { elvl_calc } from '../utils/calc'
 
 const default_stats = {
   "Attack": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Strength": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Defence": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Magic": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Ranged": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Hitpoints": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
   "Prayer": {
-    "level": 1,
+    "level": 99,
     "potion": "None",
     "prayer": "None",
-    "effective_level": 1
+    "effective_level": 99
   },
 }
 
