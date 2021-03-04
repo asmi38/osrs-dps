@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { changeEquipment, changeStyle, changeWeapon } from '../actions/equipment'
+import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue } from '../actions/equipment'
+import { equipment_presets } from '../utils/default_data'
 import HeadData from '../data/head'
 import BodyData from '../data/body'
 import LegsData from '../data/legs'
@@ -40,7 +41,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
       <td>
         <select
-          defaultValue={equip.name}
+          value={equip.id}
           onChange={(e) =>
                     (slot_name === "weapon" ?
                       dispatch(changeWeapon(equip_list[e.target.value])) :
@@ -56,14 +57,16 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
       <td>
         <input
-          readOnly value={equip.stats[style]}
+          value={equip.stats[style]}
+          onChange={(e) => dispatch(changeValue(slot_name, style, parseInt(e.target.value)))}
           className="stat_input"
           type="number"
         />
       </td>
       <td>
         <input
-          readOnly value={equip.stats.melee_strength}
+          value={equip.stats.melee_strength}
+          onChange={(e) => dispatch(changeValue(slot_name, "melee_strength", parseInt(e.target.value)))}
           className="stat_input"
           type="number"
         />
@@ -74,31 +77,17 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
 
 class Equipment extends Component {
   render() {
-
     const { weapon, dispatch, attack_style } = this.props
 
-    function bonus(style, attack_boolean){
-      if(style === "aggressive"){
-        return (attack_boolean ? 0 : 3)
-      }
-      else if(style === "controlled"){
-        return (attack_boolean ? 1 : 1)
-      }
-      else if(style === "accurate"){
-        return (attack_boolean ? 3 : 0)
-      }
-      else{
-        return 0
-      }
-    }
+    const varToString = varObj => Object.keys(varObj)[0]
 
     function total_atk_calc(equipment){
-      const style = "attack_" + attack_style.attack_type
+      const style = "attack_" + equipment.attack_style.attack_type
       const keys = Object.keys(equipment).filter(word => word !== "attack_style")
       const values = (keys.map(equip_name =>
         equipment[equip_name].stats[style]))
 
-      return values.reduce((a, b) => a + b, 0) + bonus(attack_style.attack_style, true)
+      return values.reduce((a, b) => a + b, 0)
     }
 
     function total_str_calc(equipment){
@@ -106,27 +95,28 @@ class Equipment extends Component {
       const values = (keys.map(equip_name =>
         equipment[equip_name].stats["melee_strength"]))
 
-      return values.reduce((a, b) => a + b, 0) + bonus(attack_style.attack_style, false)
-    }    
-
-
+      return values.reduce((a, b) => a + b, 0)
+    }
     return (
       <div>
         <table>
           <thead>
             <tr>
+              <th>Slot</th>
               <th>
-                Slot
+                Preset:
+                <select
+                  onChange={(e) => dispatch(receiveEquipment(equipment_presets[e.target.value]))}
+                >
+                  {Object.keys(equipment_presets).map((preset_key) => (
+                    <option value={preset_key} key={preset_key}>
+                      {preset_key}
+                    </option>
+                  ))}
+                </select>
               </th>
-              <th>
-                Set Placeholder
-              </th>
-              <th>
-                Attack
-              </th>
-              <th>
-                Strength
-              </th>
+              <th>Attack Bonus</th>
+              <th>Strength Bonus</th>
             </tr>
           </thead>
           <tbody>
@@ -152,20 +142,8 @@ class Equipment extends Component {
                 ))}
                 </select>
               </td>
-              <td>
-                <input
-                  value={bonus(attack_style.attack_style, true)}
-                  className="stat_input"
-                  type="number"
-                />
-              </td>
-              <td>
-                <input
-                  value={bonus(attack_style.attack_style, false)}
-                  className="stat_input"
-                  type="number"
-                />
-              </td>
+              <td></td>
+              <td></td>
             </tr>
             <EquipmentRow
               icon={AmmoSlot}

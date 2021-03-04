@@ -2,12 +2,22 @@ export const CHANGE_EQUIPMENT = 'CHANGE_EQUIPMENT'
 export const CHANGE_STYLE = 'CHANGE_STYLE'
 export const CHANGE_WEAPON = 'CHANGE_WEAPON'
 export const RECEIVE_EQUIPMENT = 'RECEIVE_EQUIPMENT'
+export const CHANGE_VALUE = 'CHANGE_VALUE'
 
 export function changeEquipment (slot, equipment) {
   return {
     type: CHANGE_EQUIPMENT,
     equipment,
     slot,
+  }
+}
+
+export function changeValue(slot, style, value){
+  return {
+    type: CHANGE_VALUE,
+    slot,
+    style,
+    value,
   }
 }
 

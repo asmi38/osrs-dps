@@ -1,4 +1,4 @@
-import { RECEIVE_EQUIPMENT, CHANGE_WEAPON, CHANGE_STYLE, CHANGE_EQUIPMENT } from '../actions/equipment'
+import { RECEIVE_EQUIPMENT, CHANGE_WEAPON, CHANGE_STYLE, CHANGE_EQUIPMENT, CHANGE_VALUE } from '../actions/equipment'
 import { default_equipment } from '../utils/default_data'
 
 export default function equipment (state = default_equipment, action) {
@@ -23,6 +23,18 @@ export default function equipment (state = default_equipment, action) {
       return {
         ...state,
         attack_style: action.style,
+      }
+    case CHANGE_VALUE:
+      return {
+        ...state,
+        [action.slot]: {
+          ...state[action.slot],
+          stats: {
+            ...state[action.slot].stats,
+            [action.style]: action.value
+          }
+        }
+
       }
     default:
       return state
