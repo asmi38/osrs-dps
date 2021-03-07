@@ -9,9 +9,11 @@ import NeckData from '../data/neck'
 import RingData from '../data/ring'
 import ShieldData from '../data/shield'
 import WeaponData from '../data/weapon'
+import SpellData from '../data/spells'
 
 export const default_equipment = {
   "attack_style": WeaponData["4151"]["stances"][0],
+  "spell": SpellData["none"],
   "head": HeadData["24271"],
   "ammo": AmmoData["0"],
   "body": BodyData["11832"],
@@ -145,6 +147,36 @@ export const max_crush = {
   "weapon": WeaponData["13576"],
 }
 
+export const max_mage = {
+  "attack_style": WeaponData["13576"]["stances"][0],
+  "head": HeadData["24419"],
+  "ammo": AmmoData["0"],
+  "body": BodyData["9674"],
+  "cape": CapeData["21295"],
+  "feet": FeetData["13239"],
+  "hands": HandsData["22981"],
+  "legs": LegsData["24421"],
+  "neck": NeckData["19553"],
+  "ring": RingData["11773"],
+  "shield": ShieldData["22322"],
+  "weapon": WeaponData["13576"],
+}
+
+export const max_range = {
+  "attack_style": WeaponData["20997"]["stances"][1],
+  "head": HeadData["11826"],
+  "ammo": AmmoData["11212"],
+  "body": BodyData["11828"],
+  "cape": CapeData["22109"],
+  "feet": FeetData["13237"],
+  "hands": HandsData["7462"],
+  "legs": LegsData["11830"],
+  "neck": NeckData["19547"],
+  "ring": RingData["11771"],
+  "shield": ShieldData["0"],
+  "weapon": WeaponData["20997"],
+}
+
 export const equipment_presets = {
   "default_equipment": default_equipment,
   "dharok": dharok,
@@ -155,4 +187,6 @@ export const equipment_presets = {
   "verac": verac,
   "pros_slay_whip": pros_slay_whip,
   "max_crush": max_crush,
+  "max_mage": max_mage,
+  "max_range": max_range,
 }

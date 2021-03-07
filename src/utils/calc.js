@@ -1,3 +1,52 @@
+export function combat_type_calc(attack_style){
+  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
+    return "range"
+  }
+  else if(attack_style.experience === "magic"){
+    return "mage"
+  }
+  else{
+    return "melee"
+  }
+}
+
+export function attack_style_name(attack_style){
+  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
+    return "attack_ranged"
+  }
+  else if(attack_style.experience === "magic"){
+    return "attack_magic"
+  }
+  else{
+    return "attack_" + attack_style.attack_type
+  }
+}
+
+export function strength_style_name(attack_style){
+  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
+    return "ranged_strength"
+  }
+  else if(attack_style.experience === "magic"){
+    return "magic_damage"
+  }
+  else{
+    return "melee_strength"
+  }
+}
+
+export function def_style_name(attack_style){
+  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
+    return "defence_ranged"
+  }
+  else if(attack_style.experience === "magic"){
+    return "defence_magic"
+  }
+  else{
+    return "defence_" + attack_style.attack_type
+  }
+}
+
+
 function potion_effect(stat, potion) {
   var potion_effect = 0
   if(potion === 'None'){

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue } from '../actions/equipment'
+import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue, changeSpell } from '../actions/equipment'
 import { equipment_presets } from '../utils/default_data'
+import { attack_style_name, strength_style_name } from '../utils/calc'
 import HeadData from '../data/head'
 import BodyData from '../data/body'
 import LegsData from '../data/legs'
@@ -9,6 +10,7 @@ import CapeData from '../data/cape'
 import AmmoData from '../data/ammo'
 import HandsData from '../data/hands'
 import NeckData from '../data/neck'
+import SpellData from '../data/spells'
 import RingData from '../data/ring'
 import ShieldData from '../data/shield'
 import FeetData from '../data/feet'
@@ -20,6 +22,7 @@ import CapeSlot from '../data/icons/Cape_slot.png'
 import NeckSlot from '../data/icons/Neck_slot.png'
 import BodySlot from '../data/icons/Body_slot.png'
 import LegsSlot from '../data/icons/Legs_slot.png'
+import SpellIcon from '../data/icons/Spell_Icon.png'
 import ShieldSlot from '../data/icons/Shield_slot.png'
 import HandsSlot from '../data/icons/Gloves_slot.png'
 import FeetSlot from '../data/icons/Boots_slot.png'
@@ -28,7 +31,7 @@ import CombatType from '../data/icons/Combat_type.png'
 
 
 function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style}){
-  const style = "attack_" + attack_style.attack_type
+  const style = attack_style_name(attack_style)
 
   const capitalise = ([firstLetter, ...restOfWord]) =>
     firstLetter.toUpperCase() + restOfWord.join('')
@@ -65,8 +68,8 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
       <td>
         <input
-          value={equip.stats.melee_strength}
-          onChange={(e) => dispatch(changeValue(slot_name, "melee_strength", parseInt(e.target.value)))}
+          value={equip.stats[strength_style_name(attack_style)]}
+          onChange={(e) => dispatch(changeValue(slot_name, strength_style_name(attack_style), parseInt(e.target.value)))}
           className="stat_input"
           type="number"
         />
@@ -77,13 +80,11 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
 
 class Equipment extends Component {
   render() {
-    const { weapon, dispatch, attack_style } = this.props
-
-    const varToString = varObj => Object.keys(varObj)[0]
+    const { weapon, dispatch, attack_style, equipment, head, ammo, body, cape, feet, legs, hands, neck, ring, shield, spell } = this.props
 
     function total_atk_calc(equipment){
-      const style = "attack_" + equipment.attack_style.attack_type
-      const keys = Object.keys(equipment).filter(word => word !== "attack_style")
+      const style = attack_style_name(attack_style)
+      const keys = Object.keys(equipment).filter(word => word !== "attack_style").filter(word => word !== "spell")
       const values = (keys.map(equip_name =>
         equipment[equip_name].stats[style]))
 
@@ -91,9 +92,9 @@ class Equipment extends Component {
     }
 
     function total_str_calc(equipment){
-      const keys = Object.keys(equipment).filter(word => word !== "attack_style")
+      const keys = Object.keys(equipment).filter(word => word !== "attack_style").filter(word => word !== "spell")
       const values = (keys.map(equip_name =>
-        equipment[equip_name].stats["melee_strength"]))
+        equipment[equip_name].stats[strength_style_name(attack_style)]))
 
       return values.reduce((a, b) => a + b, 0)
     }
@@ -132,7 +133,6 @@ class Equipment extends Component {
               <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
               <td>
                 <select
-                  defaultValue={weapon.stances[0]}
                   onChange={(e) => dispatch(changeStyle(weapon.stances[e.target.value]))}
                 >
                 {Object.keys(weapon.stances).map((item_key) => (
@@ -145,10 +145,25 @@ class Equipment extends Component {
               <td></td>
               <td></td>
             </tr>
+            <tr>
+              <td><img src={SpellIcon} alt="Spell book icon"/> Spell: </td>
+              <td>
+                <select
+                  onChange={(e) => dispatch(changeSpell(SpellData[e.target.value]))}
+                  value={spell.name}
+                >
+                {Object.keys(SpellData).map((spell_key) => (
+                  <option value={spell_key} key={spell_key}>
+                    {SpellData[spell_key].name}
+                  </option>
+                ))}
+                </select>
+              </td>
+            </tr>
             <EquipmentRow
               icon={AmmoSlot}
               slot_name="ammo"
-              equip={this.props.ammo}
+              equip={ammo}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={AmmoData}
@@ -156,7 +171,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={HeadSlot}
               slot_name="head"
-              equip={this.props.head}
+              equip={head}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={HeadData}
@@ -164,7 +179,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={CapeSlot}
               slot_name="cape"
-              equip={this.props.cape}
+              equip={cape}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={CapeData}
@@ -172,7 +187,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={NeckSlot}
               slot_name="neck"
-              equip={this.props.neck}
+              equip={neck}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={NeckData}
@@ -180,7 +195,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={BodySlot}
               slot_name="body"
-              equip={this.props.body}
+              equip={body}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={BodyData}
@@ -188,7 +203,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={LegsSlot}
               slot_name="legs"
-              equip={this.props.legs}
+              equip={legs}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={LegsData}
@@ -196,7 +211,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={ShieldSlot}
               slot_name="shield"
-              equip={this.props.shield}
+              equip={shield}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={ShieldData}
@@ -204,7 +219,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={HandsSlot}
               slot_name="hands"
-              equip={this.props.hands}
+              equip={hands}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={HandsData}
@@ -212,7 +227,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={FeetSlot}
               slot_name="feet"
-              equip={this.props.feet}
+              equip={feet}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={FeetData}
@@ -220,7 +235,7 @@ class Equipment extends Component {
             <EquipmentRow
               icon={RingSlot}
               slot_name="ring"
-              equip={this.props.ring}
+              equip={ring}
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={RingData}
@@ -228,8 +243,8 @@ class Equipment extends Component {
             <tr>
               <td>Total</td>
               <td></td>
-              <td>{total_atk_calc(this.props.equipment)}</td>
-              <td>{total_str_calc(this.props.equipment)}</td>
+              <td>{total_atk_calc(equipment)}</td>
+              <td>{total_str_calc(equipment)}</td>
             </tr>
           </tbody>
         </table>
@@ -239,7 +254,7 @@ class Equipment extends Component {
 }
 
 function mapStateToProps ({ equipment }) {
-  const { attack_style, head, ammo, body, cape, feet, hands, legs, neck, ring, shield, weapon} = equipment
+  const { attack_style, head, ammo, body, cape, feet, hands, legs, neck, ring, shield, weapon, spell} = equipment
   return {
     attack_style,
     head,
@@ -254,6 +269,7 @@ function mapStateToProps ({ equipment }) {
     shield,
     weapon,
     equipment,
+    spell
   }
 }
 

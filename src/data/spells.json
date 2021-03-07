@@ -1,0 +1,260 @@
+{
+	"none": {
+		"name": "none",
+		"element": "none",
+		"damage": 0,
+		"attack_speed": 5
+	},
+	"wind_strike": {
+      "name": "wind_strike",
+      "element": "air",
+      "damage": 2,
+      "attack_speed": 5
+  },
+	"wind_bolt": {
+    "name": "wind_bolt",
+    "element": "air",
+    "damage": 9,
+    "attack_speed": 5
+  },
+	"wind_blast": {
+    "name": "wind_blast",
+    "element": "air",
+    "damage": 13,
+    "attack_speed": 5
+  },
+	"wind_wave": {
+    "name": "wind_wave",
+    "element": "air",
+    "damage": 17,
+    "attack_speed": 5
+  },
+	"wind_surge": {
+    "name": "wind_surge",
+    "element": "air",
+    "damage": 21,
+    "attack_speed": 5
+  },
+	"water_strike": {
+    "name": "water_strike",
+    "element": "water",
+    "damage": 4,
+    "attack_speed": 5
+  },
+	"water_bolt": {
+    "name": "water_bolt",
+    "element": "water",
+    "damage": 10,
+    "attack_speed": 5
+  },
+	"water_blast": {
+    "name": "water_blast",
+    "element": "water",
+    "damage": 14,
+    "attack_speed": 5
+  },
+	"water_wave": {
+    "name": "water_wave",
+    "element": "water",
+    "damage": 18,
+    "attack_speed": 5
+  },
+	"water_surge": {
+    "name": "water_surge",
+    "element": "water",
+    "damage": 21,
+    "attack_speed": 5
+  },
+	"earth_strike": {
+    "name": "earth_strike",
+    "element": "earth",
+    "damage": 6,
+    "attack_speed": 5
+  },
+	"earth_bolt": {
+    "name": "earth_bolt",
+    "element": "earth",
+    "damage": 11,
+    "attack_speed": 5
+  },
+	"earth_blast": {
+    "name": "earth_blast",
+    "element": "earth",
+    "damage": 15,
+    "attack_speed": 5
+  },
+	"earth_wave": {
+    "name": "earth_wave",
+    "element": "earth",
+    "damage": 19,
+    "attack_speed": 5
+  },
+	"earth_surge": {
+    "name": "earth_surge",
+    "element": "earth",
+    "damage": 23,
+    "attack_speed": 5
+  },
+	"fire_strike": {
+    "name": "fire_strike",
+    "element": "fire",
+    "damage": 8,
+    "attack_speed": 5
+  },
+	"fire_bolt": {
+    "name": "fire_bolt",
+    "element": "fire",
+    "damage": 12,
+    "attack_speed": 5
+  },
+	"fire_blast": {
+    "name": "fire_blast",
+    "element": "fire",
+    "damage": 16,
+    "attack_speed": 5
+  },
+	"fire_wave": {
+    "name": "fire_wave",
+    "element": "fire",
+    "damage": 20,
+    "attack_speed": 5
+  },
+	"fire_surge": {
+    "name": "fire_surge",
+    "element": "fire",
+    "damage": 24,
+    "attack_speed": 5
+  },
+	"smoke_rush": {
+    "name": "smoke_rush",
+    "element": "smoke",
+    "damage": 13,
+    "attack_speed": 5
+  },
+	"smoke_burst": {
+    "name": "smoke_burst",
+    "element": "smoke",
+    "damage": 17,
+    "attack_speed": 5
+  },
+	"smoke_blitz": {
+    "name": "smoke_blitz",
+    "element": "smoke",
+    "damage": 23,
+    "attack_speed": 5
+  },
+	"smoke_barrage": {
+    "name": "smoke_barrage",
+    "element": "smoke",
+    "damage": 27,
+    "attack_speed": 5
+  },
+	"shadow_rush": {
+    "name": "shadow_rush",
+    "element": "shadow",
+    "damage": 14,
+    "attack_speed": 5
+  },
+	"shadow_burst": {
+    "name": "shadow_burst",
+    "element": "shadow",
+    "damage": 18,
+    "attack_speed": 5
+  },
+	"shadow_blitz": {
+    "name": "shadow_blitz",
+    "element": "shadow",
+    "damage": 24,
+    "attack_speed": 5
+  },
+	"shadow_barrage": {
+    "name": "shadow_barrage",
+    "element": "shadow",
+    "damage": 28,
+    "attack_speed": 5
+  },
+	"blood_rush": {
+    "name": "blood_rush",
+    "element": "blood",
+    "damage": 15,
+    "attack_speed": 5
+  },
+	"blood_burst": {
+    "name": "blood_burst",
+    "element": "blood",
+    "damage": 21,
+    "attack_speed": 5
+  },
+	"blood_blitz": {
+    "name": "blood_blitz",
+    "element": "blood",
+    "damage": 25,
+    "attack_speed": 5
+  },
+	"blood_barrage": {
+    "name": "blood_barrage",
+    "element": "blood",
+    "damage": 29,
+    "attack_speed": 5
+  },
+	"ice_rush": {
+    "name": "ice_rush",
+    "element": "ice",
+    "damage": 16,
+    "attack_speed": 5
+  },
+	"ice_burst": {
+    "name": "ice_burst",
+    "element": "ice",
+    "damage": 22,
+    "attack_speed": 5
+  },
+	"ice_blitz": {
+    "name": "ice_blitz",
+    "element": "ice",
+    "damage": 26,
+    "attack_speed": 5
+  },
+	"ice_barrage": {
+    "name": "ice_barrage",
+    "element": "ice",
+    "damage": 30,
+    "attack_speed": 5
+  },
+	"claws_of_guthix": {
+    "name": "claws_of_guthix",
+    "element": "god",
+    "damage": 30,
+    "attack_speed": 5
+  },
+	"saradomin_strike": {
+    "name": "saradomin_strike",
+    "element": "god",
+    "damage": 30,
+    "attack_speed": 5
+  },
+	"flames_of_zamorak": {
+    "name": "flames_of_zamorak",
+    "element": "god",
+    "damage": 30,
+    "attack_speed": 5
+  },
+	"magic_dart": {
+    "name": "magic_dart",
+    "element": "none",
+    "damage": 10,
+    "attack_speed": 5
+  },
+	"iban_blast": {
+    "name": "iban_blast",
+    "element": "none",
+    "damage": 25,
+    "attack_speed": 5
+  },
+	"crumble_undead": {
+    "name": "crumble_undead",
+    "element": "none",
+    "damage": 15,
+    "attack_speed": 5
+  }
+}
