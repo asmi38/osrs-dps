@@ -2,258 +2,301 @@
 	"none": {
 		"name": "none",
 		"element": "none",
+		"spellbook": "none",
 		"damage": 0,
 		"attack_speed": 5
 	},
 	"wind_strike": {
       "name": "wind_strike",
       "element": "air",
+			"spellbook": "standard",
       "damage": 2,
       "attack_speed": 5
   },
 	"wind_bolt": {
     "name": "wind_bolt",
     "element": "air",
+		"spellbook": "standard",
     "damage": 9,
     "attack_speed": 5
   },
 	"wind_blast": {
     "name": "wind_blast",
     "element": "air",
+		"spellbook": "standard",
     "damage": 13,
     "attack_speed": 5
   },
 	"wind_wave": {
     "name": "wind_wave",
     "element": "air",
+		"spellbook": "standard",
     "damage": 17,
     "attack_speed": 5
   },
 	"wind_surge": {
     "name": "wind_surge",
     "element": "air",
+		"spellbook": "standard",
     "damage": 21,
     "attack_speed": 5
   },
 	"water_strike": {
     "name": "water_strike",
     "element": "water",
+		"spellbook": "standard",
     "damage": 4,
     "attack_speed": 5
   },
 	"water_bolt": {
     "name": "water_bolt",
     "element": "water",
+		"spellbook": "standard",
     "damage": 10,
     "attack_speed": 5
   },
 	"water_blast": {
     "name": "water_blast",
     "element": "water",
+		"spellbook": "standard",
     "damage": 14,
     "attack_speed": 5
   },
 	"water_wave": {
     "name": "water_wave",
     "element": "water",
+		"spellbook": "standard",
     "damage": 18,
     "attack_speed": 5
   },
 	"water_surge": {
     "name": "water_surge",
     "element": "water",
+		"spellbook": "standard",
     "damage": 21,
     "attack_speed": 5
   },
 	"earth_strike": {
     "name": "earth_strike",
     "element": "earth",
+		"spellbook": "standard",
     "damage": 6,
     "attack_speed": 5
   },
 	"earth_bolt": {
     "name": "earth_bolt",
     "element": "earth",
+		"spellbook": "standard",
     "damage": 11,
     "attack_speed": 5
   },
 	"earth_blast": {
     "name": "earth_blast",
     "element": "earth",
+		"spellbook": "standard",
     "damage": 15,
     "attack_speed": 5
   },
 	"earth_wave": {
     "name": "earth_wave",
     "element": "earth",
+		"spellbook": "standard",
     "damage": 19,
     "attack_speed": 5
   },
 	"earth_surge": {
     "name": "earth_surge",
     "element": "earth",
+		"spellbook": "standard",
     "damage": 23,
     "attack_speed": 5
   },
 	"fire_strike": {
     "name": "fire_strike",
     "element": "fire",
+		"spellbook": "standard",
     "damage": 8,
     "attack_speed": 5
   },
 	"fire_bolt": {
     "name": "fire_bolt",
     "element": "fire",
+		"spellbook": "standard",
     "damage": 12,
     "attack_speed": 5
   },
 	"fire_blast": {
     "name": "fire_blast",
     "element": "fire",
+		"spellbook": "standard",
     "damage": 16,
     "attack_speed": 5
   },
 	"fire_wave": {
     "name": "fire_wave",
     "element": "fire",
+		"spellbook": "standard",
     "damage": 20,
     "attack_speed": 5
   },
 	"fire_surge": {
     "name": "fire_surge",
     "element": "fire",
+		"spellbook": "standard",	
     "damage": 24,
     "attack_speed": 5
   },
 	"smoke_rush": {
     "name": "smoke_rush",
     "element": "smoke",
+		"spellbook": "ancient",
     "damage": 13,
     "attack_speed": 5
   },
 	"smoke_burst": {
     "name": "smoke_burst",
     "element": "smoke",
+		"spellbook": "ancient",
     "damage": 17,
     "attack_speed": 5
   },
 	"smoke_blitz": {
     "name": "smoke_blitz",
     "element": "smoke",
+		"spellbook": "ancient",
     "damage": 23,
     "attack_speed": 5
   },
 	"smoke_barrage": {
     "name": "smoke_barrage",
     "element": "smoke",
+		"spellbook": "ancient",
     "damage": 27,
     "attack_speed": 5
   },
 	"shadow_rush": {
     "name": "shadow_rush",
     "element": "shadow",
+		"spellbook": "ancient",
     "damage": 14,
     "attack_speed": 5
   },
 	"shadow_burst": {
     "name": "shadow_burst",
     "element": "shadow",
+		"spellbook": "ancient",
     "damage": 18,
     "attack_speed": 5
   },
 	"shadow_blitz": {
     "name": "shadow_blitz",
     "element": "shadow",
+		"spellbook": "ancient",
     "damage": 24,
     "attack_speed": 5
   },
 	"shadow_barrage": {
     "name": "shadow_barrage",
     "element": "shadow",
+		"spellbook": "ancient",
     "damage": 28,
     "attack_speed": 5
   },
 	"blood_rush": {
     "name": "blood_rush",
     "element": "blood",
+		"spellbook": "ancient",
     "damage": 15,
     "attack_speed": 5
   },
 	"blood_burst": {
     "name": "blood_burst",
     "element": "blood",
+		"spellbook": "ancient",
     "damage": 21,
     "attack_speed": 5
   },
 	"blood_blitz": {
     "name": "blood_blitz",
     "element": "blood",
+		"spellbook": "ancient",
     "damage": 25,
     "attack_speed": 5
   },
 	"blood_barrage": {
     "name": "blood_barrage",
     "element": "blood",
+		"spellbook": "ancient",
     "damage": 29,
     "attack_speed": 5
   },
 	"ice_rush": {
     "name": "ice_rush",
     "element": "ice",
+		"spellbook": "ancient",
     "damage": 16,
     "attack_speed": 5
   },
 	"ice_burst": {
     "name": "ice_burst",
     "element": "ice",
+		"spellbook": "ancient",
     "damage": 22,
     "attack_speed": 5
   },
 	"ice_blitz": {
     "name": "ice_blitz",
     "element": "ice",
+		"spellbook": "ancient",
     "damage": 26,
     "attack_speed": 5
   },
 	"ice_barrage": {
     "name": "ice_barrage",
     "element": "ice",
+		"spellbook": "ancient",
     "damage": 30,
     "attack_speed": 5
   },
 	"claws_of_guthix": {
     "name": "claws_of_guthix",
     "element": "god",
+		"spellbook": "standard",
     "damage": 30,
     "attack_speed": 5
   },
 	"saradomin_strike": {
     "name": "saradomin_strike",
     "element": "god",
+		"spellbook": "standard",
     "damage": 30,
     "attack_speed": 5
   },
 	"flames_of_zamorak": {
     "name": "flames_of_zamorak",
     "element": "god",
+		"spellbook": "standard",
     "damage": 30,
     "attack_speed": 5
   },
 	"magic_dart": {
     "name": "magic_dart",
     "element": "none",
+		"spellbook": "standard",
     "damage": 10,
     "attack_speed": 5
   },
 	"iban_blast": {
     "name": "iban_blast",
     "element": "none",
+		"spellbook": "standard",
     "damage": 25,
     "attack_speed": 5
   },
 	"crumble_undead": {
     "name": "crumble_undead",
     "element": "none",
+		"spellbook": "standard",
     "damage": 15,
     "attack_speed": 5
   }

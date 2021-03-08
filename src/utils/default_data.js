@@ -148,18 +148,18 @@ export const max_crush = {
 }
 
 export const max_mage = {
-  "attack_style": WeaponData["13576"]["stances"][0],
-  "head": HeadData["24419"],
+  "attack_style": WeaponData["24422"]["stances"][4],
+  "head": HeadData["21018"],
   "ammo": AmmoData["0"],
-  "body": BodyData["9674"],
+  "body": BodyData["21021"],
   "cape": CapeData["21295"],
-  "feet": FeetData["13239"],
-  "hands": HandsData["22981"],
-  "legs": LegsData["24421"],
-  "neck": NeckData["19553"],
-  "ring": RingData["11773"],
-  "shield": ShieldData["22322"],
-  "weapon": WeaponData["13576"],
+  "feet": FeetData["13235"],
+  "hands": HandsData["19544"],
+  "legs": LegsData["21024"],
+  "neck": NeckData["12002"],
+  "ring": RingData["11770"],
+  "shield": ShieldData["12825"],
+  "weapon": WeaponData["24422"],
 }
 
 export const max_range = {
