@@ -2374,59 +2374,6 @@
             }
         ]
     },
-    "12727": {
-        "id": 12727,
-        "name": "Event rpg",
-        "short_name": "Event rpg",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB1ElEQVR4Xu2VS0/CQBSF6cqVcaOJCxVWjUGJFXk/YqVapSFVURoiD/Ft1Bgibljx04/caUamFSQUIS56khPoMMz55s5tGwj48uXLly9f85aEgYdp1PhMJCGd3oamxaHr6SFQEnI5RQD+DXxq2YsrisxCnVC285FlxGNhmAdbsIwoTvdl1Io7s4CSsLqy+GPnHIpMkIW9dRjZIGraBj5bKlrmLq6OZXsjodC0UM7wp6ruuFaTYVjFDMp6EmYfrKRGcZJX0GmlkAiv4e0ijN67gZuzxLRAdmAutslCKJSbwrnpulrKOUxjjaMg2rUMuo8qnq0UKofbXoEGO+cgFFI388xiKB9vnqvfv9N38u1lAd17DVZmAZ26go9G1guQxBZy714M4uZjNP/B0thRUv/QNY0TTO9Fw7UeZJ8cZgIgiS1MC1Jzchhxx8PMYfh/OexdOYWmtoTXSgSPlaj36nAgsQI8eJRFELHhRU9YHZL0DUBA4nGQ260S83vDYH6tnTh6xx08zO7EMbKByASU7j/4RAgC4EdDHlUBD8G/SWJ3FlmshNgjNIcanubMEETUz/N3W5ZD7CHIgdwr/LncZ++sgv0eo5fr3IDGy/OdMzv9Kxhfvvr6AgOLytAf8spGAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Event_rpg",
-        "slot": [
-            "2h"
-        ],
-        "requirements": [
-            null
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 0,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 0,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "punch",
-                "attack_type": "crush",
-                "attack_style": "accurate",
-                "experience": "attack",
-                "boosts": null
-            },
-            {
-                "combat_style": "kick",
-                "attack_type": "crush",
-                "attack_style": "aggressive",
-                "experience": "strength",
-                "boosts": null
-            },
-            {
-                "combat_style": "block",
-                "attack_type": "crush",
-                "attack_style": "defensive",
-                "experience": "defence",
-                "boosts": null
-            }
-        ]
-    },
     "6082": {
         "id": 6082,
         "name": "Fixed device",
@@ -3477,8 +3424,8 @@
     },
     "6525": {
         "id": 6525,
-        "name": "Toktz-xil-ek",
-        "short_name": "Toktz-xil-ek",
+        "name": "Obsidian dagger",
+        "short_name": "Obsidian dagger",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABF0lEQVR4Xu3TsQrCMBAG4OYBHHyD0qFD6ZDFQRCcHBQEEfFZfAA3QXATHARfNPUIZ5JLIg7mkqE/HJTC0a9/m6oaU0SEoncyRqhZ16lCUBoj21b1TZMbJdS87x1QW9c5UPBAoRZSOiC8L98oGLqVKLoVxCDIhjBg9JuHMDCMrWgENIAPtzGMn8hAQhgKSYjxG7EHQEwQiNsIXuPQVuj2n+O2ggg4ynicmVqB6JMTw5yWkw+IbiZIGBNrh24nyO8gupkgLiYEum2nXCAfEwJd1hlBNgbnvGL5oX1MCHTdmHayg+47NgzkO+h5KACDIGYMJA4CzGPPdqowPuh1NBDmdiAuCD+RDWHEQDQIWskMsVMMxKQYyJhIBophi1sWGk/9AAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Toktz-xil-ek",
         "slot": [
@@ -3539,8 +3486,8 @@
     },
     "6527": {
         "id": 6527,
-        "name": "Tzhaar-ket-em",
-        "short_name": "Tzhaar-ket-em",
+        "name": "Obsidian mace",
+        "short_name": "Obsidian mace",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABLklEQVR4Xu2W7woBQRTFzVtIqX0CbSKRojZCCGFlkT9Jef/vV2ema8c+wNyb9tT9sPNlfp177p2tVEqVKiUmQ8UTQRlaTiekCMpQttt5UOJghp6Xs4Waj8fU73R0QL2u169TzUZDB9Rhs6Fzmlqn8B1HkR6o0XCowSXIBRtQkyTRAeVaZeh2PGqaPsjQ45TRdrHQ1UJMILLFYVcAZuh9v9tcrWczGvR6HlgRMBhsvtEB1I5jqlWr1rVuq/UFCzwI+aVRvW6zBcd4uwNWYIc5p5Cp/WplgXDGcDyVgYDc1GEdIE/8/jEcoIID4UK/AMWOsUv5NAZRPlnsFErQJcj9shTbxy6JAOFiLh+K3QNMUCBkhYHYKR8kIAzkgBgK2RFwpajfp0MYxslvjzjMX+oDE2sfswBoTlMAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Tzhaar-ket-em",
         "slot": [
@@ -3594,8 +3541,8 @@
     },
     "6528": {
         "id": 6528,
-        "name": "Tzhaar-ket-om",
-        "short_name": "Tzhaar-ket-om",
+        "name": "Obsidian maul",
+        "short_name": "Obsidian maul",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABdUlEQVR4Xu2WbUsCURCFnX8hgbBISEjIEoYkSZIkJhommaEZZmYQ0f//NnFmmb1306/eWcQDB1/BhzPnzrVQOOpwRJy1qYg/Xuep32czSygSAHgxnYpPy2UBiqMoNBTxfDLJGDBGQMTPoxG/jMepo1JJbNAl4of7Hj8NhwKFR4VRIIzurFIJBUU86Hb5sd8X+zAYl45OgQKMjvi60ZCUfBgYo0NqeB4c6KbZ5JNiMTXe88cXFOiqXs/AKKS+BtBduy2JBegR8WUcpyBqHwifw0jsa7n0vrc3JT+AcSQjoS1A+KJWk65hg/+s1/uFcjAqB+iDnler3Ot0ZBUESstpd4ETqNtWSzqFtH43m3BQu0Vy6rRXuPu+V6uwaW0r2yss0M+3hW1a/3uFJZqbtHSEuH6QFrrlSm+iJBFA4W5Et3ASMUYzKB0heoXN7qdlPkIfCusB3TJNS6EwQpxCFN7o36cv1yvcjQpjCOR6lQsYX7mCOepg9Qc/3FhKYcxyEQAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Tzhaar-ket-om",
         "slot": [
@@ -4215,8 +4162,8 @@
     },
     "6523": {
         "id": 6523,
-        "name": "Toktz-xil-ak",
-        "short_name": "Toktz-xil-ak",
+        "name": "Obsidian sword",
+        "short_name": "Obsidian sword",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABHElEQVR4Xu2WQQqDMBBF4xFcdC9SpEgRKfQOVrBQ6aL3v4glSceZSVpawUxS8MPHhcE8/kzGKLXpZ2UTOrqyaZfnsxOAQqBT0xigtijiQwHYsa5TSEkpm4qFOlRVGlBWNq2koCCtfVm+oBI6gbTpE4BCmMc4OmlFSY7PqE8Wh9LWM8q1HhFgUShocgpzbtt5bkWBgvJRKFpSDiUGZgHuw2BMGztiWgh163uzMZTUBRNKC8tEoSjY+7SCgiGUBrpeOmPc1O+twGB8Pvmb8jX0fcD+WgYFafK+W13LoPyDEETLoQIDaX2DwpFAodyvrCy+KYXCyx6uEUiJX4O1oYn9ZrbP4EAonhaUiZZKEMaK/k6ohZPxBQDU7ppNf6sn9QtbUXSSH9oAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Toktz-xil-ak",
         "slot": [

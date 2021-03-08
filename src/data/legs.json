@@ -569,8 +569,8 @@
     },
     "10388": {
         "id": 10388,
-        "name": "Saradomin chaps",
-        "short_name": "Saradomin chaps",
+        "name": "Blessed chaps",
+        "short_name": "Blessed chaps",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABu0lEQVR4Xu3Wv0vDQBQH8N6YIUOGQAkEjuMoIZRQSqUUWhQLpYJKKdUKbaVDFUSkoJOLgyI4OPlnCP6Nz7x3+WXQRcilQ75w8C4Q+uHda6+1WpVCwuD3VUoYBFcv4K8eoXG+BXmyAT6cg2E4ZaAYtO/eU9D0Fvh4Cc5gApbfJVCLc50oBpbdBVfugyN6YDsBWHUPTEskHdIOEs1j4P4YXD5LUFgjrD7Y6Dw2BjKYgG33CUAr6hTWhinB7kx1dkmBpNyA2xhSlxBnWS3a4zJMrcfGoNGeJSCcJS6WCQg7pB0U9K+pSwko7FIWVDMs/SAaauxMBiQXH8BPn8A5uNEPwrmJj4pAIcy7uAdx9gbu+EEvyOvMFSiEIAqfIUjItTqyCKMN5O8tFIjPacUgxGVB+TcLDNs9UL1+qI4sXAko2ksh6Fn+rQKjQDjQpuknIKxLmCFMBIoQf4HybxWcdG52YIYwjAAxKK4rkEp4wXpb+kbhFYKIbF0KqNlbE4IGOfyXGN9nJYEwLAHFdQX6mfS3B+v4h7ICpcmBnBHtSwX5l18gjl4JQPvVJ/DRc1kgjIKkF2l+X0LyH57f/zff/vuNmq0utJoAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_chaps",
         "slot": [
@@ -1140,8 +1140,8 @@
     },
     "10464": {
         "id": 10464,
-        "name": "Saradomin robe legs",
-        "short_name": "Saradomin robe legs",
+        "name": "Vestment robe legs",
+        "short_name": "Vestment robe legs",
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACoklEQVR4Xt2Yz0uTcRzHn+f4HHbYoaOwUweJ6KCHIC8TRERBIT0oxZJFmFqLzMwyC4u0MsWcmcsymzVrNTbGbDo25nLGRqOg/+fd8/4+e56eQg8d9n2gD3wO2xh78f78eH+eKcr/Eyr+TEdDhaa1QtFO6SDH9axzEkqHcfXgzbMlBB/O4N74OK4ODlbBHIFSEd/YQPj5MpYeP8L9Wzdx40oA3qYmAXTC45EJpWI/l0Mi8g5vQytYfjKLB7cnMDk6itbmZmeAduJxJDcjiK6tYWVuDk+np4VKfd3dzgBlEgmkPrxHbH0dofl5rC4sYHZqCteGh5wByn/eQvrTR8TCYURehPRp67KAjrjdMhtbxY9yGXuZDLLJpFBpKxrVgdoxc2dSAHnqjPGXpJIB9DWfx246je1YTPSSHehYfb18oPKXAorZLHKplBh/O9DJhgb5QJX9olCJpeOkaa4+MfpcjpJ3kQHE/FbcE8psvlwVgIrmFUDtLS3ygX5WKroqfpHcSSwhJ01RGnG6o0MukMsdgMs1bBkrx5/lM157dYijcoGoxPdSSajCHmJj02SZr4NBkcYFIHEX2aeMBstNzY3NZHObCklTiSXituYeIhANlq7PM2TI75dZMoYq1DE3NYForhMjIzh/9oz8KeO4F3a2Lcdn7xDo7tgYLvb3o6utTS5QqbBr2QZvIjaxeX4EBgbQ09kpF4jHGZuZ407beLW4aAHROiTfRKrl9HR5nh8E4l1NoOuXL+Fcb69cIPaP/UAzgTjuBLrg88kFYv/YT1j2kAnEQ186kOFhPuHwIvXNTZMVtiE2dCMkPQ6ZMAcBHQRVc5Xs6tiA9AdGkVWo3yYrHciAMkrDz6pwplq1B2L8/eeC3UQPe7/GYf6QPQ/7zP69f4lfitGvL/k7E88AAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Saradomin_robe_legs",
         "slot": [
