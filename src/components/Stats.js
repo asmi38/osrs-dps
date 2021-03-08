@@ -23,7 +23,7 @@ const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
 function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
   return(
     <React.Fragment>
-      <td className='poop'>
+      <td>
         <img src={icon} alt="stat icon"/>
         {stat_name}
       </td>
@@ -36,28 +36,32 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         />
       </td>
       <td>
-        <select
-          value={stat.potion}
+        {stat_name === "Hitpoints" || stat_name === "Prayer" ? "" :
+          <select
+            value={stat.potion}
             onChange={(e) => dispatch(changePotion(stat_name, {...stat, "potion": e.target.value}))}
-          >
-            {pots.map((pot) => (
-              <option value={pot} key={pot}>
-                {pot}
-              </option>
-            ))}
-        </select>
+            >
+              {pots.map((pot) => (
+                <option value={pot} key={pot}>
+                  {pot}
+                </option>
+              ))}
+          </select>
+        }
       </td>
       <td>
-        <select
-          value={stat.prayer}
-          onChange={(e) => dispatch(changePrayer(stat_name, {...stat, "prayer": e.target.value}))}
-        >
-          {prayers.map((prayer) => (
-            <option value={prayer} key={prayer}>
-              {prayer}
-            </option>
-          ))}
-        </select>
+        {stat_name === "Hitpoints" || stat_name === "Prayer" ? "" :
+          <select
+            value={stat.prayer}
+            onChange={(e) => dispatch(changePrayer(stat_name, {...stat, "prayer": e.target.value}))}
+          >
+            {prayers.map((prayer) => (
+              <option value={prayer} key={prayer}>
+                {prayer}
+              </option>
+            ))}
+          </select>
+        }
       </td>
       <td>
         <input
@@ -73,10 +77,27 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
 
 class Stats extends Component {
   render() {
+    const { attack, strength, ranged, magic, defence, prayer, hitpoints } = this.props
+
+    function combat_level_calc(){
+      const base = (defence.level + hitpoints.level + Math.floor(prayer.level/2))/4
+      const melee = 0.325 * (attack.level + strength.level)
+      const range = 0.325 * (Math.floor(ranged.level)/2 + ranged.level)
+      const mage = 0.325 * (Math.floor(magic.level)/2 + magic.level)
+      const combat_level = base + Math.max(melee, range, mage)
+      return Math.floor(combat_level)
+    }
+
     return (
       <div>
       <table>
         <thead>
+         <tr>
+           <th> Name: </th>
+           <th> inputbox </th>
+           <th> Combat Level:</th>
+           <th> {combat_level_calc()} </th>
+         </tr>
          <tr>
           <th>Stats</th>
           <th><img src={stats_sprite} alt="Stats"/></th>

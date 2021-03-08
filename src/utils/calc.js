@@ -1,9 +1,9 @@
-export function combat_type_calc(attack_style){
-  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
-    return "range"
+export function combatTypeCalc(attack_style){
+  if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+    return "ranged"
   }
   else if(attack_style.experience === "magic"){
-    return "mage"
+    return "magic"
   }
   else{
     return "melee"
@@ -11,11 +11,11 @@ export function combat_type_calc(attack_style){
 }
 
 export function attack_style_name(attack_style){
-  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
-    return "attack_ranged"
-  }
-  else if(attack_style.experience === "magic"){
+  if(attack_style.experience === "magic"){
     return "attack_magic"
+  }
+  else if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+    return "attack_ranged"
   }
   else{
     return "attack_" + attack_style.attack_type
@@ -23,19 +23,19 @@ export function attack_style_name(attack_style){
 }
 
 export function strength_style_name(attack_style){
-  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
-    return "ranged_strength"
-  }
-  else if(attack_style.experience === "magic"){
+  if(attack_style.experience === "magic"){
     return "magic_damage"
+  }
+  else if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+    return "ranged_strength"
   }
   else{
     return "melee_strength"
   }
 }
 
-export function def_style_name(attack_style){
-  if(attack_style.combat_style === "accurate" || "rapid" || "longrange"){
+export function defTypeName(attack_style){
+  if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
     return "defence_ranged"
   }
   else if(attack_style.experience === "magic"){
