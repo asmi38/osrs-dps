@@ -5,7 +5,7 @@ const default_state = {
   "dwh_specials": 0,
   "bgs_specials": 0,
   "kandarin_hard": false,
-  "remaining_hp": 99,
+  "remaining_hp": 1,
   "quick_shot": false,
   "fluid_strikes": false,
   "double_cast": false,

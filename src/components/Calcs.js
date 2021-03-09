@@ -98,6 +98,16 @@ class Calcs extends Component {
       return bonus
     }
 
+    function dharokBonus(){
+      if(equipment.head.name === "Dharok's helm" &&
+         equipment.body.name === "Dharok's platebody" &&
+         equipment.legs.name === "Dharok's platelegs" &&
+         equipment.weapon.name === "Dharok's greataxe"){
+           return 1 + (stats.Hitpoints.level - calcs.remaining_hp) / 100 * (stats.Hitpoints.level / 100)
+      }
+      return 1
+    }
+
     function mageBonusDamage(spellDamage, equipment, enemy, calcs){
         var updatedDamage = spellDamage
         if(equipment.neck.name === "Salve amulet(i)" && enemy.attributes.includes("undead")){
@@ -116,7 +126,6 @@ class Calcs extends Component {
 
         return updatedDamage
     }
-
 
     //Returns array, first value is damage bonus, second value is accuracy bonus
     function gear_bonus(type){
@@ -197,16 +206,20 @@ class Calcs extends Component {
     //DAMAGE CALCS
 
     //STRENGTH && MAX HIT CALCS
+    //
     //1.025 is the rigour bonus for str being 23%
     function rangeMaxHit(){
-      const effectiveRangeStr = Math.floor((stats.Ranged.effective_level * 1.025 + range_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus(combatType)[0])
-      return Math.floor(Math.floor(effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320 / 640) * gear_bonus("range"))
+      const rigourBonus = Math.floor(stats.Ranged.effective_level * (stats.Ranged.prayer === "Rigour" ? 1.025 : 1))
+      const effectiveRangeStr = Math.floor((rigourBonus + range_bonus(equipment.attack_style.combat_style, false) + 8) * void_bonus(combatType)[0])
+      return Math.floor(Math.floor((effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320) / 640) * gear_bonus("range")[0])
     }
 
     function meleeMaxHit(){
-      const effectiveMeleeStr = stats.Strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8
-      const maxHit = 0.5 + effectiveMeleeStr * (totalStrCalc(equipment) + 64) / 640
-      return Math.round(maxHit)
+      const effectiveMeleeStr = (stats.Strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus("melee")[0]
+      const effMeleeAndNumeric = Math.floor( ((effectiveMeleeStr * (totalStrCalc(equipment) + 64)) + 320) / 640 )
+      const addGearBonus = Math.floor(effMeleeAndNumeric * gear_bonus("melee")[0])
+      const maxHit = Math.floor(addGearBonus * dharokBonus())
+      return maxHit
     }
 
     function mageMaxHit(){
@@ -218,13 +231,17 @@ class Calcs extends Component {
       return mageBonusDamage(spellDamageBase, equipment, enemy, calcs)
     }
 
-
-    function eff_ranged_atk(){
-      return Math.floor((stats.Ranged.effective_level + range_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus("range")[0])
-    }
+    //
+    //
+    //
+    //Attack Roll calculations
+    //
+    //
+    //
 
     function rangeAtkRoll(){
-      return Math.floor(eff_ranged_atk() * (totalAtkCalc(equipment) + 64) * gear_bonus("range"))
+      const effRangedAtk = Math.floor((stats.Ranged.effective_level + range_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("range")[0])
+      return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus("range")[0])
     }
 
     function mageAtkRoll(){
@@ -235,10 +252,9 @@ class Calcs extends Component {
 
 
     function meleeAtkRoll(){
-      const eff_atk_lvl = stats.Attack.effective_level + melee_bonus(equipment.attack_style.attack_style, true) + 8
-      const equip_atk_bonus = totalAtkCalc(equipment)
-      const max_atk_roll = eff_atk_lvl * (equip_atk_bonus + 64)
-      return max_atk_roll
+      const effectiveAtkLvl = (stats.Attack.effective_level + melee_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("melee")[1]
+      const maxAtkRoll = (effectiveAtkLvl * (totalAtkCalc(equipment) + 64)) * gear_bonus("melee")[1]
+      return Math.floor(maxAtkRoll)
     }
 
     function eMaxDefRoll(){
@@ -289,6 +305,9 @@ class Calcs extends Component {
       if(combatType === "magic"){
         return hitChance() * ((maxHit / 2) / (0.6 * equipment.spell.attack_speed))
       }
+      else if(combatType === "ranged" && equipment.attack_style.combat_style == "rapid"){
+        return hitChance() * ((maxHit / 2) / (0.6 * (equipment.weapon.attack_speed - 1)))
+      }
       else{
         return hitChance() * ((maxHit / 2) / (0.6 * equipment.weapon.attack_speed))
       }
@@ -299,7 +318,7 @@ class Calcs extends Component {
     function expected_hits(){
       const monsterHp = enemy.hitpoints
       const maxHit = maxHitCalc()
-      const accuracy=hitChance() * (1 - 1 / (maxHit + 1));
+      const accuracy = hitChance() * (1 - 1 / (maxHit + 1));
       var expectation = [0.0];
       var runningSum = 0.0;
       for (var i=1; i < monsterHp + 1; i++){
@@ -335,12 +354,12 @@ class Calcs extends Component {
           <tbody>
             <tr>
               <td> Maximum hit: </td>
-              <td> {meleeMaxHit()} </td>
+              <td> {rangeMaxHit()} </td>
             </tr>
               <td> Mage max hit : {mageMaxHit()}</td>
             <tr>
               <td> Max Attack Roll: </td>
-              <td> {mageAtkRoll() + combatType + eMaxDefRoll()}</td>
+              <td> {rangeAtkRoll() + combatType + eMaxDefRoll()}</td>
             </tr>
             <tr>
               <td> Accuracy: </td>
