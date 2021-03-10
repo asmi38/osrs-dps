@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { updateCalc } from '../actions/calcs'
-import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc } from '../utils/calc'
+import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from '../utils/calc'
 
 
 
@@ -16,6 +16,43 @@ class Calcs extends Component {
 
     //GEAR AND SET BONUSES
     //attack_boolean is true if it is attack bonus, false for strength bonus
+    function boltDpsBonus(maxHit){
+      const visibleRangedLvl = potion_effect(stats.Ranged.level, stats.ranged.prayer)
+      if(equipment.ammo.name = "Opal bolts (e)" || equipment.ammo.name === "Opal dragon bolts (e)"){
+        //Deals visible ranged level * 10%
+        const chance = 0.05
+        const kandarin = 0.055
+        const extraDamage = Math.floor(visibleRangedLvl * 0.1)
+      }
+      if(equipment.ammo.name = "Pearl bolts (e)" || equipment.ammo.name === "Pearl dragon bolts (e)"){
+        const chance = 0.06
+        const kandarin = 0.066
+        const extraDmg = (enemy.attributes.includes("fiery") ? visibleRangedLvl / 15 : visibleRangedLvl / 20 )
+      }
+      if(equipment.ammo.name = "Ruby bolts (e)" || equipment.ammo.name === "Ruby dragon bolts (e)"){
+        const chance = 0.06
+        const kandarin = 0.066
+        const extraDmg = Math.min(Math.floor(enemy.hitpoints * 0.2), 100)
+      }
+      if(equipment.ammo.name = "Diamond bolts (e)" || equipment.ammo.name === "Diamond dragon bolts (e)"){
+        const chance = 0.1
+        const kandarin = 0.11
+        const extraDmg = maxHit * 1.15 * 0.5
+        //Average hit with 100% accuracy
+      }
+      if((equipment.ammo.name = "Dragonstone bolts (e)" || equipment.ammo.name === "Dragonstone dragon bolts (e)") &&
+          (!enemy.attributes.includes("dragon") || !enemy.attributes.includes("fiery")) {
+        const chance = 0.06
+        const kandarin = 0.066
+        const extraDmg = Math.floor(visibleRangedLvl * 0.2)
+      }
+      if((equipment.ammo.name = "Onyx bolts (e)" || equipment.ammo.name === "Onyx dragon bolts (e)") && !enemy.attributes.includes("undead")){
+        const chance = 0.11
+        const kandarin = 0.121
+        const extraDmg = 1.2
+      }
+    }
+
     function melee_bonus(style, attack_boolean){
       if(style === "aggressive"){
         return (attack_boolean ? 0 : 3)
@@ -359,7 +396,7 @@ class Calcs extends Component {
               <td> Mage max hit : {mageMaxHit()}</td>
             <tr>
               <td> Max Attack Roll: </td>
-              <td> {rangeAtkRoll() + combatType + eMaxDefRoll()}</td>
+              <td> {mageAtkRoll() + combatType + eMaxDefRoll()}</td>
             </tr>
             <tr>
               <td> Accuracy: </td>
