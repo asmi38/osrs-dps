@@ -15,44 +15,53 @@ class Calcs extends Component {
     const combatType = combatTypeCalc(equipment.attack_style)
 
     //GEAR AND SET BONUSES
-    //attack_boolean is true if it is attack bonus, false for strength bonus
-    function boltDpsBonus(maxHit){
-      const visibleRangedLvl = potion_effect(stats.Ranged.level, stats.ranged.prayer)
-      if(equipment.ammo.name = "Opal bolts (e)" || equipment.ammo.name === "Opal dragon bolts (e)"){
+    //assuming 100% accuracy on bolt proc
+    function boltDPS(maxHit){
+      const visibleRangedLvl = potion_effect(stats.Ranged.level, stats.Ranged.potion)
+
+      if(equipment.ammo.name === "Opal bolts (e)" || equipment.ammo.name === "Opal dragon bolts (e)"){
         //Deals visible ranged level * 10%
-        const chance = 0.05
-        const kandarin = 0.055
-        const extraDamage = Math.floor(visibleRangedLvl * 0.1)
+        const procChance = (calcs.kandarin_hard ? 0.055 : 0.05)
+        const extraDmg = Math.floor(visibleRangedLvl * 0.1)
+        const boltDPS = procChance * (0.5 * maxHit + extraDmg)
+        return {'dps': boltDPS, 'procChance': procChance}
       }
-      if(equipment.ammo.name = "Pearl bolts (e)" || equipment.ammo.name === "Pearl dragon bolts (e)"){
-        const chance = 0.06
-        const kandarin = 0.066
+      else if(equipment.ammo.name === "Pearl bolts (e)" || equipment.ammo.name === "Pearl dragon bolts (e)"){
+        const procChance = (calcs.kandarin_hard ? 0.066 : 0.06)
         const extraDmg = (enemy.attributes.includes("fiery") ? visibleRangedLvl / 15 : visibleRangedLvl / 20 )
+        const boltDPS = procChance * (0.5 * maxHit + extraDmg)
+        return {'dps': boltDPS, 'procChance': procChance}
       }
-      if(equipment.ammo.name = "Ruby bolts (e)" || equipment.ammo.name === "Ruby dragon bolts (e)"){
-        const chance = 0.06
-        const kandarin = 0.066
+      //this ruby bolt(e) calculation assumes full health, halving extra damage would get the average over the fight
+      else if(equipment.ammo.name === "Ruby bolts (e)" || equipment.ammo.name === "Ruby dragon bolts (e)"){
+        const procChance = (calcs.kandarin_hard ? 0.066 : 0.06)
         const extraDmg = Math.min(Math.floor(enemy.hitpoints * 0.2), 100)
+        const boltDPS = procChance * extraDmg
+        return {'dps': boltDPS, 'procChance': procChance}
       }
-      if(equipment.ammo.name = "Diamond bolts (e)" || equipment.ammo.name === "Diamond dragon bolts (e)"){
-        const chance = 0.1
-        const kandarin = 0.11
+      else if(equipment.ammo.name === "Diamond bolts (e)" || equipment.ammo.name === "Diamond dragon bolts (e)"){
+        const procChance = (calcs.kandarin_hard ? 0.11 : 0.1)
         const extraDmg = maxHit * 1.15 * 0.5
-        //Average hit with 100% accuracy
+        const boltDPS = procChance * extraDmg
+        return {'dps': boltDPS, 'procChance': procChance}
       }
-      if((equipment.ammo.name = "Dragonstone bolts (e)" || equipment.ammo.name === "Dragonstone dragon bolts (e)") &&
-          (!enemy.attributes.includes("dragon") || !enemy.attributes.includes("fiery")) {
-        const chance = 0.06
-        const kandarin = 0.066
+      else if((equipment.ammo.name === "Dragonstone bolts (e)" || equipment.ammo.name === "Dragonstone dragon bolts (e)") &&
+         (!enemy.attributes.includes("dragon") || !enemy.attributes.includes("fiery"))){
+        const procChance = (calcs.kandarin_hard ? 0.066 : 0.06)
         const extraDmg = Math.floor(visibleRangedLvl * 0.2)
+        const boltDPS = hitChance() * procChance * (0.5 * maxHit + extraDmg)
+        return {'dps': boltDPS, 'procChance': procChance}
       }
-      if((equipment.ammo.name = "Onyx bolts (e)" || equipment.ammo.name === "Onyx dragon bolts (e)") && !enemy.attributes.includes("undead")){
-        const chance = 0.11
-        const kandarin = 0.121
-        const extraDmg = 1.2
+      else if((equipment.ammo.name === "Onyx bolts (e)" || equipment.ammo.name === "Onyx dragon bolts (e)") && !enemy.attributes.includes("undead")){
+        const procChance = (calcs.kandarin_hard ? 0.11 : 0.121)
+        const extraDmg = 1.2 * maxHit
+        const boltDPS = hitChance() * procChance * 0.5 * extraDmg
+        return {'dps': boltDPS, 'procChance': procChance}
       }
+      return {'dps': 0, 'procChance': 0}
     }
 
+    //attack_boolean is true if it is attack bonus, false for strength bonus
     function melee_bonus(style, attack_boolean){
       if(style === "aggressive"){
         return (attack_boolean ? 0 : 3)
@@ -342,8 +351,19 @@ class Calcs extends Component {
       if(combatType === "magic"){
         return hitChance() * ((maxHit / 2) / (0.6 * equipment.spell.attack_speed))
       }
-      else if(combatType === "ranged" && equipment.attack_style.combat_style == "rapid"){
-        return hitChance() * ((maxHit / 2) / (0.6 * (equipment.weapon.attack_speed - 1)))
+      else if(combatType === "ranged"){
+        var attackSpeed = equipment.weapon.attack_speed
+        if(equipment.attack_style.combat_style === "rapid"){
+          attackSpeed -= 1
+        }
+
+        if(equipment.ammo.name.includes("bolt")){
+          const boltProc = boltDPS(maxHit)
+          return (boltProc.dps + (1 - boltProc.procChance) * hitChance() * maxHit / 2) / (0.6 * attackSpeed)
+        }
+        else{
+          return hitChance() * ((maxHit / 2) / (0.6 * attackSpeed))
+        }
       }
       else{
         return hitChance() * ((maxHit / 2) / (0.6 * equipment.weapon.attack_speed))
@@ -393,7 +413,7 @@ class Calcs extends Component {
               <td> Maximum hit: </td>
               <td> {rangeMaxHit()} </td>
             </tr>
-              <td> Mage max hit : {mageMaxHit()}</td>
+              <td> BOLT DPS : {boltDPS(maxHitCalc()).dps}</td>
             <tr>
               <td> Max Attack Roll: </td>
               <td> {mageAtkRoll() + combatType + eMaxDefRoll()}</td>
