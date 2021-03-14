@@ -33,7 +33,8 @@ def monster_list_maker():
                 "defence_slash": data[x]["defence_slash"],
                 "defence_crush": data[x]["defence_crush"],
                 "defence_magic": data[x]["defence_magic"],
-                "defence_ranged": data[x]["defence_ranged"]
+                "defence_ranged": data[x]["defence_ranged"],
+                "attack_magic": data[x]["attack_magic"]
             }
             name_temp.append(new_name)
             output[data[x]["id"]] = result
