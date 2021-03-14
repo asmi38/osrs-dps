@@ -93,6 +93,58 @@ class Calcs extends Component {
       }
     }
 
+    function rangeGearBonus(){
+      if(equipment.weapon.name === "Dark bow"){
+        return {'accMultiplier': 1, 'dmgMultiplier': 2}
+      }
+
+      if(equipment.weapon.name === "Dragon hunter crossbow" && enemy.attributes.includes("dragon")){
+        return {'accMultiplier': 1.3, 'dmgMultiplier': 1.3}
+      }
+
+      if(equipment.weapon.name === "Craw's bow" && calcs.wilderness){
+        return {'accMultiplier': 1.5, 'dmgMultiplier': 1.5}
+      }
+
+      if(equipment.weapon.name === "Twisted bow"){
+        const magicValue = Math.max(enemy.magic_level, enemy.stats.attack_magic)
+        const isXerician = enemy.attributes.includes("xerician")
+        const enemyMagic = (isXerician ? Math.min(magicValue, 350) : Math.min(magicValue, 250))
+
+        const accuracy = ( 140 + (30*enemyMagic/10 - 10)/100 - (((3*enemyMagic/10)-100) ** 2)/100 ) / 100
+        const damage = ( 250 + (30*enemyMagic/10 - 14)/100 - (((3*enemyMagic/10)-140) ** 2)/100 ) / 100
+        const accMultiplier = Math.max(accuracy, 0)
+        const dmgMultiplier = Math.max(damage, 0)
+        return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
+      }
+      if(equipment.head.name === "Karil's coif" && equipment.body.name === "Karils leathertop" && equipment.legs.name === "Karil's leatherskirt" && equipment.weapon.name === "Karil's crossbow" && equipment.neck.name === "Amulet of the damned"){
+        return {'accMultiplier': 1, 'dmgMultiplier': 1.125}
+      }
+
+      const isCrystalBow = equipment.weapon.name.includes("Crystal bow")
+      const crystalItems = []
+      if(equipment.body.name === "Crystal body"){
+        crystalItems.push("Crystal body")
+      }
+      if(equipment.head.name === "Crystal helm"){
+        crystalItems.push("Crystal helm")
+      }
+      if(equipment.legs.name === "Crystal legs"){
+        crystalItems.push("Crystal legs")
+      }
+
+      if(isCrystalBow && crystalItems.length === 3){
+        return {'accMultiplier': 1.3, 'dmgMultiplier': 1.15}
+      }
+      else if(isCrystalBow){
+        const accMultiplier = 1 + 0.06 * crystalItems.length
+        const dmgMultiplier = 1 + 0.03 * crystalItems.length
+        return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
+      }
+
+      return {'accMultiplier': 1, 'dmgMultiplier': 1}
+    }
+
     function magic_bonus(equipment, spell){
       var bonus = 1
       if(equipment.hands.name === "Tormented bracelet"){
@@ -254,10 +306,10 @@ class Calcs extends Component {
     //STRENGTH && MAX HIT CALCS
     //
     //1.025 is the rigour bonus for str being 23%
-    function rangeMaxHit(){
+    function rangeMaxHit(rangeGearBonus){
       const rigourBonus = Math.floor(stats.Ranged.effective_level * (stats.Ranged.prayer === "Rigour" ? 1.025 : 1))
       const effectiveRangeStr = Math.floor((rigourBonus + range_bonus(equipment.attack_style.combat_style, false) + 8) * void_bonus(combatType)[0])
-      return Math.floor(Math.floor((effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320) / 640) * gear_bonus("range")[0])
+      return Math.floor(Math.floor((effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320) / 640) * gear_bonus("range")[0] * rangeGearBonus.dmgMultiplier)
     }
 
     function meleeMaxHit(){
@@ -285,9 +337,9 @@ class Calcs extends Component {
     //
     //
 
-    function rangeAtkRoll(){
+    function rangeAtkRoll(rangeGearBonus){
       const effRangedAtk = Math.floor((stats.Ranged.effective_level + range_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("range")[0])
-      return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus("range")[0])
+      return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus("range")[0] * rangeGearBonus.accMultiplier)
     }
 
     function mageAtkRoll(){
@@ -324,7 +376,7 @@ class Calcs extends Component {
 
     function hitChance(){
       if(combatType === "ranged"){
-        return calcHitChance(rangeAtkRoll(), eMaxDefRoll())
+        return calcHitChance(rangeAtkRoll(rangeGearBonus()), eMaxDefRoll())
       }
       else if(combatType === "magic"){
         return calcHitChance(mageAtkRoll(), eMaxDefRoll())
@@ -336,7 +388,7 @@ class Calcs extends Component {
 
     function maxHitCalc(){
       if(combatType === "ranged"){
-        return rangeMaxHit()
+        return rangeMaxHit(rangeGearBonus())
       }
       else if(combatType === "magic"){
         return mageMaxHit()
@@ -411,12 +463,12 @@ class Calcs extends Component {
           <tbody>
             <tr>
               <td> Maximum hit: </td>
-              <td> {rangeMaxHit()} </td>
+              <td> {rangeMaxHit(rangeGearBonus())} </td>
             </tr>
               <td> BOLT DPS : {boltDPS(maxHitCalc()).dps}</td>
             <tr>
               <td> Max Attack Roll: </td>
-              <td> {mageAtkRoll() + combatType + eMaxDefRoll()}</td>
+              <td> {rangeAtkRoll(rangeGearBonus()) + combatType + eMaxDefRoll()}</td>
             </tr>
             <tr>
               <td> Accuracy: </td>
