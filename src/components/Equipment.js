@@ -98,6 +98,18 @@ class Equipment extends Component {
 
       return values.reduce((a, b) => a + b, 0)
     }
+
+    function mapCombatStyles(){
+      const combatStyles = Object.keys(weapon.stances).map((key) => (
+          weapon.stances[key]
+      ))
+      const spellCast = {"attack_style": "magic", "attack_type": "spellcasting", "boosts": null, "combat_style": "spell", "experience": "magic"}
+      if(combatStyles.filter(e => e.attack_type === "spellcasting").length === 0){
+        combatStyles.push(spellCast)
+      }
+      return combatStyles
+    }
+
     return (
       <div>
         <table>
@@ -133,13 +145,16 @@ class Equipment extends Component {
               <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
               <td>
                 <select
-                  onChange={(e) => dispatch(changeStyle(weapon.stances[e.target.value]))}
+                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value]))}
+                  value={mapCombatStyles().indexOf(equipment.attack_style)}
                 >
-                {Object.keys(weapon.stances).map((item_key) => (
-                  <option value={item_key} key={item_key}>
-                    {weapon.stances[item_key].combat_style + " " + weapon.stances[item_key].attack_style + " " + weapon.stances[item_key].attack_type}
-                  </option>
-                ))}
+                {mapCombatStyles().map((style, index) => {
+                    return (
+                      <option value={index} key={index}>
+                        {style.combat_style + " " + style.attack_style + " " + style.attack_type}
+                      </option>
+                    )
+                })}
                 </select>
               </td>
               <td></td>
