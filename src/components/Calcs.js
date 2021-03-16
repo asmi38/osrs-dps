@@ -395,12 +395,8 @@ class Calcs extends Component {
     }
 
     function mageAtkRoll(){
-      var thammaronBonus  = 1
-      if(equipment.weapon.name === "Thammaron's sceptre" && calcs.wilderness){
-        thammaronBonus = 2
-      }
       const baseAtkRoll = (stats.Magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
-      return Math.floor(baseAtkRoll * thammaronBonus * (void_bonus("magic")[1] + gear_bonus("magic")[1] - 1))
+      return Math.floor(baseAtkRoll * (1 + magicBonus(equipment, spell).accMultiplier) * (void_bonus("magic")[1] + gear_bonus("magic")[1] - 1))
     }
 
 
@@ -413,7 +409,13 @@ class Calcs extends Component {
     function eMaxDefRoll(){
       const style = defTypeName(equipment.attack_style)
       if(style === "defence_magic"){
-        return ((enemy.magic_level + 9) * (enemy.stats[style] + 64))
+        if(equipment.ring.name === "Brimstone ring"){
+          const defRoll = (enemy.magic_level + 9) * (enemy.stats[style] + 64)
+          return Math.floor(0.75 * defRoll + 0.025 * defRoll)
+        }
+        else {
+          return ((enemy.magic_level + 9) * (enemy.stats[style] + 64))
+        }
       }
       else{
         return ((enemy.defence_level + 9) * (enemy.stats[style] + 64))
@@ -454,11 +456,11 @@ class Calcs extends Component {
     }
 
     function magicAtkSpeed(){
-      if(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange"){
-        return equipment.weapon.attack_speed
-      }
-      else if(equipment.weapon.name === "Harmonished nightmare staff" && spell.spellbook === "standard"){
+      if(equipment.weapon.name === "Harmonished nightmare staff" && spell.spellbook === "standard"){
         return 4
+      }
+      else if(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange"){
+        return equipment.weapon.attack_speed
       }
       else{
         return equipment.spell.attack_speed
