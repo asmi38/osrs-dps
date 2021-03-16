@@ -17,7 +17,7 @@ class Calcs extends Component {
     //GEAR AND SET BONUSES
     //assuming 100% accuracy on bolt proc
     function boltDPS(maxHit){
-      const visibleRangedLvl = potion_effect(stats.Ranged.level, stats.Ranged.potion)
+      const visibleRangedLvl = potion_effect(stats.ranged.level, stats.ranged.potion)
 
       if(equipment.ammo.name === "Opal bolts (e)" || equipment.ammo.name === "Opal dragon bolts (e)"){
         //Deals visible ranged level * 10%
@@ -106,7 +106,7 @@ class Calcs extends Component {
     }
 
     function staffMaxHit(){
-      const visibleMageLvl = potion_effect(stats.Magic.level, stats.Magic.potion)
+      const visibleMageLvl = potion_effect(stats.magic.level, stats.magic.potion)
       if(equipment.weapon.name === "Trident of the swamp"){
         return 23 + Math.floor((visibleMageLvl - 75)/3)
       }
@@ -251,7 +251,7 @@ class Calcs extends Component {
          equipment.body.name === "Dharok's platebody" &&
          equipment.legs.name === "Dharok's platelegs" &&
          equipment.weapon.name === "Dharok's greataxe"){
-           return 1 + (stats.Hitpoints.level - calcs.remaining_hp) / 100 * (stats.Hitpoints.level / 100)
+           return 1 + (stats.hitpoints.level - calcs.remaining_hp) / 100 * (stats.hitpoints.level / 100)
       }
       return 1
     }
@@ -356,13 +356,13 @@ class Calcs extends Component {
     //STRENGTH && MAX HIT CALCS
     //1.025 is the rigour bonus for str being 23%
     function rangeMaxHit(rangeGearBonus){
-      const rigourBonus = Math.floor(stats.Ranged.effective_level * (stats.Ranged.prayer === "Rigour" ? 1.025 : 1))
+      const rigourBonus = Math.floor(stats.ranged.effective_level * (stats.ranged.prayer === "Rigour" ? 1.025 : 1))
       const effectiveRangeStr = Math.floor((rigourBonus + range_bonus(equipment.attack_style.combat_style, false) + 8) * void_bonus(combatType)[0])
       return Math.floor(Math.floor((effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320) / 640) * gear_bonus("range")[0] * rangeGearBonus.dmgMultiplier)
     }
 
     function meleeMaxHit(meleeGearBonus){
-      const effectiveMeleeStr = (stats.Strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus("melee")[0]
+      const effectiveMeleeStr = (stats.strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus("melee")[0]
       const effMeleeAndNumeric = Math.floor( ((effectiveMeleeStr * (totalStrCalc(equipment) + 64)) + 320) / 640 )
       const addGearBonus = Math.floor(effMeleeAndNumeric * gear_bonus("melee")[0])
       const maxHit = Math.floor(addGearBonus * dharokBonus() * meleeGearBonus.dmgMultiplier)
@@ -390,18 +390,18 @@ class Calcs extends Component {
     //
 
     function rangeAtkRoll(rangeGearBonus){
-      const effRangedAtk = Math.floor((stats.Ranged.effective_level + range_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("range")[0])
+      const effRangedAtk = Math.floor((stats.ranged.effective_level + range_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("range")[0])
       return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus("range")[0] * rangeGearBonus.accMultiplier)
     }
 
     function mageAtkRoll(){
-      const baseAtkRoll = (stats.Magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
+      const baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
       return Math.floor(baseAtkRoll * (1 + magicBonus(equipment, spell).accMultiplier) * (void_bonus("magic")[1] + gear_bonus("magic")[1] - 1))
     }
 
 
     function meleeAtkRoll(meleeGearBonus){
-      const effectiveAtkLvl = (stats.Attack.effective_level + melee_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("melee")[1]
+      const effectiveAtkLvl = (stats.attack.effective_level + melee_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("melee")[1]
       const maxAtkRoll = (effectiveAtkLvl * (totalAtkCalc(equipment) + 64)) * gear_bonus("melee")[1]
       return Math.floor(maxAtkRoll * meleeGearBonus.accMultiplier)
     }

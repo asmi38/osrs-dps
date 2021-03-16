@@ -36,7 +36,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         />
       </td>
       <td>
-        {stat_name === "Hitpoints" || stat_name === "Prayer" ? "" :
+        {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <select
             value={stat.potion}
             onChange={(e) => dispatch(changePotion(stat_name, {...stat, "potion": e.target.value}))}
@@ -50,7 +50,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         }
       </td>
       <td>
-        {stat_name === "Hitpoints" || stat_name === "Prayer" ? "" :
+        {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <select
             value={stat.prayer}
             onChange={(e) => dispatch(changePrayer(stat_name, {...stat, "prayer": e.target.value}))}
@@ -110,7 +110,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={attack_sprite}
-            stat_name="Attack"
+            stat_name="attack"
             dispatch={this.props.dispatch}
             stat={this.props.attack}
             pots={atk_pots}
@@ -119,7 +119,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={strength_sprite}
-            stat_name="Strength"
+            stat_name="strength"
             dispatch={this.props.dispatch}
             stat={this.props.strength}
             pots={str_pots}
@@ -128,7 +128,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={defence_sprite}
-            stat_name="Defence"
+            stat_name="defence"
             dispatch={this.props.dispatch}
             stat={this.props.defence}
             pots={def_pots}
@@ -137,7 +137,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={range_sprite}
-            stat_name="Ranged"
+            stat_name="ranged"
             dispatch={this.props.dispatch}
             stat={this.props.ranged}
             pots={range_pots}
@@ -146,7 +146,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={magic_sprite}
-            stat_name="Magic"
+            stat_name="magic"
             dispatch={this.props.dispatch}
             stat={this.props.magic}
             pots={magic_pots}
@@ -155,7 +155,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={hp_sprite}
-            stat_name="Hitpoints"
+            stat_name="hitpoints"
             dispatch={this.props.dispatch}
             stat={this.props.hitpoints}
             pots={[]}
@@ -164,7 +164,7 @@ class Stats extends Component {
          <tr>
           <StatRow
             icon={prayer_sprite}
-            stat_name="Prayer"
+            stat_name="prayer"
             dispatch={this.props.dispatch}
             stat={this.props.prayer}
             pots={[]}
@@ -178,13 +178,13 @@ class Stats extends Component {
 }
 
 function mapStateToProps({ stats }) {
-  const attack = stats.Attack
-  const defence = stats.Defence
-  const hitpoints = stats.Hitpoints
-  const magic = stats.Magic
-  const prayer = stats.Prayer
-  const ranged = stats.Ranged
-  const strength = stats.Strength
+  const attack = stats.attack
+  const defence = stats.defence
+  const hitpoints = stats.hitpoints
+  const magic = stats.magic
+  const prayer = stats.prayer
+  const ranged = stats.ranged
+  const strength = stats.strength
 
   return {
     attack,

@@ -97,24 +97,24 @@ function prayer_effect(type, stat, prayer) {
     prayer_effect = 0.15 * stat
   }
   else if(prayer === "Piety"){
-    if(type === "Attack"){
+    if(type === "attack"){
       prayer_effect = 0.2 * stat
     }
-    else if(type === "Strength"){
+    else if(type === "strength"){
       prayer_effect = 0.23 * stat
     }
-    else if(type === "Defence"){
+    else if(type === "defence"){
       prayer_effect = 0.25 * stat
     }
   }
   else if(prayer === "Chivalry"){
-    if(type === "Attack"){
+    if(type === "attack"){
       prayer_effect = 0.15 * stat
     }
-    else if(type === "Strength"){
+    else if(type === "strength"){
       prayer_effect = 0.18 * stat
     }
-    else if(type === "Defence"){
+    else if(type === "defence"){
       prayer_effect = 0.2 * stat
     }
   }
