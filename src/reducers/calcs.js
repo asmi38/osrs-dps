@@ -4,7 +4,7 @@ const default_state = {
   "slayer_task": true,
   "dwh_specials": 0,
   "bgs_specials": 0,
-  "kandarin_hard": false,
+  "kandarin_hard": true,
   "remaining_hp": 1,
   "quick_shot": false,
   "fluid_strikes": false,
@@ -12,6 +12,7 @@ const default_state = {
   "tier6": false,
   "konars_blessing": false,
   "xerics_focus": false,
+  "wilderness": true,
 }
 export default function calcs (state = default_state, action) {
   switch(action.type) {
