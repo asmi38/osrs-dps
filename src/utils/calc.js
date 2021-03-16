@@ -1,8 +1,8 @@
 export function combatTypeCalc(attack_style){
-  if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+  if(attack_style.experience === "ranged" || attack_style.experience === "ranged and defence"){
     return "ranged"
   }
-  else if(attack_style.experience === "magic"){
+  else if(attack_style.experience === "magic" || attack_style.experience === "magic and defence"){
     return "magic"
   }
   else{
@@ -11,10 +11,10 @@ export function combatTypeCalc(attack_style){
 }
 
 export function attack_style_name(attack_style){
-  if(attack_style.experience === "magic"){
+  if(attack_style.experience === "magic" || attack_style.experience === "magic and defence"){
     return "attack_magic"
   }
-  else if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+  else if(attack_style.experience === "ranged" || attack_style.experience === "ranged and defence"){
     return "attack_ranged"
   }
   else{
@@ -23,10 +23,10 @@ export function attack_style_name(attack_style){
 }
 
 export function strength_style_name(attack_style){
-  if(attack_style.experience === "magic"){
+  if(attack_style.experience === "magic" || attack_style.experience === "magic and defence"){
     return "magic_damage"
   }
-  else if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+  else if(attack_style.experience === "ranged" || attack_style.experience === "ranged and defence"){
     return "ranged_strength"
   }
   else{
@@ -35,10 +35,10 @@ export function strength_style_name(attack_style){
 }
 
 export function defTypeName(attack_style){
-  if(attack_style.combat_style === "accurate" || attack_style.combat_style === "rapid" || attack_style.combat_style === "longrange"){
+  if(attack_style.experience === "ranged" || attack_style.experience === "ranged and defence"){
     return "defence_ranged"
   }
-  else if(attack_style.experience === "magic"){
+  else if(attack_style.experience === "magic" || attack_style.experience === "magic and defence"){
     return "defence_magic"
   }
   else{
@@ -47,7 +47,7 @@ export function defTypeName(attack_style){
 }
 
 
-function potion_effect(stat, potion) {
+export function potion_effect(stat, potion) {
   var potion_effect = 0
   if(potion === 'None'){
     potion_effect = 0
