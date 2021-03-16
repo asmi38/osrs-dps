@@ -93,6 +93,43 @@ class Calcs extends Component {
       }
     }
 
+    function mageCombatBonus(style){
+      if(style === "accurate"){
+        return 3
+      }
+      else if(style === "longrange"){
+        return 1
+      }
+      else{
+        return 0
+      }
+    }
+
+    function staffMaxHit(){
+      const visibleMageLvl = potion_effect(stats.Magic.level, stats.Magic.potion)
+      if(equipment.weapon.name === "Trident of the swamp"){
+        return 23 + Math.floor((visibleMageLvl - 75)/3)
+      }
+      else if(equipment.weapon.name === "Trident of the seas"){
+        return 20 + Math.floor((visibleMageLvl - 75)/3)
+      }
+      else if(equipment.weapon.name === "Sanguinesti staff"){
+        return 24 + Math.floor((visibleMageLvl - 75)/3)
+      }
+      else if(equipment.weapon.name === "Black salamander" && equipment.attack_style.combat_style === "blaze"){
+        return Math.floor(0.5 + visibleMageLvl * 156 / 640)
+      }
+      else if(equipment.weapon.name === "Salyer's staff (e)" && equipment.spell.name === "magic_dart"){
+        return 13 + Math.floor(visibleMageLvl / 6)
+      }
+      else if(equipment.spell.name === "magic_dart"){
+        return 10 + Math.floor(visibleMageLvl / 10)
+      }
+      else{
+        return null
+      }
+    }
+
     function rangeGearBonus(){
       if(equipment.weapon.name === "Dark bow"){
         return {'accMultiplier': 1, 'dmgMultiplier': 2}
@@ -145,55 +182,68 @@ class Calcs extends Component {
       return {'accMultiplier': 1, 'dmgMultiplier': 1}
     }
 
-    function magic_bonus(equipment, spell){
-      var bonus = 1
-      if(equipment.hands.name === "Tormented bracelet"){
-        bonus = bonus + 0.05
+    function meleeGearBonus(){
+      if(equipment.weapon.name === "Dragon hunter lance" && enemy.attributes.includes("dragon")){
+        return {'accMultiplier': 1.2, 'dmgMultiplier': 1.2}
       }
-      if(equipment.weapon.name === "Staff of the dead" ||
-         equipment.weapon.name === "Toxic staff of the dead" ||
-         equipment.weapon.name === "Staff of light" ||
-         equipment.weapon.name === "Staff of balance"){
-           bonus = bonus + 0.15
+      if(equipment.weapon.name === "Viggora's chainmace" && calcs.wilderness){
+        return {'accMultiplier': 1.5, 'dmgMultiplier': 1.5}
       }
-      if(equipment.head.name === "Ancestral hat"){
-        bonus = bonus + 0.02
+      if(equipment.head.name === "Obsidian helmet" && equipment.body.name === "Obsidian platebody" && equipment.legs.name === "Obsidian platelegs" && equipment.weapon.name.includes("Obsidian")){
+        if(equipment.neck.name === "Berserker necklace"){
+          return {'accMultiplier': 1.1, 'dmgMultiplier': 1.32}
+        }
+        else {
+          return {'accMultiplier': 1.1, 'dmgMultiplier': 1.1}
+        }
       }
-      if(equipment.body.name === "Ancestral robe top"){
-        bonus = bonus + 0.02
+      if(equipment.neck.name === "Berserker necklace" && equipment.weapon.name.includes("Obsidian")){
+        return {'accMultiplier': 1, 'dmgMultiplier': 1.2}
       }
-      if(equipment.legs.name === "Ancestral robe bottom"){
-        bonus = bonus + 0.02
+
+      const inquisitorItems = []
+      if(equipment.body.name === "Inquisitor's hauberk"){
+        inquisitorItems.push("Inquisitor's hauberk")
       }
-      if(equipment.neck.name === "Occult necklace"){
-        bonus = bonus + 0.1
+      if(equipment.head.name === "Inquisitor's great helm"){
+        inquisitorItems.push("Inquisitor's great helm")
       }
-      if(equipment.weapon.name === "Smoke battlestaff" && spell.spellbook === "standard"){
-        bonus = bonus + 0.1
+      if(equipment.legs.name === "Inquisitor's plateskirt"){
+        inquisitorItems.push("Inquisitor's plateskirt")
       }
-      if(equipment.weapon.name === "Kodai wand"){
-        bonus = bonus + 0.15
+
+      if(equipment.attack_style.attack_type === "crush" && inquisitorItems.length > 0){
+        if(inquisitorItems.length === 3){
+          return {'accMultiplier': 1.025, 'dmgMultiplier': 1.025}
+        }
+        else {
+          const accMultiplier = 1 + 0.005 * inquisitorItems.length
+          const dmgMultiplier = 1 + 0.005 * inquisitorItems.length
+          return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
+        }
       }
-      if(equipment.weapon.name === "Ahrim's staff"){
-        bonus = bonus + 0.05
-      }
-      if(equipment.legs.name === "Elite void top" && equipment.legs.name === "Elite void robe" && equipment.head.name === "Void knight helm"){
-        bonus = bonus + 0.025
-      }
-      if(equipment.cape.name === "Imbued god cape"){
-        bonus = bonus + 0.02
-      }
-      if(equipment.weapon.name === "Nightmare staff" || equipment.weapon.name.includes("nightmare staff")){
-        bonus = bonus + 0.15
+      return {'accMultiplier': 1, 'dmgMultiplier': 1}
+    }
+
+    function magicBonus(equipment, spell){
+      var accMultiplier = 0
+      var dmgMultiplier = 0
+      if((equipment.weapon.name === "Smoke battlestaff" || equipment.weapon.name === "Mystic smoke staff") && spell.spellbook === "standard"){
+        accMultiplier += 0.1
+        dmgMultiplier += 0.1
       }
       if(equipment.head.name === "Ahrim's hood" &&
          equipment.body.name === "Ahrim's robetop" &&
          equipment.legs.name === "Ahrim's robeskirt" &&
          equipment.weapon.name === "Ahrim's staff" &&
          equipment.neck.name === "Amulet of the damned"){
-           bonus = bonus * 1.075
+           dmgMultiplier = dmgMultiplier * 1.075
       }
-      return bonus
+      if(equipment.weapon.name === "Thammaron's sceptre" && calcs.wilderness){
+        accMultiplier += 1
+        dmgMultiplier += 0.25
+      }
+      return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
     }
 
     function dharokBonus(){
@@ -218,7 +268,7 @@ class Calcs extends Component {
           updatedDamage = Math.floor(updatedDamage * 1.15)
         }
 
-        if(equipment.shield.name === "Tome of fire" && equipment.spell.element === "fire"){
+        if(equipment.shield.name === "Tome of fire" && equipment.spell.element === "fire" && !(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange")){
           updatedDamage = Math.floor(updatedDamage * 1.5)
         }
 
@@ -241,7 +291,7 @@ class Calcs extends Component {
           return [1.15, 1.15]
         }
       }
-      else if((equipment.head.name === "Slayer helmet (i)" || equipment.head.name === "Black mask (i)") && slayer_task){
+      else if(equipment.head.name === "Slayer helmet (i)" && slayer_task){
         if(type === "melee"){
           return [1.1667, 1.1667]
         }
@@ -304,7 +354,6 @@ class Calcs extends Component {
     //DAMAGE CALCS
 
     //STRENGTH && MAX HIT CALCS
-    //
     //1.025 is the rigour bonus for str being 23%
     function rangeMaxHit(rangeGearBonus){
       const rigourBonus = Math.floor(stats.Ranged.effective_level * (stats.Ranged.prayer === "Rigour" ? 1.025 : 1))
@@ -312,21 +361,24 @@ class Calcs extends Component {
       return Math.floor(Math.floor((effectiveRangeStr * (totalStrCalc(equipment) + 64) +  320) / 640) * gear_bonus("range")[0] * rangeGearBonus.dmgMultiplier)
     }
 
-    function meleeMaxHit(){
+    function meleeMaxHit(meleeGearBonus){
       const effectiveMeleeStr = (stats.Strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus("melee")[0]
       const effMeleeAndNumeric = Math.floor( ((effectiveMeleeStr * (totalStrCalc(equipment) + 64)) + 320) / 640 )
       const addGearBonus = Math.floor(effMeleeAndNumeric * gear_bonus("melee")[0])
-      const maxHit = Math.floor(addGearBonus * dharokBonus())
+      const maxHit = Math.floor(addGearBonus * dharokBonus() * meleeGearBonus.dmgMultiplier)
       return maxHit
     }
 
     function mageMaxHit(){
-      var spellDamageBase = spell.damage
+      var magicDamageBase = spell.damage
       if(spell.name.includes("bolt") && equipment.hands === "Chaos gauntlets"){
-        spellDamageBase += 3
+        magicDamageBase += 3
       }
-      spellDamageBase = Math.floor(spellDamageBase * magic_bonus(equipment, spell))
-      return mageBonusDamage(spellDamageBase, equipment, enemy, calcs)
+      if(staffMaxHit() && (equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange" || equipment.attack_style.combat_style === "blaze")){
+        magicDamageBase = staffMaxHit()
+      }
+      magicDamageBase = Math.floor(magicDamageBase * (1 + totalStrCalc(equipment)/100 + magicBonus(equipment, spell).dmgMultiplier))
+      return mageBonusDamage(magicDamageBase, equipment, enemy, calcs)
     }
 
     //
@@ -343,16 +395,19 @@ class Calcs extends Component {
     }
 
     function mageAtkRoll(){
-      //need to include atk style bonus to lvl
-      const baseAtkRoll = (stats.Magic.effective_level + 8) * (totalAtkCalc(equipment) + 64)
-      return Math.floor(baseAtkRoll * (void_bonus("magic")[1] + gear_bonus("magic")[1] - 1))
+      var thammaronBonus  = 1
+      if(equipment.weapon.name === "Thammaron's sceptre" && calcs.wilderness){
+        thammaronBonus = 2
+      }
+      const baseAtkRoll = (stats.Magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
+      return Math.floor(baseAtkRoll * thammaronBonus * (void_bonus("magic")[1] + gear_bonus("magic")[1] - 1))
     }
 
 
-    function meleeAtkRoll(){
+    function meleeAtkRoll(meleeGearBonus){
       const effectiveAtkLvl = (stats.Attack.effective_level + melee_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("melee")[1]
       const maxAtkRoll = (effectiveAtkLvl * (totalAtkCalc(equipment) + 64)) * gear_bonus("melee")[1]
-      return Math.floor(maxAtkRoll)
+      return Math.floor(maxAtkRoll * meleeGearBonus.accMultiplier)
     }
 
     function eMaxDefRoll(){
@@ -382,7 +437,7 @@ class Calcs extends Component {
         return calcHitChance(mageAtkRoll(), eMaxDefRoll())
       }
       else{
-        return calcHitChance(meleeAtkRoll(), eMaxDefRoll())
+        return calcHitChance(meleeAtkRoll(meleeGearBonus()), eMaxDefRoll())
       }
     }
 
@@ -394,18 +449,30 @@ class Calcs extends Component {
         return mageMaxHit()
       }
       else{
-        return meleeMaxHit()
+        return meleeMaxHit(meleeGearBonus())
+      }
+    }
+
+    function magicAtkSpeed(){
+      if(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange"){
+        return equipment.weapon.attack_speed
+      }
+      else if(equipment.weapon.name === "Harmonished nightmare staff" && spell.spellbook === "standard"){
+        return 4
+      }
+      else{
+        return equipment.spell.attack_speed
       }
     }
 
     function calcDps(){
       const maxHit = maxHitCalc()
       if(combatType === "magic"){
-        return hitChance() * ((maxHit / 2) / (0.6 * equipment.spell.attack_speed))
+        return hitChance() * ((maxHit / 2) / (0.6 * magicAtkSpeed()))
       }
       else if(combatType === "ranged"){
         var attackSpeed = equipment.weapon.attack_speed
-        if(equipment.attack_style.combat_style === "rapid"){
+        if(equipment.attack_style.combat_style === "rapid" || equipment.attack_style.combat_style === "flare"){
           attackSpeed -= 1
         }
 
@@ -463,12 +530,11 @@ class Calcs extends Component {
           <tbody>
             <tr>
               <td> Maximum hit: </td>
-              <td> {rangeMaxHit(rangeGearBonus())} </td>
+              <td> {maxHitCalc()} </td>
             </tr>
-              <td> BOLT DPS : {boltDPS(maxHitCalc()).dps}</td>
             <tr>
               <td> Max Attack Roll: </td>
-              <td> {rangeAtkRoll(rangeGearBonus()) + combatType + eMaxDefRoll()}</td>
+              <td> {mageAtkRoll() + combatType + eMaxDefRoll()}</td>
             </tr>
             <tr>
               <td> Accuracy: </td>
