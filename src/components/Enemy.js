@@ -9,7 +9,7 @@ class Enemy extends Component {
 
     return(
       <div>
-        Enemy: 
+        Enemy:
         <select
           value={enemy.id}
           onChange={(e) => dispatch(changeEnemy(MonsterData[e.target.value]))}
@@ -17,6 +17,7 @@ class Enemy extends Component {
           {Object.keys(MonsterData).map((monster_key) =>
             <option
               value={monster_key}
+              key={monster_key}
             >
               {MonsterData[monster_key].name}
             </option>
