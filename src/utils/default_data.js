@@ -11,8 +11,56 @@ import ShieldData from '../data/shield'
 import WeaponData from '../data/weapon'
 import SpellData from '../data/spells'
 
+export const initialStats = {
+  isFetching: false,
+  error: '',
+  "attack": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "strength": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "defence": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "magic": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "ranged": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "hitpoints": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+  "prayer": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
+}
+
+
 export const default_equipment = {
-  "attack_style": WeaponData["4151"]["stances"][0],
+  "attack_style": WeaponData["4151"]["stances"][1],
   "spell": SpellData["none"],
   "head": HeadData["24271"],
   "ammo": AmmoData["0"],
@@ -136,7 +184,7 @@ export const max_crush = {
   "attack_style": WeaponData["13576"]["stances"][0],
   "head": HeadData["24419"],
   "ammo": AmmoData["0"],
-  "body": BodyData["9674"],
+  "body": BodyData["24420"],
   "cape": CapeData["21295"],
   "feet": FeetData["13239"],
   "hands": HandsData["22981"],

@@ -10,6 +10,10 @@ class App extends Component {
     return (
       <React.Fragment>
         <User />
+        <Stats />
+        <Equipment />
+        <Enemy />
+        <Calcs />
       </React.Fragment>
     )
   }
