@@ -4,8 +4,10 @@ const default_state = {
   "slayer_task": true,
   "dwh_specials": 0,
   "bgs_specials": 0,
+  "arclight_specials": 0,
   "kandarin_hard": true,
   "remaining_hp": 1,
+  "remaining_prayer": 99,
   "quick_shot": false,
   "fluid_strikes": false,
   "double_cast": false,
@@ -19,7 +21,7 @@ export default function calcs (state = default_state, action) {
     case UPDATE_CALC:
       return {
         ...state,
-        [action.type]: action.calc,
+        [action.calc]: action.value,
       }
     default:
       return state

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { updateCalc } from '../actions/calcs'
 import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from '../utils/calc'
+import Settings from './Settings'
 
 
 
@@ -199,6 +200,13 @@ class Calcs extends Component {
       }
       if(equipment.neck.name === "Berserker necklace" && equipment.weapon.name.includes("Obsidian")){
         return {'accMultiplier': 1, 'dmgMultiplier': 1.2}
+      }
+
+      if(equipment.weapon.name === "Arclight" && enemy.attributes.includes("demon")){
+        return {'accMultiplier': 1.7, 'dmgMultiplier': 1.7}
+      }
+      if(equipment.weapon.name === "Darklight" && (enemy.attributes.includes("demon") || enemy.attributes.includes("vampyre"))){
+        return {'accMultiplier': 1.6, 'dmgMultiplier': 1.6}
       }
 
       const inquisitorItems = []
@@ -510,7 +518,7 @@ class Calcs extends Component {
     }
 
     function expected_ttk(){
-      const attackSpeed = combatType === "magic" ? equipment.spell.attack_speed : equipment.weapon.attack_speed
+      const attackSpeed = combatType === "magic" ? magicAtkSpeed() : equipment.weapon.attack_speed
       return (attackSpeed * 0.6) * expected_hits(enemy.hitpoints, maxHitCalc(), hitChance())
     }
 
@@ -556,6 +564,7 @@ class Calcs extends Component {
             </tr>
           </tbody>
         </table>
+        <Settings />
       </div>
     )
   }
