@@ -28,6 +28,9 @@ def monster_list_maker():
             result["wiki_url"] = data[x]["wiki_url"]
             result["defence_level"] = data[x]["defence_level"]
             result["magic_level"] = data[x]["magic_level"]
+            result["attack_level"] = data[x]["attack_level"]
+            result["strength_level"] = data[x]["strength_level"]
+            result["ranged_level"] = data[x]["ranged_level"]
             result["stats"] = {
                 "defence_stab": data[x]["defence_stab"],
                 "defence_slash": data[x]["defence_slash"],
