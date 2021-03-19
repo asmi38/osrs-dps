@@ -397,6 +397,30 @@ class Calcs extends Component {
     //
     //
 
+    function enemyStatReductions(defence){
+      var defenceLevel = defence
+
+      //dwh specials
+      for(let i = 0; i < calcs.dwh_specials; i++){
+        defenceLevel = Math.ceil(defenceLevel * 0.7)
+      }
+
+      //arclight specials
+      if(enemy.attributes.includes("demon") && calcs.arclight_specials > 0){
+        defenceLevel = Math.ceil(defenceLevel * (1 - 0.1 * calcs.arclight_specials))
+      }
+      else if(calcs.arclight_specials > 0){
+        defenceLevel = Math.ceil(defenceLevel * (1 - 0.05 * calcs.arclight_specials))
+      }
+
+      //bgs reduction order Def > Str > mage > atk > ranged
+      if(calcs.bgs_dmg > 0){
+        defenceLevel = Math.max(0, defenceLevel - calcs.bgs_dmg)
+      }
+
+      return defenceLevel
+    }
+
     function rangeAtkRoll(rangeGearBonus){
       const effRangedAtk = Math.floor((stats.ranged.effective_level + range_bonus(equipment.attack_style.attack_style, true) + 8) * void_bonus("range")[0])
       return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus("range")[0] * rangeGearBonus.accMultiplier)
@@ -426,7 +450,7 @@ class Calcs extends Component {
         }
       }
       else{
-        return ((enemy.defence_level + 9) * (enemy.stats[style] + 64))
+        return ((enemyStatReductions(enemy.defence_level) + 9) * (enemy.stats[style] + 64))
       }
     }
 
