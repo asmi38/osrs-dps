@@ -30,7 +30,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
       <td>
         <input
           value={stat.level}
-          onChange={(e) => dispatch(changeStat(stat_name, {...stat, "level": e.target.value}))}
+          onChange={(e) => dispatch(changeStat(stat_name, {...stat, "level": parseInt(e.target.value)}))}
           className="stat_input"
           type="number"
         />
@@ -39,7 +39,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <select
             value={stat.potion}
-            onChange={(e) => dispatch(changePotion(stat_name, {...stat, "potion": e.target.value}))}
+            onChange={(e) => dispatch(changePotion(stat_name, {...stat, "potion": parseInt(e.target.value)}))}
             >
               {pots.map((pot) => (
                 <option value={pot} key={pot}>
@@ -53,7 +53,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <select
             value={stat.prayer}
-            onChange={(e) => dispatch(changePrayer(stat_name, {...stat, "prayer": e.target.value}))}
+            onChange={(e) => dispatch(changePrayer(stat_name, {...stat, "prayer": parseInt(e.target.value)}))}
           >
             {prayers.map((prayer) => (
               <option value={prayer} key={prayer}>
@@ -66,7 +66,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
       <td>
         <input
           value={stat.effective_level}
-          onChange={(e) => dispatch(changeStat(stat_name, {...stat, "effective_level": e.target.value}))}
+          onChange={(e) => dispatch(changeStat(stat_name, {...stat, "effective_level": parseInt(e.target.value)}))}
           className="stat_input"
           type="number"
         />
@@ -178,13 +178,7 @@ class Stats extends Component {
 }
 
 function mapStateToProps({ stats }) {
-  const attack = stats.attack
-  const defence = stats.defence
-  const hitpoints = stats.hitpoints
-  const magic = stats.magic
-  const prayer = stats.prayer
-  const ranged = stats.ranged
-  const strength = stats.strength
+  const { attack, defence, hitpoints, magic, prayer, ranged, strength } = stats
 
   return {
     attack,
