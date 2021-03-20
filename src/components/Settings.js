@@ -31,9 +31,10 @@ class Settings extends Component {
             <td>
               <input
                 type="number"
-                value={calcs.bgs_specials}
-                name="bgs_specials"
+                value={calcs.bgs_dmg}
+                name="bgs_dmg"
                 onChange={this.handleChange}
+                min={0}
               >
               </input>
             </td>
@@ -48,6 +49,7 @@ class Settings extends Component {
                 value={calcs.dwh_specials}
                 name="dwh_specials"
                 onChange={this.handleChange}
+                min={0}
               >
               </input>
             </td>
@@ -62,6 +64,7 @@ class Settings extends Component {
                 value={calcs.arclight_specials}
                 name="arclight_specials"
                 onChange={this.handleChange}
+                min={0}
               >
               </input>
             </td>
@@ -87,6 +90,7 @@ class Settings extends Component {
                 value={calcs.remaining_hp}
                 name="remaining_hp"
                 onChange={this.handleChange}
+                min={1}
               >
               </input>
             </td>
@@ -101,6 +105,7 @@ class Settings extends Component {
                 value={calcs.remaining_prayer}
                 name="remaining_prayer"
                 onChange={this.handleChange}
+                min={0}
               >
               </input>
             </td>
