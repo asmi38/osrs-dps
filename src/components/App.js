@@ -4,6 +4,7 @@ import Equipment from './Equipment'
 import Enemy from './Enemy'
 import Calcs from './Calcs'
 import User from './User'
+import Settings from './Settings'
 
 class App extends Component {
   render() {
@@ -11,12 +12,16 @@ class App extends Component {
       <React.Fragment>
         <User />
         <Stats />
-        <Equipment />
+        <Equipment actionKey={"A"}/>
+        <Equipment actionKey={"B"}/>
         <Enemy />
         <Calcs />
+        <Settings />
       </React.Fragment>
     )
   }
 }
+
+
 
 export default App;

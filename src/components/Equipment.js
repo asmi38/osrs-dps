@@ -30,7 +30,7 @@ import RingSlot from '../data/icons/Ring_slot.png'
 import CombatType from '../data/icons/Combat_type.png'
 
 
-function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style}){
+function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style, actionKey}){
   const style = attack_style_name(attack_style)
 
   const capitalise = ([firstLetter, ...restOfWord]) =>
@@ -47,8 +47,8 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
           value={equip.id}
           onChange={(e) =>
                     (slot_name === "weapon" ?
-                      dispatch(changeWeapon(equip_list[e.target.value])) :
-                      dispatch(changeEquipment(slot_name, equip_list[e.target.value])))
+                      dispatch(changeWeapon(equip_list[e.target.value]), actionKey) :
+                      dispatch(changeEquipment(slot_name, equip_list[e.target.value], actionKey)))
                     }
         >
             {Object.keys(equip_list).map((item_key) => (
@@ -61,7 +61,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       <td>
         <input
           value={equip.stats[style]}
-          onChange={(e) => dispatch(changeValue(slot_name, style, parseInt(e.target.value)))}
+          onChange={(e) => dispatch(changeValue(slot_name, style, parseInt(e.target.value), actionKey))}
           className="stat_input"
           type="number"
         />
@@ -69,7 +69,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       <td>
         <input
           value={equip.stats[strength_style_name(attack_style)]}
-          onChange={(e) => dispatch(changeValue(slot_name, strength_style_name(attack_style), parseInt(e.target.value)))}
+          onChange={(e) => dispatch(changeValue(slot_name, strength_style_name(attack_style), parseInt(e.target.value), actionKey))}
           className="stat_input"
           type="number"
         />
@@ -80,7 +80,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
 
 class Equipment extends Component {
   render() {
-    const { weapon, dispatch, attack_style, equipment, head, ammo, body, cape, feet, legs, hands, neck, ring, shield, spell } = this.props
+    const { weapon, dispatch, attack_style, equipment, head, ammo, body, cape, feet, legs, hands, neck, ring, shield, spell, actionKey } = this.props
 
     function total_atk_calc(equipment){
       const style = attack_style_name(attack_style)
@@ -112,6 +112,7 @@ class Equipment extends Component {
 
     return (
       <div>
+        <button>Test</button>
         <table>
           <thead>
             <tr>
@@ -119,7 +120,7 @@ class Equipment extends Component {
               <th>
                 Preset:
                 <select
-                  onChange={(e) => dispatch(receiveEquipment(equipment_presets[e.target.value]))}
+                  onChange={(e) => dispatch(receiveEquipment(equipment_presets[e.target.value], actionKey))}
                 >
                   {Object.keys(equipment_presets).map((preset_key) => (
                     <option value={preset_key} key={preset_key}>
@@ -145,7 +146,7 @@ class Equipment extends Component {
               <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
               <td>
                 <select
-                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value]))}
+                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value]), actionKey)}
                   value={mapCombatStyles().indexOf(equipment.attack_style)}
                 >
                 {mapCombatStyles().map((style, index) => {
@@ -164,7 +165,7 @@ class Equipment extends Component {
               <td><img src={SpellIcon} alt="Spell book icon"/> Spell: </td>
               <td>
                 <select
-                  onChange={(e) => dispatch(changeSpell(SpellData[e.target.value]))}
+                  onChange={(e) => dispatch(changeSpell(SpellData[e.target.value], actionKey))}
                   value={spell.name}
                 >
                 {Object.keys(SpellData).map((spell_key) => (
@@ -182,6 +183,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={AmmoData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={HeadSlot}
@@ -190,6 +192,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={HeadData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={CapeSlot}
@@ -198,6 +201,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={CapeData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={NeckSlot}
@@ -206,6 +210,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={NeckData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={BodySlot}
@@ -214,6 +219,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={BodyData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={LegsSlot}
@@ -222,6 +228,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={LegsData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={ShieldSlot}
@@ -230,6 +237,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={ShieldData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={HandsSlot}
@@ -238,6 +246,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={HandsData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={FeetSlot}
@@ -246,6 +255,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={FeetData}
+              actionKey={actionKey}
             />
             <EquipmentRow
               icon={RingSlot}
@@ -254,6 +264,7 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={RingData}
+              actionKey={actionKey}
             />
             <tr>
               <td>Total</td>
@@ -268,9 +279,12 @@ class Equipment extends Component {
   }
 }
 
-function mapStateToProps ({ equipment }) {
-  const { attack_style, head, ammo, body, cape, feet, hands, legs, neck, ring, shield, weapon, spell} = equipment
+function mapStateToProps (state, ownProps ) {
+  const actionKey = ownProps.actionKey
+  const equipment = (actionKey === 'A' ? state.equipmentA : state.equipmentB)
+  const { attack_style, head, ammo, body, cape, feet, hands, legs, neck, ring, shield, weapon, spell } = equipment
   return {
+    actionKey,
     attack_style,
     head,
     ammo,
@@ -287,5 +301,7 @@ function mapStateToProps ({ equipment }) {
     spell
   }
 }
+
+
 
 export default connect(mapStateToProps)(Equipment)

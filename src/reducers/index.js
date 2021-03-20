@@ -1,12 +1,13 @@
 import { combineReducers } from 'redux'
 import enemy from './enemy'
-import equipment from './equipment'
+import createNamedEquipment from './equipment'
 import stats from './stats'
 import calcs from './calcs'
 
 export default combineReducers({
   stats,
-  equipment,
+  equipmentA: createNamedEquipment('A'),
+  equipmentB: createNamedEquipment('B'),
   enemy,
   calcs,
 })

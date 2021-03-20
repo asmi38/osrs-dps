@@ -5,47 +5,47 @@ export const RECEIVE_EQUIPMENT = 'RECEIVE_EQUIPMENT'
 export const CHANGE_VALUE = 'CHANGE_VALUE'
 export const CHANGE_SPELL = 'CHANGE_SPELL'
 
-export function changeEquipment(slot, equipment){
+export function changeEquipment(slot, equipment, key){
   return {
-    type: CHANGE_EQUIPMENT,
+    type: CHANGE_EQUIPMENT + key,
     equipment,
     slot,
   }
 }
 
-export function changeSpell(spell){
+export function changeSpell(spell, key){
   return {
-    type: CHANGE_SPELL,
+    type: CHANGE_SPELL + key,
     spell
   }
 }
 
-export function changeValue(slot, style, value){
+export function changeValue(slot, style, value, key){
   return {
-    type: CHANGE_VALUE,
+    type: CHANGE_VALUE + key,
     slot,
     style,
     value,
   }
 }
 
-export function receiveEquipment(equipment){
+export function receiveEquipment(equipment, key){
   return{
-    type: RECEIVE_EQUIPMENT,
+    type: RECEIVE_EQUIPMENT + key,
     equipment,
   }
 }
 
-export function changeWeapon(weapon) {
+export function changeWeapon(weapon, key) {
   return {
-    type: CHANGE_WEAPON,
+    type: CHANGE_WEAPON + key,
     weapon,
   }
 }
 
-export function changeStyle(style){
+export function changeStyle(style, key){
   return {
-    type: CHANGE_STYLE,
+    type: CHANGE_STYLE + key,
     style,
   }
 }
