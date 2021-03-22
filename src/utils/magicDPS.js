@@ -1,4 +1,4 @@
-import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from '../utils/calc'
+import { potion_effect } from '../utils/calc'
 import { gear_bonus, void_bonus, totalAtkCalc, totalStrCalc } from '../utils/sharedDPS'
 
 //Only used if attacking with staff skill
@@ -43,7 +43,7 @@ function staffMaxHit(state, equipment){
 
 
 function magicBonus(state, equipment){
-  const { calcs, enemy } = state
+  const { calcs } = state
   const { spell }  = equipment
   let accMultiplier = 0
   let dmgMultiplier = 0
@@ -94,7 +94,6 @@ function mageBonusDamage(spellDamage, state, equipment){
     ###########################################################################################
 */
 export function mageMaxHit(state, equipment){
-  const { enemy, calcs } = state
   const spell = equipment.spell
   let magicDamageBase = spell.damage
   if(spell.name.includes("bolt") && equipment.hands === "Chaos gauntlets"){
@@ -109,7 +108,7 @@ export function mageMaxHit(state, equipment){
 
 
 export function mageAtkRoll(state, equipment){
-  const { stats, calcs } = state
+  const { stats } = state
   const baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
   return Math.floor(baseAtkRoll * (1 + magicBonus(state, equipment).accMultiplier) * (void_bonus(equipment, "magic")[1] + gear_bonus(state, equipment, "magic")[1] - 1))
 }

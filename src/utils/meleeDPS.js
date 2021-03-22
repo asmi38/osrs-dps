@@ -1,4 +1,3 @@
-import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from './calc'
 import { gear_bonus, void_bonus, totalAtkCalc, totalStrCalc } from './sharedDPS'
 
 //attack_boolean is true if it is attack bonus, false for strength bonus
@@ -86,7 +85,7 @@ function dharokBonus(state, equipment){
 */
 
 export function meleeMaxHit(state, equipment){
-  const { stats, calcs, enemy } = state
+  const { stats } = state
 
   const effectiveMeleeStr = (stats.strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus(equipment, "melee")[0]
   const effMeleeAndNumeric = Math.floor( ((effectiveMeleeStr * (totalStrCalc(equipment) + 64)) + 320) / 640 )

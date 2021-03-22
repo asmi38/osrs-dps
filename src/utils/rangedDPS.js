@@ -1,4 +1,4 @@
-import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from './calc'
+import { potion_effect } from './calc'
 import { gear_bonus, void_bonus, totalAtkCalc, totalStrCalc } from './sharedDPS'
 
 function rangeStyleBonus(style, attack_boolean){
@@ -125,7 +125,7 @@ export function rangeMaxHit(state, equipment){
 }
 
 export function rangeAtkRoll(state, equipment){
-  const { stats, enemy, calcs } = state
+  const { stats } = state
   const effRangedAtk = Math.floor((stats.ranged.effective_level + rangeStyleBonus(equipment.attack_style.attack_style, true) + 8) * void_bonus(equipment, "ranged")[0])
   return Math.floor(effRangedAtk * (totalAtkCalc(equipment) + 64) * gear_bonus(state, equipment, "ranged")[0] * rangeGearBonus(state, equipment).accMultiplier)
 }

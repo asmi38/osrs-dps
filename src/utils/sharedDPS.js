@@ -1,4 +1,4 @@
-import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc, potion_effect } from './calc'
+import { attack_style_name, strength_style_name, defTypeName, combatTypeCalc } from './calc'
 import { meleeMaxHit, meleeAtkRoll } from './meleeDPS'
 import { mageMaxHit, mageAtkRoll } from './magicDPS'
 import { boltDPS, rangeMaxHit, rangeAtkRoll } from './rangedDPS'
@@ -109,7 +109,7 @@ function enemyStatReductions(defence, state){
 
 
 export function eMaxDefRoll(state, equipment){
-  const { calcs, enemy } = state
+  const { enemy } = state
   const style = defTypeName(equipment.attack_style)
   if(style === "defence_magic"){
     if(equipment.ring.name === "Brimstone ring"){
@@ -135,13 +135,12 @@ function calcHitChance(atkRoll, defRoll){
 }
 
 export function hitChance(state, equipment){
-  const { stats, enemy, calcs } = state
   const combatType = combatTypeCalc(equipment.attack_style)
   if(combatType === "ranged"){
     return calcHitChance(rangeAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
   }
   else if(combatType === "magic"){
-    return calcHitChance(mageAtkRoll(stats, equipment), eMaxDefRoll(state, equipment))
+    return calcHitChance(mageAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
   }
   else{
     return calcHitChance(meleeAtkRoll(state, equipment), eMaxDefRoll(state, equipment))

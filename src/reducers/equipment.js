@@ -1,4 +1,4 @@
-import { RECEIVE_EQUIPMENT, CHANGE_WEAPON, CHANGE_STYLE, CHANGE_EQUIPMENT, CHANGE_VALUE, CHANGE_SPELL } from '../actions/equipment'
+// import { RECEIVE_EQUIPMENT, CHANGE_WEAPON, CHANGE_STYLE, CHANGE_EQUIPMENT, CHANGE_VALUE, CHANGE_SPELL } from '../actions/equipment'
 import { default_equipment } from '../utils/default_data'
 
 export default function createNamedEquipment(equipmentName = ''){

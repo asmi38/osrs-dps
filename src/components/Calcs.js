@@ -4,6 +4,10 @@ import { updateCalc } from '../actions/calcs'
 import { maxHitCalc, hitChance, calcDps, expected_ttk, overkill_dps } from '../utils/sharedDPS'
 
 class Calcs extends Component {
+  calcDiff = (num1, num2) => {
+    return Math.max(num1, num2) / Math.min(num1, num2) * 100
+  }
+
   render(){
     const state = this.props
 
@@ -24,16 +28,18 @@ class Calcs extends Component {
               <td> Maximum hit: </td>
               <td> {maxHitCalc(state, state.equipmentA)} </td>
               <td> {maxHitCalc(state, state.equipmentB)} </td>
+              <td> {this.calcDiff(maxHitCalc(state, state.equipmentA), maxHitCalc(state, state.equipmentB)).toFixed(2)}%</td>
             </tr>
             <tr>
               <td> Accuracy: </td>
-              <td> {hitChance(state, state.equipmentA)} </td>
-              <td> {hitChance(state, state.equipmentB)} </td>
+              <td> {(hitChance(state, state.equipmentA) * 100).toFixed(2)}% </td>
+              <td> {(hitChance(state, state.equipmentB) * 100).toFixed(2)}% </td>
+              <td> {this.calcDiff(hitChance(state, state.equipmentA), hitChance(state, state.equipmentB)).toFixed(2)}%</td>
             </tr>
             <tr>
               <td> DPS: </td>
-              <td> {calcDps(state, state.equipmentA)} </td>
-              <td> {calcDps(state, state.equipmentB)} </td>
+              <td> {calcDps(state, state.equipmentA).toFixed(4)} </td>
+              <td> {calcDps(state, state.equipmentB).toFixed(4)} </td>
             </tr>
             <tr>
               <td> Maximum hit: </td>

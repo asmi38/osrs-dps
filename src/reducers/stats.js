@@ -1,4 +1,4 @@
-import { CHANGE_STAT, CHANGE_POTION, CHANGE_PRAYER, FETCH_USER, FETCHING_USER, FETCHING_USER_ERROR, FETCHING_USER_SUCCESS } from '../actions/stats'
+import { CHANGE_STAT, CHANGE_POTION, CHANGE_PRAYER, FETCHING_USER, FETCHING_USER_ERROR, FETCHING_USER_SUCCESS } from '../actions/stats'
 import { elvl_calc } from '../utils/calc'
 import { initialStats } from '../utils/default_data'
 
