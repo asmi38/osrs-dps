@@ -3,6 +3,10 @@ import { connect } from 'react-redux'
 import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue, changeSpell } from '../actions/equipment'
 import { equipment_presets } from '../utils/default_data'
 import { attack_style_name, strength_style_name } from '../utils/calc'
+import { totalAtkCalc, totalStrCalc } from '../utils/sharedDPS'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
+import PasteModal from './PasteModal'
+import ReactDOM from 'react-dom'
 import HeadData from '../data/head'
 import BodyData from '../data/body'
 import LegsData from '../data/legs'
@@ -39,15 +43,16 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
   return(
     <tr>
       <td>
-        <img src={icon} alt="slot icon" />
+        <img src={equip.icon ? `data:image/png;base64,${equip.icon}` : icon} alt="slot icon" />
         {capitalise(slot_name)}
       </td>
+
       <td>
         <select
           value={equip.id}
           onChange={(e) =>
                     (slot_name === "weapon" ?
-                      dispatch(changeWeapon(equip_list[e.target.value]), actionKey) :
+                      dispatch(changeWeapon(equip_list[e.target.value], actionKey)) :
                       dispatch(changeEquipment(slot_name, equip_list[e.target.value], actionKey)))
                     }
         >
@@ -58,6 +63,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
             ))}
         </select>
       </td>
+
       <td>
         <input
           value={equip.stats[style]}
@@ -66,6 +72,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
           type="number"
         />
       </td>
+
       <td>
         <input
           value={equip.stats[strength_style_name(attack_style)]}
@@ -74,30 +81,37 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
           type="number"
         />
       </td>
+
     </tr>
   )
 }
 
 class Equipment extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {showModal: false};
+
+      this.toggleModal = this.toggleModal.bind(this)
+    }
+
+    toggleModal() {
+      this.setState(state => ({
+        showModal: !state.showModal
+      }))
+    }
+
+    handleReset = (e) => {
+      e.preventDefault()
+      this.props.dispatch(receiveEquipment(equipment_presets.none, this.props.actionKey))
+    }
+
+    handlePaste = (e) => {
+      e.preventDefault()
+      this.props.dispatch(receiveEquipment)
+    }
+
   render() {
     const { weapon, dispatch, attack_style, equipment, head, ammo, body, cape, feet, legs, hands, neck, ring, shield, spell, actionKey } = this.props
-
-    function total_atk_calc(equipment){
-      const style = attack_style_name(attack_style)
-      const keys = Object.keys(equipment).filter(word => word !== "attack_style").filter(word => word !== "spell")
-      const values = (keys.map(equip_name =>
-        equipment[equip_name].stats[style]))
-
-      return values.reduce((a, b) => a + b, 0)
-    }
-
-    function total_str_calc(equipment){
-      const keys = Object.keys(equipment).filter(word => word !== "attack_style").filter(word => word !== "spell")
-      const values = (keys.map(equip_name =>
-        equipment[equip_name].stats[strength_style_name(attack_style)]))
-
-      return values.reduce((a, b) => a + b, 0)
-    }
 
     function mapCombatStyles(){
       const combatStyles = Object.keys(weapon.stances).map((key) => (
@@ -112,7 +126,14 @@ class Equipment extends Component {
 
     return (
       <div>
-        <button>Test</button>
+        <CopyToClipboard text={btoa(JSON.stringify(equipment))}>
+          <button>Copy</button>
+        </CopyToClipboard>
+
+        <PasteModal show={this.state.showModal} toggle={this.toggleModal} />
+
+        <button onClick={this.handleReset}>Reset</button>
+
         <table>
           <thead>
             <tr>
@@ -141,12 +162,13 @@ class Equipment extends Component {
               dispatch={dispatch}
               attack_style={attack_style}
               equip_list={WeaponData}
+              actionKey={actionKey}
             />
             <tr>
               <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
               <td>
                 <select
-                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value]), actionKey)}
+                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value], actionKey))}
                   value={mapCombatStyles().indexOf(equipment.attack_style)}
                 >
                 {mapCombatStyles().map((style, index) => {
@@ -269,8 +291,8 @@ class Equipment extends Component {
             <tr>
               <td>Total</td>
               <td></td>
-              <td>{total_atk_calc(equipment)}</td>
-              <td>{total_str_calc(equipment)}</td>
+              <td>{totalAtkCalc(equipment)}</td>
+              <td>{totalStrCalc(equipment)}</td>
             </tr>
           </tbody>
         </table>
