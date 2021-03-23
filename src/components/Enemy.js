@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { changeEnemy } from '../actions/enemy'
 import MonsterData from '../data/monster-list'
+import { Select } from 'antd'
+
+const { Option } = Select
 
 class Enemy extends Component {
   render(){
@@ -9,20 +12,20 @@ class Enemy extends Component {
 
     return(
       <div>
-        Enemy:
-        <select
+        <label>Enemy:</label>
+        <Select
+          showSearch
+          optionFilterProp="label"
           value={enemy.id}
-          onChange={(e) => dispatch(changeEnemy(MonsterData[e.target.value]))}
+          style={{ width: 200, }}
+          onChange={(value) => dispatch(changeEnemy(MonsterData[value]))}
         >
           {Object.keys(MonsterData).map((monster_key) =>
-            <option
-              value={monster_key}
-              key={monster_key}
-            >
+            <Option value={MonsterData[monster_key].id} label={MonsterData[monster_key].name} key={monster_key}>
               {MonsterData[monster_key].name}
-            </option>
+            </Option>
           )}
-        </select>
+        </Select>
       </div>
     )
   }
