@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { handleFetchUser } from '../actions/stats'
+import { Button, Input } from 'antd'
+import { combatLvlCalc } from '../utils/calc'
 
 class User extends Component {
   constructor(props) {
@@ -25,21 +27,34 @@ class User extends Component {
   render(){
     return(
       <div>
-        <form className='username' onSubmit={this.handleSubmit}>
           <label> Username: </label>
-            <input
+
+            <Input
               type="text"
-              className="input"
               value={this.state.value}
               onChange={this.handleChange}
+              onPressEnter={this.handleSubmit}
+              style={{width: 150,}}
+              allowClear
+              size="medium"
             />
-          <button className='btn' type='submit'>
-            Submit
-          </button>
-        </form>
+
+          <Button
+            type="primary"
+            loading={this.props.stats.isFetching}
+            onClick={this.handleSubmit}
+          >
+          Submit
+          </Button>
+
+          Combat Level: {combatLvlCalc(this.props.stats)}
       </div>
     )
   }
 }
 
-export default connect()(User)
+const mapStateToProps = state => {
+  return { stats: state.stats }
+}
+
+export default connect(mapStateToProps)(User)
