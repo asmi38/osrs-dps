@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue, changeSpell } from '../actions/equipment'
 import { equipment_presets } from '../utils/default_data'
-import { attack_style_name, strength_style_name } from '../utils/calc'
+import { attack_style_name, strength_style_name, capitalise } from '../utils/calc'
 import { totalAtkCalc, totalStrCalc } from '../utils/sharedDPS'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import PasteModal from './PasteModal'
-import ReactDOM from 'react-dom'
+import { Button, Select, InputNumber, Card } from 'antd'
+
 import HeadData from '../data/head'
 import BodyData from '../data/body'
 import LegsData from '../data/legs'
@@ -33,51 +34,57 @@ import FeetSlot from '../data/icons/Boots_slot.png'
 import RingSlot from '../data/icons/Ring_slot.png'
 import CombatType from '../data/icons/Combat_type.png'
 
+const { Option } = Select
 
 function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style, actionKey}){
   const style = attack_style_name(attack_style)
-
-  const capitalise = ([firstLetter, ...restOfWord]) =>
-    firstLetter.toUpperCase() + restOfWord.join('')
 
   return(
     <tr>
       <td>
         <img src={equip.icon ? `data:image/png;base64,${equip.icon}` : icon} alt="slot icon" />
+      </td>
+
+      <td>
         {capitalise(slot_name)}
       </td>
 
       <td>
-        <select
+        <Select
           value={equip.id}
-          onChange={(e) =>
+          showSearch
+          optionFilterProp="label"
+          style={{ width: 200 }}
+          onChange={(value) =>
                     (slot_name === "weapon" ?
-                      dispatch(changeWeapon(equip_list[e.target.value], actionKey)) :
-                      dispatch(changeEquipment(slot_name, equip_list[e.target.value], actionKey)))
+                      dispatch(changeWeapon(equip_list[value], actionKey)) :
+                      dispatch(changeEquipment(slot_name, equip_list[value], actionKey)))
                     }
         >
             {Object.keys(equip_list).map((item_key) => (
-              <option value={equip_list[item_key].id} key={equip_list[item_key].id}>
+              <Option value={equip_list[item_key].id} label={equip_list[item_key].name} key={equip_list[item_key].id}>
                 {equip_list[item_key].name}
-              </option>
+              </Option>
             ))}
-        </select>
+        </Select>
       </td>
 
       <td>
-        <input
+        <InputNumber
           value={equip.stats[style]}
-          onChange={(e) => dispatch(changeValue(slot_name, style, parseInt(e.target.value), actionKey))}
+          onChange={(value) => dispatch(changeValue(slot_name, style, value, actionKey))}
           className="stat_input"
+          style={{width: 50,}}
           type="number"
         />
       </td>
 
       <td>
-        <input
+        <InputNumber
           value={equip.stats[strength_style_name(attack_style)]}
-          onChange={(e) => dispatch(changeValue(slot_name, strength_style_name(attack_style), parseInt(e.target.value), actionKey))}
+          onChange={(value) => dispatch(changeValue(slot_name, strength_style_name(attack_style), value, actionKey))}
           className="stat_input"
+          style={{width: 50,}}
           type="number"
         />
       </td>
@@ -87,28 +94,26 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
 }
 
 class Equipment extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {showModal: false};
+  constructor(props) {
+    super(props);
+    this.state = {modalVisible: false};
+  }
 
-      this.toggleModal = this.toggleModal.bind(this)
-    }
+  setModal = (boolean) => {
+    this.setState(state => ({
+      modalVisible: boolean
+    }))
+  }
 
-    toggleModal() {
-      this.setState(state => ({
-        showModal: !state.showModal
-      }))
-    }
+  handleReset = (e) => {
+    e.preventDefault()
+    this.props.dispatch(receiveEquipment(equipment_presets.none, this.props.actionKey))
+  }
 
-    handleReset = (e) => {
-      e.preventDefault()
-      this.props.dispatch(receiveEquipment(equipment_presets.none, this.props.actionKey))
-    }
-
-    handlePaste = (e) => {
-      e.preventDefault()
-      this.props.dispatch(receiveEquipment)
-    }
+  handlePaste = (e) => {
+    e.preventDefault()
+    this.props.dispatch(receiveEquipment)
+  }
 
   render() {
     const { weapon, dispatch, attack_style, equipment, head, ammo, body, cape, feet, legs, hands, neck, ring, shield, spell, actionKey } = this.props
@@ -124,36 +129,49 @@ class Equipment extends Component {
       return combatStyles
     }
 
+    function getStyleIndex(arr, style){
+      for(let i=0; i< arr.length; i++){
+        if(arr[i].attack_style === style.attack_style && arr[i].attack_type === style.attack_type){
+          return i
+        }
+      }
+      return -1
+    }
+
     return (
-      <div>
-        <CopyToClipboard text={btoa(JSON.stringify(equipment))}>
-          <button>Copy</button>
-        </CopyToClipboard>
-
-        <PasteModal show={this.state.showModal} toggle={this.toggleModal} />
-
-        <button onClick={this.handleReset}>Reset</button>
+      <div className='equipment'>
+        <Card style={{ width: 500}}>
+        <div className='equip-buttons'>
+          <Select
+            showSearch
+            placeholder="Select preset"
+            style={{ width: 200, marginRight: 'auto'}}
+            onChange={(value) => dispatch(receiveEquipment(equipment_presets[value], actionKey))}
+          >
+          {Object.keys(equipment_presets).map((preset_key) => (
+            <Option value={preset_key} key={preset_key}>
+              {preset_key}
+            </Option>
+          ))}
+          </Select>
+          <CopyToClipboard text={btoa(JSON.stringify(equipment))}>
+            <Button type="dashed">Copy</Button>
+          </CopyToClipboard>
+          <PasteModal modalVisible={this.state.modalVisible} setModal={this.setModal} dispatch={dispatch} actionKey={actionKey} />
+          <Button type="dashed" onClick={this.handleReset}>Reset</Button>
+        </div>
 
         <table>
           <thead>
             <tr>
-              <th>Slot</th>
-              <th>
-                Preset:
-                <select
-                  onChange={(e) => dispatch(receiveEquipment(equipment_presets[e.target.value], actionKey))}
-                >
-                  {Object.keys(equipment_presets).map((preset_key) => (
-                    <option value={preset_key} key={preset_key}>
-                      {preset_key}
-                    </option>
-                  ))}
-                </select>
-              </th>
-              <th>Attack Bonus</th>
-              <th>Strength Bonus</th>
+              <th></th>
+              <th>Slot:</th>
+              <th></th>
+              <th>Attack</th>
+              <th>Strength</th>
             </tr>
           </thead>
+
           <tbody>
             <EquipmentRow
               icon={WeaponSlot}
@@ -164,40 +182,47 @@ class Equipment extends Component {
               equip_list={WeaponData}
               actionKey={actionKey}
             />
+
             <tr>
-              <td><img src={CombatType} alt="Combat type icon"/> Combat</td>
+              <td><img src={CombatType} alt="Combat type icon"/></td>
+              <td>Combat</td>
               <td>
-                <select
-                  onChange={(e) => dispatch(changeStyle(mapCombatStyles()[e.target.value], actionKey))}
-                  value={mapCombatStyles().indexOf(equipment.attack_style)}
+                <Select
+                  onChange={(value) => dispatch(changeStyle(mapCombatStyles()[value], actionKey))}
+                  value={getStyleIndex(mapCombatStyles(), equipment.attack_style)}
+                  style={{ width: 200, }}
                 >
                 {mapCombatStyles().map((style, index) => {
                     return (
-                      <option value={index} key={index}>
+                      <Option value={index} key={index}>
                         {style.combat_style + " " + style.attack_style + " " + style.attack_type}
-                      </option>
+                      </Option>
                     )
                 })}
-                </select>
+              </Select>
               </td>
               <td></td>
               <td></td>
             </tr>
+
             <tr>
-              <td><img src={SpellIcon} alt="Spell book icon"/> Spell: </td>
+              <td><img src={SpellIcon} alt="Spell book icon"/></td>
+              <td>Spell:</td>
               <td>
-                <select
-                  onChange={(e) => dispatch(changeSpell(SpellData[e.target.value], actionKey))}
+                <Select
+                  onChange={(value) => dispatch(changeSpell(SpellData[value], actionKey))}
                   value={spell.name}
+                  style={{ width: 200, }}
                 >
                 {Object.keys(SpellData).map((spell_key) => (
-                  <option value={spell_key} key={spell_key}>
+                  <Option value={spell_key} key={spell_key}>
                     {SpellData[spell_key].name}
-                  </option>
+                  </Option>
                 ))}
-                </select>
+              </Select>
               </td>
             </tr>
+
             <EquipmentRow
               icon={AmmoSlot}
               slot_name="ammo"
@@ -207,6 +232,7 @@ class Equipment extends Component {
               equip_list={AmmoData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={HeadSlot}
               slot_name="head"
@@ -216,6 +242,7 @@ class Equipment extends Component {
               equip_list={HeadData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={CapeSlot}
               slot_name="cape"
@@ -225,6 +252,7 @@ class Equipment extends Component {
               equip_list={CapeData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={NeckSlot}
               slot_name="neck"
@@ -234,6 +262,7 @@ class Equipment extends Component {
               equip_list={NeckData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={BodySlot}
               slot_name="body"
@@ -243,6 +272,7 @@ class Equipment extends Component {
               equip_list={BodyData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={LegsSlot}
               slot_name="legs"
@@ -252,6 +282,7 @@ class Equipment extends Component {
               equip_list={LegsData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={ShieldSlot}
               slot_name="shield"
@@ -261,6 +292,7 @@ class Equipment extends Component {
               equip_list={ShieldData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={HandsSlot}
               slot_name="hands"
@@ -270,6 +302,7 @@ class Equipment extends Component {
               equip_list={HandsData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={FeetSlot}
               slot_name="feet"
@@ -279,6 +312,7 @@ class Equipment extends Component {
               equip_list={FeetData}
               actionKey={actionKey}
             />
+
             <EquipmentRow
               icon={RingSlot}
               slot_name="ring"
@@ -288,7 +322,9 @@ class Equipment extends Component {
               equip_list={RingData}
               actionKey={actionKey}
             />
+
             <tr>
+              <td></td>
               <td>Total</td>
               <td></td>
               <td>{totalAtkCalc(equipment)}</td>
@@ -296,6 +332,7 @@ class Equipment extends Component {
             </tr>
           </tbody>
         </table>
+        </Card>
       </div>
     )
   }

@@ -7,7 +7,8 @@ export async function fetchUser(username){
     username.replace("#", "%23")
   }
 
-  const response = await fetch("https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player=" + username)
+  const corsProxy = "https://limitless-garden-36241.herokuapp.com/"
+  const response = await fetch(corsProxy + "https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player=" + username)
   const data = await response.text()
   const stats = csvToJson(data)
 

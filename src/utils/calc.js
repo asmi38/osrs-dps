@@ -1,3 +1,17 @@
+export function combatLvlCalc(stats){
+  const { defence, hitpoints, prayer, attack, strength, ranged, magic } = stats
+  const base = (defence.level + hitpoints.level + Math.floor(prayer.level/2))/4
+  const melee = 0.325 * (attack.level + strength.level)
+  const range = 0.325 * (Math.floor(ranged.level)/2 + ranged.level)
+  const mage = 0.325 * (Math.floor(magic.level)/2 + magic.level)
+  const combat_level = base + Math.max(melee, range, mage)
+  return Math.floor(combat_level)
+}
+
+export function capitalise([firstLetter, ...restOfWord]){
+  return firstLetter.toUpperCase() + restOfWord.join('')
+}
+
 export function combatTypeCalc(attack_style){
   if(attack_style.experience === "ranged" || attack_style.experience === "ranged and defence"){
     return "ranged"
