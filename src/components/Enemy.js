@@ -11,7 +11,7 @@ class Enemy extends Component {
     const { enemy, dispatch } = this.props
 
     return(
-      <div>
+      <div className='enemy'>
         <label>Enemy:</label>
         <Select
           showSearch
