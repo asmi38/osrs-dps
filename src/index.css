@@ -12,6 +12,47 @@ code {
     monospace;
 }
 
-.poop {
-  background-color: #c1e0ff;
+.equip-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+
+.preset-select {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stats {
+  padding: 30px;
+}
+
+.user {
+  padding: 10px;
+}
+
+.calcs {
+  padding: 30px;
+}
+
+.enemy {
+  padding: 10px;
+}
+
+.settings {
+  padding: 30px;
+
+}
+
+.equip-container{
+  flex-basis: 50%
+}
+
+.equipment {
+  padding: 10px;
+  flex-basis: 50%
 }
