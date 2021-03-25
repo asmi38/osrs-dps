@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue, changeSpell } from '../actions/equipment'
 import { equipment_presets } from '../utils/default_data'
-import { attack_style_name, strength_style_name, capitalise } from '../utils/calc'
+import { attack_style_name, strength_style_name, formatWord } from '../utils/calc'
 import { totalAtkCalc, totalStrCalc } from '../utils/sharedDPS'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import PasteModal from './PasteModal'
@@ -46,7 +46,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
       </td>
 
       <td>
-        {capitalise(slot_name)}
+        {formatWord(slot_name)}
       </td>
 
       <td>
@@ -140,12 +140,12 @@ class Equipment extends Component {
 
     return (
       <div className='equipment'>
-        <Card style={{ width: 500}}>
+        <Card >
         <div className='equip-buttons'>
           <Select
             showSearch
             placeholder="Select preset"
-            style={{ width: 200, marginRight: 'auto'}}
+            style={{ width: 160, marginRight: 'auto'}}
             onChange={(value) => dispatch(receiveEquipment(equipment_presets[value], actionKey))}
           >
           {Object.keys(equipment_presets).map((preset_key) => (
@@ -195,7 +195,7 @@ class Equipment extends Component {
                 {mapCombatStyles().map((style, index) => {
                     return (
                       <Option value={index} key={index}>
-                        {style.combat_style + " " + style.attack_style + " " + style.attack_type}
+                        {formatWord(style.combat_style) + " " + (style.attack_style ? style.attack_style : "") + " " + (style.attack_type ? style.attack_type : "")}
                       </Option>
                     )
                 })}
@@ -216,7 +216,7 @@ class Equipment extends Component {
                 >
                 {Object.keys(SpellData).map((spell_key) => (
                   <Option value={spell_key} key={spell_key}>
-                    {SpellData[spell_key].name}
+                    {formatWord(SpellData[spell_key].name)}
                   </Option>
                 ))}
               </Select>

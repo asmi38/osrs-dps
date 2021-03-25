@@ -8,7 +8,12 @@ export function combatLvlCalc(stats){
   return Math.floor(combat_level)
 }
 
-export function capitalise([firstLetter, ...restOfWord]){
+export function formatWord(word){
+  let capWord = capitalise(word)
+  return capWord.replace("_", " ")
+}
+
+function capitalise([firstLetter, ...restOfWord]){
   return firstLetter.toUpperCase() + restOfWord.join('')
 }
 

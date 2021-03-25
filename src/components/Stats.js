@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { changeStat, changePrayer, changePotion } from '../actions/stats'
-import { capitalise } from '../utils/calc'
+import { formatWord } from '../utils/calc'
 import { InputNumber, Select, Card } from 'antd'
 import User from './User'
 
@@ -30,7 +30,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
     <React.Fragment>
       <td><img src={icon} alt="stat icon"/></td>
 
-      <td>{capitalise(stat_name)}</td>
+      <td>{formatWord(stat_name)}</td>
 
       <td>
         <InputNumber
