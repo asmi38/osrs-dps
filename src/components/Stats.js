@@ -63,7 +63,16 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
           <Select
             value={stat.prayer}
             style={{width: 100,}}
-            onChange={(value) => dispatch(changePrayer(stat_name, {...stat, "prayer": value}))}
+            onChange={(value) => {
+              if(value === "Piety" || value === "Chivalry"){
+                dispatch(changePrayer("attack", value))
+                dispatch(changePrayer("strength", value))
+                dispatch(changePrayer("defence", value))
+              }
+              else{
+                dispatch(changePrayer(stat_name, value))
+              }
+            }}
           >
             {prayers.map((prayer) => (
               <Option value={prayer} key={prayer}>

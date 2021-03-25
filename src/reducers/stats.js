@@ -1,5 +1,5 @@
 import { CHANGE_STAT, CHANGE_POTION, CHANGE_PRAYER, FETCHING_USER, FETCHING_USER_ERROR, FETCHING_USER_SUCCESS } from '../actions/stats'
-import { elvl_calc } from '../utils/calc'
+import { elvl_calc, elvlCalc } from '../utils/calc'
 import { initialStats } from '../utils/default_data'
 
 export default function stats (state = initialStats, action) {
@@ -13,6 +13,15 @@ export default function stats (state = initialStats, action) {
       return {
         ...state,
         [action.stat_name]: elvl_calc(action.stat_name, action.potion),
+      }
+    case CHANGE_PRAYER :
+      return {
+        ...state,
+        [action.stat_name]: {
+          ...state[action.stat_name],
+          prayer: action.prayer,
+          effective_level: elvlCalc(action.stat_name, state[action.stat_name], action.prayer, "prayer"),
+        }
       }
     case FETCHING_USER :
       return {
@@ -37,11 +46,6 @@ export default function stats (state = initialStats, action) {
         magic: elvl_calc("magic", {...state.magic, level: action.data.magic}),
         ranged: elvl_calc("ranged", {...state.ranged, level: action.data.ranged}),
         prayer: elvl_calc("prayer", {...state.prayer, level: action.data.prayer}),
-      }
-    case CHANGE_PRAYER :
-      return {
-        ...state,
-        [action.stat_name]: elvl_calc(action.stat_name, action.prayer),
       }
     default:
       return state
