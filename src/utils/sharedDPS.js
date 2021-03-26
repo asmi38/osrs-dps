@@ -219,10 +219,12 @@ function expected_hits(state, equipment){
 }
 
 export function expected_ttk(state, equipment){
-  const { enemy } = state
   const combatType = combatTypeCalc(equipment.attack_style)
-  const attackSpeed = combatType === "magic" ? magicAtkSpeed(equipment) : equipment.weapon.attack_speed
-  return (attackSpeed * 0.6) * expected_hits(enemy.hitpoints, maxHitCalc(state, equipment), hitChance(state, equipment))
+  let attackSpeed = combatType === "magic" ? magicAtkSpeed(equipment) : equipment.weapon.attack_speed
+  if(equipment.attack_style.combat_style === "rapid" || equipment.attack_style.combat_style === "flare"){
+    attackSpeed -= 1
+  }
+  return (attackSpeed * 0.6) * expected_hits(state, equipment)
 }
 
 export function overkill_dps(state, equipment){
