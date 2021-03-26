@@ -27,10 +27,12 @@ class PasteModal extends Component{
 
   handleOk = () => {
     this.props.setModal(false)
+    this.setState({paste: ''})
   }
 
   handleCancel = () => {
     this.props.setModal(false)
+    this.setState({paste: ''})
   }
 
   render() {
