@@ -89,7 +89,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABYklEQVR4Xu2Vv0vDQBTH7403ZMgQCIVCKEGKlFIkUJSKoEuGDHbp0sXBxUFwcHBwcBAc/KOf9+7l7OV0cGju3uAXvgTy4/jwfd+7KPWvZAIM7yQU4E0zRUFQBAK4qirr8GlkAV6tOB0RMO2aIASlc76YyEnHFVlAOoDdxQybeSknHb/IiYG4yMu6kJAOj8ovcnIgKvK8ymWkQ6Pyi5wAiH8J5NvL2hZ5NslSpQP4Oc3x3QC8GW/PNG5qlSodwI8e5NV412i8PlHYZTpFOmBTIRDyfq2xPWWgbW6uGacUfjWS4DuVl5LdLRmITEBtvJRgAPJc8qgIhKDuDMzOmMa20aOnBAMQ8lOfjrMPNHKxGcYHIdOu8n1faNwHQOFKR9ThvHGmcTk/FllsIKXcCA6jALvDyJRYdKDfxWkR0EMP5LZ9IiDSEGjkQv9V8AMofCOywBZbEBAJ7FkkCIgkoj9DHRvmC+BdGgbjBzTzAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -144,7 +144,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABZ0lEQVR4Xu2VsUvDQBSH7403ZOhQKEIggwRxkCBKlhRKiyWWVBqQLF0cXBwEBwcHBwfBwT/6mXeXa3NnB4fm7g3+4EehacvH995dhfhPsAC67wQMYLVcIiMoAgHMkkTVfeo5gOVisQNyn3oO4N1tycvOfDrlY8csMgM7gPVqhUWe87FzM5vxsUOLfJ1lHOwA3q/X1iIHB6I75yxNedhxFzkAkP5LoDabjVrkJI5D2QH8jkf4eRLhR9v6UmJxKkLZAfzqQN7bNlcS56nAKpIh7ICyQiDUbS6xPNdA9ah9jbQl91sDBXZW3ia61YUGohJQ6c8SWCCvEz0qAiGohxamaUtjK+TglsACob50dkz7QAMvtobpg1DpVPX7OJa4dYDcXzpi9veNKY3L9Hkc+QYSwoxgPwpQJ4xKxrwDHY62RUBPHZA59oGAKDbQwAv918AvIPcTngNqsRkBUUDdRYyAKCz2x86xYX4AEPEeShNx/7YAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Iron_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -199,7 +199,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABdElEQVR4Xu2VPUvDUBSGc8Y7ZOhQKILQQRyCiIgglILgUDpkaYcijUqssRL7YcSIFRQUhA7+6GNObtImVweH5t4z+MJLoUnLw3POTSzrP8YCqH5jMIBRGCIjKAIBPGg206pXNQfwbjRaAalXNQfwaTblZef63ONjZz4ec7ED+PIQ4Vm/z8fOre/zsfM4maDb6XCwA/gWx3g1HPKxMw0CPGm1eNh5vp+XFtkAkHwlUD8WC7y5vMA9xzFlB/Bru4afWza+J+0dCmzvWKbsAC4zkNekgyOBp7sWurYwYQdSKwRC9Y4Fdh0J1Ksln7a0pP6qosDKyqIh6+5LICoBdfVZghJI3JCjIhCC8hOYQVIaW1tUbglKINQos5O3CFTxYkuYIgiVTlWxQV2gpwCp/7TBrJ83eWlceWd1WzeQZeUjWI8C0hNGJWPagX6PtEVAYQaUH3tDQJQyUMUL/dfADyD1Ds2BdLEZAVEgfRYxAqKw2J9yNg3zDavLJUtyGySiAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Steel_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -254,7 +254,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABOUlEQVR4Xu2Vr2vDQBTH78kTERGBMihUjImJUspgpmqqoqampqZipqJQUTExUTGY2B/9et97uSW5VFQ0d0/0A18C+cWH77tLjHmQDeL4TEaIq7JkRVIQIZ5NJj7x1cQ07aiTUScUX02MqnZE5tHOdVS105dRJxTfkZC+TAYh+SW0ZTK2Q/w3LvnnqeCzy3puefFscrVD/FuLfLts3ix/vBheFTZHO+RbgQiyfbe8fBWhdemOhbQUPzUQ9N/K10iymooQAqFlupaoI3IayaggAqmdk9m4YGwLO3hL1BFBjnU7IW2hgRe2yLRFEOyqdj4ry9tIKH7THWm+NyEYV8ihKlILGRNG0IyC/A5D0FhyoetIWxDa10Jh22cSAl2hgRf0rVBPKL4jMeQXtiIhQP5bpEgIqFg/Xe4tcwEB+hPufo6GOwAAAABJRU5ErkJggg==",
         "wiki_url": "https://oldschool.runescape.wiki/w/Black_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -309,7 +309,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABZ0lEQVR4Xu2VsUvDQBSH7403ZOhQCIKQoUhxCFJaAuXEEpcOQWiHILQUERcHwcHBwcFBcPCPft67y7XJ6eDQ3L3BH/woNG35+N67qxD/iRZA/52IAZzPa2QERSCAF1lm6j8NHMCiWO+B/KeBA6jULS87k2nFx45bZAZ2AC+vtpjn13zszGY3fOzQIo/HioMdwMVi11nk6EB052RZzsOOv8gRgOxfArUs780ip+kolh3Ar9MBfpwk+K67mkhUIxHLDuBnA/KmW08llmcCq0TGsAPGCoFQN4XE5bkFWg30a2It+d/qKbC38praVrkFohLQMpwl6IC8pHZUBEJQdxqm1qWxKdm7JeiAUJ8bO65toJ4X28K0Qah0qtp9GErceED+Lx0xh/vGlcbl+jRMQgMJ4UZwGAWYE0YlY8GBfo+1RUCPDZA79pGAKF2gnhf6r4EfQP4nAgfMYjMCooC5ixgBUVjsTzfHhvkGL3QdYSYETgEAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -364,7 +364,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaElEQVR4Xu2VsUvDQBSH7403ZOhQKAGhBHEIIqE0SEsKIVIpUoeAZOni4OIgODg4ODgIDv7Rz3t3uTY5HRyauzf4gx+Fpi0f33t3FeI/wQLovhMwgMubJTKCIhDAbDrVdZ96DuDierEHcp96DuDqdsXLTn6V87FjF5mBHcCyLjErMj52uoscGMgscpqnHOwAVncVzso5Hzu0yMl5wsOOu8gBgMxfAnXdrPWdEydxKDuAXycj/IgjfFetZxKLUxHKDuBnC/Km2swlVmcCt5EMYQe0FQKh7i4lblIDVI/Ua2Qsud8aKLC38jox3V4YICoBbfxZgh7Iy8SMikAI6l7BNKo0tkIObgl6INTn1o5tF2jgxTYwXRAqnapuH8YSdw6Q+0tHzOG+saVx2T6NI99AQtgRHEYB+oRRyZh3oN9jbBHQYwtkj30gIEofaOCF/mvgB5D7Cc8BvdiMgCig7yJGQBQW+9PPsWG+Ac/WHPIrwo1qAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -419,7 +419,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbklEQVR4Xu2VsUvDQBSH7403ZOhQCIIQpDh0KKVUCiVCaEGCRLEdQiEqRRQRERwcHBwcBAf/6GfeXa5NTgeH5u4N/uBHoWnLx/fuXoX4j7cA2u94DGCSXyMjKAIBHEaRqv3UcQDji9UGyH7qOICz1Q0vO5PTJR87x8tLLnYA58UdjuYZHzvTs5yPHdo5/WnCwQ7gydU9HqXnfOzQzjkYjHnYoZ0zTFKfdvRfAjVdP6qdE0Y9X3YAv/Y7+LEX4HvZxUhi3BO+7AB+ViBvZfOxxNmhwCyQPuyAskIg1GIiMe1roEWnfA20JftbLQU2Vl5D3WyggagElLqzBA2Ql1CPikAIal3C5GVpbLFs3RI0QKjPlR3TOlDLB1vD1EGodKvqve1KLCwg+5d2mO2+MaVxmT51A9dAQpgRbEcB6oZRyZhzoN+jbRHQQwVkrr0nIEoTqOUD/dfADyD7E44D6mAzAqKA2kWMgCgszk8zu4b5BuHdH9dzq39PAAAAAElFTkSuQmCC",
         "wiki_url": "https://oldschool.runescape.wiki/w/Rune_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -474,7 +474,7 @@
         "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABuElEQVR4Xu3VTUsCQRgH8J3jHvbgYSE6SecOEnkzioQwMKhDL/iGmZeEQtFSzOhgRhK2oiDiB/BrPu1/13FGWzq1O3vwgYcdBX1+/ndm1bRNbQrFaP0dhcUon7+mEKEY1WoZBxSLRsOAYpS5OQkLiFE2e0mJRCwMIEbv3TaVy+dkmhHVIEaTyRe9du4omYwvMYpAjKbTAVUqJSrdnqnHzGYWWVaPXtolOjrcU3+rhsMPGo8aVCik1aczHn1Ss/lIrVZR9clyk+n33+xrnXK506DTwd+A6MGg62Dm8x49P+WDxLiA6pbhdMPuB9OgYkSnajFN1nctyKcyc4ZzDLps6g4GnTqIUb2eCyodgUEq9zYEGPTVAnRh9/7uThDpCAyuQADEUQBlF6CUofsNEhiOwGsOSxsChLXPIBcjI+S9AwgH8bWPIBcjI7B30BxzbGhBgVaPNbolNYZjsAzC/sHaxxMmHnpAdLbdRjrAxHXNAQHCN7QMWv+2fynxSwUOaSRsDBowGeRjOl7FlqcKaxnEb5mv6fwu5iQhhrIVUODp4OivDvUGrX/Sx/JKgKnYO6K8ByrC/FV+Y34A5p6Mof9wrYEAAAAASUVORK5CYII=",
         "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_dart#Unpoisoned",
         "slot": [
-            "weapon"
+            "ammo"
         ],
         "requirements": [
             {
@@ -494,446 +494,6 @@
             "defence_ranged": 0,
             "melee_strength": 0,
             "ranged_strength": 20,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "864": {
-        "id": 864,
-        "name": "Bronze knife",
-        "short_name": "Bronze knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABVElEQVR4XuWV0UrDQBBFOx8hiFAIUqRIkT4UgmJQDEgsRSJYAy1CraVSW2tFRPz6K7PLxM0KvjWz4IV5CRs4nDvZNBr/KwT/iWIIaa+JQKAIg5N9A9ONIjP+iRpDyJNWaScImCyOcNzZ0wYi3J4fmHHtKAERirRtJgA7hPHlYTnKdn5gArBTheHP/KzbRK+9qwFUhZFFdmFqBPoNI1Wp2hEYt6qj1o4eEMPIjcwwSnVxCI+DDjaLBZ4mk7IqJTscwvtyiefpFNdXmTYQ4eNlhdVshofRCFma4jSODYhCXYTP1zXW83lp5yJJKiA1wnDI7A3bGQ+Hxo6CFYndG7bDQDf9fsWOf3rLsVWxHQa6y3NNO4Svt42xw0C8O+p2+KsKxg5XJXbui8LYUYPhqtiOAPl2/De2HGtHgJTtSOz+MJCyHTf2/uFbWdmOG5X/1N8JCqbufAMgjGEiAGROjAAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Bronze_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 1
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 4,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 3,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "863": {
-        "id": 863,
-        "name": "Iron knife",
-        "short_name": "Iron knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABVElEQVR4XuWWUUsCQRSFvf/EJwkJWcKQJEmSxCTDQBOMwEQM08yIiH79iTPDLLMT9LZzBzowL8MufHznzuxWKv8rgnBHMYLzVguJQAkuOx0Dk1WrZoVPRIzgqtvN7ajDDHo9XLTbOM0ybSDB7fUAN/1+wY4SkOBuODRACdixMG4p2xFMRqNU7BRheMzPmk2cNBoaQEUYN8g+TESg3zCuquN6XceOD+NXpQZEQwTiJeiq8mGiA92PxzhsNnheLExVIVD4RskRfGy3eFkujSUHc1SraQAJPl932K1WeJrP88q4r1CX4Ottj/16ndsJfzEiwjBi5oZ2HqZTY0fBioudG9ohEI+9byd8uuTYqmiHQDxhinYE3+8HY4dAnB11OzxVydhhVc7O42xm7KjBsCracUChnfCNkmPtOCBlOy52fgikbMePvX94Kyvb8aPynfo7ScHEzg8wuGc5Cu4OmAAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Iron_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 1
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 5,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 4,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "865": {
-        "id": 865,
-        "name": "Steel knife",
-        "short_name": "Steel knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABe0lEQVR4XuWWT0sCURTFvd/Ej9DOTW5yY4JhkhmGYWKGaWZkZJaVmeafwiBq0Zc9cd7jDeMs2jl3oAOzGWbgx+/cd2disf8VQfCOYgRn1SoiAiW4uWgbmI143FzBJ0KMYNDtenbUYV76fVw1mzgulbSBBLOnR4zv71bsKAEJluMxFs/DKNgRfEwmBuh9NNK2I/icTj0YZTsWhnYIw2N+WqlgP5fTABJ8zWcGiDCvDwO0ajUcFgoadQm+3xYrMK4qNTt+mNvLDk6OyjjI57GXzeoAsS4e8WGv51XltxM60M9yiU6jYYaYVSnaYcTMDPfNznYa5WLR2NnNZDSABNfnLVMTzaRTKWwmEgZEoS77S9Gu1z07W8nkCkiIMIyYuXFDTDsKVlzs3NAOgTgvfjvBp9ccWxXtEIgDrGhHzOKjHQJxdtTt8FRFxg6rcna4b/y7JnQYVkU7DihoJ/jGmmPtOCBlOy52fgikbMcfu3+4lZXt+KPynfo7kYIJO78FgoxRzITt/AAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Steel_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 5
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 8,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 7,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "869": {
-        "id": 869,
-        "name": "Black knife",
-        "short_name": "Black knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABNklEQVR4XuWVzWoCMRhFzSO4EEQQhqFIl+7c1E3dqItiFyooBZVhxH9LKaVPf8uXkPkJ0+4mN9AD2QwZOJwvk2k0/hcK7hMiCq1mE4FI5TL9KNLL3eERI1MUcnd4JJcJQKhahiRUliHXUXjs9bJFrpPLPMQxOu02s061DEnIyIiIXW4dj0K/y9DqFGWibjcsoSoZ70IysvvhgP1mUynkvlEzCh+nE467HV4mY/ZlqPB5OeOcJNiuVhiPRngaDLQIYVwKX7crrmma1XkeDksiHmUEpc+N1FnP57oOoYrFnBupI0Kv02mpjru7ZsyopI4ILWYzZh2F7/e7riNCcnbodeSrCqaOjMrWeVsudR2ajIxK6lght477Rs2YOlaIXMdizo8IkesUMfeP3MrkOkUo/6m/CUrGNz9XfUxyKS70vQAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Black_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 10
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 10,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 8,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "866": {
-        "id": 866,
-        "name": "Mithril knife",
-        "short_name": "Mithril knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABaElEQVR4XuWV72uCUBSGO/9JH6MPIWMhhDJRFiZOKqhG+0GTVjSbc8TY9te/41y5og72LY+wF+4XuRcenvfca6fzv0KofxEMwTTnaAkUwb66VzBGt6tWfUeDIbhuXNgRh/Gun2FZt7i4DKWBCP4kwXi8r9gRAiIEQaqAWmCHEIaZAuIlbCeH0UDCdgg30amA4Ws+HEYYDDwJoCqMHmTD8CXq+g2jqxKzU4ZxnMeiqn7fkQFiQ3zF+REcjZaqqrKdxoFm8y9khwP2m01RlZAdDuGUJHiJY0QTv7DT61kSQISP1yOO2y2e1mv4ngfLNBWIQF2Ez7cU6W5X2HFtuwLSIAyH1NywnbvFQtkRsKKTzw3bYaBZEFTs1HefOXlVbIeBltOppB3C93um7DAQz464Hb5VrbHDVWk7D6uVsiMGw1WxHQ1Ut1M/cebkdjSQsB2dfH4YSNhOOfn7w6+ysJ1yRP5Tf6dVME3nBzCNbisM6GFUAAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Mithril_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 20
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 11,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 10,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "867": {
-        "id": 867,
-        "name": "Adamant knife",
-        "short_name": "Adamant knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABa0lEQVR4XuWVXWvCQBBFnX/is/gQSkUiBoKiJEElSo1gP7AhKNbUWkop/fW3zC4b4hb6lkygF/Yl7MLh3NlNq/W/QrC/CIYwiAZoCBRhdDdSME67rZa9o8YQJsmksCMOM90G8Jc+euOeNBAhfAjVKtsRAiLM0wVmT7Mm2NEwZgnbIcRZXMB4c0/SjoYxQFyVO3XhDB0JIMLqsCpgzCCXYWoE+g3DVd34t+i6XRk7ZRh+kXlu2I4YEBviK86PoKmqDFM7UJInuByPOOx2qiobyD5RcQgfpxNe0hSLMChgOr2OBBDh8zVHnmV43m4RjMcY9vsKRKAuwtfbGef9vrAz8rwrkBphOKTmhu3cr9fKjoAVEz03bIeBllF0ZcfeXXF0VWyHgZI4lrRD+H6/KDsMxLMjbodvVWPscFXGzuNmo+yIwXBVbMcA2XbsExVH2zFAwnZM9PwwkLCdcvT7w6+ysJ1yRP5Tf6dRMHXnB9uUbMBbpoT2AAAAAElFTkSuQmCC",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Adamant_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 30
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 15,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 14,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "868": {
-        "id": 868,
-        "name": "Rune knife",
-        "short_name": "Rune knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABbElEQVR4XuWVW2vCQBCFnX/icx+KFEpADAQDJQ0qUVCDoljrBW8xIqEtpU/94afMhIQkhb6ZCfTAvoRd+PjO7KZW+18hFL8ohtDyfFQEitD2lwLTqNdlFXeUGMLTbJvaUYdxXwNYozkenZ42EKG7vQpQ1o4SEMHbRwJUATuE/uldgHgp2yEMzp8pkLKdPAxf82Z3hIblaAARhpcvAWKYzjqUqh7sjkZdv2GSqtTsZGHs6RqGOxCYe9PWA+Ir7iwOaVVZO6UD+dE3wt0O28UirUrJDodwPRywXy7Re3ZSO3dNSwOIEJ2OOK5WeJlM4Ng2WoYhIAp1Ed7OAYLNJrXTNs0cSIkwHJK5YTvT4VDsKFhJEs8N22Ggvuvm7BR33zhxVWyHgUaep2mH8HEJxQ4D8eyo2+FbVRk7XFViZzYeix01GK6K7SRARTvFEzdObCcBUraTJJ4fBlK2k038/vCrrGwnG5X/1N+pFEzZ+QEZOndIbiq5OwAAAABJRU5ErkJggg==",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 40
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 25,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 24,
-            "magic_damage": 0,
-            "prayer": 0
-        },
-        "attack_speed": 3,
-        "stances": [
-            {
-                "combat_style": "accurate",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "accuracy and damage"
-            },
-            {
-                "combat_style": "rapid",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged",
-                "boosts": "attack speed by 1 tick"
-            },
-            {
-                "combat_style": "longrange",
-                "attack_type": null,
-                "attack_style": null,
-                "experience": "ranged and defence",
-                "boosts": "attack range by 2 squares"
-            }
-        ]
-    },
-    "22804": {
-        "id": 22804,
-        "name": "Dragon knife",
-        "short_name": "Dragon knife",
-        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB4klEQVR4Xu3VTUtCURAGYM/ShQsXQgSBtJQQCUOSJEkSkwyT1NAMMzPMj4zKCoJaBC2CoEUQtOuPTvc9x2Onq8vuXBcNDH6g3od35lw9nv+amRKk2vVSkNs5H9X9XjdRCnI/75MNzMBC4b1IMMiJUpAnC/FodTvgpabVOh1gmEAK8mwh0ACZGOZ0BL0u+Oll1Lh4L+BaOoLeLARA6GkYvGZKR2F0X1mYaSA8soMAmYYx03EYJOg96JeNZHBh3SbI3B/7L/xxKdBHUKUDhIZoDF6zpQPI5ygdO8RstnSAwR0Y6ZiQ6uieg/dKnKCvRb/8f9rNZiUCDQB2SCfDMC51kYfhkG7O+7SXy0kEWu8QYCbEUcxlp0N3FwM6azRkMmuxmMTo/WFNBYkAcnJYo52tjMQshUJjBFsq/VaLrntdCTmqVGg7nab1eJyWw+EJhIMQlKBBu02n9TodH1SpWiyOMSuRCMdoUD/xYzzdZlMmUyuX5Zg2EgleDMaDpcWI8BzpYEw4TcwYlEoFy4vTpNMBKJNK0Wo0yolBCQlAKtgdfaIwLpwoZowuIRNBA4RlxrjME2X/hsMl5GlC7xcK42PuUjq6BJXyeZmMy+mYJWgzmfx1N3YZhJr8S7B/gr00ZCYwbtU3eMvQFmYBsxoAAAAASUVORK5CYII=",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Dragon_knife#Unpoisoned",
-        "slot": [
-            "weapon"
-        ],
-        "requirements": [
-            {
-                "ranged": 60
-            }
-        ],
-        "stats": {
-            "attack_stab": 0,
-            "attack_slash": 0,
-            "attack_crush": 0,
-            "attack_magic": 0,
-            "attack_ranged": 28,
-            "defence_stab": 0,
-            "defence_slash": 0,
-            "defence_crush": 0,
-            "defence_magic": 0,
-            "defence_ranged": 0,
-            "melee_strength": 0,
-            "ranged_strength": 30,
             "magic_damage": 0,
             "prayer": 0
         },
