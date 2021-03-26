@@ -131,7 +131,7 @@ class Equipment extends Component {
 
     function getStyleIndex(arr, style){
       for(let i=0; i< arr.length; i++){
-        if(arr[i].attack_style === style.attack_style && arr[i].attack_type === style.attack_type){
+        if(arr[i].combat_style === style.combat_style && arr[i].boosts === style.boosts){
           return i
         }
       }
@@ -150,7 +150,7 @@ class Equipment extends Component {
           >
           {Object.keys(equipment_presets).map((preset_key) => (
             <Option value={preset_key} key={preset_key}>
-              {preset_key}
+              {formatWord(preset_key)}
             </Option>
           ))}
           </Select>
