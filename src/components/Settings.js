@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { updateCalc } from '../actions/calcs'
 import { Tooltip, Switch, Select, Popover, InputNumber, Tabs, Card } from 'antd'
-import { CloseOutlined, CheckOutlined } from '@ant-design/icons'
 import { quickShot, fluidStrikes, doubleCast, tierSix, konarsBlessing, xericsFocus } from '../utils/descriptions'
 
 import konarsBlessingIcon from '../data/icons/Konars_Blessing.png'
@@ -106,22 +105,6 @@ class Settings extends Component {
                 </td>
               </tr>
 
-
-              <tr>
-                <td>
-                  <img src={diaryIcon} alt="diary icon"/>
-                </td>
-                <td>
-                  <Tooltip placement="topLeft" title="Kandarin hard diary completed" color={toolTipColour}>
-                      <span>Kandarin</span>
-                  </Tooltip>
-                </td>
-                <td>
-                  <Switch checked={calcs.kandarin_hard} onChange={(value) => this.handleChange("kandarin_hard", value)} />
-                </td>
-              </tr>
-
-
               <tr>
                 <td>
                   <img src={hpIcon} alt="hp icon"/>
@@ -162,10 +145,24 @@ class Settings extends Component {
 
               <tr>
                 <td>
+                  <img src={diaryIcon} alt="diary icon"/>
+                </td>
+                <td>
+                  <Tooltip placement="topLeft" title="Kandarin hard diary completed (10% increased bolt proc)" color={toolTipColour}>
+                      <span>Kandarin</span>
+                  </Tooltip>
+                </td>
+                <td>
+                  <Switch checked={calcs.kandarin_hard} onChange={(value) => this.handleChange("kandarin_hard", value)} />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
                   <img src={slayerIcon} alt="slayer icon"/>
                 </td>
                 <td>
-                  <Tooltip placement="topLeft" title="If on slayer task" color={toolTipColour}>
+                  <Tooltip placement="topLeft" title="Slayer task bonus if wearing Slayer Helm" color={toolTipColour}>
                       <span>Slayer Task</span>
                   </Tooltip>
                 </td>
@@ -179,7 +176,7 @@ class Settings extends Component {
                   <img src={skullIcon} alt="wilderness icon"/>
                 </td>
                 <td>
-                  <Tooltip placement="topLeft" title="If wilderness bonus applies" color={toolTipColour}>
+                  <Tooltip placement="topLeft" title="If wilderness bonus applies, requires specific weapon for bonus" color={toolTipColour}>
                       <span>Wilderness</span>
                   </Tooltip>
                 </td>
