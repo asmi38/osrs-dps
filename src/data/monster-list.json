@@ -10692,7 +10692,7 @@
     },
     "2042": {
         "id": 2042,
-        "name": "Zulrah (725)",
+        "name": "Zulrah (green)",
         "size": 5,
         "hitpoints": 500,
         "max_hit": 41,
@@ -10716,6 +10716,64 @@
             "defence_crush": 0,
             "defence_magic": -45,
             "defence_ranged": 50,
+            "attack_magic": 50
+        }
+    },
+    "2043": {
+        "id": 2043,
+        "name": "Zulrah (crimson)",
+        "size": 5,
+        "hitpoints": 500,
+        "max_hit": 41,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [],
+        "category": [
+            "boss"
+        ],
+        "slayer_monster": true,
+        "wiki_name": "Zulrah (Magma)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Zulrah#Magma",
+        "defence_level": 300,
+        "magic_level": 300,
+        "attack_level": 1,
+        "strength_level": 1,
+        "ranged_level": 300,
+        "stats": {
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 300,
+            "attack_magic": 50
+        }
+    },
+    "2044": {
+        "id": 2044,
+        "name": "Zulrah (turqoise)",
+        "size": 5,
+        "hitpoints": 500,
+        "max_hit": 41,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [],
+        "category": [
+            "boss"
+        ],
+        "slayer_monster": true,
+        "wiki_name": "Zulrah (Tanzanite)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Zulrah#Tanzanite",
+        "defence_level": 300,
+        "magic_level": 300,
+        "attack_level": 1,
+        "strength_level": 1,
+        "ranged_level": 300,
+        "stats": {
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 300,
+            "defence_ranged": 0,
             "attack_magic": 50
         }
     },

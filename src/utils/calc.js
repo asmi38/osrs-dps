@@ -10,7 +10,7 @@ export function combatLvlCalc(stats){
 
 export function formatWord(word){
   let capWord = capitalise(word)
-  return capWord.replace("_", " ")
+  return capWord.replaceAll("_", " ")
 }
 
 function capitalise([firstLetter, ...restOfWord]){
