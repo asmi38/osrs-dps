@@ -860,7 +860,9 @@
         "max_hit": 8,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Kalphite soldier (Construction)",
@@ -1678,7 +1680,7 @@
     },
     "319": {
         "id": 319,
-        "name": "Corporeal Beast (785)",
+        "name": "Corporeal Beast",
         "size": 5,
         "hitpoints": 2000,
         "max_hit": 33,
@@ -4619,7 +4621,9 @@
         "max_hit": 15,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [
             "scabarite"
         ],
@@ -4648,7 +4652,9 @@
         "max_hit": 22,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [
             "scabarite"
         ],
@@ -4677,7 +4683,9 @@
         "max_hit": 20,
         "immune_poison": true,
         "immune_venom": true,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [
             "scabarite"
         ],
@@ -4737,7 +4745,9 @@
         "max_hit": 15,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [
             "scabarite"
         ],
@@ -6214,7 +6224,9 @@
         "max_hit": 35,
         "immune_poison": true,
         "immune_venom": true,
-        "attributes": [],
+        "attributes": [
+          "kalphite"
+        ],
         "category": [
             "scabarite"
         ],
@@ -10698,7 +10710,9 @@
         "max_hit": 41,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "zulrah"
+        ],
         "category": [
             "boss"
         ],
@@ -10727,7 +10741,9 @@
         "max_hit": 41,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "zulrah"
+        ],
         "category": [
             "boss"
         ],
@@ -10756,7 +10772,9 @@
         "max_hit": 41,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "zulrah"
+        ],
         "category": [
             "boss"
         ],
@@ -35410,7 +35428,7 @@
     },
     "7584": {
         "id": 7584,
-        "name": "Ice demon (0)",
+        "name": "Ice demon",
         "size": 2,
         "hitpoints": 140,
         "max_hit": null,
@@ -35418,7 +35436,8 @@
         "immune_venom": true,
         "attributes": [
             "demon",
-            "xerician"
+            "xerician",
+            "ice_demon"
         ],
         "category": [],
         "slayer_monster": false,
@@ -38076,13 +38095,15 @@
     },
     "8370": {
         "id": 8370,
-        "name": "Verzik Vitur (1040)",
+        "name": "Verzik Vitur (Throne)",
         "size": 5,
         "hitpoints": 2000,
         "max_hit": 137,
         "immune_poison": true,
         "immune_venom": true,
-        "attributes": [],
+        "attributes": [
+          "verzik"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Verzik Vitur",
@@ -38103,9 +38124,9 @@
     },
     "8372": {
         "id": 8372,
-        "name": "Verzik Vitur (1265)",
+        "name": "Verzik Vitur (Vampire)",
         "size": 3,
-        "hitpoints": 2000,
+        "hitpoints": 3250,
         "max_hit": 137,
         "immune_poison": true,
         "immune_venom": true,
@@ -38114,25 +38135,25 @@
         "slayer_monster": false,
         "wiki_name": "Verzik Vitur",
         "wiki_url": "https://oldschool.runescape.wiki/w/Verzik_Vitur",
-        "defence_level": 20,
+        "defence_level": 200,
         "magic_level": 400,
         "attack_level": 400,
         "strength_level": 400,
         "ranged_level": 400,
         "stats": {
-            "defence_stab": 20,
-            "defence_slash": 20,
-            "defence_crush": 20,
-            "defence_magic": 20,
-            "defence_ranged": 20,
+            "defence_stab": 100,
+            "defence_slash": 60,
+            "defence_crush": 100,
+            "defence_magic": 70,
+            "defence_ranged": 250,
             "attack_magic": 80
         }
     },
     "8374": {
         "id": 8374,
-        "name": "Verzik Vitur (1520)",
+        "name": "Verzik Vitur (Spider)",
         "size": 7,
-        "hitpoints": 2000,
+        "hitpoints": 3250,
         "max_hit": 137,
         "immune_poison": true,
         "immune_venom": true,
@@ -38141,17 +38162,17 @@
         "slayer_monster": false,
         "wiki_name": "Verzik Vitur",
         "wiki_url": "https://oldschool.runescape.wiki/w/Verzik_Vitur",
-        "defence_level": 20,
-        "magic_level": 400,
+        "defence_level": 150,
+        "magic_level": 300,
         "attack_level": 400,
         "strength_level": 400,
-        "ranged_level": 400,
+        "ranged_level": 300,
         "stats": {
-            "defence_stab": 20,
-            "defence_slash": 20,
-            "defence_crush": 20,
-            "defence_magic": 20,
-            "defence_ranged": 20,
+            "defence_stab": 70,
+            "defence_slash": 30,
+            "defence_crush": 70,
+            "defence_magic": 100,
+            "defence_ranged": 230,
             "attack_magic": 80
         }
     },
