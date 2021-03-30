@@ -43,7 +43,7 @@ class Settings extends Component {
 
     return(
       <div className='settings'>
-        <Card style={{ width: 270}}>
+        <Card size='small'>
         <Tabs defaultActiveKey="1">
           <TabPane tab="Settings" key="1">
             <table>

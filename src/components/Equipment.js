@@ -42,7 +42,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
   return(
     <tr>
       <td>
-        <img src={equip.icon ? `data:image/png;base64,${equip.icon}` : icon} alt="slot icon" />
+        <img className='equip-icon' src={equip.icon ? `data:image/png;base64,${equip.icon}` : icon} alt="slot icon" />
       </td>
 
       <td>
@@ -139,8 +139,8 @@ class Equipment extends Component {
     }
 
     return (
-      <div className='equipment'>
-        <Card >
+      <div className='equipment-set'>
+        <Card size='small'>
         <div className='equip-buttons'>
           <Select
             showSearch
@@ -327,10 +327,10 @@ class Equipment extends Component {
 
             <tr>
               <td></td>
-              <td>Total</td>
+              <td><b>Total</b></td>
               <td></td>
-              <td>{totalAtkCalc(equipment)}</td>
-              <td>{totalStrCalc(equipment)}</td>
+              <td style={{textAlign: 'center'}}><b>{totalAtkCalc(equipment)}</b></td>
+              <td style={{textAlign: 'center'}}><b>{totalStrCalc(equipment)}</b></td>
             </tr>
           </tbody>
         </table>

@@ -28,25 +28,26 @@ const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
 function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
   return(
     <React.Fragment>
-      <td><img src={icon} alt="stat icon"/></td>
+      <div className='stat-row'>
+        <div className='image-container'>
+          <img className='image-icon' src={icon} alt="stat icon"/>
+        </div>
 
-      <td>{formatWord(stat_name)}</td>
 
-      <td>
+        <label className='stat-name'>{formatWord(stat_name)}</label>
+
         <InputNumber
           value={stat.level}
-          style={{width: 60,}}
+          style={{width: 55, marginRight: 'auto'}}
           onChange={(value) => dispatch(changeStat(stat_name, {...stat, "level": value}))}
           min={1}
           max={99}
         />
-      </td>
 
-      <td>
         {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <Select
             value={stat.potion}
-            style={{width: 140,}}
+            style={{width: 130,}}
             onChange={(value) => dispatch(changePotion(stat_name, {...stat, "potion": value}))}
             >
               {pots.map((pot) => (
@@ -56,13 +57,11 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
               ))}
           </Select>
         }
-      </td>
 
-      <td>
         {(stat_name === "hitpoints" || stat_name === "prayer") ? "" :
           <Select
             value={stat.prayer}
-            style={{width: 100,}}
+            style={{width: 90,}}
             onChange={(value) => {
               if(value === "Piety" || value === "Chivalry"){
                 dispatch(changePrayer("attack", value))
@@ -81,16 +80,14 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
             ))}
           </Select>
         }
-      </td>
 
-      <td>
         <InputNumber
           value={stat.effective_level}
           onChange={(value) => dispatch(changeStat(stat_name, {...stat, "effective_level": value}))}
           style={{width: 60, color: stat.effective_level > 99 ? 'blue' : 'black'}}
           min={1}
         />
-      </td>
+      </div>
     </React.Fragment>
   )
 }
@@ -100,23 +97,17 @@ class Stats extends Component {
     const { attack, strength, ranged, magic, defence, prayer, hitpoints, dispatch } = this.props
 
     return (
-      <div className='stats'>
-        <Card>
+      <div className='stats-container'>
+        <Card size='small'>
         <User />
-          <table>
-            <thead>
-             <tr>
-              <th></th>
-              <th>Stats</th>
-              <th><img src={stats_sprite} alt="Stats"/></th>
-              <th><img src={potion_sprite} alt="Potion"/></th>
-              <th><img src={prayer_sprite} alt="Prayer"/></th>
-              <th>Effective</th>
-             </tr>
-            </thead>
-            <tbody>
+              <div className='stat-header'>
+                <div className='stat-name-header'><label className='stats-title'>Stats</label></div>
+                <div className='stat-input-header'><img className='image-icon' src={stats_sprite} alt="Stats"/></div>
+                <div className='potion-header'><img className='image-icon' src={potion_sprite} alt="Potion"/></div>
+                <div className='prayer-header'><img className='image-icon' src={prayer_sprite} alt="Prayer"/></div>
+                <div className='elevel-header'><label className='eff-title'>Effective</label></div>
+              </div>
 
-             <tr>
               <StatRow
                 icon={attack_sprite}
                 stat_name="attack"
@@ -124,9 +115,7 @@ class Stats extends Component {
                 stat={attack}
                 pots={atk_pots}
                 prayers={melee_prayers}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={strength_sprite}
                 stat_name="strength"
@@ -134,9 +123,7 @@ class Stats extends Component {
                 stat={strength}
                 pots={str_pots}
                 prayers={melee_prayers}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={defence_sprite}
                 stat_name="defence"
@@ -144,9 +131,7 @@ class Stats extends Component {
                 stat={defence}
                 pots={def_pots}
                 prayers={melee_prayers}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={range_sprite}
                 stat_name="ranged"
@@ -154,9 +139,7 @@ class Stats extends Component {
                 stat={ranged}
                 pots={range_pots}
                 prayers={range_prayers}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={magic_sprite}
                 stat_name="magic"
@@ -164,9 +147,7 @@ class Stats extends Component {
                 stat={magic}
                 pots={magic_pots}
                 prayers={magic_prayers}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={hp_sprite}
                 stat_name="hitpoints"
@@ -174,9 +155,7 @@ class Stats extends Component {
                 stat={hitpoints}
                 pots={[]}
                 prayers={[]}/>
-             </tr>
 
-             <tr>
               <StatRow
                 icon={prayer_sprite}
                 stat_name="prayer"
@@ -184,10 +163,6 @@ class Stats extends Component {
                 stat={prayer}
                 pots={[]}
                 prayers={[]}/>
-             </tr>
-
-            </tbody>
-          </table>
         </Card>
       </div>
     )

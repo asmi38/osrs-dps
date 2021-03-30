@@ -34,7 +34,7 @@ class Calcs extends Component {
 
     return(
       <div className='calcs'>
-        <Card>
+        <Card size='small'>
           <Enemy />
           <table>
             <thead>

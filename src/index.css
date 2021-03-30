@@ -21,15 +21,11 @@ code {
 }
 
 .settings-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.equipment-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /**
@@ -39,7 +35,7 @@ code {
 
  .stats-container {
    display: flex;
-   padding-top: 30px;
+   padding-top: 1.5rem;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -47,7 +43,78 @@ code {
 
 .stat-row {
   display: flex;
-  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.stat-name {
+  width: 65px;
+  align-items: flex-start;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .stat-name {
+      display: block;
+    }
+}
+
+.stats-title {
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .stats-title {
+      display: block;
+    }
+}
+
+.eff-title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/**
+ * Stats Header Row
+ *
+ */
+
+.stat-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.stat-name-header {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.stat-input-header {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.potion-header {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.prayer-header {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.elevel-header {
+  align-content: flex-end;
 }
 
 .username-label {
@@ -55,6 +122,18 @@ code {
   font-weight: bold;
   font-size: 1rem;
 }
+
+.image-icon {
+  display: flex;
+  align-items: baseline;
+}
+
+.image-container {
+  width: 25px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 
 .combat-level {
   font-size: 1rem;
@@ -68,17 +147,30 @@ code {
   justify-content: space-evenly;
 }
 
+ .equipment-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+ }
 
-
-
-
-
+ .equipment-set {
+   padding: 1rem;
+   display: flex;
+   flex-direction: row;
+ }
 
 
 .equip-buttons {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 10px;
+}
+
+.equip-icon {
+  height: 30px;
+  width: 30px;
 }
 
 .preset-select {
@@ -90,7 +182,7 @@ code {
 }
 
 .calcs {
-  padding: 30px;
+  padding: 1.5rem;
 }
 
 .enemy-container {
@@ -98,11 +190,7 @@ code {
 }
 
 .settings {
-  padding-top: 30px;
-
-}
-
-.equip-container{
+  padding-top: 1.5rem;
 
 }
 
@@ -115,10 +203,7 @@ code {
   color: black;
 }
 
-.equipment {
-  padding: 10px;
 
-}
 
 .enemy-icon-container {
   display: flex;
@@ -130,8 +215,4 @@ code {
   height: 30px;
   width: 30px;
   padding: 2px;
-}
-
-.image-icon {
-  padding: 5px;
 }

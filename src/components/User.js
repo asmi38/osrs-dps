@@ -22,7 +22,7 @@ class User extends Component {
   render(){
     return(
       <div className='user'>
-          <label className='username-label'> Username: </label>
+          <label className='username-label'>User:</label>
 
             <Input
               type="text"
