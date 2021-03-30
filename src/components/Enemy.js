@@ -10,16 +10,22 @@ import demonIcon from '../data/icons/demon_icon.png'
 import undeadIcon from '../data/icons/vengeance_icon.png'
 import leafyIcon from '../data/icons/kurask_icon.png'
 import vampyreIcon from '../data/icons/vampyre_icon.png'
+import zulrahIcon from '../data/icons/Zulrah_green2.png'
+import iceDemonIcon from '../data/icons/ice_demon.png'
+import verzikViturIcon from '../data/icons/verzik_vitur.png'
 
 const { Option } = Select
-const importantAttributes = ["kalphite", "dragon", "fiery", "demon", "undead", "leafy", "vampyre" ]
+const importantAttributes = ["kalphite", "dragon", "fiery", "demon", "undead", "leafy", "vampyre", "zulrah", "ice_demon", "verzik"]
 const attributeData = { kalphite: { icon: kalphiteIcon, text: 'Kalphite'},
                         dragon: { icon: dragonIcon, text: 'Dragon'},
                         fiery: { icon: fieryIcon, text: 'Fiery'},
                         demon: { icon: demonIcon, text: 'Demon'},
                         undead: { icon: undeadIcon, text: 'Undead'},
                         leafy: { icon: leafyIcon, text: 'Leafy'},
-                        vampyre: { icon: vampyreIcon, text: 'Vampyre'}
+                        vampyre: { icon: vampyreIcon, text: 'Vampyre'},
+                        zulrah: { icon: zulrahIcon, text: 'Zulrah damage cap applied'},
+                        ice_demon: { icon: iceDemonIcon, text: 'Ice demon 150% to fire 33% to range and melee'},
+                        verzik: { icon: verzikViturIcon, text: "Verzik damage cap 10 for melee, 3 for mage & range"}
                       }
 
 class Enemy extends Component {
@@ -27,7 +33,7 @@ class Enemy extends Component {
     const { enemy, dispatch } = this.props
 
     return(
-      <div className='enemy'>
+      <div className='enemy-container'>
         <div clasName='enemy-select'>
           <label>Enemy:</label>
           <Select
@@ -44,10 +50,10 @@ class Enemy extends Component {
             )}
           </Select>
         </div>
-        <div className='enemy-icons'>
+        <div className='enemy-icon-container'>
           {enemy.attributes.map((attribute) =>
             importantAttributes.includes(attribute)
-              ? <Tooltip placement="top" title={attributeData[attribute].text} color="geekblue"><img className='image-icon' src={attributeData[attribute].icon} alt="attribute icon" /></Tooltip>
+              ? <Tooltip placement="top" title={attributeData[attribute].text} color="geekblue"><img className='enemy-icon' src={attributeData[attribute].icon} alt="attribute icon" /></Tooltip>
               : null)
           }
         </div>
