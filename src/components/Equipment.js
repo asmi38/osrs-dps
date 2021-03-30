@@ -210,12 +210,14 @@ class Equipment extends Component {
               <td>Spell:</td>
               <td>
                 <Select
+                  showSearch
+                  optionFilterProp="label"
                   onChange={(value) => dispatch(changeSpell(SpellData[value], actionKey))}
                   value={spell.name}
                   style={{ width: 200, }}
                 >
                 {Object.keys(SpellData).map((spell_key) => (
-                  <Option value={spell_key} key={spell_key}>
+                  <Option value={spell_key} label={SpellData[spell_key].name} key={spell_key}>
                     {formatWord(SpellData[spell_key].name)}
                   </Option>
                 ))}
