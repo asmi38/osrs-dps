@@ -1,20 +1,20 @@
 export const quickShot = (
   <div>
-    <p>Attack speed of ranged weapons halved, rounded up</p>
+    <p>Attack speed of ranged weapons halved</p>
     <p>Ranged attacks 10% more damage and 100% increased accuracy</p>
   </div>
 )
 
 export const fluidStrikes = (
   <div>
-    <p>Attack speed of melee weapons halved, rounded up</p>
+    <p>Attack speed of melee weapons halved</p>
     <p>Melee attacks have 25% increased accuracy</p>
   </div>
 )
 
 export const doubleCast = (
   <div>
-    <p>Attack speed of magic weapons halved, rounded up</p>
+    <p>Attack speed of magic weapons and spells halved</p>
     <p>Magic attacks 125% increased accuracy</p>
   </div>
 )
