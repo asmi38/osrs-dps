@@ -10,16 +10,11 @@ class User extends Component {
     this.state = {
       username: '',
     }
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(e) {
-    this.setState({username: e.target.value})
-  }
+  handleChange = (e) => this.setState({username: e.target.value})
 
-  handleSubmit(e) {
+  handleSubmit = (e) => {
     e.preventDefault()
     this.props.dispatch(handleFetchUser(this.state.username))
   }
@@ -27,14 +22,14 @@ class User extends Component {
   render(){
     return(
       <div className='user'>
-          <label> Username: </label>
+          <label className='username-label'> Username: </label>
 
             <Input
               type="text"
               value={this.state.value}
               onChange={this.handleChange}
               onPressEnter={this.handleSubmit}
-              style={{width: 150,}}
+              style={{width: 150, height: 32}}
               allowClear
               size="medium"
             />
@@ -47,7 +42,7 @@ class User extends Component {
           Submit
           </Button>
 
-          Combat Level: {combatLvlCalc(this.props.stats)}
+          <p className='combat-level'>Level: <b>{combatLvlCalc(this.props.stats)}</b></p>
       </div>
     )
   }
