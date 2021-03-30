@@ -3,36 +3,54 @@ import { meleeMaxHit, meleeAtkRoll } from './meleeDPS'
 import { mageMaxHit, mageAtkRoll } from './magicDPS'
 import { boltDPS, rangeMaxHit, rangeAtkRoll } from './rangedDPS'
 
+const specialMons = ["Verzik Vitur (Throne)", "Zulrah (crimson)", "Zulrah (turqoise)", "Zulrah (green)", "Ice demon", "Corporeal Beast"]
+
 //Returns array, first value is damage bonus, second value is accuracy bonus
 export function gear_bonus(state, equipment, type){
   const { enemy, calcs } = state
+  let bonus = [1, 1]
   if(equipment.neck.name === "Salve amulet(ei)" && enemy.attributes.includes("undead")){
-    return [1.2, 1.2]
+    bonus = [1.2, 1.2]
   }
   else if(equipment.neck.name === "Salve amulet(i)" && enemy.attributes.includes("undead")){
     if(type === "melee"){
-      return [1.1667, 1.1667]
+      bonus = [1.1667, 1.1667]
     }
     else if(type === "range"){
-      return [1.1667, 1.1667]
+      bonus = [1.1667, 1.1667]
     }
     else if(type === "magic"){
-      return [1.15, 1.15]
+      bonus = [1.15, 1.15]
     }
   }
   else if(equipment.head.name === "Slayer helmet (i)" && calcs.slayer_task){
     if(type === "melee"){
-      return [1.1667, 1.1667]
+      bonus = [1.1667, 1.1667]
     }
     else if(type === "range"){
-      return [1.15, 1.15]
+      bonus = [1.15, 1.15]
     }
     else if(type === "magic"){
-      return [1.15, 1.15]
+      bonus = [1.15, 1.15]
     }
   }
 
-  return [1, 1]
+  if(state.calcs.quick_shot === true && type === "range"){
+    bonus = [bonus[0] + 0.1, bonus[1] + 1]
+  }
+  else if(state.calcs.fluid_strikes === true && type === "melee"){
+    bonus = [bonus[0], bonus[1] + 0.25]
+  }
+
+  if(state.calcs.tier6 === true){
+    bonus = [bonus[0]+0.1, bonus[1]+0.1]
+  }
+
+  if(state.calcs.konars_blessing === true){
+    bonus[0] += state.calcs.slayer_task ? 0.3 : 0.1
+    bonus[1] += state.calcs.slayer_task ? 0.3 : 0.1
+  }
+  return bonus
 }
 
 //Returns array, first value is damage bonus, second value is accuracy bonus
@@ -160,27 +178,138 @@ export function maxHitCalc(state, equipment){
   }
 }
 
-function magicAtkSpeed(equipment){
+function magicAtkSpeed(state, equipment){
   let spell = equipment.spell
-  if(equipment.weapon.name === "Harmonished nightmare staff" && spell.spellbook === "standard"){
-    return 4
+  const isRelicActive = (state.calcs.double_cast || state.calcs.xerics_focus) ? true : false
+  if(equipment.weapon.name === "Harmonised nightmare staff" && spell.spellbook === "standard"){
+    return isRelicActive ? 2 : 4
   }
   else if(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange"){
-    return equipment.weapon.attack_speed
+    return isRelicActive ? Math.ceil(equipment.weapon.attack_speed / 2) : equipment.weapon.attack_speed
   }
   else{
-    return equipment.spell.attack_speed
+    return isRelicActive ? Math.ceil(equipment.spell.attack_speed / 2) : equipment.spell.attack_speed
+  }
+}
+
+
+function verzikDps(state, equipment){
+  const maxHit = maxHitCalc(state, equipment)
+  const combatType = combatTypeCalc(equipment.attack_style)
+  let averageHit = maxHit / 2
+  if(combatType === "melee"){
+    const chanceAbove = (maxHit - 10) / maxHit
+    averageHit = chanceAbove * 5 + (1 - chanceAbove) * 2.5
+  }
+  else if(combatType === "ranged" || combatType === "magic"){
+    const chanceAbove = (maxHit - 3) / maxHit
+    averageHit = chanceAbove * 1.5 + (1 - chanceAbove) * 0.75
+  }
+  return averageHitDps(state, equipment, averageHit)
+}
+
+function iceDemonDps(state, equipment){
+  const maxHit = maxHitCalc(state, equipment)
+  const combatType = combatTypeCalc(equipment.attack_style)
+  let averageHit = maxHit / 2
+  if(combatType === "melee" || combatType === "ranged"){
+    averageHit = averageHit / 3
+  }
+  return averageHitDps(state, equipment, averageHit)
+}
+
+function corpDps(state, equipment){
+  const maxHit = maxHitCalc(state, equipment)
+  const combatType = combatTypeCalc(equipment.attack_style)
+  let averageHit = maxHit / 2
+  if((equipment.weapon.name.includes("halbred") || equipment.weapon.name.includes("spear")) && equipment.attack_style.attack_type === "stab"){
+  }
+  else if(combatType === "magic"){
+  }
+  else{
+    averageHit = averageHit / 2
+  }
+  return averageHitDps(state, equipment, averageHit)
+}
+
+function zulrahDps(state, equipment){
+  const maxHit = maxHitCalc(state, equipment)
+  let averageHit = maxHit / 2
+  if(maxHit > 50){
+    const dmgCapChance = (maxHit - 50) / 50
+    averageHit = dmgCapChance * 47.5 + (1 - dmgCapChance) * 25
+  }
+  return averageHitDps(state, equipment, averageHit)
+}
+
+function specialDps(state, equipment){
+  const zulrahNames = ["Zulrah (crimson)", "Zulrah (turqoise)", "Zulrah (green)"]
+  if(zulrahNames.includes(state.enemy.name)){
+    return zulrahDps(state, equipment)
+  }
+  else if(state.enemy.name === "Verzik Vitur (Throne)"){
+    return verzikDps(state, equipment)
+  }
+  else if(state.enemy.name === "Ice demon"){
+    return iceDemonDps(state, equipment)
+  }
+  else if(state.enemy.name === "Corporeal Beast"){
+    return corpDps(state, equipment)
+  }
+  else{
+    return 0
+  }
+}
+
+// Calc dps function but with averageHit passed in - this is used for special dps calculations
+function averageHitDps(state, equipment, averageHit){
+  const combatType = combatTypeCalc(equipment.attack_style)
+  const maxHit = maxHitCalc(state, equipment)
+
+  if(combatType === "magic"){
+    return hitChance(state, equipment) * (averageHit / (0.6 * magicAtkSpeed(state, equipment)))
+  }
+  else if(combatType === "ranged"){
+    let attackSpeed = equipment.weapon.attack_speed
+    if(state.calcs.quick_shot === true || state.calcs.xerics_focus === true){
+      attackSpeed = Math.ceil(attackSpeed / 2)
+    }
+    if(equipment.attack_style.combat_style === "rapid" || equipment.attack_style.combat_style === "flare"){
+      attackSpeed -= 1
+    }
+
+    if(equipment.ammo.name.includes("bolt")){
+      const boltProc = boltDPS(Math.min(50, maxHit), hitChance(state, equipment), state, equipment)
+      return (boltProc.dps + (1 - boltProc.procChance) * hitChance(state, equipment) * averageHit) / (0.6 * attackSpeed)
+    }
+    else{
+      return hitChance(state, equipment) * (averageHit / (0.6 * attackSpeed))
+    }
+  }
+  else{
+    let attackSpeed = equipment.weapon.attack_speed
+    if(state.calcs.fluid_strikes === true || state.calcs.xerics_focus === true){
+      attackSpeed = Math.ceil(attackSpeed / 2)
+    }
+    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed))
   }
 }
 
 export function calcDps(state, equipment){
+  if(specialMons.includes(state.enemy.name)){
+    return specialDps(state, equipment)
+  }
+
   const combatType = combatTypeCalc(equipment.attack_style)
   const maxHit = maxHitCalc(state, equipment)
   if(combatType === "magic"){
-    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * magicAtkSpeed(equipment)))
+    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * magicAtkSpeed(state, equipment)))
   }
   else if(combatType === "ranged"){
     let attackSpeed = equipment.weapon.attack_speed
+    if(state.calcs.quick_shot === true || state.calcs.xerics_focus === true){
+      attackSpeed = Math.ceil(attackSpeed / 2)
+    }
     if(equipment.attack_style.combat_style === "rapid" || equipment.attack_style.combat_style === "flare"){
       attackSpeed -= 1
     }
@@ -194,7 +323,11 @@ export function calcDps(state, equipment){
     }
   }
   else{
-    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * equipment.weapon.attack_speed))
+    let attackSpeed = equipment.weapon.attack_speed
+    if(state.calcs.fluid_strikes === true || state.calcs.xerics_focus === true){
+      attackSpeed = Math.ceil(attackSpeed / 2)
+    }
+    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed))
   }
 }
 
@@ -220,7 +353,13 @@ function expected_hits(state, equipment){
 
 export function expected_ttk(state, equipment){
   const combatType = combatTypeCalc(equipment.attack_style)
-  let attackSpeed = combatType === "magic" ? magicAtkSpeed(equipment) : equipment.weapon.attack_speed
+  let attackSpeed = combatType === "magic" ? magicAtkSpeed(state, equipment) : equipment.weapon.attack_speed
+  if((state.calcs.quick_shot === true && combatType === "ranged") || (state.calcs.fluid_strikes === true && combatType === "melee")){
+    attackSpeed = Math.ceil(attackSpeed / 2)
+  }
+  if(state.calcs.xerics_focus === true){
+    attackSpeed = Math.ceil(attackSpeed / 2)
+  }
   if(equipment.attack_style.combat_style === "rapid" || equipment.attack_style.combat_style === "flare"){
     attackSpeed -= 1
   }

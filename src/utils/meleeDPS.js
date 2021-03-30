@@ -42,6 +42,12 @@ function meleeGearBonus(state, equipment){
   if(equipment.weapon.name === "Darklight" && (enemy.attributes.includes("demon") || enemy.attributes.includes("vampyre"))){
     return {'accMultiplier': 1.6, 'dmgMultiplier': 1.6}
   }
+  if(equipment.weapon.name === "Keris" && enemy.attributes.includes("kalphite")){
+    return {'accMultiplier': 1, 'dmgMultiplier': 1.33 * 5300/5100}
+  }
+  if(equipment.weapon.name === "Leaf-bladed battleaxe" && enemy.attributes.includes("leafy")){
+    return {'accMultiplier': 1.175, 'dmgMultiplier': 1.175}
+  }
 
   const inquisitorItems = []
   if(equipment.body.name === "Inquisitor's hauberk"){
@@ -84,13 +90,31 @@ function dharokBonus(state, equipment){
     ###########################################################################################
 */
 
+function scytheMaxHit(state, equipment, maxHit){
+  var maxHit = maxHit
+  if(equipment.weapon.name === "Scythe of vitur" || equipment.weapon.name === "Scythe of vitur (uncharged)"){
+    let maxHitSecond = Math.floor(maxHit * 0.5)
+    let maxHitThird = Math.floor(maxHit * 0.25)
+    if(state.enemy.size === 2){
+      maxHit = maxHit + maxHitSecond
+    }
+    else if(state.enemy.size >= 3){
+      maxHit = maxHit + maxHitSecond + maxHitThird
+    }
+  }
+  return maxHit
+}
+
 export function meleeMaxHit(state, equipment){
   const { stats } = state
 
   const effectiveMeleeStr = (stats.strength.effective_level + melee_bonus(equipment.attack_style.attack_style, false) + 8) * void_bonus(equipment, "melee")[0]
   const effMeleeAndNumeric = Math.floor( ((effectiveMeleeStr * (totalStrCalc(equipment) + 64)) + 320) / 640 )
   const addGearBonus = Math.floor(effMeleeAndNumeric * gear_bonus(state, equipment, "melee")[0])
-  const maxHit = Math.floor(addGearBonus * dharokBonus(state, equipment) * meleeGearBonus(state, equipment).dmgMultiplier)
+  var maxHit = Math.floor(addGearBonus * dharokBonus(state, equipment) * meleeGearBonus(state, equipment).dmgMultiplier)
+  if(equipment.weapon.name === "Scythe of vitur" || equipment.weapon.name === "Scythe of vitur (uncharged)"){
+    maxHit = scytheMaxHit(state, equipment, maxHit)
+  }
   return maxHit
 }
 

@@ -43,7 +43,7 @@ function staffMaxHit(state, equipment){
 
 
 function magicBonus(state, equipment){
-  const { calcs } = state
+  const { calcs, enemy } = state
   const { spell }  = equipment
   let accMultiplier = 0
   let dmgMultiplier = 0
@@ -51,6 +51,9 @@ function magicBonus(state, equipment){
   if((equipment.weapon.name === "Smoke battlestaff" || equipment.weapon.name === "Mystic smoke staff") && spell.spellbook === "standard"){
     accMultiplier += 0.1
     dmgMultiplier += 0.1
+  }
+  if(enemy.name === "Ice demon" && equipment.attack_style.combat_style.includes("spell") && (equipment.spell.element === "fire" || equipment.spell.name === "flames_of_zamorak")){
+      dmgMultiplier += 0.5
   }
   if(equipment.head.name === "Ahrim's hood" &&
      equipment.body.name === "Ahrim's robetop" &&
@@ -62,6 +65,9 @@ function magicBonus(state, equipment){
   if(equipment.weapon.name === "Thammaron's sceptre" && calcs.wilderness){
     accMultiplier += 1
     dmgMultiplier += 0.25
+  }
+  if(state.calcs.double_cast === true){
+    accMultiplier += 1.25
   }
   return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
 }
