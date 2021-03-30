@@ -8,11 +8,9 @@ import reducer from './reducers/index.js'
 import middleware from './middleware'
 import 'antd/dist/antd.css';
 
-
 const store = createStore(reducer, middleware)
 
 console.log(store.getState())
-
 ReactDOM.render(
   <Provider store={store}>
     <App />

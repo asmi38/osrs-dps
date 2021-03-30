@@ -5,12 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.equipment-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/**
+ * Stats CSS Styling
+ *
+ */
+
+ .stats-container {
+   display: flex;
+   padding-top: 30px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+.stat-row {
+  display: flex;
+  flex: 1;
+}
+
+.username-label {
+  padding-right: 2px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.combat-level {
+  font-size: 1rem;
+  padding-left: 2px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
 
 .equip-buttons {
   display: flex;
@@ -21,15 +84,6 @@ code {
 .preset-select {
   display: flex;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.stats {
-  padding: 30px;
-}
 
 .user {
   padding: 10px;
@@ -39,20 +93,45 @@ code {
   padding: 30px;
 }
 
-.enemy {
+.enemy-container {
   padding: 10px;
 }
 
 .settings {
-  padding: 30px;
+  padding-top: 30px;
 
 }
 
 .equip-container{
-  flex-basis: 50%
+
+}
+
+.text-higher {
+  color: #2f54eb;
+  font-weight: bold;
+}
+
+.text-lower {
+  color: black;
 }
 
 .equipment {
   padding: 10px;
-  flex-basis: 50%
+
+}
+
+.enemy-icon-container {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.enemy-icon{
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+}
+
+.image-icon {
+  padding: 5px;
 }

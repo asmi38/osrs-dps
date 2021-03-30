@@ -10,11 +10,15 @@ class App extends Component {
     return (
       <React.Fragment>
       <div className='container'>
-        <Stats />
-        <Calcs />
-        <Settings />
-        <Equipment actionKey={"A"}/>
-        <Equipment actionKey={"B"}/>
+        <div className='settings-container'>
+          <Stats />
+          <Calcs />
+          <Settings />
+        </div>
+        <div className='equipment-container'>
+          <Equipment actionKey={"A"}/>
+          <Equipment actionKey={"B"}/>
+        </div>
       </div>
       </React.Fragment>
     )
