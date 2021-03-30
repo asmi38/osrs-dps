@@ -35193,7 +35193,7 @@
     },
     "7553": {
         "id": 7553,
-        "name": "Great Olm (Right claw) (549)",
+        "name": "Great Olm (Mage Hand CM)",
         "size": 5,
         "hitpoints": 600,
         "max_hit": null,
@@ -35205,7 +35205,7 @@
         ],
         "category": [],
         "slayer_monster": false,
-        "wiki_name": "Great Olm (Right claw (Challenge Mode))",
+        "wiki_name": "Great Olm (Right claw) (Challenge Mode))",
         "wiki_url": "https://oldschool.runescape.wiki/w/Great_Olm#Right_claw_(Challenge_Mode)",
         "defence_level": 262,
         "magic_level": 130,
@@ -35218,12 +35218,12 @@
             "defence_crush": 200,
             "defence_magic": 50,
             "defence_ranged": 200,
-            "attack_magic": 0
+            "attack_magic": 60
         }
     },
     "7554": {
         "id": 7554,
-        "name": "Great Olm (1043)",
+        "name": "Great Olm (Head CM)",
         "size": 5,
         "hitpoints": 800,
         "max_hit": null,
@@ -35248,12 +35248,12 @@
             "defence_crush": 200,
             "defence_magic": 200,
             "defence_ranged": 50,
-            "attack_magic": 0
+            "attack_magic": 60
         }
     },
     "7555": {
         "id": 7555,
-        "name": "Great Olm (Left claw) (750)",
+        "name": "Great Olm (Melee hand CM)",
         "size": 5,
         "hitpoints": 600,
         "max_hit": null,
@@ -35278,7 +35278,97 @@
             "defence_crush": 50,
             "defence_magic": 50,
             "defence_ranged": 50,
-            "attack_magic": 0
+            "attack_magic": 60
+        }
+    },
+    "7556": {
+        "id": 7556,
+        "name": "Great Olm (Mage Hand)",
+        "size": 5,
+        "hitpoints": 600,
+        "max_hit": null,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [
+            "dragon",
+            "xerician"
+        ],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Great Olm (Right claw)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Great_Olm#Right_claw",
+        "defence_level": 175,
+        "magic_level": 87,
+        "attack_level": 250,
+        "strength_level": 250,
+        "ranged_level": 250,
+        "stats": {
+            "defence_stab": 200,
+            "defence_slash": 200,
+            "defence_crush": 200,
+            "defence_magic": 50,
+            "defence_ranged": 200,
+            "attack_magic": 50
+        }
+    },
+    "7557": {
+        "id": 7557,
+        "name": "Great Olm (Head)",
+        "size": 5,
+        "hitpoints": 800,
+        "max_hit": null,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [
+            "dragon",
+            "xerician"
+        ],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Great Olm (Head)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Great_Olm#Head",
+        "defence_level": 150,
+        "magic_level": 250,
+        "attack_level": 250,
+        "strength_level": 250,
+        "ranged_level": 250,
+        "stats": {
+            "defence_stab": 200,
+            "defence_slash": 200,
+            "defence_crush": 200,
+            "defence_magic": 200,
+            "defence_ranged": 50,
+            "attack_magic": 60
+        }
+    },
+    "7558": {
+        "id": 7558,
+        "name": "Great Olm (Melee Hand)",
+        "size": 5,
+        "hitpoints": 600,
+        "max_hit": null,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [
+            "dragon",
+            "xerician"
+        ],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Great Olm (Left claw)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Great_Olm#Left_claw",
+        "defence_level": 175,
+        "magic_level": 175,
+        "attack_level": 250,
+        "strength_level": 250,
+        "ranged_level": 250,
+        "stats": {
+            "defence_stab": 50,
+            "defence_slash": 50,
+            "defence_crush": 50,
+            "defence_magic": 50,
+            "defence_ranged": 50,
+            "attack_magic": 60
         }
     },
     "7559": {
@@ -37214,11 +37304,16 @@
         "max_hit": 38,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
-        "category": [],
+        "attributes": [
+          "dragon",
+          "fiery"
+        ],
+        "category": [
+          "rune dragon"
+        ],
         "slayer_monster": false,
-        "wiki_name": "Rune dragon (Construction)",
-        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_dragon_(Construction)",
+        "wiki_name": "Rune dragon",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Rune_dragon",
         "defence_level": 276,
         "magic_level": 196,
         "attack_level": 284,
