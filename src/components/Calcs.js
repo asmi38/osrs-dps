@@ -36,7 +36,7 @@ class Calcs extends Component {
       <div className='calcs'>
         <Card size='small'>
           <Enemy />
-          <table>
+          <table className='calcs-table'>
             <thead>
               <tr>
                 <th></th>

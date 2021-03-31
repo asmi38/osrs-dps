@@ -34,7 +34,7 @@ class Enemy extends Component {
 
     return(
       <div className='enemy-container'>
-        <div clasName='enemy-select'>
+        <div className='enemy-select'>
           <label>Enemy:</label>
           <Select
             showSearch
@@ -44,7 +44,7 @@ class Enemy extends Component {
             onChange={(value) => dispatch(changeEnemy(MonsterData[value]))}
           >
             {Object.keys(MonsterData).map((monster_key) =>
-              <Option value={MonsterData[monster_key].id} label={MonsterData[monster_key].name} key={monster_key}>
+              <Option value={MonsterData[monster_key].id} key={MonsterData[monster_key].id} label={MonsterData[monster_key].name}>
                 {MonsterData[monster_key].name}
               </Option>
             )}
@@ -53,7 +53,7 @@ class Enemy extends Component {
         <div className='enemy-icon-container'>
           {enemy.attributes.map((attribute) =>
             importantAttributes.includes(attribute)
-              ? <Tooltip placement="top" title={attributeData[attribute].text} color="geekblue"><img className='enemy-icon' src={attributeData[attribute].icon} alt="attribute icon" /></Tooltip>
+              ? <Tooltip placement="top" title={attributeData[attribute].text} color="geekblue" key={attribute}><img className='enemy-icon' src={attributeData[attribute].icon} alt="attribute icon"/></Tooltip>
               : null)
           }
         </div>

@@ -91,7 +91,6 @@ function dharokBonus(state, equipment){
 */
 
 function scytheMaxHit(state, equipment, maxHit){
-  var maxHit = maxHit
   if(equipment.weapon.name === "Scythe of vitur" || equipment.weapon.name === "Scythe of vitur (uncharged)"){
     let maxHitSecond = Math.floor(maxHit * 0.5)
     let maxHitThird = Math.floor(maxHit * 0.25)

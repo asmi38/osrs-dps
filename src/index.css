@@ -203,6 +203,10 @@ code {
   color: black;
 }
 
+.calcs-table {
+  border: 1px;
+  border-color: black;
+}
 
 
 .enemy-icon-container {

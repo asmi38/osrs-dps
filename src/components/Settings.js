@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { updateCalc } from '../actions/calcs'
-import { Tooltip, Switch, Select, Popover, InputNumber, Tabs, Card } from 'antd'
+import { Tooltip, Switch, Popover, InputNumber, Tabs, Card } from 'antd'
 import { quickShot, fluidStrikes, doubleCast, tierSix, konarsBlessing, xericsFocus } from '../utils/descriptions'
 
 import konarsBlessingIcon from '../data/icons/Konars_Blessing.png'
@@ -20,7 +20,6 @@ import slayerIcon from '../data/icons/slayer.png'
 import skullIcon from '../data/icons/Skullicon.png'
 
 
-const { Option } = Select;
 const { TabPane } = Tabs;
 
 
@@ -47,6 +46,7 @@ class Settings extends Component {
         <Tabs defaultActiveKey="1">
           <TabPane tab="Settings" key="1">
             <table>
+              <tbody>
               <tr>
                 <td>
                   <img src={bgsIcon} alt="bandos godsword icon"/>
@@ -184,13 +184,15 @@ class Settings extends Component {
                   <Switch checked={calcs.wilderness} onChange={(value) => this.handleChange("wilderness", value)} />
                 </td>
               </tr>
+              </tbody>
             </table>
           </TabPane>
 
 
           <TabPane tab="League Relics" key="2">
           <table>
-            <tr><h4>Trailblazer</h4></tr>
+            <tbody>
+            <tr><b>Trailblazer</b></tr>
             <tr>
               <td>
                 <img style={{width:"30px", height:"30px"}} src={quickShotIcon} alt="quick shot icon"/>
@@ -247,7 +249,7 @@ class Settings extends Component {
               </td>
             </tr>
 
-            <tr><h4>Twisted</h4></tr>
+            <tr><b>Twisted</b></tr>
             <tr>
               <td>
                 <img src={konarsBlessingIcon} alt="konars blessing icon"/>
@@ -277,7 +279,7 @@ class Settings extends Component {
               </td>
             </tr>
 
-
+            </tbody>
           </table>
         </TabPane>
         </Tabs>
