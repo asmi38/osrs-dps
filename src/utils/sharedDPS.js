@@ -100,9 +100,11 @@ export function totalStrCalc(equipment){
 }
 
 
-function enemyStatReductions(defence, state){
+function eStatReduction(state){
   const { calcs, enemy } = state
-  let defenceLevel = defence
+  let defenceLevel = enemy.defence_level
+  let strLevel = enemy.strength_level
+  let magicLevel = enemy.magic_level
 
   //dwh specials
   for(let i = 0; i < calcs.dwh_specials; i++){
@@ -112,17 +114,22 @@ function enemyStatReductions(defence, state){
   //arclight specials
   if(enemy.attributes.includes("demon") && calcs.arclight_specials > 0){
     defenceLevel = Math.ceil(defenceLevel * (1 - 0.1 * calcs.arclight_specials))
+    strLevel = Math.ceil(strLevel * (1 - 0.1 * calcs.arclight_specials))
   }
   else if(calcs.arclight_specials > 0){
     defenceLevel = Math.ceil(defenceLevel * (1 - 0.05 * calcs.arclight_specials))
+    strLevel = Math.ceil(strLevel * (1 - 0.05 * calcs.arclight_specials))
   }
 
   //bgs reduction order Def > Str > mage > atk > ranged
+  const buffer = strLevel + defenceLevel
   if(calcs.bgs_dmg > 0){
     defenceLevel = Math.max(0, defenceLevel - calcs.bgs_dmg)
   }
-
-  return defenceLevel
+  if(calcs.bgs_dmg > buffer){
+    magicLevel = Math.max(0, magicLevel - (calcs.bgs_dmg - buffer))
+  }
+  return {'magicLevel': magicLevel, 'defenceLevel': defenceLevel}
 }
 
 
@@ -131,15 +138,15 @@ export function eMaxDefRoll(state, equipment){
   const style = defTypeName(equipment.attack_style)
   if(style === "defence_magic"){
     if(equipment.ring.name === "Brimstone ring"){
-      const defRoll = (enemy.magic_level + 9) * (enemy.stats[style] + 64)
+      const defRoll = (eStatReduction(state).magicLevel + 9) * (enemy.stats[style] + 64)
       return Math.floor(0.75 * defRoll + 0.025 * defRoll)
     }
     else {
-      return ((enemy.magic_level + 9) * (enemy.stats[style] + 64))
+      return ((eStatReduction(state).magicLevel + 9) * (enemy.stats[style] + 64))
     }
   }
   else{
-    return ((enemyStatReductions(enemy.defence_level, state) + 9) * (enemy.stats[style] + 64))
+    return ((eStatReduction(state).defenceLevel + 9) * (enemy.stats[style] + 64))
   }
 }
 
