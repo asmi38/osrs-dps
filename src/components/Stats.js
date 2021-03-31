@@ -47,7 +47,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
           <Select
             value={stat.potion}
-            style={{width: 130,}}
+            style={{width: 130, padding: 1}}
             onChange={(value) => dispatch(changePotion(stat_name, {...stat, "potion": value}))}
             >
               {pots.map((pot) => (
@@ -61,7 +61,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         {(stat_name === "hitpoints" || stat_name === "prayer") ? "" :
           <Select
             value={stat.prayer}
-            style={{width: 90,}}
+            style={{width: 90, paddingRight: 1}}
             onChange={(value) => {
               if(value === "Piety" || value === "Chivalry"){
                 dispatch(changePrayer("attack", value))
@@ -84,7 +84,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         <InputNumber
           value={stat.effective_level}
           onChange={(value) => dispatch(changeStat(stat_name, {...stat, "effective_level": value}))}
-          style={{width: 60, color: stat.effective_level > 99 ? 'blue' : 'black'}}
+          style={{width: 57, color: stat.effective_level > 99 ? 'blue' : 'black'}}
           min={1}
         />
       </div>
