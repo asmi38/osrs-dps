@@ -13,6 +13,24 @@ code {
     monospace;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title-text {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+}
+
 .container {
   display: flex;
   flex-direction: row;
