@@ -35,6 +35,8 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
 }
 
 .contribution {
@@ -202,10 +204,7 @@ code {
   padding-bottom: 10px;
 }
 
-.equip-icon {
-  height: 30px;
-  width: 30px;
-}
+
 
 .preset-select {
   display: flex;
@@ -276,4 +275,50 @@ code {
 
 .options-name{
   align-self: center;
+}
+
+/**
+ * Equipment CSS
+ *
+ */
+
+.equipment-rows-container {
+
+}
+
+.equipment-row {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.equip-icon-container{
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.equip-icon {
+  align-self: center;
+  height: 30px;
+  width: 30px;
+}
+
+.equip-name {
+  width: 55px;
+  align-self: center;
+}
+
+.equip-header {
+  font-weight: bold;
+}
+
+/**
+ * Calcs CSS
+ */
+
+.calcs-table td {
+  border: 1px solid #c1e0ff;
+  padding: 0.4rem;
 }
