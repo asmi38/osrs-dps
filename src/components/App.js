@@ -34,14 +34,13 @@ class App extends Component {
               <Equipment actionKey={"B"}/>
             </div>
           </div>
-                  <Divider />
+          <Divider />
         </Content>
         <Footer style={{textAlign: 'center',}}>
           <div className='contribution-container'>
             <div className='contribution'>
               Made using data from:
             </div>
-
             <div className='contribution'>
               <img src={googleSheetsIcon} alt='Google Sheets Icon'/>
               <a href="https://docs.google.com/spreadsheets/d/1wBXIlvAmqoQpu5u9XBfD4B0PW7D8owyO_CnRDiTHBKQ" rel="noreferrer" target="_blank">Bitterkoekje</a>
@@ -55,7 +54,7 @@ class App extends Component {
               <a href="https://oldschool.runescape.wiki/" rel="noreferrer" target="_blank">OSRS Wiki</a>
             </div>
           </div>
-          <div>OSRS DPS ©2021 Created by asmi38</div>
+          <div>OSRS DPS ©2021 Created by <a href="mailto:admin@osrs-dps.com">asmi38</a></div>
         </Footer>
       </Layout>
       </React.Fragment>
