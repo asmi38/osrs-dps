@@ -31,6 +31,19 @@ code {
   letter-spacing: 0.02em;
 }
 
+.contribution-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -211,6 +224,7 @@ code {
 }
 
 .settings {
+  display: flex;
   padding-top: 1.5rem;
 
 }
@@ -240,4 +254,26 @@ code {
   height: 30px;
   width: 30px;
   padding: 2px;
+}
+
+.options-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.options-row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.options-image{
+  align-self: baseline;
+  margin-right: 5px;
+  width: 27px;
+  height: 27px;
+}
+
+.options-name{
+  align-self: center;
 }
