@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { receiveEquipment, changeEquipment, changeStyle, changeWeapon, changeValue, changeSpell } from '../actions/equipment'
+import { receiveEquipment, changeStyle, changeSpell } from '../actions/equipment'
 import { equipment_presets } from '../utils/default_data'
-import { attack_style_name, strength_style_name, formatWord } from '../utils/calc'
+import { formatWord } from '../utils/calc'
 import { totalAtkCalc, totalStrCalc } from '../utils/sharedDPS'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import PasteModal from './PasteModal'
-import { Button, Select, InputNumber, Card } from 'antd'
-
+import { Button, Select, Card } from 'antd'
+import EquipmentRow from './EquipmentRow'
 import HeadData from '../data/head'
 import BodyData from '../data/body'
 import LegsData from '../data/legs'
@@ -33,65 +33,8 @@ import HandsSlot from '../data/icons/Gloves_slot.png'
 import FeetSlot from '../data/icons/Boots_slot.png'
 import RingSlot from '../data/icons/Ring_slot.png'
 import CombatType from '../data/icons/Combat_type.png'
-
 const { Option } = Select
 
-function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_style, actionKey}){
-  const style = attack_style_name(attack_style)
-
-  return(
-    <tr>
-      <td>
-        <img className='equip-icon' src={equip.icon ? `data:image/png;base64,${equip.icon}` : icon} alt="slot icon" />
-      </td>
-
-      <td>
-        {formatWord(slot_name)}
-      </td>
-
-      <td>
-        <Select
-          value={equip.id}
-          showSearch
-          optionFilterProp="label"
-          style={{ width: 200 }}
-          onChange={(value) =>
-                    (slot_name === "weapon" ?
-                      dispatch(changeWeapon(equip_list[value], actionKey)) :
-                      dispatch(changeEquipment(slot_name, equip_list[value], actionKey)))
-                    }
-        >
-            {Object.keys(equip_list).map((item_key) => (
-              <Option value={equip_list[item_key].id} label={equip_list[item_key].name} key={equip_list[item_key].id}>
-                {equip_list[item_key].name}
-              </Option>
-            ))}
-        </Select>
-      </td>
-
-      <td>
-        <InputNumber
-          value={equip.stats[style]}
-          onChange={(value) => dispatch(changeValue(slot_name, style, value, actionKey))}
-          className="stat_input"
-          style={{width: 50,}}
-          type="number"
-        />
-      </td>
-
-      <td>
-        <InputNumber
-          value={equip.stats[strength_style_name(attack_style)]}
-          onChange={(value) => dispatch(changeValue(slot_name, strength_style_name(attack_style), value, actionKey))}
-          className="stat_input"
-          style={{width: 50,}}
-          type="number"
-        />
-      </td>
-
-    </tr>
-  )
-}
 
 class Equipment extends Component {
   constructor(props) {
@@ -141,38 +84,33 @@ class Equipment extends Component {
     return (
       <div className='equipment-set'>
         <Card size='small'>
-        <div className='equip-buttons'>
-          <Select
-            showSearch
-            placeholder="Select preset"
-            style={{ width: 160, marginRight: 'auto'}}
-            onChange={(value) => dispatch(receiveEquipment(equipment_presets[value], actionKey))}
-          >
-          {Object.keys(equipment_presets).map((preset_key) => (
-            <Option value={preset_key} key={preset_key}>
-              {formatWord(preset_key)}
-            </Option>
-          ))}
-          </Select>
-          <CopyToClipboard text={btoa(JSON.stringify(equipment))}>
-            <Button type="dashed">Copy</Button>
-          </CopyToClipboard>
-          <PasteModal modalVisible={this.state.modalVisible} setModal={this.setModal} dispatch={dispatch} actionKey={actionKey} />
-          <Button type="dashed" onClick={this.handleReset}>Reset</Button>
-        </div>
+          <div className='equip-buttons'>
+            <Select
+              showSearch
+              placeholder="Select preset"
+              style={{ width: 160, marginRight: 'auto'}}
+              onChange={(value) => dispatch(receiveEquipment(equipment_presets[value], actionKey))}
+            >
+            {Object.keys(equipment_presets).map((preset_key) => (
+              <Option value={preset_key} key={preset_key}>
+                {formatWord(preset_key)}
+              </Option>
+            ))}
+            </Select>
+            <CopyToClipboard text={btoa(JSON.stringify(equipment))}>
+              <Button type="dashed">Copy</Button>
+            </CopyToClipboard>
+            <PasteModal modalVisible={this.state.modalVisible} setModal={this.setModal} dispatch={dispatch} actionKey={actionKey} />
+            <Button type="dashed" onClick={this.handleReset}>Reset</Button>
+          </div>
 
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th>Slot:</th>
-              <th></th>
-              <th>Attack</th>
-              <th>Strength</th>
-            </tr>
-          </thead>
+          <div className='equipment-rows-container'>
+            <div className='equipment-row'>
+              <span className='equip-header' style={{width: 200, marginLeft: 40}}>Slot:</span>
+              <span className='equip-header' style={{marginLeft: 'auto'}}>Attack</span>
+              <span className='equip-header' style={{marginLeft: 4}}>Strength</span>
+            </div>
 
-          <tbody>
             <EquipmentRow
               icon={WeaponSlot}
               slot_name="weapon"
@@ -183,47 +121,45 @@ class Equipment extends Component {
               actionKey={actionKey}
             />
 
-            <tr>
-              <td><img src={CombatType} alt="Combat type icon"/></td>
-              <td>Combat</td>
-              <td>
-                <Select
-                  onChange={(value) => dispatch(changeStyle(mapCombatStyles()[value], actionKey))}
-                  value={getStyleIndex(mapCombatStyles(), equipment.attack_style)}
-                  style={{ width: 200, }}
-                >
-                {mapCombatStyles().map((style, index) => {
-                    return (
-                      <Option value={index} key={index}>
-                        {formatWord(style.combat_style) + " " + (style.attack_style ? style.attack_style : "") + " " + (style.attack_type ? style.attack_type : "")}
-                      </Option>
-                    )
-                })}
+            <div className='equipment-row'>
+              <div className='equip-icon-container'>
+                <img className='equip-icon' style={{height: 24, width: 24}} src={CombatType} alt="Combat type icon"/>
+              </div>
+              <span className='equip-name'>Style</span>
+              <Select
+                onChange={(value) => dispatch(changeStyle(mapCombatStyles()[value], actionKey))}
+                value={getStyleIndex(mapCombatStyles(), equipment.attack_style)}
+                style={{ width: 200, marginBottom: 2}}
+              >
+              {mapCombatStyles().map((style, index) => {
+                  return (
+                    <Option value={index} key={index}>
+                      {formatWord(style.combat_style) + " " + (style.attack_style ? style.attack_style : "") + " " + (style.attack_type ? style.attack_type : "")}
+                    </Option>
+                  )
+              })}
               </Select>
-              </td>
-              <td></td>
-              <td></td>
-            </tr>
+            </div>
 
-            <tr>
-              <td><img src={SpellIcon} alt="Spell book icon"/></td>
-              <td>Spell:</td>
-              <td>
-                <Select
-                  showSearch
-                  optionFilterProp="label"
-                  onChange={(value) => dispatch(changeSpell(SpellData[value], actionKey))}
-                  value={spell.name}
-                  style={{ width: 200, }}
-                >
-                {Object.keys(SpellData).map((spell_key) => (
-                  <Option value={spell_key} label={SpellData[spell_key].name} key={spell_key}>
-                    {formatWord(SpellData[spell_key].name)}
-                  </Option>
-                ))}
+            <div className='equipment-row'>
+              <div className='equip-icon-container'>
+                <img className='equip-icon' style={{height: 25, width: 25}} src={SpellIcon} alt="Spell book icon"/>
+              </div>
+              <span className='equip-name'>Spell</span>
+              <Select
+                showSearch
+                optionFilterProp="label"
+                onChange={(value) => dispatch(changeSpell(SpellData[value], actionKey))}
+                value={spell.name}
+                style={{ width: 200, marginBottom: 2}}
+              >
+              {Object.keys(SpellData).map((spell_key) => (
+                <Option value={spell_key} label={SpellData[spell_key].name} key={spell_key}>
+                  {formatWord(SpellData[spell_key].name)}
+                </Option>
+              ))}
               </Select>
-              </td>
-            </tr>
+            </div>
 
             <EquipmentRow
               icon={AmmoSlot}
@@ -324,16 +260,12 @@ class Equipment extends Component {
               equip_list={RingData}
               actionKey={actionKey}
             />
-
-            <tr>
-              <td></td>
-              <td><b>Total</b></td>
-              <td></td>
-              <td style={{textAlign: 'center'}}><b>{totalAtkCalc(equipment)}</b></td>
-              <td style={{textAlign: 'center'}}><b>{totalStrCalc(equipment)}</b></td>
-            </tr>
-          </tbody>
-        </table>
+            <div className='equipment-row'>
+              <span className='equip-header' style={{width: 200, marginLeft: 40}}>Total:</span>
+              <span className='equip-header' style={{marginLeft: 'auto'}}>{totalAtkCalc(equipment)}</span>
+              <span className='equip-header' style={{marginLeft: 30, marginRight: 15}}>{totalStrCalc(equipment)}</span>
+            </div>
+          </div>
         </Card>
       </div>
     )
