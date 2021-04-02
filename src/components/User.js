@@ -22,7 +22,7 @@ class User extends Component {
   render(){
     return(
       <div className='user'>
-          <label className='username-label'>User:</label>
+          <label className='username-label'>Username:</label>
 
             <Input
               type="text"
@@ -30,6 +30,7 @@ class User extends Component {
               onChange={this.handleChange}
               onPressEnter={this.handleSubmit}
               style={{width: 150, height: 32}}
+              placeHolder="Enter username"
               allowClear
               size="medium"
             />
