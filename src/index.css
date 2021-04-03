@@ -215,7 +215,10 @@ code {
 }
 
 .calcs {
-  padding: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
 }
 
 .enemy-container {
@@ -230,23 +233,28 @@ code {
 
 .text-higher {
   color: #2f54eb;
-  font-weight: bold;
+  background-color: #1890ff0a;
+  min-width: 50px;
 }
 
 .text-lower {
   color: black;
+  min-width: 50px;
 }
 
 .calcs-table {
   border: 1px;
   border-color: black;
+
 }
 
 
 .enemy-icon-container {
   display: flex;
   justify-content: center;
-  padding: 2px;
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .enemy-icon{
@@ -286,6 +294,10 @@ code {
 
 }
 
+.calcs table {
+  table-layout: fixed;
+}
+
 .equipment-row {
   display: flex;
   justify-content: flex-start;
@@ -319,6 +331,11 @@ code {
  */
 
 .calcs-table td {
-  border: 1px solid #c1e0ff;
+  border: 1px solid #f0f2f5;
   padding: 0.4rem;
+  width: 0;
+}
+
+.calcs-table th {
+  padding-left: 0.4rem;
 }

@@ -35,7 +35,7 @@ class Enemy extends Component {
     return(
       <div className='enemy-container'>
         <div className='enemy-select'>
-          <label>Enemy:</label>
+          <label className='username-label' style={{marginRight: 4}}>Enemy:</label>
           <Select
             showSearch
             optionFilterProp="label"
