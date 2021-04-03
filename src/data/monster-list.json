@@ -491,7 +491,9 @@
         "max_hit": 11,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "hellhound"
         ],
@@ -2248,7 +2250,8 @@
         "immune_poison": false,
         "immune_venom": false,
         "attributes": [
-            "fiery"
+            "fiery",
+            "demon"
         ],
         "category": [
             "pyrefiend"
@@ -2806,7 +2809,9 @@
         "max_hit": 5,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -6730,7 +6735,9 @@
         "max_hit": 13,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "hellhound"
         ],
@@ -15177,7 +15184,9 @@
         "max_hit": 12,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "waterfiend"
         ],
@@ -16504,7 +16513,9 @@
         "max_hit": 13,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "hellhound"
         ],
@@ -16533,7 +16544,9 @@
         "max_hit": 1,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Imp (GWD)",
@@ -16620,7 +16633,9 @@
         "max_hit": 6,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -16650,7 +16665,8 @@
         "immune_poison": false,
         "immune_venom": false,
         "attributes": [
-            "fiery"
+            "fiery",
+            "demon"
         ],
         "category": [
             "pyrefiend"
@@ -16680,7 +16696,9 @@
         "max_hit": 3,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "icefiend"
         ],
@@ -18282,7 +18300,9 @@
         "max_hit": 1,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Imp Champion",
@@ -23691,7 +23711,9 @@
         "max_hit": 2,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "icefiend"
         ],
@@ -24289,7 +24311,9 @@
         "max_hit": 1,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Imp (Regular)",
@@ -27516,7 +27540,9 @@
         "max_hit": 23,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "hellhound",
             "boss"
@@ -32331,7 +32357,9 @@
         "max_hit": 3,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Reanimated imp",
@@ -32733,7 +32761,9 @@
         "max_hit": 6,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -33752,7 +33782,9 @@
         "max_hit": 12,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -34277,7 +34309,9 @@
         "max_hit": 7,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "pyrefiend"
         ],
@@ -34364,7 +34398,9 @@
         "max_hit": 15,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -34393,7 +34429,9 @@
         "max_hit": 20,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "bloodveld"
         ],
@@ -36454,7 +36492,9 @@
         "max_hit": 43,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "black demon"
         ],
@@ -36640,7 +36680,9 @@
         "max_hit": 13,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [
             "hellhound"
         ],
@@ -36699,7 +36741,8 @@
         "immune_poison": false,
         "immune_venom": false,
         "attributes": [
-            "undead"
+            "undead",
+            "spectral"
         ],
         "category": [
             "revenant",
@@ -40888,7 +40931,9 @@
         "max_hit": null,
         "immune_poison": false,
         "immune_venom": false,
-        "attributes": [],
+        "attributes": [
+          "demon"
+        ],
         "category": [],
         "slayer_monster": false,
         "wiki_name": "Acidic Bloodveld",

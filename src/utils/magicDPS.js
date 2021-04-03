@@ -69,6 +69,9 @@ function magicBonus(state, equipment){
   if(state.calcs.double_cast === true){
     accMultiplier += 1.25
   }
+  if(equipment.shield.name === "Tome of water" && equipment.spell.element === "water" && !(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange")){
+    accMultiplier += 0.2
+  }
   return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
 }
 
@@ -88,6 +91,9 @@ function mageBonusDamage(spellDamage, state, equipment){
 
     if(equipment.shield.name === "Tome of fire" && equipment.spell.element === "fire" && !(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange")){
       updatedDamage = Math.floor(updatedDamage * 1.5)
+    }
+    else if(equipment.shield.name === "Tome of water" && equipment.spell.element === "water" && !(equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange")){
+      updatedDamage = Math.floor(updatedDamage * 1.2)
     }
 
     return updatedDamage

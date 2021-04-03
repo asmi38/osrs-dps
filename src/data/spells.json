@@ -73,7 +73,7 @@
     "name": "water_surge",
     "element": "water",
 		"spellbook": "standard",
-    "damage": 21,
+    "damage": 22,
     "attack_speed": 5
   },
 	"earth_strike": {
@@ -142,7 +142,7 @@
 	"fire_surge": {
     "name": "fire_surge",
     "element": "fire",
-		"spellbook": "standard",	
+		"spellbook": "standard",
     "damage": 24,
     "attack_speed": 5
   },
