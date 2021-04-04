@@ -234,12 +234,10 @@ code {
 .text-higher {
   color: #2f54eb;
   background-color: #1890ff0a;
-  min-width: 50px;
 }
 
 .text-lower {
   color: black;
-  min-width: 50px;
 }
 
 .calcs-table {
@@ -333,7 +331,6 @@ code {
 .calcs-table td {
   border: 1px solid #f0f2f5;
   padding: 0.4rem;
-  width: 0;
 }
 
 .calcs-table th {
