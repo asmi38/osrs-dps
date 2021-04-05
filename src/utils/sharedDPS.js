@@ -16,7 +16,7 @@ export function gear_bonus(state, equipment, type){
     if(type === "melee"){
       bonus = [1.1667, 1.1667]
     }
-    else if(type === "range"){
+    else if(type === "ranged"){
       bonus = [1.1667, 1.1667]
     }
     else if(type === "magic"){
@@ -27,7 +27,7 @@ export function gear_bonus(state, equipment, type){
     if(type === "melee"){
       bonus = [1.1667, 1.1667]
     }
-    else if(type === "range"){
+    else if(type === "ranged"){
       bonus = [1.15, 1.15]
     }
     else if(type === "magic"){
@@ -35,7 +35,7 @@ export function gear_bonus(state, equipment, type){
     }
   }
 
-  if(state.calcs.quick_shot === true && type === "range"){
+  if(state.calcs.quick_shot === true && type === "ranged"){
     bonus = [bonus[0] + 0.1, bonus[1] + 1]
   }
   else if(state.calcs.fluid_strikes === true && type === "melee"){
