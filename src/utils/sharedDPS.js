@@ -139,7 +139,7 @@ export function eMaxDefRoll(state, equipment){
   if(style === "defence_magic"){
     if(equipment.ring.name === "Brimstone ring"){
       const defRoll = (eStatReduction(state).magicLevel + 9) * (enemy.stats[style] + 64)
-      return Math.floor(0.75 * defRoll + 0.025 * defRoll)
+      return Math.floor(0.75 * defRoll + 0.25 * (0.9 * defRoll))
     }
     else {
       return ((eStatReduction(state).magicLevel + 9) * (enemy.stats[style] + 64))
