@@ -202,7 +202,9 @@ function magicAtkSpeed(state, equipment){
 
 function verzikDps(state, equipment){
   const maxHit = maxHitCalc(state, equipment)
+
   const combatType = combatTypeCalc(equipment.attack_style)
+    console.log(combatType)
   let averageHit = maxHit / 2
   if(combatType === "melee"){
     const chanceAbove = (maxHit - 10) / maxHit
@@ -212,6 +214,7 @@ function verzikDps(state, equipment){
     const chanceAbove = (maxHit - 3) / maxHit
     averageHit = chanceAbove * 1.5 + (1 - chanceAbove) * 0.75
   }
+  console.log(averageHit)
   return averageHitDps(state, equipment, averageHit)
 }
 
@@ -298,7 +301,7 @@ function averageHitDps(state, equipment, averageHit){
     if(state.calcs.fluid_strikes === true || state.calcs.xerics_focus === true){
       attackSpeed = Math.ceil(attackSpeed / 2)
     }
-    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed))
+    return hitChance(state, equipment) * ((averageHit) / (0.6 * attackSpeed))
   }
 }
 
