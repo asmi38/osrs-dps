@@ -243,7 +243,7 @@ function zulrahDps(state, equipment){
   const maxHit = maxHitCalc(state, equipment)
   let averageHit = maxHit / 2
   if(maxHit > 50){
-    const dmgCapChance = (maxHit - 50) / 50
+    const dmgCapChance = (maxHit - 50) / (maxHit + 1)
     averageHit = dmgCapChance * 47.5 + (1 - dmgCapChance) * 25
   }
   return averageHitDps(state, equipment, averageHit)
