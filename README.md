@@ -1,23 +1,35 @@
 
-# osrs-dps.com
+# OSRS DPS
 
 An online damage calculator for the game Old School RuneScape (OSRS).
+
 View live at [https://osrs-dps.com](https://osrs-dps.com)
 
 ## Motivation
 
-Current damage calculators for OSRS suffer from issues with ease of use and/or incorrect calculations. This project serves to remedy this by providing an accurate, detailed and accessible online application.
+Current damage calculators for OSRS suffer from issues with ease of use and/or incorrect calculations.
+
+This project serves to remedy this by providing an accurate, detailed and accessible online application.
 
 ## Features
 
-<img src="preview.png" alt="OSRS DPS Preview" align="right" width="500">
+<img src="preview.PNG" alt="OSRS DPS Preview" align="right" width="500">
+
+
 **Stats**
+
 This is located on the top left. It is able to fetch player data if they input their name and can also be manually adjusted based on the requirements of the user. There are numerous drop downs which allow users to select various buffs that will increase their stats.
+
 **Enemy and Calculation**
+
 The Enemy and Calculation component allows the user to select the enemy they want to calculate their damage against. This list contains the thousands of different enemies that are present in the game. Below this, the various damage calculations are shown, with the superior equipment set being highlighted.
+
 **Settings**
+
 The Settings and League Relics component allows the user to enable and disable various settings that will impact the damage calculation. These options are more focused on the situational factors such as whether they are benefiting from league bonuses, or whether they have applied status reductions to the enemy.
+
 **Equipment**
+
 The final component is the equipment component. This is instantiated twice to allow for comparisons between two different sets. It contains a curated list of all the significant pieces of gear in the game, along with their appropriate stats and boosts. There is a drop-down on the top left that allows users to pick from various presets. It also allows for the user to import and export the specific equipment sets to other users, or to save for future use.
 
 ## Local development
