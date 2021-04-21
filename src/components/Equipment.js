@@ -154,7 +154,7 @@ class Equipment extends Component {
                 style={{ width: 200, marginBottom: 2}}
               >
               {Object.keys(SpellData).map((spell_key) => (
-                <Option value={spell_key} label={SpellData[spell_key].name} key={spell_key}>
+                <Option value={spell_key} label={formatWord(SpellData[spell_key].name)} key={spell_key}>
                   {formatWord(SpellData[spell_key].name)}
                 </Option>
               ))}
