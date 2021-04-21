@@ -2925,7 +2925,7 @@
             "magic_damage": 0,
             "prayer": 5
         },
-        "attack_speed": 5,
+        "attack_speed": 4,
         "stances": [
             {
                 "combat_style": "pound",
@@ -3049,7 +3049,7 @@
             "magic_damage": 0,
             "prayer": 0
         },
-        "attack_speed": 5,
+        "attack_speed": 4,
         "stances": [
             {
                 "combat_style": "lunge",
@@ -3154,7 +3154,7 @@
         ],
         "requirements": [
             {
-                "attack": 60
+                "strength": 60
             }
         ],
         "stats": {
@@ -5436,7 +5436,7 @@
             "magic_damage": 0,
             "prayer": 0
         },
-        "attack_speed": 5,
+        "attack_speed": 4,
         "stances": [
             {
                 "combat_style": "lunge",
@@ -5560,7 +5560,7 @@
             "magic_damage": 0,
             "prayer": 4
         },
-        "attack_speed": 5,
+        "attack_speed": 4,
         "stances": [
             {
                 "combat_style": "pound",
@@ -5684,7 +5684,7 @@
             "magic_damage": 0,
             "prayer": 0
         },
-        "attack_speed": 5,
+        "attack_speed": 4,
         "stances": [
             {
                 "combat_style": "lunge",
@@ -5789,7 +5789,7 @@
         ],
         "requirements": [
             {
-                "attack": 40
+                "strength": 40
             }
         ],
         "stats": {
@@ -5803,7 +5803,7 @@
             "defence_crush": 0,
             "defence_magic": 0,
             "defence_ranged": 0,
-            "melee_strength": 48,
+            "melee_strength": 62,
             "ranged_strength": 0,
             "magic_damage": 0,
             "prayer": 0
@@ -9415,7 +9415,7 @@
             "melee_strength": 0,
             "ranged_strength": 20,
             "magic_damage": 0,
-            "prayer": 4
+            "prayer": 0
         },
         "attack_speed": 6,
         "stances": [
