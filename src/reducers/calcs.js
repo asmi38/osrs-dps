@@ -3,6 +3,7 @@ import { UPDATE_CALC } from '../actions/calcs'
 const default_state = {
   "slayer_task": true,
   "dwh_specials": 0,
+  "vulnerability": false,
   "bgs_dmg": 0,
   "arclight_specials": 0,
   "kandarin_hard": true,

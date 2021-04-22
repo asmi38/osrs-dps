@@ -106,6 +106,11 @@ function eStatReduction(state){
   let strLevel = enemy.strength_level
   let magicLevel = enemy.magic_level
 
+  //vulnerability
+  if(calcs.vulnerability === true){
+    defenceLevel = Math.ceil(defenceLevel * 0.9)
+  }
+
   //dwh specials
   for(let i = 0; i < calcs.dwh_specials; i++){
     defenceLevel = Math.ceil(defenceLevel * 0.7)

@@ -18,6 +18,7 @@ import prayerIcon from '../data/icons/prayer.png'
 import hpIcon from '../data/icons/hp.png'
 import slayerIcon from '../data/icons/slayer.png'
 import skullIcon from '../data/icons/Skullicon.png'
+import vulnerabilityIcon from '../data/icons/Vulnerability.png'
 
 
 const { TabPane } = Tabs;
@@ -100,16 +101,11 @@ class Settings extends Component {
               </div>
 
               <div className="options-row">
-                <img className='options-image' src={prayerIcon} alt="prayer icon"/>
-                <Tooltip placement="topLeft" title="Remaining Prayer for Bludgeon Special" color={toolTipColour}>
-                    <span className='options-name'>Remaining Prayer</span>
+                <img className='options-image' src={vulnerabilityIcon} alt="vulnerability icon"/>
+                <Tooltip placement="topLeft" title="If vulnerability is cast, reducing 10% defence level" color={toolTipColour}>
+                    <span className='options-name'>Vulnerability</span>
                 </Tooltip>
-                <InputNumber
-                  value={calcs.remaining_prayer}
-                  style={{width: 56, marginLeft: 'auto', alignSelf: 'center'}}
-                  onChange={(value) => this.handleChange("remaining_prayer", value)}
-                  min={0}
-                />
+                <Switch style={{marginLeft: 'auto', alignSelf: 'center'}} checked={calcs.vulnerability} onChange={(value) => this.handleChange("vulnerability", value)} />
               </div>
 
               <div className="options-row">
