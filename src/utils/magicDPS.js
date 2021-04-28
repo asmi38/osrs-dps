@@ -48,6 +48,11 @@ function magicBonus(state, equipment){
   let accMultiplier = 0
   let dmgMultiplier = 0
 
+  if(calcs.mark_darkness && spell.element === "demonbane" && enemy.attributes.includes("demon")){
+    accMultiplier += 0.25
+    dmgMultiplier += 0.25
+  }
+
   if((equipment.weapon.name === "Smoke battlestaff" || equipment.weapon.name === "Mystic smoke staff") && spell.spellbook === "standard"){
     accMultiplier += 0.1
     dmgMultiplier += 0.1
@@ -99,6 +104,22 @@ function mageBonusDamage(spellDamage, state, equipment){
     return updatedDamage
 }
 
+function spellDamage(spellDamage, state, equipment){
+  let magicDamageBase = spellDamage
+  const enemy = state.enemy
+  const spell = equipment.spell
+
+  if(spell.name.includes("bolt") && equipment.hands === "Chaos gauntlets"){
+    magicDamageBase += 3
+  }
+
+  if(spell.element === "demonbane" && !enemy.attributes.includes("demon")){
+    magicDamageBase = 0
+  }
+
+  return magicDamageBase
+}
+
 
 /*
     ###########################################################################################
@@ -107,10 +128,8 @@ function mageBonusDamage(spellDamage, state, equipment){
 */
 export function mageMaxHit(state, equipment){
   const spell = equipment.spell
-  let magicDamageBase = spell.damage
-  if(spell.name.includes("bolt") && equipment.hands === "Chaos gauntlets"){
-    magicDamageBase += 3
-  }
+  let magicDamageBase = spellDamage(spell.damage, state, equipment)
+
   if(staffMaxHit(state, equipment) && (equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange" || equipment.attack_style.combat_style === "blaze")){
     magicDamageBase = staffMaxHit(state, equipment)
   }

@@ -14,7 +14,7 @@ import diaryIcon from '../data/icons/diary.png'
 import bgsIcon from '../data/icons/bandos_godsword.png'
 import dwhIcon from '../data/icons/dwh.png'
 import arclightIcon from '../data/icons/Arclight.png'
-import prayerIcon from '../data/icons/prayer.png'
+import markIcon from '../data/icons/mark_of_darkness.png'
 import hpIcon from '../data/icons/hp.png'
 import slayerIcon from '../data/icons/slayer.png'
 import skullIcon from '../data/icons/Skullicon.png'
@@ -130,6 +130,14 @@ class Settings extends Component {
                       <span className='options-name'>Wilderness</span>
                   </Tooltip>
                   <Switch style={{marginLeft: 'auto', alignSelf: 'center'}} checked={calcs.wilderness} onChange={(value) => this.handleChange("wilderness", value)} />
+              </div>
+
+              <div className="options-row">
+                <img className='options-image' src={markIcon} alt="mark of darkness icon"/>
+                  <Tooltip placement="topLeft" title="Mark of darkness applied: 25% damage and accuracy increase against demons" color={toolTipColour}>
+                      <span className='options-name'>Mark of Darkness</span>
+                  </Tooltip>
+                  <Switch style={{marginLeft: 'auto', alignSelf: 'center'}} checked={calcs.mark_darkness} onChange={(value) => this.handleChange("mark_darkness", value)} />
               </div>
             </TabPane>
 

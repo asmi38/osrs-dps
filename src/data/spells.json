@@ -299,5 +299,26 @@
 		"spellbook": "standard",
     "damage": 15,
     "attack_speed": 5
+  },
+	"inferior_demonbane": {
+    "name": "inferior_demonbane",
+    "element": "demonbane",
+		"spellbook": "arceuus",
+    "damage": 16,
+    "attack_speed": 5
+  },
+	"superior_demonbane": {
+    "name": "superior_demonbane",
+    "element": "demonbane",
+		"spellbook": "arceuus",
+    "damage": 23,
+    "attack_speed": 5
+  },
+	"dark_demonbane": {
+    "name": "dark_demonbane",
+    "element": "demonbane",
+		"spellbook": "arceuus",
+    "damage": 30,
+    "attack_speed": 5
   }
 }
