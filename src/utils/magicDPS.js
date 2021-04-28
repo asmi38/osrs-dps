@@ -109,7 +109,7 @@ function spellDamage(spellDamage, state, equipment){
   const enemy = state.enemy
   const spell = equipment.spell
 
-  if(spell.name.includes("bolt") && equipment.hands === "Chaos gauntlets"){
+  if(spell.name.includes("bolt") && equipment.hands.name === "Chaos gauntlets"){
     magicDamageBase += 3
   }
 
