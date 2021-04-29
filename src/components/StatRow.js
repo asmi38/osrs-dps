@@ -16,7 +16,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
 
         <InputNumber
           value={stat.level}
-          style={{width: 55, marginRight: 'auto'}}
+          style={{width: 55,}}
           onChange={(value) => dispatch(changeStat(stat_name, {...stat, "level": value}))}
           min={1}
           max={99}
@@ -62,7 +62,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
         <InputNumber
           value={stat.effective_level}
           onChange={(value) => dispatch(changeStat(stat_name, {...stat, "effective_level": value}))}
-          style={{width: 57, color: stat.effective_level > 99 ? 'blue' : 'black'}}
+          style={{width: 57, marginLeft:'auto', color: stat.effective_level > 99 ? 'blue' : 'black'}}
           min={1}
         />
       </div>
