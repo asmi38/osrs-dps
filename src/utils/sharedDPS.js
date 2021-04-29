@@ -177,6 +177,23 @@ export function hitChance(state, equipment){
   }
 }
 
+function thrallDPS(state){
+  const { thrall } = state.calcs
+
+  if(thrall === "Zombie"){
+    return 2 / 2.4
+  }
+  else if(thrall === "Skeleton"){
+    return 1.5 / 2.4
+  }
+  else if(thrall === "Ghost"){
+    return 1 / 2.4
+  }
+  else{
+    return 0
+  }
+}
+
 export function maxHitCalc(state, equipment){
   const combatType = combatTypeCalc(equipment.attack_style)
   if(combatType === "ranged"){
@@ -309,13 +326,13 @@ function averageHitDps(state, equipment, averageHit){
 
 export function calcDps(state, equipment){
   if(specialMons.includes(state.enemy.name)){
-    return specialDps(state, equipment)
+    return specialDps(state, equipment) + thrallDPS(state)
   }
 
   const combatType = combatTypeCalc(equipment.attack_style)
   const maxHit = maxHitCalc(state, equipment)
   if(combatType === "magic"){
-    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * magicAtkSpeed(state, equipment)))
+    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * magicAtkSpeed(state, equipment))) + thrallDPS(state)
   }
   else if(combatType === "ranged"){
     let attackSpeed = equipment.weapon.attack_speed
@@ -328,10 +345,10 @@ export function calcDps(state, equipment){
 
     if(equipment.ammo.name.includes("bolt")){
       const boltProc = boltDPS(maxHit, hitChance(state, equipment), state, equipment)
-      return (boltProc.dps + (1 - boltProc.procChance) * hitChance(state, equipment) * maxHit / 2) / (0.6 * attackSpeed)
+      return (boltProc.dps + (1 - boltProc.procChance) * hitChance(state, equipment) * maxHit / 2) / (0.6 * attackSpeed) + thrallDPS(state)
     }
     else{
-      return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed))
+      return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed)) + thrallDPS(state)
     }
   }
   else{
@@ -339,7 +356,7 @@ export function calcDps(state, equipment){
     if(state.calcs.fluid_strikes === true || state.calcs.xerics_focus === true){
       attackSpeed = Math.ceil(attackSpeed / 2)
     }
-    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed))
+    return hitChance(state, equipment) * ((maxHit / 2) / (0.6 * attackSpeed)) + thrallDPS(state)
   }
 }
 

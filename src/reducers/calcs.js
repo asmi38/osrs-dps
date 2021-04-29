@@ -17,6 +17,7 @@ const default_state = {
   "xerics_focus": false,
   "wilderness": true,
   "mark_darkness": false,
+  "thrall": "None",
 }
 export default function calcs (state = default_state, action) {
   switch(action.type) {

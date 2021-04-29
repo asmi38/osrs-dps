@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { updateCalc } from '../actions/calcs'
-import { Tooltip, Switch, Popover, InputNumber, Tabs, Card } from 'antd'
+import { Tooltip, Switch, Popover, InputNumber, Tabs, Card, Select } from 'antd'
 import { quickShot, fluidStrikes, doubleCast, tierSix, konarsBlessing, xericsFocus } from '../utils/descriptions'
 
 import konarsBlessingIcon from '../data/icons/Konars_Blessing.png'
@@ -19,9 +19,15 @@ import hpIcon from '../data/icons/hp.png'
 import slayerIcon from '../data/icons/slayer.png'
 import skullIcon from '../data/icons/Skullicon.png'
 import vulnerabilityIcon from '../data/icons/Vulnerability.png'
+import ghostIcon from '../data/icons/ghost.png'
+import skeletonIcon from '../data/icons/skeleton.png'
+import zombieIcon from '../data/icons/zombie.png'
 
 
 const { TabPane } = Tabs;
+const { Option } = Select;
+const thralls = ["None", "Ghost", "Skeleton", "Zombie"]
+const thrallIcons = {"None": zombieIcon, "Zombie": zombieIcon, "Skeleton": skeletonIcon, "Ghost": ghostIcon}
 
 
 class Settings extends Component {
@@ -138,6 +144,24 @@ class Settings extends Component {
                       <span className='options-name'>Mark of Darkness</span>
                   </Tooltip>
                   <Switch style={{marginLeft: 'auto', alignSelf: 'center'}} checked={calcs.mark_darkness} onChange={(value) => this.handleChange("mark_darkness", value)} />
+              </div>
+
+              <div className="options-row">
+                <img className='options-image' src={thrallIcons[calcs.thrall]} alt="selected thrall icon"/>
+                  <Tooltip placement="topLeft" title="Summoned thrall which provides DPS bonus" color={toolTipColour}>
+                      <span className='options-name'>Thrall</span>
+                  </Tooltip>
+                  <Select
+                    value={calcs.thrall}
+                    style={{marginLeft: 'auto', alignSelf: 'center', width: 97}}
+                    onChange={(value) => this.handleChange("thrall", value)}
+                  >
+                    {thralls.map((thrall) => (
+                      <Option value={thrall} key={thrall}>
+                        {thrall}
+                      </Option>
+                    ))}
+                  </Select>
               </div>
             </TabPane>
 
