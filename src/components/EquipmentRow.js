@@ -18,7 +18,7 @@ function EquipmentRow ({icon, slot_name, equip, equip_list, dispatch, attack_sty
           value={equip.id}
           showSearch
           optionFilterProp="label"
-          style={{ width: 200, marginBottom: 2, marginRight: 2}}
+          style={{ width: 175, marginBottom: 2, marginRight: 2}}
           onChange={(value) =>
                     (slot_name === "weapon" ?
                       dispatch(changeWeapon(equip_list[value], actionKey)) :

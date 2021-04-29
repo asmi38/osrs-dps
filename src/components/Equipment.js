@@ -129,7 +129,7 @@ class Equipment extends Component {
               <Select
                 onChange={(value) => dispatch(changeStyle(mapCombatStyles()[value], actionKey))}
                 value={getStyleIndex(mapCombatStyles(), equipment.attack_style)}
-                style={{ width: 200, marginBottom: 2}}
+                style={{ width: 175, marginBottom: 2}}
               >
               {mapCombatStyles().map((style, index) => {
                   return (
@@ -151,7 +151,7 @@ class Equipment extends Component {
                 optionFilterProp="label"
                 onChange={(value) => dispatch(changeSpell(SpellData[value], actionKey))}
                 value={spell.name}
-                style={{ width: 200, marginBottom: 2}}
+                style={{ width: 175, marginBottom: 2}}
               >
               {Object.keys(SpellData).map((spell_key) => (
                 <Option value={spell_key} label={formatWord(SpellData[spell_key].name)} key={spell_key}>
