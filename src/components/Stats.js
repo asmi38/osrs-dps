@@ -22,7 +22,7 @@ const magic_pots = ["None", "Magic", "Super Magic", "Imbued heart", "Overload", 
 const magic_prayers = ["None", "5%", "10%", "15%", "Augury" ]
 const range_pots = ["None", "Ranging", "Super Ranging", "Overload", "Overload (+)"]
 const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
-const mining_pots = ["D pickaxe spec"]
+const mining_pots = ["None", "D pickaxe spec"]
 
 class Stats extends Component {
   render() {
@@ -101,7 +101,7 @@ class Stats extends Component {
                 stat_name="mining"
                 dispatch={dispatch}
                 stat={mining}
-                pots={[mining_pots]}
+                pots={mining_pots}
                 prayers={[]}/>
         </Card>
       </div>
