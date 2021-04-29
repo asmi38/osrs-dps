@@ -22,7 +22,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
           max={99}
         />
 
-        {stat_name === "hitpoints" || stat_name === "prayer" ? "" :
+        {(stat_name === "hitpoints" || stat_name === "prayer") ? "" :
           <Select
             value={stat.potion}
             style={{width: 130, padding: 1}}
@@ -36,7 +36,7 @@ function StatRow({icon, stat_name, stat, dispatch, pots, prayers}){
           </Select>
         }
 
-        {(stat_name === "hitpoints" || stat_name === "prayer") ? "" :
+        {(stat_name === "hitpoints" || stat_name === "prayer" || stat_name === "mining" ) ? "" :
           <Select
             value={stat.prayer}
             style={{width: 90, paddingRight: 1}}

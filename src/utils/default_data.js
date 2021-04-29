@@ -56,6 +56,12 @@ export const initialStats = {
     "prayer": "None",
     "effective_level": 99
   },
+  "mining": {
+    "level": 99,
+    "potion": "None",
+    "prayer": "None",
+    "effective_level": 99
+  },
 }
 
 

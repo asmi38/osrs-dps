@@ -12,6 +12,7 @@ import hp_sprite from '../data/icons/hp.png'
 import prayer_sprite from '../data/icons/prayer.png'
 import potion_sprite from '../data/icons/potion.png'
 import stats_sprite from '../data/icons/stats1.png'
+import miningIcon from '../data/icons/Mining_icon.png'
 
 const atk_pots = ["None", "Attack", "Super Attack", "Zamorak Brew", "Overload", "Overload (+)"]
 const str_pots = ["None", "Strength", "Super Strength", "Overload", "Overload (+)"]
@@ -21,10 +22,11 @@ const magic_pots = ["None", "Magic", "Super Magic", "Imbued heart", "Overload", 
 const magic_prayers = ["None", "5%", "10%", "15%", "Augury" ]
 const range_pots = ["None", "Ranging", "Super Ranging", "Overload", "Overload (+)"]
 const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
+const mining_pots = ["D pickaxe spec"]
 
 class Stats extends Component {
   render() {
-    const { attack, strength, ranged, magic, defence, prayer, hitpoints, dispatch } = this.props
+    const { attack, strength, ranged, magic, defence, prayer, hitpoints, dispatch, mining } = this.props
 
     return (
       <div className='stats-container'>
@@ -93,6 +95,14 @@ class Stats extends Component {
                 stat={prayer}
                 pots={[]}
                 prayers={[]}/>
+
+              <StatRow
+                icon={miningIcon}
+                stat_name="mining"
+                dispatch={dispatch}
+                stat={mining}
+                pots={[mining_pots]}
+                prayers={[]}/>
         </Card>
       </div>
     )
@@ -100,7 +110,7 @@ class Stats extends Component {
 }
 
 function mapStateToProps({ stats }) {
-  const { attack, defence, hitpoints, magic, prayer, ranged, strength } = stats
+  const { attack, defence, hitpoints, magic, prayer, ranged, strength, mining } = stats
 
   return {
     attack,
@@ -110,6 +120,7 @@ function mapStateToProps({ stats }) {
     magic,
     hitpoints,
     prayer,
+    mining,
   }
 }
 

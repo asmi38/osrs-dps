@@ -46,6 +46,7 @@ export default function stats (state = initialStats, action) {
         magic: elvl_calc("magic", {...state.magic, level: action.data.magic}),
         ranged: elvl_calc("ranged", {...state.ranged, level: action.data.ranged}),
         prayer: elvl_calc("prayer", {...state.prayer, level: action.data.prayer}),
+        mining: elvl_calc("mining", {...state.mining, level: action.data.mining}),
       }
     default:
       return state

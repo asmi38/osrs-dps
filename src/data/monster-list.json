@@ -41387,5 +41387,63 @@
             "defence_ranged": 10,
             "attack_magic": 0
         }
+    },
+    "10592": {
+        "id": 10592,
+        "name": "Guardian (CoX)",
+        "size": 1,
+        "hitpoints": 250,
+        "max_hit": 20,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [
+          "xerician"
+        ],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Guardian (Chambers of Xeric)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Guardian_(Chambers_of_Xeric)#Normal",
+        "defence_level": 100,
+        "magic_level": 1,
+        "attack_level": 140,
+        "strength_level": 140,
+        "ranged_level": 1,
+        "stats": {
+            "defence_stab": 80,
+            "defence_slash": 180,
+            "defence_crush": -10,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "attack_magic": 0
+        }
+    },
+    "10593": {
+        "id": 10593,
+        "name": "Guardian (CoX CM)",
+        "size": 1,
+        "hitpoints": 375,
+        "max_hit": 20,
+        "immune_poison": false,
+        "immune_venom": false,
+        "attributes": [
+          "xerician"
+        ],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Guardian (Chambers of Xeric)",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Guardian_(Chambers_of_Xeric)#Challenge_Mode",
+        "defence_level": 150,
+        "magic_level": 1,
+        "attack_level": 210,
+        "strength_level": 210,
+        "ranged_level": 1,
+        "stats": {
+            "defence_stab": 80,
+            "defence_slash": 180,
+            "defence_crush": -10,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "attack_magic": 0
+        }
     }
 }
