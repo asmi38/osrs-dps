@@ -4,7 +4,7 @@ import Equipment from './Equipment'
 import Calcs from './Calcs'
 import Settings from './Settings'
 import { Layout, Divider } from 'antd'
-import gnomeChildIcon from '../data/icons/gnome-child.png'
+import headerIcon from '../data/icons/ward.png'
 import googleSheetsIcon from '../data/icons/google_sheets.png'
 import osrsboxIcon from '../data/icons/osrsbox.png'
 import osrswikiIcon from '../data/icons/osrswiki.png'
@@ -18,7 +18,7 @@ class App extends Component {
       <Layout>
         <Header>
           <div className='title-container'>
-            <div className='title-image'><img src={gnomeChildIcon} alt='Gnome Child Icon' /></div>
+            <div className='title-image'><img src={headerIcon} alt='Header Icon' /></div>
             <div className='title-text'> OSRS DPS</div>
           </div>
         </Header>
