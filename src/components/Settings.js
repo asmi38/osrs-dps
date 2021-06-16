@@ -26,18 +26,12 @@ import zombieIcon from '../data/icons/zombie.png'
 
 const { TabPane } = Tabs;
 const { Option } = Select;
-const thralls = ["None", "Lesser Ghost", "Lesser Skeleton", "Lesser Zombie", "Superior Ghost", "Superior Skeleton", "Superior Zombie","Superior Ghost", "Superior Skeleton", "Superior Zombie"]
+const thralls = ["None", "Lesser", "Superior", "Greater"]
 const thrallIcons = {
   "None": zombieIcon,
-  "Lesser Zombie": zombieIcon,
-  "Superior Zombie": zombieIcon,
-  "Greater Zombie": zombieIcon,
-  "Lesser Skeleton": skeletonIcon,
-  "Superior Skeleton": skeletonIcon,
-  "Greater Skeleton": skeletonIcon,
-  "Lesser Ghost": ghostIcon,
-  "Superior Ghost": ghostIcon,
-  "Greater Ghost": ghostIcon}
+  "Lesser": zombieIcon,
+  "Superior": skeletonIcon,
+  "Greater": ghostIcon}
 
 
 class Settings extends Component {
