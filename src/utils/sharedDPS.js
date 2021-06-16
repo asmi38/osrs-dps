@@ -180,13 +180,13 @@ export function hitChance(state, equipment){
 function thrallDPS(state){
   const { thrall } = state.calcs
 
-  if(thrall === "Zombie"){
+  if(thrall.contains("Greater")){
     return 2 / 2.4
   }
-  else if(thrall === "Skeleton"){
+  else if(thrall.contains("Superior")){
     return 1.5 / 2.4
   }
-  else if(thrall === "Ghost"){
+  else if(thrall.contains("Lesser")){
     return 1 / 2.4
   }
   else{

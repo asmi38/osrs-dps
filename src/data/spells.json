@@ -320,5 +320,26 @@
 		"spellbook": "arceuus",
     "damage": 30,
     "attack_speed": 5
+  },
+	"ghostly_grasp": {
+    "name": "ghostly_grasp",
+    "element": "none",
+		"spellbook": "arceuus",
+    "damage": 12,
+    "attack_speed": 5
+  },
+	"skeletal_grasp": {
+    "name": "skeletal_grasp",
+    "element": "none",
+		"spellbook": "arceuus",
+    "damage": 18,
+    "attack_speed": 5
+  },
+	"undead_grasp": {
+    "name": "undead_grasp",
+    "element": "none",
+		"spellbook": "arceuus",
+    "damage": 24,
+    "attack_speed": 5
   }
 }
