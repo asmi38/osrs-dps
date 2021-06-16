@@ -180,13 +180,13 @@ export function hitChance(state, equipment){
 function thrallDPS(state){
   const { thrall } = state.calcs
 
-  if(thrall.contains("Greater")){
+  if(thrall.includes("Greater")){
     return 2 / 2.4
   }
-  else if(thrall.contains("Superior")){
+  else if(thrall.includes("Superior")){
     return 1.5 / 2.4
   }
-  else if(thrall.contains("Lesser")){
+  else if(thrall.includes("Lesser")){
     return 1 / 2.4
   }
   else{
