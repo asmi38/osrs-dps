@@ -726,7 +726,7 @@
             "defence_magic": 26,
             "defence_ranged": 58,
             "melee_strength": 0,
-            "ranged_strength": 0,
+            "ranged_strength": 10,
             "magic_damage": 0,
             "prayer": 0
         }
@@ -758,7 +758,7 @@
             "defence_magic": 28,
             "defence_ranged": 68,
             "melee_strength": -2,
-            "ranged_strength": 0,
+            "ranged_strength": 8,
             "magic_damage": 0,
             "prayer": 0
         }
@@ -789,7 +789,7 @@
             "defence_magic": 24,
             "defence_ranged": 52,
             "melee_strength": 0,
-            "ranged_strength": 0,
+            "ranged_strength": 4,
             "magic_damage": 0,
             "prayer": 0
         }

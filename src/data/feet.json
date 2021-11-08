@@ -884,7 +884,7 @@
             "attack_slash": 0,
             "attack_crush": 0,
             "attack_magic": -2,
-            "attack_ranged": -1,
+            "attack_ranged": 4,
             "defence_stab": 5,
             "defence_slash": 7,
             "defence_crush": 8,

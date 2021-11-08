@@ -7714,7 +7714,7 @@
             "defence_magic": 0,
             "defence_ranged": 0,
             "melee_strength": 0,
-            "ranged_strength": 70,
+            "ranged_strength": 78,
             "magic_damage": 0,
             "prayer": 0
         },
@@ -9351,14 +9351,14 @@
             "attack_slash": 0,
             "attack_crush": 0,
             "attack_magic": 0,
-            "attack_ranged": 60,
+            "attack_ranged": 30,
             "defence_stab": 0,
             "defence_slash": 0,
             "defence_crush": 0,
             "defence_magic": 0,
             "defence_ranged": 0,
             "melee_strength": 0,
-            "ranged_strength": 40,
+            "ranged_strength": 20,
             "magic_damage": 0,
             "prayer": 0
         },
@@ -11496,6 +11496,61 @@
             }
         ]
     },
+    "25865": {
+        "id": 25865,
+        "name": "Bow of faerdhinen",
+        "short_name": "Bow of faerdhinen",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABuklEQVR4Xu2Xz0sCQRTHd/6OLnvpKHiRCLvkJSU6VJBl2UGNMgpaBFNDjdXSLHTtB6gZIZ3qVCcPRVcv9Te9nDfNug16CZzdg1/4wrLMMh++773ZXUVxvgiId2wUAbfXCw6CInBYPHMSFIF8/RqhtrWEE6BYQmFNQxi3qqLFVRLFgJY2t0wgcYVkMaCVSHQCNEIMyL8WnAANER1xBpRrtmDa5bJz7Ak8vb6ZQHN+vxPGnsDn1zd0ez0TyMaEuAg0Oh1MKRiPw9F5yQlgrGxovWh6ACZaihhULJWGk5oBkWQS9rJZONB1TC1RuQStfAFaqSwLikCl0URnqjWI5/IQDS2YqVAoCkyvJTY+2/zlvYubW4FoUvv5UxNIfHKMIli2wEYIdsOLoKpTCEHLJzkdrgHQ410BlgOzEF6dx3s8LfGJMYsBmVP3a/rxxq8lQxFIVat//PzRxQnLGoZ5HEgvm+iddAZduH+wA0hRePOyjdmRwEvm8ngEYFvENudQ9C+Fer3/uhHTlAbK0xIbfphjxyk5UBzImoTRbqP1m9t+49fRV60WzPh88qDEHhtlaQepuIkVULR13UT/0Q9ohZ2cxANWvwAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Bow_of_faerdhinen#Charged",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "magic": 1
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 128,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 0,
+            "ranged_strength": 106,
+            "magic_damage": 0,
+            "prayer": 0
+        },
+        "attack_speed": 5,
+        "stances": [
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "rapid",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged",
+                "boosts": "attack speed by 1 tick"
+            },
+            {
+                "combat_style": "longrange",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged and defence",
+                "boosts": "attack range by 2 squares"
+            }
+        ]
+    },
     "1393": {
         "id": 1393,
         "name": "Fire battlestaff",
@@ -11561,6 +11616,123 @@
                 "attack_type": "defensive casting",
                 "attack_style": "magic",
                 "experience": "magic and defence",
+                "boosts": null
+            }
+        ]
+    },
+    "999995": {
+        "id": 999995,
+        "name": "Zaryte Crossbow",
+        "short_name": "Zaryte Crossbow",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTUlEQVR4Xu1Wz08TQRRmjhx62MMmPfIn+GfoxQOJCQlcjJGkiUVDMBCICIZCsQgFKRZqbTWgC61glVBbkFINpRf0xsF/5pP3NuP+wG1cWZiDfMnLbjuzM9/73nszr63tClf4fyHgbZcKc9NCXoeR1fmZmdcQvRtCcnISfb29F0HMazGBscGQQ43qpo4vH8KofQrjcG8PpbU1ZBcWMDX6KCjlBHt8djHTZmPW2LWODsdYJpn8/X7cOGTbNnSkEhoGotIR3xB480JDblHDfFzDxEiI38sFnZ9ToyEOD/0vN5DEysUiivk8jJcZFHI5B1kiZTnhG4Lzg4iRWmREyG5ycWsDgY/GO6y/ymJ1OY3XqZRrTgCha2VuMrulEt5mVs7Msf8mhbtvtf87Kbmpl1kzBYfKTlSSOT4IIz2nce4lnlhhc34fKAQqm+9PvV+0qeIc/7oT5hyK3Jbq/MkCgeBSpyRu7bm5KZ1ZsljIiCQZKRgQKYGdwgbSs8881LEgQyhJUcHIojlnBUqchqJS4YpqrY4b7lBZBfB333tCoLG/j+fxuG/v7IlvN/c8HxA4qtXQrNeD8u68EHxfDd7v863OBcA8kVNPp/EgElFNSKD+ucwn8sTwMG7euK6SkMD3owa21w0szSTwMHpPdf6YZU6H4PTYY3R1dqpV50ezyYcg9Twj/f0q1RH4eXKCb7tV7nHmYjHc6elWqw5djtWtLe5xxoeGVKpDENwvU8NG7YO8sRWRIZiE6FKU/bRCdQiWQtQyKFZHItBbORhIIpdN5hf+HBct1xaHhAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Armadyl_crossbow",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "ranged": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 110,
+            "defence_stab": 14,
+            "defence_slash": 14,
+            "defence_crush": 12,
+            "defence_magic": 15,
+            "defence_ranged": 16,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1
+        },
+        "attack_speed": 6,
+        "stances": [
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "rapid",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged",
+                "boosts": "attack speed by 1 tick"
+            },
+            {
+                "combat_style": "longrange",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "ranged and defence",
+                "boosts": "attack range by 2 squares"
+            }
+        ]
+    },
+    "999994": {
+        "id": 999994,
+        "name": "Ancient godsword",
+        "short_name": "Ancient godsword",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACPUlEQVR4Xu2WT0sbURTFvd/EjxBKi9BVaCHEMBE7lLRolTH1D1QpEalYrKRFYrW2JFijkhBCaWmsXQgiLrrost31K5163/T9mYzGEObNbHrgkjAvzP3NOfe9zNBQbCLoSlyEdvs76vVP2N09SBqKcHT0RcHUak0BlBoetgl1XRyERuOrgNjaqgmgjY23toEInc6ZKg1FaDaPsbfXEjDb2x8VNMNYBGL5jU5OLlTTVusb9vfbAmZz80MAxDKMFOH09IdozAMsYcrlnbhc6Rbh/Pwnfv3+o2DWX1WSgpEiVKsNAbO29iZJGH9u2BneUTzIO+/q4tNfi1XaFa5S6aUabMsOmWeN+dSESqUqnLlqN0UMo8+U+fnngZJgDMNnDBc7JYGC94gkNsLU1JxqLCFMmIPDz8KZ1dWyuhZ0RR+akUH5Nw+CyGs8uFwmSLc7Eia8NrB0XBKIi/8wpTO9m920PpB8CD5bGMx8jdCg1ytiGCnCtPcervtYbG8zOv09NhG8mSryYysYGXHFsJsR9uNShCIUizU4Tgm3bjuisectYHZ2KXQMWHLJfFLC8nIH2dFFpFLZUEwMZkZmAYiQc3UU/LaXTk9f2bR7fizAsAj3nTkUvNeXMT1DJuNHJBuGmxImJ5/+A7Miwr3RIvKFFUxMzCCXe3AZ1Z0bGlpxSB94DOQ8LAmnuPpp2GttABHGH70QrrhP1nE3XVBw/cBYkt88O74oHOo9N7GIkMkviB1mAnX/KmYlHlNYCcf0X33pL8o/CQDNhJ+wAAAAAElFTkSuQmCC",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Armadyl_godsword",
+        "slot": [
+            "2h"
+        ],
+        "requirements": [
+            {
+                "attack": 75
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 132,
+            "attack_crush": 80,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 132,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 8
+        },
+        "attack_speed": 6,
+        "stances": [
+            {
+                "combat_style": "chop",
+                "attack_type": "slash",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "slash",
+                "attack_type": "slash",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "smash",
+                "attack_type": "crush",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "slash",
+                "attack_style": "defensive",
+                "experience": "defence",
                 "boosts": null
             }
         ]

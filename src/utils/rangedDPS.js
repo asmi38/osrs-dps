@@ -71,7 +71,7 @@ function rangeGearBonus(state, equipment){
   }
 
   if(equipment.weapon.name === "Dragon hunter crossbow" && enemy.attributes.includes("dragon")){
-    return {'accMultiplier': 1.3, 'dmgMultiplier': 1.3}
+    return {'accMultiplier': 1.3, 'dmgMultiplier': 1.25}
   }
 
   if(equipment.weapon.name === "Craw's bow" && calcs.wilderness){
@@ -93,28 +93,31 @@ function rangeGearBonus(state, equipment){
     return {'accMultiplier': 1, 'dmgMultiplier': 1.125}
   }
 
-  const isCrystalBow = equipment.weapon.name.includes("Crystal bow")
-  const crystalItems = []
+  const isCrystalBow = equipment.weapon.name.includes("Crystal bow") || equipment.weapon.name.includes("Bow of faerdhinen")
+  let accMultiplier = 1
+  let dmgMultiplier = 1
+
   if(equipment.body.name === "Crystal body"){
-    crystalItems.push("Crystal body")
+    accMultiplier += 0.15
+    dmgMultiplier += 0.075
   }
   if(equipment.head.name === "Crystal helm"){
-    crystalItems.push("Crystal helm")
+    accMultiplier += 0.05
+    dmgMultiplier += 0.025
   }
   if(equipment.legs.name === "Crystal legs"){
-    crystalItems.push("Crystal legs")
+    accMultiplier += 0.1
+    dmgMultiplier += 0.05
   }
 
-  if(isCrystalBow && crystalItems.length === 3){
-    return {'accMultiplier': 1.3, 'dmgMultiplier': 1.15}
-  }
-  else if(isCrystalBow){
-    const accMultiplier = 1 + 0.06 * crystalItems.length
-    const dmgMultiplier = 1 + 0.03 * crystalItems.length
+  if(isCrystalBow){
     return {'accMultiplier': accMultiplier, 'dmgMultiplier': dmgMultiplier}
   }
+  else{
+    return {'accMultiplier': 1, 'dmgMultiplier': 1}
+  }
 
-  return {'accMultiplier': 1, 'dmgMultiplier': 1}
+
 }
 
 //1.025 is the rigour bonus for str being 23%
