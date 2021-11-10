@@ -37,6 +37,7 @@ class App extends Component {
           <Divider />
         </Content>
         <Footer style={{textAlign: 'center',}}>
+          <div>Last Updated: November 8th, 2021</div>
           <div className='contribution-container'>
             <div className='contribution'>
               Made using data from:
