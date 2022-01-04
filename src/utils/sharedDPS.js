@@ -66,7 +66,7 @@ export function void_bonus(equipment, type){
       return [1.0, 1.45]
     }
   }
-  if(equipment.legs.name === "Elite void top" && equipment.legs.name === "Elite void robe" && equipment.head.name === "Void knight helm"){
+  if(equipment.legs.name === "Elite void top" && equipment.body.name === "Elite void robe" && equipment.head.name === "Void knight helm"){
     if(type === "melee"){
       return [1.1, 1.1]
     }

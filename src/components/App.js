@@ -37,7 +37,7 @@ class App extends Component {
           <Divider />
         </Content>
         <Footer style={{textAlign: 'center',}}>
-          <div>Last Updated: November 8th, 2021</div>
+          <div>Last Updated: January 3rd, 2022</div>
           <div className='contribution-container'>
             <div className='contribution'>
               Made using data from:
@@ -55,7 +55,7 @@ class App extends Component {
               <a href="https://oldschool.runescape.wiki/" rel="noreferrer" target="_blank">OSRS Wiki</a>
             </div>
           </div>
-          <div>OSRS DPS ©2021 Created by <a href="mailto:admin@osrs-dps.com">asmi38</a></div>
+          <div>OSRS DPS ©2022 Created by <a href="mailto:admin@osrs-dps.com">asmi38</a></div>
         </Footer>
       </Layout>
       </React.Fragment>
