@@ -41445,5 +41445,32 @@
             "defence_ranged": 0,
             "attack_magic": 0
         }
+    },
+    "10700": {
+        "id": 10700,
+        "name": "Nex",
+        "size": 3,
+        "hitpoints": 3400,
+        "max_hit": 30,
+        "immune_poison": true,
+        "immune_venom": true,
+        "attributes": [],
+        "category": [],
+        "slayer_monster": false,
+        "wiki_name": "Nex",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Nex",
+        "defence_level": 260,
+        "magic_level": 230,
+        "attack_level": 315,
+        "strength_level": 200,
+        "ranged_level": 350,
+        "stats": {
+            "defence_stab": 40,
+            "defence_slash": 140,
+            "defence_crush": 60,
+            "defence_magic": 300,
+            "defence_ranged": 190,
+            "attack_magic": 100
+        }
     }
 }
