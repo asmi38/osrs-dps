@@ -14,13 +14,13 @@ import potion_sprite from '../data/icons/potion.png'
 import stats_sprite from '../data/icons/stats1.png'
 import miningIcon from '../data/icons/Mining_icon.png'
 
-const atk_pots = ["None", "Attack", "Super Attack", "Zamorak Brew", "Overload", "Overload (+)"]
-const str_pots = ["None", "Strength", "Super Strength", "Overload", "Overload (+)"]
-const def_pots = ["None", "Defence", "Super Defence", "Saradomin Brew", "Overload", "Overload (+)"]
+const atk_pots = ["None", "Attack", "Super Attack", "Zamorak Brew", "Overload", "Overload (+)", "Smelling salts"]
+const str_pots = ["None", "Strength", "Super Strength", "Overload", "Overload (+)", "Smelling salts"]
+const def_pots = ["None", "Defence", "Super Defence", "Saradomin Brew", "Overload", "Overload (+)", "Smelling salts"]
 const melee_prayers = ["None", "Piety", "Chivalry", "15%", "10%", "5%"]
-const magic_pots = ["None", "Magic", "Super Magic", "Imbued heart", "Overload", "Overload (+)"]
+const magic_pots = ["None", "Magic", "Super Magic", "Ancient brew", "Forgotten brew", "Imbued heart", "Saturated heart", "Overload", "Overload (+)", "Smelling salts"]
 const magic_prayers = ["None", "5%", "10%", "15%", "Augury" ]
-const range_pots = ["None", "Ranging", "Super Ranging", "Overload", "Overload (+)"]
+const range_pots = ["None", "Ranging", "Super Ranging", "Overload", "Overload (+)", "Smelling salts"]
 const range_prayers = ["None", "5%", "10%", "15%", "Rigour"]
 const mining_pots = ["None", "D pickaxe spec"]
 

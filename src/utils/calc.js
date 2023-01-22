@@ -95,6 +95,18 @@ export function potion_effect(statLvl, potion) {
   else if(potion ===  "Ranging"){
     potion_effect = 0.1 * statLvl + 4
   }
+  else if(potion === "Saturated heart") {
+    potion_effect = 0.1 * statLvl + 4
+  }
+  else if(potion === "Ancient brew") {
+    potion_effect = 0.05 * statLvl + 2
+  }
+  else if(potion === "Forgotten brew") {
+    potion_effect = 0.08 * statLvl + 3
+  }
+  else if(potion === "Smelling salts") {
+    potion_effect = 0.16 * statLvl + 11
+  }
   else{
     potion_effect = 0.10 * statLvl + 3
   }
