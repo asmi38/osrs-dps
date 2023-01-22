@@ -4,7 +4,7 @@ import Equipment from './Equipment'
 import Calcs from './Calcs'
 import Settings from './Settings'
 import { Layout, Divider } from 'antd'
-import headerIcon from '../data/icons/ward.png'
+import headerIcon from '../data/icons/Bank_Camel.png'
 import googleSheetsIcon from '../data/icons/google_sheets.png'
 import osrsboxIcon from '../data/icons/osrsbox.png'
 import osrswikiIcon from '../data/icons/osrswiki.png'
@@ -37,7 +37,12 @@ class App extends Component {
           <Divider />
         </Content>
         <Footer style={{textAlign: 'center',}}>
-          <div>Last Updated: January 3rd, 2022</div>
+          <div>Last Updated: January 22nd, 2023</div>
+          <div className='donation'>
+            <a href="https://www.buymeacoffee.com/ami38" rel="noreferrer" target="_blank">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style={{height: 40, width: 143}}/>
+            </a>
+          </div>
           <div className='contribution-container'>
             <div className='contribution'>
               Made using data from:

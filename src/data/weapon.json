@@ -11675,6 +11675,426 @@
             }
         ]
     },
+    "90001": {
+        "id": 90001,
+        "name": "Keris partisan of corruption",
+        "short_name": "Keris partisan of corruption",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTUlEQVR4Xu1Wz08TQRRmjhx62MMmPfIn+GfoxQOJCQlcjJGkiUVDMBCICIZCsQgFKRZqbTWgC61glVBbkFINpRf0xsF/5pP3NuP+wG1cWZiDfMnLbjuzM9/73nszr63tClf4fyHgbZcKc9NCXoeR1fmZmdcQvRtCcnISfb29F0HMazGBscGQQ43qpo4vH8KofQrjcG8PpbU1ZBcWMDX6KCjlBHt8djHTZmPW2LWODsdYJpn8/X7cOGTbNnSkEhoGotIR3xB480JDblHDfFzDxEiI38sFnZ9ToyEOD/0vN5DEysUiivk8jJcZFHI5B1kiZTnhG4Lzg4iRWmREyG5ycWsDgY/GO6y/ymJ1OY3XqZRrTgCha2VuMrulEt5mVs7Msf8mhbtvtf87Kbmpl1kzBYfKTlSSOT4IIz2nce4lnlhhc34fKAQqm+9PvV+0qeIc/7oT5hyK3Jbq/MkCgeBSpyRu7bm5KZ1ZsljIiCQZKRgQKYGdwgbSs8881LEgQyhJUcHIojlnBUqchqJS4YpqrY4b7lBZBfB333tCoLG/j+fxuG/v7IlvN/c8HxA4qtXQrNeD8u68EHxfDd7v863OBcA8kVNPp/EgElFNSKD+ucwn8sTwMG7euK6SkMD3owa21w0szSTwMHpPdf6YZU6H4PTYY3R1dqpV50ezyYcg9Twj/f0q1RH4eXKCb7tV7nHmYjHc6elWqw5djtWtLe5xxoeGVKpDENwvU8NG7YO8sRWRIZiE6FKU/bRCdQiWQtQyKFZHItBbORhIIpdN5hf+HBct1xaHhAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Keris_partisan_of_corruption",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "attack": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 58,
+            "attack_slash": -2,
+            "attack_crush": 57,
+            "attack_magic": 2,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 45,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3
+        },
+        "attack_speed": 4,
+        "stances": [
+            {
+                "combat_style": "stab",
+                "attack_type": "stab",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "lunge",
+                "attack_type": "stab",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "pound",
+                "attack_type": "crush",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "stab",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            }
+        ]
+    },
+    "90002": {
+        "id": 90002,
+        "name": "Keris partisan of the sun",
+        "short_name": "Keris partisan of the sun",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTUlEQVR4Xu1Wz08TQRRmjhx62MMmPfIn+GfoxQOJCQlcjJGkiUVDMBCICIZCsQgFKRZqbTWgC61glVBbkFINpRf0xsF/5pP3NuP+wG1cWZiDfMnLbjuzM9/73nszr63tClf4fyHgbZcKc9NCXoeR1fmZmdcQvRtCcnISfb29F0HMazGBscGQQ43qpo4vH8KofQrjcG8PpbU1ZBcWMDX6KCjlBHt8djHTZmPW2LWODsdYJpn8/X7cOGTbNnSkEhoGotIR3xB480JDblHDfFzDxEiI38sFnZ9ToyEOD/0vN5DEysUiivk8jJcZFHI5B1kiZTnhG4Lzg4iRWmREyG5ycWsDgY/GO6y/ymJ1OY3XqZRrTgCha2VuMrulEt5mVs7Msf8mhbtvtf87Kbmpl1kzBYfKTlSSOT4IIz2nce4lnlhhc34fKAQqm+9PvV+0qeIc/7oT5hyK3Jbq/MkCgeBSpyRu7bm5KZ1ZsljIiCQZKRgQKYGdwgbSs8881LEgQyhJUcHIojlnBUqchqJS4YpqrY4b7lBZBfB333tCoLG/j+fxuG/v7IlvN/c8HxA4qtXQrNeD8u68EHxfDd7v863OBcA8kVNPp/EgElFNSKD+ucwn8sTwMG7euK6SkMD3owa21w0szSTwMHpPdf6YZU6H4PTYY3R1dqpV50ezyYcg9Twj/f0q1RH4eXKCb7tV7nHmYjHc6elWqw5djtWtLe5xxoeGVKpDENwvU8NG7YO8sRWRIZiE6FKU/bRCdQiWQtQyKFZHItBbORhIIpdN5hf+HBct1xaHhAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Keris_partisan_of_the_sun",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "attack": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 58,
+            "attack_slash": -2,
+            "attack_crush": 57,
+            "attack_magic": 2,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 45,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3
+        },
+        "attack_speed": 4,
+        "stances": [
+            {
+                "combat_style": "stab",
+                "attack_type": "stab",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "lunge",
+                "attack_type": "stab",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "pound",
+                "attack_type": "crush",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "stab",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            }
+        ]
+    },
+    "90003": {
+        "id": 90003,
+        "name": "Keris partisan of breaching",
+        "short_name": "Keris partisan of breaching",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTUlEQVR4Xu1Wz08TQRRmjhx62MMmPfIn+GfoxQOJCQlcjJGkiUVDMBCICIZCsQgFKRZqbTWgC61glVBbkFINpRf0xsF/5pP3NuP+wG1cWZiDfMnLbjuzM9/73nszr63tClf4fyHgbZcKc9NCXoeR1fmZmdcQvRtCcnISfb29F0HMazGBscGQQ43qpo4vH8KofQrjcG8PpbU1ZBcWMDX6KCjlBHt8djHTZmPW2LWODsdYJpn8/X7cOGTbNnSkEhoGotIR3xB480JDblHDfFzDxEiI38sFnZ9ToyEOD/0vN5DEysUiivk8jJcZFHI5B1kiZTnhG4Lzg4iRWmREyG5ycWsDgY/GO6y/ymJ1OY3XqZRrTgCha2VuMrulEt5mVs7Msf8mhbtvtf87Kbmpl1kzBYfKTlSSOT4IIz2nce4lnlhhc34fKAQqm+9PvV+0qeIc/7oT5hyK3Jbq/MkCgeBSpyRu7bm5KZ1ZsljIiCQZKRgQKYGdwgbSs8881LEgQyhJUcHIojlnBUqchqJS4YpqrY4b7lBZBfB333tCoLG/j+fxuG/v7IlvN/c8HxA4qtXQrNeD8u68EHxfDd7v863OBcA8kVNPp/EgElFNSKD+ucwn8sTwMG7euK6SkMD3owa21w0szSTwMHpPdf6YZU6H4PTYY3R1dqpV50ezyYcg9Twj/f0q1RH4eXKCb7tV7nHmYjHc6elWqw5djtWtLe5xxoeGVKpDENwvU8NG7YO8sRWRIZiE6FKU/bRCdQiWQtQyKFZHItBbORhIIpdN5hf+HBct1xaHhAAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Keris_partisan_of_breaching",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "attack": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 58,
+            "attack_slash": -2,
+            "attack_crush": 57,
+            "attack_magic": 2,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 45,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 3
+        },
+        "attack_speed": 4,
+        "stances": [
+            {
+                "combat_style": "stab",
+                "attack_type": "stab",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "lunge",
+                "attack_type": "stab",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "pound",
+                "attack_type": "crush",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "stab",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            }
+        ]
+    },
+    "90004": {
+        "id": 90004,
+        "name": "Osmumten's fang (Inside ToA)",
+        "short_name": "Osmumten's fang (Inside ToA)",
+        "icon": "UklGRigBAABXRUJQVlA4TBwBAAAvFwAHEI/BKJJsJ1uz75OOnLIr5OKDQkhOOlxHsq1E95xT/Lp7HiRLTkTizm4piiSpmdsLBX8E4F8HghCQ5j9kkNmmbKp+GI9L02Q5y1ku5KCYYjnkkpOghBwwAoAIgE6AIVCgIJcUhC8U1C3Pc9zPsy3HbYjfs/+e+LAEpUgbZDI3VWU3Ge77qpNuHbf//3w/zAPgMJJs09p5ft+2beQfnu6GENH/CZAZWYEqDtJigIzkzQGyVMfISdZGntrIA/2hhbw17zgoWj1QOJUWyEjRQlYqyDTxAFMLRXU+c1C2W2MUikS9OUahJPButhyrZVqrO8Ri2290HeL1aLZROPHhdl1aTgAKRRwvKJw90Rk51o87nt3m+XxgEJ8yAg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Osmumten%27s_fang",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "attack": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 105,
+            "attack_slash": 75,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 103,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0
+        },
+        "attack_speed": 5,
+        "stances": [
+            {
+                "combat_style": "stab",
+                "attack_type": "stab",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "lunge",
+                "attack_type": "stab",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "slash",
+                "attack_type": "slash",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "stab",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            }
+        ]
+    },
+    "90006": {
+        "id": 90006,
+        "name": "Osmumten's fang (Outside ToA)",
+        "short_name": "Osmumten's fang (Outside ToA)",
+        "icon": "UklGRigBAABXRUJQVlA4TBwBAAAvFwAHEI/BKJJsJ1uz75OOnLIr5OKDQkhOOlxHsq1E95xT/Lp7HiRLTkTizm4piiSpmdsLBX8E4F8HghCQ5j9kkNmmbKp+GI9L02Q5y1ku5KCYYjnkkpOghBwwAoAIgE6AIVCgIJcUhC8U1C3Pc9zPsy3HbYjfs/+e+LAEpUgbZDI3VWU3Ge77qpNuHbf//3w/zAPgMJJs09p5ft+2beQfnu6GENH/CZAZWYEqDtJigIzkzQGyVMfISdZGntrIA/2hhbw17zgoWj1QOJUWyEjRQlYqyDTxAFMLRXU+c1C2W2MUikS9OUahJPButhyrZVqrO8Ri2290HeL1aLZROPHhdl1aTgAKRRwvKJw90Rk51o87nt3m+XxgEJ8yAg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Osmumten%27s_fang",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "attack": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 105,
+            "attack_slash": 75,
+            "attack_crush": 0,
+            "attack_magic": 0,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 0,
+            "defence_ranged": 0,
+            "melee_strength": 103,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 0
+        },
+        "attack_speed": 5,
+        "stances": [
+            {
+                "combat_style": "stab",
+                "attack_type": "stab",
+                "attack_style": "accurate",
+                "experience": "attack",
+                "boosts": null
+            },
+            {
+                "combat_style": "lunge",
+                "attack_type": "stab",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "slash",
+                "attack_type": "slash",
+                "attack_style": "aggressive",
+                "experience": "strength",
+                "boosts": null
+            },
+            {
+                "combat_style": "block",
+                "attack_type": "stab",
+                "attack_style": "defensive",
+                "experience": "defence",
+                "boosts": null
+            }
+        ]
+    },
+    "90005": {
+        "id": 90005,
+        "name": "Tumeken's shadow (Inside ToA)",
+        "short_name": "Tumeken's shadow (Inside ToA)",
+        "icon": "UklGRlIBAABXRUJQVlA4TEYBAAAvHcAGEAfiIJIkRZrt7jlmtHBizr8Shn8djCPZNnXx/G2E8Pc//3iMlX8Vq0iS6jQczz8c4ARt0Rg9ITX/YYBB2hZLLDtXVWomiUKqSN3091+JJZXAAYEkgy4uQ2n4awpRJA4yr8ZVAQZMDpBxhRTksAGBIHNf1//n/zMDXxPASGaShOMXt5nrAKIKtgBNjcfaPbZ+MokEZgvPMAF1QQfiAhZYoMJyXtf62QcAMZJt09aaZ9u2v3XPd/5xaZ0MIvo/ATKDYjIYA/jY0p4cMNHn1F1cIS/V/nJ3uUFYqNemO0DMMHC32R33SIzQ/yk3V/zY+bQMh0+lYqP3nATkSCdvPHx/hdd3B6kA4kf9n9QL8lO5RX6YIz/pbCECmRzIzjqP/LSWyE/4QDEKyA8F5Oc+ID+ZHPLzmCA/mRzyM79GMfrnKALFBA==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Tumeken%27s_shadow#Charged",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "magic": 85
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 35,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 20,
+            "defence_ranged": 0,
+            "melee_strength": 103,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1
+        },
+        "attack_speed": 5,
+        "stances": [
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "longrange",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic and defence",
+                "boosts": "attack range by 2 squares"
+            }
+        ]
+    },
+    "90006": {
+        "id": 90006,
+        "name": "Tumeken's shadow (Outside ToA)",
+        "short_name": "Tumeken's shadow (Outside ToA)",
+        "icon": "UklGRlIBAABXRUJQVlA4TEYBAAAvHcAGEAfiIJIkRZrt7jlmtHBizr8Shn8djCPZNnXx/G2E8Pc//3iMlX8Vq0iS6jQczz8c4ARt0Rg9ITX/YYBB2hZLLDtXVWomiUKqSN3091+JJZXAAYEkgy4uQ2n4awpRJA4yr8ZVAQZMDpBxhRTksAGBIHNf1//n/zMDXxPASGaShOMXt5nrAKIKtgBNjcfaPbZ+MokEZgvPMAF1QQfiAhZYoMJyXtf62QcAMZJt09aaZ9u2v3XPd/5xaZ0MIvo/ATKDYjIYA/jY0p4cMNHn1F1cIS/V/nJ3uUFYqNemO0DMMHC32R33SIzQ/yk3V/zY+bQMh0+lYqP3nATkSCdvPHx/hdd3B6kA4kf9n9QL8lO5RX6YIz/pbCECmRzIzjqP/LSWyE/4QDEKyA8F5Oc+ID+ZHPLzmCA/mRzyM79GMfrnKALFBA==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Tumeken%27s_shadow#Charged",
+        "slot": [
+            "weapon"
+        ],
+        "requirements": [
+            {
+                "magic": 85
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 35,
+            "attack_ranged": 0,
+            "defence_stab": 0,
+            "defence_slash": 0,
+            "defence_crush": 0,
+            "defence_magic": 20,
+            "defence_ranged": 0,
+            "melee_strength": 103,
+            "ranged_strength": 0,
+            "magic_damage": 0,
+            "prayer": 1
+        },
+        "attack_speed": 5,
+        "stances": [
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "accurate",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic",
+                "boosts": "accuracy and damage"
+            },
+            {
+                "combat_style": "longrange",
+                "attack_type": null,
+                "attack_style": null,
+                "experience": "magic and defence",
+                "boosts": "attack range by 2 squares"
+            }
+        ]
+    },
     "999994": {
         "id": 999994,
         "name": "Ancient godsword",

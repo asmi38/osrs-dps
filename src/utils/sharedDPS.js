@@ -157,10 +157,33 @@ export function eMaxDefRoll(state, equipment){
 
 function calcHitChance(atkRoll, defRoll){
   if(atkRoll > defRoll){
-    return 1 - (defRoll + 2) / (2 * (atkRoll +1))
+    return 1 - (defRoll + 2) / (2 * (atkRoll + 1))
   }
   else{
     return atkRoll / (2 * defRoll + 1)
+  }
+}
+
+// Special hit chance calculation for fang inside of raids
+// https://imgur.com/a/QMDp28g
+function fangInsideHitChance(atkRoll, defRoll){
+  if (atkRoll > defRoll){
+    return 1 - (defRoll / (2 * atkRoll)) * (defRoll / (2 * atkRoll))
+  }
+  else {
+    return (atkRoll / (2 * defRoll)) * ( 2 - atkRoll / (2 * defRoll))
+  }
+}
+
+
+// Special hit chance calculation for fang outside of raids
+// https://imgur.com/a/QMDp28g
+function fangOutsideHitChance(atkRoll, defRoll){
+    if(atkRoll > defRoll){
+    return 1 - (defRoll * defRoll / (3 * (atkRoll * atkRoll)))
+  }
+  else{
+    return 2 * atkRoll / (3 * defRoll)
   }
 }
 
@@ -172,7 +195,13 @@ export function hitChance(state, equipment){
   else if(combatType === "magic"){
     return calcHitChance(mageAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
   }
-  else{
+  else if(combatType === "melee" && equipment.weapon.name === "Osmumten's fang (Outside ToA)"){
+    return fangOutsideHitChance(meleeAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
+  }
+  else if(combatType === "melee" && equipment.weapon.name === "Osmumten's fang (Inside ToA)"){
+    return fangInsideHitChance(meleeAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
+  }
+  else {
     return calcHitChance(meleeAtkRoll(state, equipment), eMaxDefRoll(state, equipment))
   }
 }

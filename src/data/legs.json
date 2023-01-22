@@ -1290,6 +1290,38 @@
             "prayer": 0
         }
     },
+    "60000": {
+        "id": 60000,
+        "name": "Masori chaps (f)",
+        "short_name": "Masori chaps (f)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAO1QTFRFAAAAAAABGhUJMCYRgGUug2cuhWowiW0wZ1IkV0UgeWAqa1UmFRERSjwaQjQYOTQ0NTAwKCYmJCIiKi41IB0dLDI5IiYsLCoqNUM8JiowGh0iOUY/Mi4uWmRQORoaGgkJPU1FEREVQFFIHRgVPDAoKiAaaXZdOkJKPCwAOT9GERURPUVNMjlAQzcdiHA/dFcNUT0JIhoNi3JAW0oqTD0ig2s8Y1EsVEUmNCoYonkRZlQuYE0sVkAJi2cRbVENSDUJm39Ih2UNcFQNnoJJlXAReFoNmX1GOS4ajmsRW0MJTDkJYEgJLiIAXEkgQEhRAN1iCgAAAE90Uk5TAP///////////////////////////////////////////////////////////////////////////////////////////////////////32dgBIAAADsSURBVHicjdJbU8IwEAXgLiAKrtqWQGqsCgoitBRErKLFO4g3/v/PMZHHnsxwXr/ZJLM5jrNZaB1shaJJASqVtsrbO5UixnJ1lyt7+wjpwHWZPWaIxvyaD5XMnKg3PIjMLEVwqCwopTiyYajxuKZOTnNK7IZhKJqBauVHDerJs6Y6zx/7j55otztW9C+CDngQ6Sul3k9XXUKUBnvKRyg19qNYtQCaQW+QDEdXaAk0vp5MbtLbO/gt0/uHbDp7fIL4/PKavb3PM4iLJB2Mk/QD92T5+UWz7x+MUfxLUdfSzVWdqBdjdEyhLaUG+QNmmRdfMaMB3gAAAABJRU5ErkJggg==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Masori_chaps_(f)",
+        "slot": [
+            "legs"
+        ],
+        "requirements": [
+            {
+                "defence": 80,
+                "ranged": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -2,
+            "attack_ranged": 27,
+            "defence_stab": 35,
+            "defence_slash": 30,
+            "defence_crush": 39,
+            "defence_magic": 46,
+            "defence_ranged": 37,
+            "melee_strength": 0,
+            "ranged_strength": 2,
+            "magic_damage": 0,
+            "prayer": 1
+        }
+    },
     "999997": {
         "id": 999997,
         "name": "Torva Platelegs",

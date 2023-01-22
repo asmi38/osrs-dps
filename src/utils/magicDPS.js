@@ -30,11 +30,13 @@ function staffMaxHit(state, equipment){
   else if(equipment.weapon.name === "Black salamander" && equipment.attack_style.combat_style === "blaze"){
     return Math.floor(0.5 + visibleMageLvl * 156 / 640)
   }
-  else if(equipment.weapon.name === "Salyer's staff (e)" && equipment.spell.name === "magic_dart"){
+  else if(equipment.weapon.name === "Slayer's staff (e)" && equipment.spell.name === "magic_dart"){
     return 13 + Math.floor(visibleMageLvl / 6)
   }
   else if(equipment.spell.name === "magic_dart"){
     return 10 + Math.floor(visibleMageLvl / 10)
+  } else if(equipment.weapon.name.includes("Tumeken")) {
+    return 1 + Math.floor(visibleMageLvl/3)
   }
   else{
     return null
@@ -133,13 +135,40 @@ export function mageMaxHit(state, equipment){
   if(staffMaxHit(state, equipment) && (equipment.attack_style.combat_style === "accurate" || equipment.attack_style.combat_style === "longrange" || equipment.attack_style.combat_style === "blaze")){
     magicDamageBase = staffMaxHit(state, equipment)
   }
-  magicDamageBase = Math.floor(magicDamageBase * (1 + totalStrCalc(equipment)/100 + magicBonus(state, equipment).dmgMultiplier))
+
+  let wepName = equipment.weapon.name
+  if(wepName.includes("Tumeken") && wepName.includes("Inside")) {
+    magicDamageBase = Math.floor(magicDamageBase * Math.min(2, (1 + totalStrCalc(equipment) * 4 / 100)))
+
+  } else if(wepName.includes("Tumeken") && wepName.includes("Outside")) {
+    //3x magic str and atk bonus max at 100% increase
+    magicDamageBase = Math.floor(magicDamageBase * Math.min(2, (1 + totalStrCalc(equipment) * 3 / 100)))
+
+  } else {
+    magicDamageBase = Math.floor(magicDamageBase * (1 + totalStrCalc(equipment)/100 + magicBonus(state, equipment).dmgMultiplier))
+
+  }
+
+
   return mageBonusDamage(magicDamageBase, state, equipment)
 }
 
 
 export function mageAtkRoll(state, equipment){
   const { stats } = state
-  const baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
+
+  let wepName = equipment.weapon.name
+  let baseAtkRoll
+  if(wepName.includes("Tumeken") && wepName.includes("Inside")) {
+    baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) * 4 + 64)
+
+  } else if(wepName.includes("Tumeken") && wepName.includes("Outside")) {
+    //3x magic str and atk bonus max at 100% increase
+    baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) * 3 + 64)
+
+  } else {
+    baseAtkRoll = (stats.magic.effective_level + 8 + mageCombatBonus(equipment.attack_style.combat_style)) * (totalAtkCalc(equipment) + 64)
+
+  }
   return Math.floor(baseAtkRoll * (1 + magicBonus(state, equipment).accMultiplier) * (void_bonus(equipment, "magic")[1] + gear_bonus(state, equipment, "magic")[1] - 1))
 }

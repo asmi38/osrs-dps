@@ -1358,6 +1358,37 @@
             "prayer": 0
         }
     },
+  "60001": {
+      "id": 60001,
+      "name": "Masori body (f)",
+      "short_name": "Masori body (f)",
+      "icon": "iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAMAAAB+ITwmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAftQTFRFAAAAAAABLiAgKh0aJBgYHRUVGA0NSCooVzQwPCgoOSYmNCQiQygmNyAdMh0aIBERfF0NZEoJXTc1ZDo5az88WzU0TCwqUC4sVDAuTDkJSDUJclsolXARgGANeFoNcDc0gD86i0VAYEgJW0MJPDAVNyoReWAqmHIRkW0Ri2cRhGMNm01IhUI9Zz06YTk3aU4JbVENQjQYZkkuYEUsOkJKNTxDKjQ1onkRh2UNlElDqFRNnk5JlkpFZjIuYzAsdFcNUD8aSjwadlU3cFE0akwwGjk5PUVNIiwsfGIsb1cmV0UgkUhDfT05djo3ajQwVEIdhWE9gFw6GhEJQEhRJjAwRVZNRlpQa1UmiEM/g0A8ejw5czk1XEkgGiIiFR0djmZCfVo5LDk5TWJXFS4uMjlAESgoICYim3BIkWlDPU1FMkA5VGpeUmdcSVxSGDQ0MDU8LDI5DSIiKjUuIiwmvolXxI5boHRKQkpUQDIqPDAoFR0YUGRaVmxhOT9GKi41JiowERUVzZReyJFdc1Q1NCgiGBENMDw8RVZWMj9A3J9mnnJJbU4yTF5VICYmJjAqNTAwFRER3KBqjmsRcFQNKiAaHRgVMi4uGhgYWEY8LCoqdV0qj3E0KCYmPCwALiIAHRUAm3QRg2cuUT0JQjAAJh0Aq4AVroMVn3cRt4kV0To9QQAAAKl0Uk5TAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////puU74AAAHxSURBVHicY2AYvIARBnDLMjGzsLCysrGxYagBybJzcHJxgwAPDzsvHz+aSYwCghxCwiKi7GLiEkAgJibGIykpJYWkhlFaRlZOXkFRmAMCJMTZlZSUVVRVEWoY1dTUNTS1FLV1dIX1hERFxcX1DQwMjYyRTTExNTOXsdCytLK2UbAFAjt7B0cnZxckQ1zd3M08PDy9LHQUvXV8fOX9vPwdAgKdnIPgahiDg0NCQsPMzMzCNRQjIqOiY2Lj4uIDEpyQTDEzA6pITHJNTk4xNdFR8E1OTU1LzwhIQFYSkhmWlZ2Tm2eakmKakl+QWlhUXFJahmxKuVtFZVV1TWJILVBNfkFdfUNDWmNTejOSW8pNKltaGduS3NpNgSAlv6O4qqGzsasbSYmZe2xcAyNjTk8IELj3xsb1VQGD30LAQAmmhjG4Nq4BqCSpv7/WHaiifsIEoJKJk2QnCyIpaZkylZGxf9q0flOgU6ZPmDCBkXGGuqacPoqSVkbGaTOnzZyZXzBhAkTJLA1ZAyQlsXGMDIzTtAT0Z8+ZoDZ33nygkkQ1dQt7ZCUNQCULNC0EJs9ZOHnR4iXzgUo8FkwSgCsxC4kFshmXymhoVFRWVgoumgdSsmy5hhZcSUgvWMkKNThYwggKCvcQRMBA0iAjEoByGQYZAAB4CIUL+Tc/KgAAAABJRU5ErkJggg==",
+      "wiki_url": "https://oldschool.runescape.wiki/w/Masori_body_(f)",
+      "slot": [
+          "body"
+      ],
+      "requirements": [
+          {
+              "defence": 20
+          }
+      ],
+      "stats": {
+          "attack_stab": 0,
+          "attack_slash": 0,
+          "attack_crush": 0,
+          "attack_magic": -4,
+          "attack_ranged": 43,
+          "defence_stab": 59,
+          "defence_slash": 52,
+          "defence_crush": 64,
+          "defence_magic": 74,
+          "defence_ranged": 60,
+          "melee_strength": 0,
+          "ranged_strength": 4,
+          "magic_damage": 0,
+          "prayer": 1
+      }
+  },
     "999998": {
         "id": 999998,
         "name": "Torva Platebody",

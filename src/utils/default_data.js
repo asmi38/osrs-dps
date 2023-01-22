@@ -98,13 +98,13 @@ export const dharok = {
 
 export const max_melee_base = {
   "attack_style": WeaponData["0"]["stances"][0],
-  "head": HeadData["0"],
+  "head": HeadData["999999"],
   "ammo": AmmoData["0"],
-  "body": BodyData["11832"],
+  "body": BodyData["999998"],
   "cape": CapeData["21295"],
   "feet": FeetData["13239"],
   "hands": HandsData["22981"],
-  "legs": LegsData["11834"],
+  "legs": LegsData["999997"],
   "neck": NeckData["19553"],
   "ring": RingData["11773"],
   "shield": ShieldData["0"],
@@ -113,13 +113,13 @@ export const max_melee_base = {
 
 export const max_melee_scythe = {
   "attack_style": WeaponData["22325"]["stances"][0],
-  "head": HeadData["24271"],
+  "head": HeadData["999999"],
   "ammo": AmmoData["0"],
-  "body": BodyData["11832"],
+  "body": BodyData["999998"],
   "cape": CapeData["21295"],
   "feet": FeetData["13239"],
   "hands": HandsData["22981"],
-  "legs": LegsData["11834"],
+  "legs": LegsData["999997"],
   "neck": NeckData["19553"],
   "ring": RingData["11773"],
   "shield": ShieldData["0"],
@@ -202,7 +202,7 @@ export const max_crush = {
 }
 
 export const max_mage = {
-  "attack_style": WeaponData["24422"]["stances"][4],
+  "attack_style": WeaponData["90006"]["stances"][0],
   "head": HeadData["21018"],
   "ammo": AmmoData["0"],
   "body": BodyData["21021"],
@@ -212,19 +212,19 @@ export const max_mage = {
   "legs": LegsData["21024"],
   "neck": NeckData["12002"],
   "ring": RingData["11770"],
-  "shield": ShieldData["12825"],
-  "weapon": WeaponData["24422"],
+  "shield": ShieldData["0"],
+  "weapon": WeaponData["90006"],
 }
 
 export const max_range = {
   "attack_style": WeaponData["20997"]["stances"][1],
-  "head": HeadData["11826"],
+  "head": HeadData["14000"],
   "ammo": AmmoData["11212"],
-  "body": BodyData["11828"],
+  "body": BodyData["60001"],
   "cape": CapeData["22109"],
   "feet": FeetData["13237"],
-  "hands": HandsData["7462"],
-  "legs": LegsData["11830"],
+  "hands": HandsData["999996"],
+  "legs": LegsData["60000"],
   "neck": NeckData["19547"],
   "ring": RingData["11771"],
   "shield": ShieldData["0"],

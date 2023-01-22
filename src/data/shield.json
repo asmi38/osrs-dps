@@ -1166,6 +1166,64 @@
             "prayer": 5
         }
     },
+    "59999": {
+        "id": 59999,
+        "name": "Elidinis' ward",
+        "short_name": "Elidinis' ward",
+        "icon": "UklGRgoCAABXRUJQVlA4TP0BAAAvHAAHEHfCKJIkKV0LivCvASfna0+6bbiKJEmxuubAyvmXci7uCx7jdDOKJElK1eACD7zQg2y83N3zHxIkn7/NptV7Of0NG+Pzc6M9sb4xf6gPzO/PjW///I1r+/yNrAcHSjiVVFRxJLAiLjuSsiKupKKwEUVSdkhlV1JOJPX7F4dV7p8T7Xs5lh0lJBAIBBCDAggEEAKpVIAQQIxSoiBUhoFEqQwDILTPC0iwrT1to/9rh3nGNIZJmVlgOYIw0/7340T27CCi/xNAjUH/E09AG8C+s6sXoAnw9gqACJ3z6/sn+OG5fn8FQv7v5PzSD3d3NxfnZ6cnIIQsTnMvnJ+eFHkWxyBCHHBZ+aVhwKSUcp9QIC+llNU8PQWQhqXSDawdj4dVGP/NTvJI6H6D4Xy1mDojkyRPI6lB/qgPVRCGUcAlqEVUUnAhVclbUqVUWonADwe17lbaKBZ54eTy9urqKmeltsZaIxK/MO0URar6k9Gg55zVQQEfq0LGutPlZrddjfrOqjDDIcLIWDdbo76YTQaOFffAAcJ0ugCojtW0Z0R+cXmJOhERADqIUd+qNMtPLh5///kFaojJ0GkpeJKe/PwGagzX5UmvKkXw/WMbVgVpZzTsf/py1AIhSPJTAMfHoDZEmJ48gABq5fPnr99+gFrGh/fv3r9vjVCn/QA=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elidinis%27_ward",
+        "slot": [
+            "shield"
+        ],
+        "requirements": [
+            null
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 5,
+            "attack_ranged": 0,
+            "defence_stab": 5,
+            "defence_slash": 3,
+            "defence_crush": 9,
+            "defence_magic": 0,
+            "defence_ranged": 6,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 3,
+            "prayer": 1
+        }
+    },
+    "59998": {
+        "id": 59998,
+        "name": "Elidinis' ward (f)",
+        "short_name": "Elidinis' ward (f)",
+        "icon": "UklGRrQCAABXRUJQVlA4TKgCAAAvHMAGEIfkOpLdtgEe9Occ+h8X4xbcRs4GcWgDYiNJiqQ4dPu8OEf5IUtuI0l2ldk9tIdPRuRA2ngEoeXtzX8YGD09DhgIDOMPtXaHDvmH8QcCQxUdaiBUIBAYqkbIXxAqEPL3r0L+oEL9I39R/38Vxj8+T+h+JGaWEBgwZ2I6mpiYM/OBMD+TIuZERIqIjuJMLBQRJ+ajDYwW6Y8FBgKj7WCEIiYmpqM4ExML5Q8IRO4HsT8OHcSJmBOxVNoIxcmkOItjCV+I2XXn+DhDw4A5a18w80MDgVYCYf7SMAuhvHaF9vRweItbM2thzy25hbmX9nN20b6oMRAYCD1UYFjdTiDBtm21bd4Ng5mp3JqZ2RaUTeU2zMxcbpitztmylCFE9H8CSDZAciEqgvUtAJKgsdz/8fsXACIsr2/t7EGSXuirrBz8PNgFweNdXtmURBB00Zjb410CIZ2Juj2S4H+r1SeTiQQISKWzuby0UKWi1dniKUChSKazeZCkWq2k7u7pffAIJsVzPleQ0WhMKbs6zg+vzQ7FAM+MyHg/Pdvf+Wd0ZPhGoRjo40DSAUBxw7BDt4rBnhcg2YBK4FmG47uEl/JghLqfZ1mOawqvIC6C1qZeMzjEsCzbbBqt9x4+eWbvBBFhZXPbmcxfaruGGIZlOa55c9sU+k5BLVH3cjJXGvt7fnF5xTAM95xDK4k0qtFcaWJhYWFxXhgeYhj+xWtQe3yol6Zm5tD6f3RkeCjt2gfaED5OzQJERDgcHysWMs6t9WW0EhEBIFGcoFwsZJc8bt/G98dPdSDJOMFkqZB7U6mGAqsOI0gW6pW37ndfv0XCpn4ZMLXxfvr8pV/5TxoMABHCQf8agOMjkHQQESES8q8dgAC6SygUGr0JdMe4vbm+PLszQiuJAw==",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Elidinis%27_ward_(f)",
+        "slot": [
+            "shield"
+        ],
+        "requirements": [
+            null
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": 25,
+            "attack_ranged": 0,
+            "defence_stab": 53,
+            "defence_slash": 55,
+            "defence_crush": 73,
+            "defence_magic": 2,
+            "defence_ranged": 52,
+            "melee_strength": 0,
+            "ranged_strength": 0,
+            "magic_damage": 5,
+            "prayer": 4
+        }
+    },
     "25574": {
         "id": 25574,
         "name": "Tome of water",

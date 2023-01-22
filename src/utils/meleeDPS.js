@@ -42,7 +42,13 @@ function meleeGearBonus(state, equipment){
   if(equipment.weapon.name === "Darklight" && (enemy.attributes.includes("demon") || enemy.attributes.includes("vampyre"))){
     return {'accMultiplier': 1.6, 'dmgMultiplier': 1.6}
   }
-  if(equipment.weapon.name === "Keris" && enemy.attributes.includes("kalphite")){
+  if(equipment.weapon.name === "Keris partisan of breaching" && enemy.attributes.includes("kalphite")){
+    return {'accMultiplier': 1.33, 'dmgMultiplier': 1.33 * 5300/5100}
+  }
+  if(equipment.weapon.name === "Keris partisan of the sun" && enemy.attributes.includes("kalphite")){
+    return {'accMultiplier': 1.0625, 'dmgMultiplier': 1.33 * 5300/5100}
+  }
+  if(equipment.weapon.name.includes("Keris") && enemy.attributes.includes("kalphite")){
     return {'accMultiplier': 1, 'dmgMultiplier': 1.33 * 5300/5100}
   }
   if(equipment.weapon.name === "Leaf-bladed battleaxe" && enemy.attributes.includes("leafy")){

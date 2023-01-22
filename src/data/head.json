@@ -1467,6 +1467,37 @@
             "prayer": 0
         }
     },
+    "14000": {
+        "id": 14000,
+        "name": "Masori mask (f)",
+        "short_name": "Masori mask (f)",
+        "icon": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAMAAAA3HE0QAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAMxQTFRFAAAAAAABg2cuPzo6OTQ0a1UmLCoqPDc3RUBAm3o3JCIiNTAwQj09wppGb1cmMi4uGhgYuosVxp5IxJtGmHg3jG8yeWAqhWowt4kVtIcVlXARfF0NYEkYsYUVknQ0gGUui2cRaU4JV0UgFRERKCYmsSQVtCYVqyQVRlhaIB0dVGlqRVZWMDw1KjUuMkA/SVtcPU1NGiIiQlRKNUNDQFBRGA0NQFFITWFiOUZGICYiJBgYZUZDLDk5TDQyUjk3NCQiKh0aVjo6Z0hGQy4uyAuYBwAAAER0Uk5TAP////////////////////////////////////////////////////////////////////////////////////////+yK0l2AAABB0lEQVR4nMXS21KDMBQFUA5yS0gUbUotRaIGJQhequKlSGvt//+TodaXJrzqnuRpr8kkk2NZfxlQq89gbwMcOI7rDRGw/SBwkIvD0CiA2FT1yMehZwJAfJtShNDhUehFBgHHJ/ZoxBByx+M4nugCTqdTShlLktksTVMDmJxlqufnycUAIJkCnPNL3McEWEY5j4XAOcaGWwK5YixW/TAQ1ywWRVEMAyGk2iLPSxzpAshNVUlZ1bdbUBrAXXWvwMM8z6Oo1AAQ8vgkpXye19tnensCgoA0L68K1Duw/2GgjmgUeHtf/PS6aNu2ER+Lbrnq86lNDazXbfvVdcvNxlRbu3H8jV7/a74BRQocSFgRQsYAAAAASUVORK5CYII=",
+        "wiki_url": "https://oldschool.runescape.wiki/w/Masori_mask_(f)",
+        "slot": [
+            "head"
+        ],
+        "requirements": [
+            {
+                "defence": 80
+            }
+        ],
+        "stats": {
+            "attack_stab": 0,
+            "attack_slash": 0,
+            "attack_crush": 0,
+            "attack_magic": -1,
+            "attack_ranged": 12,
+            "defence_stab": 8,
+            "defence_slash": 10,
+            "defence_crush": 12,
+            "defence_magic": 12,
+            "defence_ranged": 9,
+            "melee_strength": 0,
+            "ranged_strength": 2,
+            "magic_damage": 0,
+            "prayer": 1
+        }
+    },
     "999999": {
         "id": 999999,
         "name": "Torva Full Helm",
